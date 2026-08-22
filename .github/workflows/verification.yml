@@ -1,0 +1,19 @@
+name: Revérification périodique
+
+on:
+  schedule:
+    - cron: '0 6 1 * *'
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Liens externes
+        run: node scripts/check-links.mjs
+      - name: Fiches non revérifiées depuis plus de 18 mois
+        run: node scripts/stale.mjs

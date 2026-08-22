@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+import { places, heroFor } from '../data/places';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const index = places.map(p => ({
+  id: p.id, name: p.identity.name_fr, country: p.location.country_labels.join(' et '),
+  hero: heroFor(p)?.local.replace(/^public\//, '/') ?? null, alt: heroFor(p)?.alt ?? ''
+}));
+---
+<Base title="Mes listes · 100 joyaux naturels">
+  <section class="band shell" style="padding-top:7rem">
+    <p class="eyebrow">Mes listes</p>
+    <h1>Favoris, déjà vus, un jour</h1>
+    <p class="lead">Trois listes conservées uniquement dans ce navigateur. Aucun compte, aucun serveur, aucune donnée transmise. Effacer les données du site les supprime.</p>
+    <div id="lists" style="margin-top:2.4rem"></div>
+    <p style="margin-top:2rem"><button class="btn" id="export" type="button">Exporter mes listes</button></p>
+    <script type="application/json" id="place-index" set:html={JSON.stringify(index)} />
+  </section>
+
+  <script define:vars={{ base }}>
+    const index = new Map(JSON.parse(document.getElementById('place-index').textContent).map(p => [p.id, p]));
+    const KEY = 'wnw:lists:v1';
+    const titles = { favorites: 'Favoris', seen: 'Déjà vus', someday: 'Un jour' };
+    const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    function read() { try { return { favorites: [], seen: [], someday: [], ...JSON.parse(localStorage.getItem(KEY) || '{}') }; } catch { return { favorites: [], seen: [], someday: [] }; } }
+    function render() {
+      const lists = read();
+      document.getElementById('lists').innerHTML = Object.entries(titles).map(([k, t]) => {
+        const items = (lists[k] || []).map(id => index.get(id)).filter(Boolean);
+        return `<section style="margin-bottom:3rem">
+          <h2>${t} <span class="muted" style="font-size:1rem">${items.length}</span></h2>
+          ${items.length ? `<div class="cardgrid" style="margin-top:1.2rem">${items.map(p => `
+            <a class="card" href="${base}/lieux/${p.id}">
+              <div class="media">${p.hero ? `<img src="${base}${p.hero}" alt="${esc(p.alt)}" loading="lazy">` : ''}</div>
+              <div class="body"><h3>${esc(p.name)}</h3><p>${esc(p.country)}</p></div>
+            </a>`).join('')}</div>` : '<p class="muted">Liste vide pour l\'instant.</p>'}
+        </section>`;
+      }).join('');
+    }
+    document.getElementById('export').addEventListener('click', () => {
+      const blob = new Blob([JSON.stringify(read(), null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob); a.download = 'mes-joyaux-naturels.json'; a.click();
+      URL.revokeObjectURL(a.href);
+    });
+    render();
+  </script>
+</Base>

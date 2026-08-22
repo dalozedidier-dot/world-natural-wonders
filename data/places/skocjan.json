@@ -1,0 +1,143 @@
+{
+  "id": "skocjan",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Grottes de Škocjan",
+    "name_official": "Škocjanske jame",
+    "name_local": [
+      { "lang": "sl", "value": "Škocjanske jame" },
+      { "lang": "sl", "value": "Kras", "note": "Nom du plateau calcaire qui a donné au monde le mot karst." }
+    ],
+    "name_indigenous": null,
+    "aka": ["Grottes de Saint-Canzian", "Canyon souterrain de la Reka"]
+  },
+  "location": {
+    "countries": ["SI"],
+    "country_labels": ["Slovénie"],
+    "subdivision": "Littoral slovène, communes de Divača et Hrpelje-Kozina",
+    "region": "europe",
+    "lat": 45.6633,
+    "lng": 13.99,
+    "coordinate_precision": "site",
+    "bbox": [13.95, 45.64, 14.03, 45.69],
+    "area_km2": 4.13,
+    "elevation_min_m": 214,
+    "elevation_max_m": 442,
+    "depth_max_m": 223,
+    "timezone": "Europe/Ljubljana"
+  },
+  "landscape": {
+    "primary": "grotte",
+    "types": ["grotte", "karst", "fleuve"],
+    "family": "souterrain",
+    "iucn_ecosystem": ["S1.1 Systèmes souterrains karstiques", "SF1.1 Cours d'eau souterrains"],
+    "biome": "Systèmes souterrains continentaux",
+    "climate": "Cfb submediterranéen, transition vers le régime dinarique",
+    "collections": ["sous-la-surface", "royaumes-eau", "vertiges"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "unesco-whs", "name": "Grottes de Škocjan", "ref": "390", "since": 1986, "criteria": ["vii", "viii"], "url": "https://whc.unesco.org/fr/list/390/" },
+      { "type": "ramsar", "name": "Škocjanske jame, premier site Ramsar souterrain au monde", "since": 1999 },
+      { "type": "unesco-mab", "name": "Réserve de biosphère du Karst", "since": 2004 },
+      { "type": "nature-reserve", "name": "Parc régional des grottes de Škocjan", "since": 1996 }
+    ],
+    "managing_body": { "name": "Park Škocjanske jame, établissement public de la République de Slovénie", "url": "https://www.park-skocjanske-jame.si/" }
+  },
+  "editorial": {
+    "badges": ["geologie-remarquable", "unique-au-monde", "exceptionnel"],
+    "essential": false,
+    "lede": "Une rivière entière disparaît sous une falaise et se met à creuser, dans le noir, un canyon dont la voûte s'élève par endroits à plus de cent quarante mètres au-dessus de l'eau.",
+    "why_here": "Le mot karst vient de ce plateau : le Kras slovène est la localité type d'un mode de dissolution de la roche que la géologie a ensuite reconnu sur tous les continents. Škocjan en donne la démonstration la plus lisible, parce que le toit du système s'est effondré à deux endroits et que l'on peut voir, à ciel ouvert, la rivière entrer sous terre. Aucun autre site de la sélection ne montre aussi directement un fleuve de surface devenu fleuve souterrain, ni un canyon creusé par une eau que personne ne voit. Le site apporte enfin une catégorie écologique entière, celle des milieux aquatiques souterrains, reconnue ici par la première inscription Ramsar sous la surface.",
+    "presentation": "La Reka naît sur les flancs du Snežnik et coule une cinquantaine de kilomètres sur des grès et des marnes du flysch, une roche imperméable. Puis le substrat change. Au contact du calcaire, au pied de la falaise de Škocjan, la rivière s'engouffre d'un coup dans le rocher et n'en ressort plus. Elle réapparaît trente-quatre kilomètres plus loin, en Italie, aux sources du Timavo, à quelques centaines de mètres de l'Adriatique.\n\nEntre les deux, elle a creusé un des plus grands canyons souterrains connus. Le canal de Hanke se développe sur environ trois kilomètres et demi, large de dix à soixante mètres, surmonté d'une voûte qui dépasse cent quarante mètres dans ses plus hautes sections. La salle Martel, nommée d'après le spéléologue français qui codifia l'étude des grottes, occupe à elle seule quelque 2,2 millions de mètres cubes.\n\nDeux effondrements ont ouvert le système au jour. La Velika dolina et la Mala dolina, deux gouffres d'effondrement séparés par un pont naturel, laissent voir la rivière depuis la surface, cent soixante mètres plus bas. Le hameau de Škocjan se tient sur le rebord de l'un d'eux, sur une avancée rocheuse que le vide entoure sur trois côtés.\n\nLe parcours aménagé suit une corniche taillée dans la paroi et franchit le canyon par le pont Cerkvenik, jeté une quarantaine de mètres au-dessus de l'eau. La sensation d'échelle vient moins de la hauteur que de l'obscurité : la lampe n'atteint pas la voûte, et le grondement de la Reka arrive avant qu'on ne la voie.\n\nCe paysage n'est pas une curiosité isolée. Il est le prototype d'une région entière, le Kras, dont le nom slovène a fourni le terme scientifique international pour désigner tout relief façonné par la dissolution du calcaire."
+    ,
+    "geology": "Le plateau est bâti sur une épaisse série de calcaires marins déposés au Crétacé, dans la plateforme carbonatée adriatique, un vaste haut-fond tropical où se sont accumulés pendant des dizaines de millions d'années des boues à rudistes, des débris coquilliers et des niveaux à foraminifères. Ces bancs, presque purs en carbonate de calcium, sont exactement le matériau qu'une eau légèrement acide sait dissoudre.\n\nAu Paléogène, la collision entre la plaque adriatique et la marge européenne plisse et chevauche l'ensemble : c'est l'orogenèse dinarique, qui donne au Kras son inclinaison générale vers le nord-est et un réseau dense de failles et de diaclases orientées nord-ouest sud-est. Ces fractures sont décisives : elles fixent d'avance le tracé des conduits, car l'eau ne dissout pas la roche au hasard, elle exploite les discontinuités existantes.\n\nSur les marges du plateau subsiste le flysch paléogène, un empilement détritique imperméable. C'est là que naît la Reka. Le contact entre ce flysch et le calcaire dessine une ligne géologique nette, et la rivière disparaît précisément sur cette ligne. Elle porte alors une charge d'eau chargée en dioxyde de carbone dissous, qui attaque la calcite et l'emporte en solution.\n\nLe creusement s'est fait en régime noyé puis en régime épinoyé, la rivière abaissant peu à peu son cours à mesure que le niveau de base marin s'abaissait. Les niveaux fossiles perchés dans les parois du canyon souterrain enregistrent ces étapes successives. Les grandes salles ne sont pas des vides creusés par l'eau courante seule : elles résultent aussi de l'écroulement progressif des voûtes une fois le conduit vidé, mécanisme dont la Velika dolina et la Mala dolina représentent le stade final, quand l'effondrement atteint la surface.\n\nLe système se poursuit sous le Kras italien et débouche aux résurgences du Timavo, près de Duino. Les traçages colorimétriques menés depuis la fin du dix-neuvième siècle ont établi cette continuité, faisant du couple Reka Timavo l'un des cas d'école de l'hydrogéologie karstique."
+    ,
+    "dynamics": "Le régime est celui d'un torrent méditerranéen de moyenne montagne, très contrasté. En étiage estival, la Reka n'apporte qu'un débit modeste, parfois inférieur à un mètre cube par seconde. Après les pluies d'automne ou la fonte, le débit peut être multiplié par plusieurs centaines. Le siphon terminal, étroit au regard du volume qu'il doit évacuer, agit alors comme un goulot : l'eau s'accumule en amont et le niveau monte dans le canyon souterrain de plusieurs dizaines de mètres, parfois de plus de cent. Les laisses de crue sont visibles très haut sur les parois, bien au-dessus des passerelles. Le système fonctionne donc comme un réservoir tampon temporaire entre le bassin imperméable amont et les résurgences du littoral. L'air suit sa propre circulation : la différence de température entre l'extérieur et la roche entretient un courant sensible aux entrées, sortant en hiver, entrant en été, qui contribue à maintenir dans les galeries une température stable proche de douze degrés.",
+    "biodiversity_text": "L'inscription Ramsar de 1999, la première jamais accordée à une zone humide souterraine, reconnaît un milieu aquatique complet, sans lumière et sans production primaire végétale, dont toute l'énergie vient de la matière organique apportée par la rivière. La faune troglobie du Karst dinarique est la plus riche connue au monde pour les milieux souterrains. On y trouve des coléoptères aveugles et dépigmentés, des crustacés amphipodes et isopodes, des mollusques stygobies, et le protée anguillard, amphibien néoténique aux yeux atrophiés qui vit dans les eaux souterraines dinariques. Les parois des effondrements créent une inversion thermique remarquable : des espèces de montagne poussent au fond des gouffres, à quelques dizaines de mètres sous une flore submediterranéenne de chênes pubescents et de charmes-houblons. Chauves-souris et rhinolophes occupent les entrées et les galeries hautes.",
+    "in_motion": "La qualité de l'eau de la Reka reste le point sensible : le bassin amont, industriel et agricole, a connu au vingtième siècle des pollutions sévères dont le système souterrain a longtemps porté la mémoire. La situation s'est nettement améliorée depuis les années 1990 grâce au traitement des rejets. Le régime hydrologique, lui, se déforme : étiages plus longs et plus bas, crues plus brutales, ce que le siphon terminal traduit immédiatement par des variations de niveau plus violentes. Les effondrements se poursuivent, à leur rythme propre, par chutes de blocs, et une partie des aménagements doit être régulièrement reprise.",
+    "guess_hints": [
+      "Rivière de surface qui disparaît au contact d'un calcaire crétacé",
+      "Canyon souterrain à voûte de plus de 140 mètres",
+      "Plateau calcaire d'Europe centrale et méridionale",
+      "Première zone humide souterraine reconnue au monde"
+    ]
+  },
+  "figures": [
+    { "label": "Bien inscrit au patrimoine mondial", "value": "413 hectares" },
+    { "label": "Inscription UNESCO", "value": "1986, critères vii et viii" },
+    { "label": "Longueur du canyon souterrain", "value": "environ 3,5 km" },
+    { "label": "Hauteur de la voûte", "value": "plus de 140 m par endroits" },
+    { "label": "Largeur du conduit", "value": "10 à 60 m" },
+    { "label": "Volume de la salle Martel", "value": "environ 2,2 millions de m³" },
+    { "label": "Parcours souterrain de la Reka jusqu'au Timavo", "value": "environ 34 km" },
+    { "label": "Montée des eaux en crue", "value": "jusqu'à plus de 100 m" }
+  ],
+  "geology": {
+    "age": "Calcaires de plateforme du Crétacé, structuration dinarique au Paléogène, karstification néogène et quaternaire",
+    "processes": ["dissolution karstique", "creusement épinoyé", "effondrement de voûte", "capture et perte fluviale", "circulation souterraine profonde"],
+    "rock_types": ["calcaire crétacé à rudistes", "calcaire micritique", "flysch paléogène en bordure"],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Protée anguillard", "name_sci": "Proteus anguinus", "group": "amphibien", "iucn_status": "VU", "note": "Amphibien néoténique strictement souterrain du karst dinarique." },
+      { "name_fr": "Grand rhinolophe", "name_sci": "Rhinolophus ferrumequinum", "group": "mammifère", "iucn_status": "LC" },
+      { "name_fr": "Leptodirus hochenwartii", "name_sci": "Leptodirus hochenwartii", "group": "insecte", "note": "Premier coléoptère troglobie décrit au monde, en 1832, dans le karst slovène." },
+      { "name_fr": "Niphargus", "name_sci": "Niphargus spp.", "group": "crustacé", "note": "Amphipodes stygobies, dépigmentés et aveugles, des eaux souterraines." }
+    ],
+    "endemism_level": "eleve",
+    "endemism_note": "Le karst dinarique concentre la plus forte diversité connue de faune souterraine au monde, avec de nombreuses espèces à aire minuscule, parfois limitée à un seul réseau.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [4, 5, 6, 9, 10],
+    "avoid_months": [1, 2],
+    "phenomena": [
+      { "label": "Crues d'automne, la Reka à son maximum", "kind": "crue", "months": [10, 11], "note": "Certaines portions du parcours peuvent être fermées." },
+      { "label": "Étiage estival, débit minimal et grand contraste avec les laisses de crue", "kind": "etiage", "months": [7, 8] },
+      { "label": "Crue de fonte et de pluies printanières", "kind": "crue", "months": [3, 4] },
+      { "label": "Couleurs des versants submediterranéens autour des effondrements", "kind": "couleurs", "months": [10, 11] }
+    ],
+    "notes": "La température souterraine reste proche de douze degrés toute l'année. Le confort de visite dépend surtout du niveau de la rivière, très variable."
+  },
+  "visit": {
+    "accessibility": "facile",
+    "suggested_duration": "une demi-journée à une journée",
+    "difficulty": "Parcours aménagé mais physique, plusieurs centaines de marches, corniche exposée, sol humide et glissant.",
+    "extreme_conditions": ["humidité permanente", "obscurité totale hors éclairage", "montées d'eau rapides en crue"],
+    "permits": "Visite uniquement accompagnée, sur créneaux fixés par le parc.",
+    "rules": [
+      "Aucune photographie au flash ni éclairage puissant dans les galeries, la faune souterraine et les colonies de chauves-souris y sont sensibles.",
+      "Ne rien toucher des concrétions : le film gras laissé par la peau interrompt durablement la croissance de la calcite.",
+      "Rester sur les passerelles et respecter les fermetures liées au niveau de la Reka.",
+      "Pas de nourriture ni de déchet organique sous terre, l'écosystème souterrain vit d'apports limités et se déséquilibre vite.",
+      "Drones interdits au-dessus des effondrements et du village."
+    ],
+    "official_url": "https://www.park-skocjanske-jame.si/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "Le site est bien géré, avec un établissement public dédié et un suivi hydrologique et biologique continu. La vulnérabilité principale ne se joue pas dans le parc mais dans le bassin versant de la Reka, en amont : tout ce qui est rejeté en surface arrive sous terre sans filtration. Les pollutions industrielles lourdes du vingtième siècle ont reculé, mais les intrants agricoles et les rejets domestiques diffus restent la menace de fond. La fréquentation, canalisée sur un parcours unique et accompagnée, est maîtrisée.",
+    "trend": "amelioration",
+    "threats": [
+      { "type": "pollution", "level": "modere", "note": "Vulnérabilité totale du réseau aux rejets du bassin amont, sans effet filtrant du sol." },
+      { "type": "climat", "level": "modere", "note": "Étiages plus sévères et crues plus brutales, régime hydrologique moins régulier." },
+      { "type": "tourisme", "level": "faible", "note": "Visites encadrées et limitées en effectif, mais éclairage et fréquentation modifient le microclimat des galeries." },
+      { "type": "urbanisation", "level": "faible", "note": "Pression foncière et infrastructures sur le plateau, au-dessus du réseau." }
+    ],
+    "understand_without_going": false,
+    "message": "Un karst se lit d'abord en surface : dolines, lapiaz, vallées sèches et pertes racontent la même histoire que le canyon souterrain, et se parcourent librement sur le plateau."
+  },
+  "media": { "hero": null, "gallery": [] },
+  "sources": [
+    { "title": "Grottes de Škocjan", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/390/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Park Škocjanske jame, description des grottes et données du site", "publisher": "Park Škocjanske jame", "url": "https://www.park-skocjanske-jame.si/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Škocjanske jame, site Ramsar de Slovénie", "publisher": "Ramsar Slovénie", "url": "http://www.ramsar.si/skocjanske_jame.html", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Škocjan Caves, aire protégée", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" }
+  ],
+  "score": { "criteria": { "visuel": 5, "singularite": 5, "rarete": 4, "diversite": 3, "integrite": 4, "monumentalite": 4, "actif": 4, "biologique": 3, "photogenie": 4, "pedagogie": 5, "conservation": 4, "complementarite": 5 }, "total": 116, "scored_on": "2026-08-22" }
+}

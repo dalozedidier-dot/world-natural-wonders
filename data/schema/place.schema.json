@@ -1,0 +1,312 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://world-natural-wonders/schema/place.schema.json",
+  "title": "Joyau naturel",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "status", "last_verified", "identity", "location", "landscape", "protection", "editorial", "seasonality", "visit", "conservation", "sources"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "collection": { "enum": ["hundred", "reserve"], "default": "hundred" },
+    "status": { "enum": ["draft", "research", "fact_checked", "media_checked", "license_checked", "ready"] },
+    "last_verified": { "type": "string", "format": "date" },
+
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name_fr"],
+      "properties": {
+        "name_fr": { "type": "string", "minLength": 2 },
+        "name_official": { "type": ["string", "null"] },
+        "name_local": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["lang", "value"],
+            "properties": {
+              "lang": { "type": "string" },
+              "value": { "type": "string" },
+              "note": { "type": "string" }
+            }
+          }
+        },
+        "name_indigenous": {
+          "type": ["array", "null"],
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["people", "value"],
+            "properties": {
+              "people": { "type": "string" },
+              "value": { "type": "string" },
+              "meaning": { "type": "string" }
+            }
+          }
+        },
+        "aka": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["countries", "country_labels", "region", "lat", "lng", "coordinate_precision"],
+      "properties": {
+        "countries": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^[A-Z]{2}$|^AQ$" } },
+        "country_labels": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "subdivision": { "type": ["string", "null"] },
+        "region": { "enum": ["afrique", "asie", "europe", "amerique-nord", "amerique-sud", "oceanie", "polaire"] },
+        "lat": { "type": "number", "minimum": -90, "maximum": 90 },
+        "lng": { "type": "number", "minimum": -180, "maximum": 180 },
+        "coordinate_precision": {
+          "enum": ["site", "generalized", "region"],
+          "description": "generalized ou region imposés dès qu'une localisation précise pourrait nuire à une espèce ou à un milieu fragile"
+        },
+        "bbox": { "type": ["array", "null"], "minItems": 4, "maxItems": 4, "items": { "type": "number" } },
+        "area_km2": { "type": ["number", "null"], "minimum": 0 },
+        "elevation_min_m": { "type": ["number", "null"] },
+        "elevation_max_m": { "type": ["number", "null"] },
+        "depth_max_m": { "type": ["number", "null"] },
+        "timezone": { "type": ["string", "null"] }
+      }
+    },
+
+    "landscape": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["primary", "types", "family"],
+      "properties": {
+        "primary": { "type": "string" },
+        "types": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+        "family": { "type": "string" },
+        "iucn_ecosystem": { "type": "array", "items": { "type": "string" }, "description": "Codes de la typologie mondiale des écosystèmes UICN, ex. F2.2" },
+        "biome": { "type": ["string", "null"] },
+        "climate": { "type": ["string", "null"], "description": "Köppen" },
+        "collections": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "protection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["designations"],
+      "properties": {
+        "designations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "name"],
+            "properties": {
+              "type": { "type": "string" },
+              "name": { "type": "string" },
+              "ref": { "type": ["string", "null"] },
+              "since": { "type": ["integer", "null"] },
+              "iucn_category": { "type": ["string", "null"] },
+              "criteria": { "type": "array", "items": { "type": "string" } },
+              "url": { "type": ["string", "null"], "format": "uri" }
+            }
+          }
+        },
+        "managing_body": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "required": ["name"],
+          "properties": {
+            "name": { "type": "string" },
+            "url": { "type": ["string", "null"], "format": "uri" },
+            "note": { "type": "string" }
+          }
+        }
+      }
+    },
+
+    "editorial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["badges", "why_here", "lede", "presentation"],
+      "properties": {
+        "badges": { "type": "array", "minItems": 1, "maxItems": 4, "items": { "type": "string" } },
+        "essential": { "type": "boolean", "default": false },
+        "lede": { "type": "string", "minLength": 40, "maxLength": 320, "description": "Niveau 10 secondes" },
+        "why_here": { "type": "string", "minLength": 80, "description": "Pourquoi ce site figure dans la sélection" },
+        "presentation": { "type": "string", "minLength": 300, "description": "Niveau 2 minutes" },
+        "geology": { "type": "string", "description": "Histoire géologique, niveau 10 minutes" },
+        "dynamics": { "type": "string", "description": "Fonctionnement naturel actuel" },
+        "biodiversity_text": { "type": "string" },
+        "in_motion": { "type": "string", "description": "Section La Terre en mouvement" },
+        "guess_hints": { "type": "array", "maxItems": 4, "items": { "type": "string" }, "description": "Indices du mode exploration, sans nommer le lieu ni le pays exact" }
+      }
+    },
+
+    "figures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["label", "value"],
+        "properties": {
+          "label": { "type": "string" },
+          "value": { "type": "string" },
+          "source": { "type": ["string", "null"] }
+        }
+      }
+    },
+
+    "geology": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "age": { "type": ["string", "null"] },
+        "processes": { "type": "array", "items": { "type": "string" } },
+        "rock_types": { "type": "array", "items": { "type": "string" } },
+        "volcanic": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "gvp_number": { "type": ["string", "null"] },
+            "type": { "type": ["string", "null"] },
+            "last_eruption": { "type": ["string", "null"] },
+            "status": { "type": ["string", "null"] }
+          }
+        }
+      }
+    },
+
+    "biodiversity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "flagship_species": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name_fr"],
+            "properties": {
+              "name_fr": { "type": "string" },
+              "name_sci": { "type": ["string", "null"] },
+              "group": { "type": ["string", "null"] },
+              "iucn_status": { "type": ["string", "null"], "description": "LC NT VU EN CR EW EX DD" },
+              "note": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "endemism_level": { "enum": ["nul", "faible", "modere", "eleve", "exceptionnel", null] },
+        "endemism_note": { "type": ["string", "null"] },
+        "species_counts": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "plants": { "type": ["integer", "null"] },
+            "birds": { "type": ["integer", "null"] },
+            "mammals": { "type": ["integer", "null"] },
+            "fish": { "type": ["integer", "null"] },
+            "corals": { "type": ["integer", "null"] },
+            "note": { "type": ["string", "null"] }
+          }
+        }
+      }
+    },
+
+    "seasonality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["best_months"],
+      "properties": {
+        "best_months": { "type": "array", "minItems": 1, "maxItems": 12, "items": { "type": "integer", "minimum": 1, "maximum": 12 } },
+        "avoid_months": { "type": "array", "items": { "type": "integer", "minimum": 1, "maximum": 12 } },
+        "phenomena": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "months"],
+            "properties": {
+              "label": { "type": "string" },
+              "kind": { "enum": ["mousson", "fonte", "crue", "etiage", "lagunes", "couleurs", "floraison", "migration", "nuit-polaire", "soleil-de-minuit", "saison-seche", "saison-humide", "glace", "eruption", "autre"] },
+              "months": { "type": "array", "minItems": 1, "items": { "type": "integer", "minimum": 1, "maximum": 12 } },
+              "note": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "notes": { "type": ["string", "null"] }
+      }
+    },
+
+    "visit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["accessibility", "suggested_duration"],
+      "properties": {
+        "accessibility": { "enum": ["facile", "modere", "difficile", "expedition"] },
+        "suggested_duration": { "type": "string" },
+        "difficulty": { "type": ["string", "null"] },
+        "extreme_conditions": { "type": "array", "items": { "type": "string" } },
+        "permits": { "type": ["string", "null"] },
+        "rules": { "type": "array", "items": { "type": "string" } },
+        "official_url": { "type": ["string", "null"], "format": "uri" },
+        "no_route_guidance": { "type": "boolean", "default": false, "description": "true = la fiche n'indique volontairement aucun itinéraire d'accès" }
+      }
+    },
+
+    "conservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fragility", "state", "threats"],
+      "properties": {
+        "fragility": { "enum": ["faible", "moderee", "elevee", "critique"] },
+        "state": { "type": "string", "minLength": 40 },
+        "trend": { "enum": ["amelioration", "stable", "degradation", "inconnue", null] },
+        "threats": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["type", "level"],
+            "properties": {
+              "type": { "type": "string" },
+              "level": { "enum": ["faible", "modere", "eleve", "critique"] },
+              "note": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "understand_without_going": { "type": "boolean", "default": false },
+        "message": { "type": ["string", "null"] }
+      }
+    },
+
+    "media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "hero": { "type": ["string", "null"] },
+        "gallery": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["title", "url", "type"],
+        "properties": {
+          "title": { "type": "string" },
+          "publisher": { "type": ["string", "null"] },
+          "url": { "type": "string", "format": "uri" },
+          "type": { "enum": ["officiel", "scientifique", "jeu-de-donnees", "encyclopedique", "media"] },
+          "accessed": { "type": ["string", "null"], "format": "date" }
+        }
+      }
+    },
+
+    "score": {
+      "type": ["object", "null"],
+      "description": "Notation interne, jamais exposée publiquement",
+      "additionalProperties": true
+    }
+  }
+}

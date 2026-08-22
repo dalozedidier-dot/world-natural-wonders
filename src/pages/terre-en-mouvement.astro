@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import { places, label } from '../data/places';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const withMotion = places.filter(p => p.editorial.in_motion);
+const themes = [
+  { id: 'volcan', title: 'Construction', text: "Le volcanisme et la tectonique ajoutent de la matière. Coulées, caldeiras, arcs insulaires, dorsales : ce sont les seuls processus qui font grandir un paysage." , match: (p: any) => p.landscape.family === 'feu' },
+  { id: 'erosion', title: 'Démolition', text: "L'eau, le gel, le vent et la gravité retirent de la matière. Un canyon n'est pas une entaille creusée d'un coup, c'est un volume enlevé grain par grain.", match: (p: any) => p.landscape.types.some((t: string) => ['canyon', 'karst', 'formation-rocheuse', 'falaise'].includes(t)) },
+  { id: 'glace', title: 'Rabot et mémoire', text: "Les glaces sculptent, puis se retirent, puis laissent une trace lisible pendant des milliers d'années. Aujourd'hui, la plupart reculent assez vite pour être mesurées d'une année sur l'autre.", match: (p: any) => p.landscape.family === 'glace' || p.landscape.family === 'polaire' },
+  { id: 'depot', title: 'Accumulation', text: "Deltas, dunes, barrages de travertin, récifs : certains paysages sont fabriqués par ce que l'eau, le vent ou le vivant déposent.", match: (p: any) => p.landscape.types.some((t: string) => ['dune', 'fleuve', 'atoll', 'zone-humide', 'mangrove', 'cascade'].includes(t)) },
+  { id: 'vivant', title: 'Le vivant comme force géologique', text: "Coraux, stromatolites, mousses constructrices de tuf, forêts qui retiennent les sols : le vivant ne décore pas le paysage, il le fabrique.", match: (p: any) => p.landscape.family === 'foret' || p.landscape.family === 'marin' || p.landscape.family === 'vivant' }
+];
+---
+<Base title="La Terre en mouvement · 100 joyaux naturels" description="Ces paysages ne sont pas des décors figés. Formation, érosion, tectonique, volcanisme, sédimentation, glaciation, évolution du vivant et changement climatique.">
+  <section class="band shell" style="padding-top:7rem">
+    <p class="eyebrow">La Terre en mouvement</p>
+    <h1>Aucun de ces paysages n'est un décor</h1>
+    <p class="lead">On photographie ces lieux comme s'ils étaient éternels. Ils ne le sont pas. La plupart des paysages de cette sélection sont des états provisoires, certains à l'échelle du million d'années, d'autres à l'échelle d'une vie humaine.</p>
+  </section>
+
+  {themes.map(t => {
+    const items = places.filter(t.match).slice(0, 6);
+    return items.length ? (
+      <section class="band tinted">
+        <div class="shell">
+          <p class="eyebrow">{t.title}</p>
+          <h2 style="max-width:34rem">{t.text}</h2>
+          <div class="chiprow" style="margin-top:1.4rem">
+            {items.map(p => <a class="badge badge--plain" href={`${base}/lieux/${p.id}`}>{p.identity.name_fr}</a>)}
+          </div>
+        </div>
+      </section>
+    ) : null;
+  })}
+
+  <section class="band">
+    <div class="shell">
+      <p class="eyebrow">Ce qui change déjà</p>
+      <h2>Observé à l'échelle d'une vie humaine</h2>
+      <div style="margin-top:1.8rem;display:grid;gap:1.2rem">
+        {withMotion.map(p => (
+          <article style="border-top:1px solid #ffffff14;padding-top:1.2rem">
+            <h3 style="margin-bottom:.3rem"><a href={`${base}/lieux/${p.id}`}>{p.identity.name_fr}</a> <span class="muted" style="font-size:.8rem">{label.family(p.landscape.family)}</span></h3>
+            <p style="max-width:70ch;color:var(--paper-dim)">{p.editorial.in_motion}</p>
+          </article>
+        ))}
+      </div>
+      {withMotion.length === 0 && <p class="muted">Section en cours de rédaction.</p>}
+    </div>
+  </section>
+</Base>

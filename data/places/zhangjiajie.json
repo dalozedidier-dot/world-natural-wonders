@@ -1,0 +1,145 @@
+{
+  "id": "zhangjiajie",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Wulingyuan et Zhangjiajie",
+    "name_official": "Région d'intérêt panoramique et historique de Wulingyuan",
+    "name_local": [
+      { "lang": "zh", "value": "武陵源" },
+      { "lang": "zh-Latn", "value": "Wulingyuan" }
+    ],
+    "name_indigenous": [
+      { "people": "Tujia", "value": "Wulingyuan", "meaning": "Le massif de Wuling est le territoire historique des Tujia, des Miao et des Bai, encore majoritaires dans les cantons voisins." }
+    ],
+    "aka": ["Zhangjiajie", "Tianzishan", "Yuanjiajie", "Suoxiyu"]
+  },
+  "location": {
+    "countries": ["CN"],
+    "country_labels": ["Chine"],
+    "subdivision": "Hunan, préfecture de Zhangjiajie",
+    "region": "asie",
+    "lat": 29.33,
+    "lng": 110.48,
+    "coordinate_precision": "site",
+    "bbox": [110.32, 29.2, 110.72, 29.5],
+    "area_km2": 264,
+    "elevation_min_m": 300,
+    "elevation_max_m": 1890,
+    "depth_max_m": null,
+    "timezone": "Asia/Shanghai"
+  },
+  "landscape": {
+    "primary": "formation-rocheuse",
+    "types": ["formation-rocheuse", "montagne", "foret-tropicale", "grotte"],
+    "family": "relief",
+    "iucn_ecosystem": ["T1.2 Forêts subtropicales humides à feuilles persistantes", "S1.1 Systèmes souterrains karstiques"],
+    "biome": "Forêts subtropicales humides d'Asie orientale",
+    "climate": "Cfa subtropical humide de mousson",
+    "collections": ["autre-planete", "vertiges", "sous-la-surface"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "unesco-whs", "name": "Région d'intérêt panoramique et historique de Wulingyuan", "ref": "640", "since": 1992, "criteria": ["vii"], "url": "https://whc.unesco.org/fr/list/640/" },
+      { "type": "national-park", "name": "Parc forestier national de Zhangjiajie", "since": 1982, "url": null },
+      { "type": "unesco-geopark", "name": "Géoparc mondial UNESCO de Zhangjiajie", "since": 2004, "url": null }
+    ],
+    "managing_body": { "name": "Bureau administratif de la région panoramique de Wulingyuan, municipalité de Zhangjiajie", "url": null }
+  },
+  "editorial": {
+    "badges": ["exceptionnel", "unique-au-monde", "geologie-remarquable"],
+    "essential": true,
+    "lede": "Plus de trois mille piliers de grès se dressent au-dessus d'une forêt subtropicale, séparés par des couloirs si étroits que la brume y stagne et que le regard ne trouve jamais le sol.",
+    "why_here": "La plupart des forêts de tours du monde sont taillées dans le calcaire par dissolution. Ici la roche est un grès presque pur en quartz, insoluble, et la sculpture est purement mécanique : deux familles de fractures verticales ont découpé un plateau en un labyrinthe de colonnes. Le site donne donc à voir un mécanisme d'érosion que ni le karst tropical ni les canyons de grès rouge n'illustrent, avec une densité de piliers sans équivalent connu. Il complète la sélection par un cas d'école de contrôle structural sur la forme du relief, et par une relation rare entre forêt et roche, la végétation participant activement à la stabilité des colonnes.",
+    "presentation": "Wulingyuan occupe l'extrémité orientale du massif de Wuling, dans le nord-ouest du Hunan. Le bien inscrit couvre 264 km² et rassemble quatre ensembles administratifs, dont le parc forestier national de Zhangjiajie, créé en 1982, la vallée de Suoxi et la montagne de Tianzi.\n\nLe paysage tient en une image : un plateau de grès entaillé jusqu'à devenir un peuple de colonnes. Les piliers dépassent souvent 200 m, certains approchent 400 m, et beaucoup mesurent moins de trente mètres de côté. Entre eux courent des couloirs profonds, humides, où la lumière n'arrive qu'au zénith. Le sommet de chaque colonne porte sa propre parcelle de forêt, ce qui donne à l'ensemble un aspect de canopée suspendue.\n\nL'eau travaille partout. La rivière Jinbian coule au fond d'une gorge de sept kilomètres, et les massifs calcaires qui bordent le grès abritent une quarantaine de cavités, dont la grotte de Huanglong et ses salles à concrétions. Deux ponts naturels franchissent des vides de plus de trois cents mètres de profondeur.\n\nLe territoire est celui des Tujia, des Miao et des Bai, dont les villages occupent les vallées périphériques et dont la toponymie couvre l'ensemble du massif. Les hauteurs ont longtemps servi de refuge et de zone de collecte, jamais de terroir agricole permanent.\n\nDepuis les années 1990, Wulingyuan est devenu l'un des sites naturels les plus fréquentés d'Asie. Des passerelles suspendues, un ascenseur extérieur de 326 m et un téléphérique desservent les belvédères, et la fréquentation de la préfecture se compte en dizaines de millions de visites annuelles. Le contraste entre la fragilité mécanique des piliers et l'intensité de l'aménagement est le vrai sujet de gestion du site.",
+    "geology": "La roche des piliers est une quartzarénite déposée au Dévonien, autour de 380 à 360 millions d'années, dans un domaine littoral et deltaïque installé sur la marge du bloc du Yangzi. Le sédiment y a été trié et retrié jusqu'à ne plus contenir presque que du quartz, puis cimenté par de la silice. Il en résulte un grès très dur, très peu soluble et surtout très cassant, empilé en bancs horizontaux sur plusieurs centaines de mètres d'épaisseur.\n\nC'est cette combinaison qui explique la forme finale. Une roche soluble aurait donné des tours arrondies, une roche tendre des versants en pente. Ici, la déformation de la croûte lors des phases tectoniques mésozoïques puis la surrection généralisée de la Chine du Sud au Cénozoïque, en réponse lointaine à la collision himalayenne, ont fracturé le plateau selon deux familles de diaclases verticales presque perpendiculaires entre elles. Le quadrillage était en place avant que l'érosion ne commence son travail.\n\nL'incision des rivières a ensuite abaissé le niveau de base, ce qui a décomprimé le massif et ouvert les fractures. L'eau s'y est engouffrée. Elle ne dissout pas le grès, elle le démantèle : gel hivernal dans les fissures saturées, alternance d'humectation et de dessiccation, désagrégation grain à grain, poussée des racines. Chaque diaclase élargie devient un couloir, chaque intersection isole un bloc, et le plateau se convertit en crêtes puis en colonnes indépendantes.\n\nLa forêt joue un rôle mécanique décisif. En fixant les débris à la base des piliers et en limitant l'entraînement latéral des matériaux, la couverture végétale empêche le déchaussement qui ferait basculer les colonnes. Là où le couvert s'épaissit, le pilier se conserve ; là où il disparaît, il s'écroule.\n\nSous le grès affleurent des carbonates plus anciens, du Cambrien et de l'Ordovicien. C'est dans ces niveaux, et non dans les piliers, que se développent les grottes du site."
+    ,
+    "dynamics": "Le climat est subtropical de mousson : environ 1 400 mm de pluie par an, concentrés d'avril à août, et une humidité de l'air rarement basse. Les gorges étroites piègent l'air humide, qui se refroidit contre les parois et sature : d'où les nappes de brume presque quotidiennes au petit matin, souvent renforcées par une inversion thermique qui plaque une couche nuageuse au niveau des sommets pendant que les crêtes émergent. Les crues d'été chargent la Jinbian et les torrents, entretiennent l'incision et évacuent les blocs tombés. En hiver, quelques épisodes de gel suffisent à faire éclater l'eau retenue dans les fissures, ce qui reste le principal moteur d'élargissement des couloirs. Les chutes de blocs et les écroulements de piliers ne sont pas des accidents mais l'aboutissement normal du cycle : un pilier se forme, s'amincit, puis disparaît."
+    ,
+    "biodiversity_text": "Le site conserve une forêt subtropicale humide à feuilles persistantes largement continue, avec plus de trois mille espèces végétales recensées, dont l'arbre aux mouchoirs, Davidia involucrata, relique endémique de la Chine centrale, et des peuplements de Metasequoia glyptostroboides replantés. Le confinement des couloirs et l'isolement du sommet des piliers créent une mosaïque de microclimats qui accueille des cortèges de fougères et de mousses très différents à quelques dizaines de mètres d'écart. Côté faune, le massif abrite le macaque rhésus, le muntjac, l'ours noir d'Asie, la civette masquée et, dans les cours d'eau froids, la salamandre géante de Chine, l'un des plus grands amphibiens du monde, aujourd'hui en danger critique. Le pangolin de Chine et le dhole y ont été signalés, avec des effectifs très réduits.",
+    "in_motion": "L'aménagement touristique a transformé la fréquentation en facteur géomorphologique : sentiers élargis, sols compactés, ruissellement concentré à la base de certaines colonnes. Des écroulements de piliers ont été observés à plusieurs reprises, phénomène naturel mais que la perte de couvert végétal peut accélérer. La pression climatique se manifeste par des épisodes pluvieux plus intenses, qui augmentent le risque de glissements sur les versants de raccordement. À l'inverse, la reforestation des marges du bien, engagée depuis les années 2000, a fait remonter la couverture forestière et stabilisé plusieurs secteurs autrefois dégradés.",
+    "guess_hints": [
+      "Grès de quartz presque pur, insoluble",
+      "Plus de trois mille colonnes découpées par des fractures verticales",
+      "Forêt subtropicale humide, brumes quasi quotidiennes",
+      "Asie orientale, autour de 29° de latitude nord"
+    ]
+  },
+  "figures": [
+    { "label": "Bien inscrit", "value": "264 km²" },
+    { "label": "Zone tampon", "value": "127 km²" },
+    { "label": "Piliers de grès", "value": "plus de 3 000" },
+    { "label": "Hauteur des piliers", "value": "souvent plus de 200 m, jusqu'à environ 400 m" },
+    { "label": "Âge du grès", "value": "environ 380 à 360 millions d'années, Dévonien" },
+    { "label": "Cavités recensées", "value": "une quarantaine" },
+    { "label": "Inscription UNESCO", "value": "1992, critère vii" },
+    { "label": "Précipitations", "value": "environ 1 400 mm par an" }
+  ],
+  "geology": {
+    "age": "Quartzarénite dévonienne, environ 380 à 360 Ma, fracturée puis soulevée au Mésozoïque et au Cénozoïque",
+    "processes": ["fracturation orthogonale", "elargissement des diaclases", "gelifraction", "desagregation granulaire", "incision fluviale", "stabilisation par le couvert forestier"],
+    "rock_types": ["quartzarénite", "grès quartzeux à ciment siliceux", "calcaires cambro-ordoviciens sous-jacents"],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Salamandre géante de Chine", "name_sci": "Andrias davidianus", "group": "amphibien", "iucn_status": "CR" },
+      { "name_fr": "Arbre aux mouchoirs", "name_sci": "Davidia involucrata", "group": "plante", "note": "Relique endémique de la Chine centrale, seul genre de sa famille." },
+      { "name_fr": "Macaque rhésus", "name_sci": "Macaca mulatta", "group": "mammifère", "iucn_status": "LC" },
+      { "name_fr": "Ours noir d'Asie", "name_sci": "Ursus thibetanus", "group": "mammifère", "iucn_status": "VU" },
+      { "name_fr": "Pangolin de Chine", "name_sci": "Manis pentadactyla", "group": "mammifère", "iucn_status": "CR" }
+    ],
+    "endemism_level": "modere",
+    "endemism_note": "Refuge de la flore tertiaire de la Chine centrale, épargnée par les glaciations, avec plusieurs genres reliques et des espèces localisées aux sommets de piliers.",
+    "species_counts": { "plants": 3000, "note": "Ordre de grandeur des plantes vasculaires recensées dans le bien et ses abords." }
+  },
+  "seasonality": {
+    "best_months": [4, 5, 9, 10, 11],
+    "avoid_months": [7, 8],
+    "phenomena": [
+      { "label": "Brumes de vallée et mer de nuages au lever du jour", "kind": "autre", "months": [3, 4, 5, 10, 11], "note": "Fréquentes après une nuit claire suivant un épisode pluvieux." },
+      { "label": "Mousson d'été, crues des torrents et cascades temporaires", "kind": "mousson", "months": [6, 7, 8] },
+      { "label": "Couleurs des forêts caducifoliées d'altitude", "kind": "couleurs", "months": [10, 11] },
+      { "label": "Gel et givre sur les piliers, sentiers glissants", "kind": "glace", "months": [12, 1, 2] }
+    ],
+    "notes": "Les vacances nationales chinoises de début mai et du début octobre saturent les navettes et les belvédères. Le printemps et la fin de l'automne offrent les meilleures conditions de visibilité."
+  },
+  "visit": {
+    "accessibility": "facile",
+    "suggested_duration": "3 jours",
+    "difficulty": "Sentiers aménagés, escaliers nombreux et longs, ascenseur et téléphériques ; l'exposition au vide est réelle sur les passerelles de corniche.",
+    "extreme_conditions": ["brouillard dense réduisant la visibilité à quelques mètres", "sols verglacés en hiver", "orages violents en été"],
+    "permits": null,
+    "rules": [
+      "Rester sur les passerelles et escaliers balisés : la végétation de bord de pilier retient les débris qui stabilisent la colonne.",
+      "Ne rien jeter dans les couloirs entre piliers, où aucun ramassage n'est possible.",
+      "Feux et cigarettes strictement interdits, la forêt sur grès est très inflammable en période sèche.",
+      "Drones soumis à autorisation préalable de l'administration du site.",
+      "Ne pas prélever de mousses, fougères ni concrétions dans les grottes."
+    ],
+    "official_url": "https://whc.unesco.org/fr/list/640/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "L'intégrité géologique du bien reste bonne et le couvert forestier a progressé depuis les campagnes de reboisement des années 2000. La difficulté est ailleurs : la fréquentation de masse et les équipements lourds installés dans le cœur du site, ascenseur extérieur, téléphériques, passerelles de verre, ont conduit l'UNESCO à demander à plusieurs reprises un encadrement plus strict des aménagements. Des constructions hôtelières situées dans le bien ont été démolies au début des années 2000 à la suite de ces demandes.",
+    "trend": "stable",
+    "threats": [
+      { "type": "tourisme", "level": "eleve", "note": "Flux concentrés sur quelques belvédères et sur deux semaines de vacances nationales." },
+      { "type": "urbanisation", "level": "eleve", "note": "Équipements mécaniques et bâtis d'accueil implantés à l'intérieur du bien." },
+      { "type": "climat", "level": "modere", "note": "Pluies intenses plus fréquentes, glissements sur les versants de raccordement." },
+      { "type": "braconnage", "level": "modere", "note": "Prélèvement de salamandre géante et de pangolin dans le massif environnant." }
+    ],
+    "understand_without_going": false,
+    "message": "Le site se comprend mieux depuis le fond de la gorge de la Jinbian que depuis les plateformes hautes : c'est en bas que l'on voit le quadrillage de fractures qui a produit les piliers."
+  },
+  "media": { "hero": null, "gallery": [] },
+  "sources": [
+    { "title": "Région d'intérêt panoramique et historique de Wulingyuan", "publisher": "UNESCO Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/640/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Wulingyuan Scenic and Historic Interest Area, World Heritage Outlook", "publisher": "UICN", "url": "https://worldheritageoutlook.iucn.org/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Wulingyuan Scenic and Historic Interest Area", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
+    { "title": "Wulingyuan", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Wulingyuan", "type": "encyclopedique", "accessed": "2026-08-22" }
+  ],
+  "score": { "criteria": { "visuel": 5, "singularite": 5, "rarete": 5, "diversite": 4, "integrite": 3, "monumentalite": 4, "actif": 2, "biologique": 3, "photogenie": 5, "pedagogie": 5, "conservation": 3, "complementarite": 5 }, "total": 115, "scored_on": "2026-08-22" }
+}

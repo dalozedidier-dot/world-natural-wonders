@@ -1,0 +1,145 @@
+{
+  "id": "chaussee-des-geants",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Chaussée des Géants",
+    "name_official": "Chaussée des Géants et sa côte",
+    "name_local": [
+      { "lang": "en", "value": "Giant's Causeway and Causeway Coast" },
+      { "lang": "ga", "value": "Clochán an Aifir", "note": "Forme irlandaise, parfois Clochán na bhFómharach." }
+    ],
+    "name_indigenous": null,
+    "aka": ["Giant's Causeway", "Clochán an Aifir"]
+  },
+  "location": {
+    "countries": ["GB"],
+    "country_labels": ["Royaume-Uni"],
+    "subdivision": "Irlande du Nord, comté d'Antrim",
+    "region": "europe",
+    "lat": 55.2408,
+    "lng": -6.5116,
+    "coordinate_precision": "site",
+    "bbox": [-6.55, 55.225, -6.46, 55.25],
+    "area_km2": 0.7,
+    "elevation_min_m": 0,
+    "elevation_max_m": 120,
+    "depth_max_m": null,
+    "timezone": "Europe/London"
+  },
+  "landscape": {
+    "primary": "formation-rocheuse",
+    "types": ["formation-rocheuse", "falaise"],
+    "family": "relief",
+    "iucn_ecosystem": ["M1.4 Rivages rocheux", "T7.4 Prairies et landes côtières tempérées"],
+    "biome": "Côte rocheuse tempérée océanique",
+    "climate": "Cfb océanique, amplitude thermique faible et vent dominant d'ouest",
+    "collections": ["autre-planete"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "unesco-whs", "name": "Chaussée des Géants et sa côte", "ref": "369", "since": 1986, "criteria": ["vii", "viii"], "url": "https://whc.unesco.org/fr/list/369/" },
+      { "type": "nature-reserve", "name": "Réserve naturelle nationale de la Chaussée des Géants", "url": null },
+      { "type": "nature-reserve", "name": "Zone spéciale de conservation de la côte de la Chaussée, réseau Natura 2000", "url": null }
+    ],
+    "managing_body": { "name": "National Trust, propriétaire et gestionnaire du site central", "url": "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway" }
+  },
+  "editorial": {
+    "badges": ["geologie-remarquable", "exceptionnel"],
+    "essential": false,
+    "lede": "Quarante mille colonnes de basalte, la plupart hexagonales, descendent en marches serrées de la falaise jusque sous la mer, comme un dallage posé là par une géométrie que la roche ne devrait pas connaître.",
+    "why_here": "Presque tous les visiteurs supposent une intervention humaine ou une légende, et c'est précisément l'intérêt du site : la géométrie y est entièrement mécanique. Quand une coulée de lave épaisse refroidit lentement et se contracte, elle se fracture selon le réseau qui minimise l'énergie de rupture, et ce réseau tend vers l'hexagone. La Chaussée en offre l'exemple le plus complet et le mieux exposé au monde, avec des colonnes visibles sur toute leur hauteur, en coupe et en plan. Elle documente en outre un moment précis de l'histoire de l'Atlantique nord, celui où l'océan s'ouvrait entre le Groenland et l'Europe et où d'immenses volumes de basalte se sont épanchés des deux côtés. La sélection y gagne le prisme thermique, mécanisme fondamental que rien d'autre n'illustre aussi clairement.",
+    "presentation": "Le site occupe un promontoire de la côte nord d'Antrim, sur environ trois kilomètres de rivage entre Portnaboe et Port Reostan. Le bien inscrit au patrimoine mondial en 1986 ne couvre qu'une soixantaine d'hectares, mais il s'inscrit dans un ensemble côtier protégé beaucoup plus vaste.\n\nCe que l'on appelle la Chaussée proprement dite est un pavage de colonnes serrées qui descend en trois paliers, la Grande Chaussée, la Chaussée moyenne et la Petite Chaussée, jusqu'à disparaître sous la mer. Les colonnes mesurent en moyenne une quarantaine de centimètres de diamètre. La plupart comptent six côtés, mais on en trouve à cinq, sept et huit, et une seule connue à trois.\n\nDans les falaises voisines, les mêmes colonnes se lisent en coupe verticale. L'Orgue des Géants aligne des fûts de plus de dix mètres. Les Cheminées se détachent en piliers isolés. Un bloc rougeâtre isolé porte le nom de Botte du Géant, et une formation basse celui de Chaise à Vœux.\n\nLes légendes locales attribuent l'ouvrage à Finn MacCool, qui l'aurait bâti pour rejoindre l'Écosse. La coïncidence n'est pas fortuite : la grotte de Fingal, sur l'île écossaise de Staffa, présente exactement la même structure et appartient au même épisode volcanique. Une même coulée, séparée par l'ouverture d'un bras de mer.\n\nLe site est propriété du National Trust depuis 1961 et reçoit près d'un million de visiteurs par an, chiffre considérable pour une surface aussi réduite. Un centre d'accueil semi-enterré, ouvert en 2012, tient l'essentiel des équipements hors du champ visuel, et un sentier de falaise permet de contourner la partie basse quand la houle la rend dangereuse.",
+    "geology": "Vers 60 millions d'années, à la limite entre le Paléocène et l'Éocène, l'Atlantique nord commence à s'ouvrir entre le Groenland et l'Europe du Nord-Ouest. Un panache mantellique, dont la trace actuelle est le point chaud islandais, provoque un volcanisme de très grand volume sur les deux marges naissantes : c'est la province ignée de l'Atlantique nord, dont les témoins vont de l'ouest du Groenland aux Hébrides intérieures et au plateau d'Antrim.\n\nEn Irlande du Nord, cet épisode a construit le groupe volcanique d'Antrim, empilement de coulées de basalte tholéiitique qui atteint localement plusieurs centaines de mètres. Trois ensembles s'y distinguent. La formation basaltique inférieure, puis un intervalle sans éruption, puis la formation basaltique moyenne, qui contient les colonnes de la Chaussée.\n\nL'intervalle mérite qu'on s'y arrête. Pendant plusieurs centaines de milliers d'années, le volcanisme s'interrompt et le climat, alors chaud et humide, altère la surface des laves en une latérite rouge riche en fer et en aluminium. Cette couche, dite formation interbasaltique, est visible dans les falaises sous la forme d'une bande rouge orangé. Elle date précisément le temps qui sépare deux séries d'éruptions et enregistre un épisode climatique.\n\nLa Chaussée elle-même provient d'une coulée particulière de la formation moyenne, épanchée dans une vallée creusée dans la latérite. Piégée dans cette dépression, elle a atteint une épaisseur inhabituelle et a donc refroidi très lentement. En se refroidissant, un basalte se contracte d'environ dix pour cent en volume. La contraction s'exerce dans le plan horizontal et fissure la roche selon un réseau de fractures qui progresse depuis la surface supérieure et depuis la base vers le centre. Le réseau qui dissipe le mieux l'énergie et qui pave le plan avec le moins de périmètre est l'hexagone régulier : c'est vers lui que le système tend quand le refroidissement est lent et régulier.\n\nLa coulée montre d'ailleurs les deux régimes. La partie basse, la colonnade, présente des fûts réguliers de grand diamètre, signature d'un refroidissement lent. Au-dessus, l'entablement montre des colonnes courtes, courbes, désordonnées, résultat d'un refroidissement plus rapide et plus irrégulier, probablement accéléré par de l'eau s'infiltrant depuis la surface.",
+    "dynamics": "Le site n'est plus volcaniquement actif : ce qui l'anime aujourd'hui est l'Atlantique. La houle du nord-ouest, sans obstacle depuis le Groenland, attaque la base des colonnes et les descelle une à une, car chaque prisme est une unité mécanique indépendante. L'érosion procède donc par prélèvement de fûts entiers plutôt que par abrasion diffuse, ce qui entretient les fronts nets et les marches régulières. Le gel et le dégel, les embruns salés et l'alternance de l'humectation et du séchage élargissent les joints. Les falaises situées au-dessus, taillées dans des matériaux moins cohérents, produisent régulièrement des éboulements et des glissements, dont certains ont conduit à fermer durablement des tronçons du sentier littoral. Les marées découvrent et recouvrent deux fois par jour la partie basse du pavage, et les tempêtes hivernales rendent l'estran inaccessible plusieurs jours d'affilée.",
+    "biodiversity_text": "La valeur biologique du site tient aux milieux côtiers plutôt qu'au pavage lui-même. Les pelouses maritimes des sommets de falaise, entretenues par le vent et le sel, abritent une flore rase dont plusieurs espèces rares en Irlande du Nord, notamment l'orchidée frog orchid et des raretés des sols basaltiques. Les vires et les corniches accueillent des colonies de fulmars boréaux, de mouettes tridactyles, de guillemots et de pétrels, et le faucon pèlerin y niche. Les crevasses entre les colonnes, régulièrement submergées, constituent un habitat particulier pour la faune de l'estran rocheux, avec des communautés d'algues, de balanes et de patelles étagées selon la hauteur d'immersion. La zone marine adjacente est classée en zone spéciale de conservation pour ses récifs rocheux et ses grottes marines.",
+    "in_motion": "Le paysage recule. Des éboulements successifs ont modifié le tracé des sentiers depuis les années 2000, et une partie du chemin de falaise reste fermée pour instabilité. La fréquentation, proche du million de visiteurs annuels sur une surface de quelques hectares, use directement la roche : le passage répété polit et arrondit les arêtes des colonnes les plus accessibles, phénomène désormais mesuré. Le National Trust module l'accès par la billetterie, le stationnement et la répartition des flux sur plusieurs boucles, sans pouvoir réduire le nombre total. La montée du niveau marin et l'intensification des tempêtes hivernales accélèrent par ailleurs le déchaussement des colonnes basses.",
+    "guess_hints": [
+      "Colonnes hexagonales issues d'une contraction thermique",
+      "Coulée basaltique liée à l'ouverture d'un océan il y a environ 60 millions d'années",
+      "Bande de latérite rouge intercalée entre deux séries de laves",
+      "Côte tempérée exposée à la houle atlantique"
+    ]
+  },
+  "figures": [
+    { "label": "Nombre de colonnes", "value": "environ 40 000" },
+    { "label": "Âge des coulées", "value": "environ 50 à 60 millions d'années" },
+    { "label": "Diamètre moyen d'une colonne", "value": "environ 40 cm" },
+    { "label": "Nombre de côtés le plus fréquent", "value": "6, avec des cas de 4 à 8" },
+    { "label": "Hauteur des fûts de l'Orgue des Géants", "value": "jusqu'à environ 12 m" },
+    { "label": "Surface du bien inscrit", "value": "environ 70 ha" },
+    { "label": "Inscription UNESCO", "value": "1986, critères vii et viii" },
+    { "label": "Fréquentation", "value": "de l'ordre d'un million de visiteurs par an" }
+  ],
+  "geology": {
+    "age": "Province ignée de l'Atlantique nord, Paléocène et Éocène inférieur, environ 60 Ma",
+    "processes": ["épanchement de laves de plateau", "prismation par contraction thermique", "altération latéritique intercalée", "érosion marine par descellement de colonnes"],
+    "rock_types": ["basalte tholéiitique", "latérite et bol rouge interbasaltique", "dolérite"],
+    "volcanic": {
+      "gvp_number": null,
+      "type": "Trapps et coulées de plateau, province ignée de l'Atlantique nord",
+      "last_eruption": "Paléogène, aucune activité depuis",
+      "status": "éteint"
+    }
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Fulmar boréal", "name_sci": "Fulmarus glacialis", "group": "oiseau", "iucn_status": "LC", "note": "Nicheur sur les corniches de falaise du site." },
+      { "name_fr": "Mouette tridactyle", "name_sci": "Rissa tridactyla", "group": "oiseau", "iucn_status": "VU" },
+      { "name_fr": "Faucon pèlerin", "name_sci": "Falco peregrinus", "group": "oiseau", "iucn_status": "LC" },
+      { "name_fr": "Armérie maritime", "name_sci": "Armeria maritima", "group": "plante", "note": "Caractéristique des pelouses de sommet de falaise soumises aux embruns." },
+      { "name_fr": "Patelle commune", "name_sci": "Patella vulgata", "group": "mollusque", "note": "Étagement visible dans les joints entre colonnes selon la durée d'immersion." }
+    ],
+    "endemism_level": "nul",
+    "endemism_note": "Aucune espèce propre au site, la valeur reconnue est géologique et paysagère, complétée par des habitats côtiers d'intérêt européen.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [4, 5, 6, 9, 10],
+    "avoid_months": [7, 8],
+    "phenomena": [
+      { "label": "Nidification des oiseaux de falaise", "kind": "autre", "months": [4, 5, 6, 7] },
+      { "label": "Floraison des pelouses maritimes de sommet de falaise", "kind": "floraison", "months": [5, 6] },
+      { "label": "Tempêtes atlantiques, estran souvent inaccessible", "kind": "autre", "months": [11, 12, 1, 2, 3] },
+      { "label": "Affluence maximale", "kind": "autre", "months": [7, 8], "note": "Les colonnes se photographient plus aisément en début et en fin de journée." }
+    ],
+    "notes": "Le site est ouvert toute l'année. Les journées de mai et de septembre combinent lumière basse, mer praticable et fréquentation plus supportable."
+  },
+  "visit": {
+    "accessibility": "facile",
+    "suggested_duration": "une demi-journée à une journée",
+    "difficulty": "Descente aménagée et navette depuis le centre d'accueil, mais roches glissantes en permanence et sentier de falaise exposé au vent.",
+    "extreme_conditions": ["vagues déferlantes sur l'estran", "vent violent en bord de falaise", "risque d'éboulement"],
+    "permits": null,
+    "rules": [
+      "Ne pas descendre sur le pavage bas quand la mer est forte, les vagues de traverse balaient les paliers sans prévenir.",
+      "Rester sur les sentiers balisés du haut de falaise, les tronçons fermés le sont pour instabilité avérée.",
+      "Ne prélever aucun fragment de basalte ni de latérite rouge.",
+      "Ne pas approcher les corniches occupées par les oiseaux nicheurs entre avril et juillet.",
+      "Tenir les chiens en laisse sur les pelouses de falaise pâturées et près des nichoirs."
+    ],
+    "official_url": "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "moderee",
+    "state": "Le bien est bien protégé et bien géré : propriété du National Trust pour l'essentiel, il cumule les statuts de réserve naturelle nationale, de zone spéciale de conservation européenne et d'aire de grande beauté naturelle, sous la supervision d'un groupe de pilotage patrimoine mondial. La difficulté est la conjonction d'une surface minuscule et d'une fréquentation proche du million de personnes par an, sur une roche que le frottement polit. À cela s'ajoutent l'érosion marine naturelle, qui fait partie de la valeur du site et ne doit pas être combattue, et l'instabilité des versants supérieurs. Les projets d'aménagement en périphérie, notamment touristiques et golfiques, ont donné lieu à des controverses répétées sur l'intégrité du cadre paysager.",
+    "trend": "stable",
+    "threats": [
+      { "type": "tourisme", "level": "eleve", "note": "Usure directe des colonnes accessibles et saturation des accès en été." },
+      { "type": "climat", "level": "modere", "note": "Élévation du niveau marin et tempêtes plus fortes accélérant le déchaussement des colonnes basses." },
+      { "type": "urbanisation", "level": "modere", "note": "Pression d'aménagement dans la zone tampon et sur la côte voisine." },
+      { "type": "pollution", "level": "faible", "note": "Circulation et stationnement concentrés sur un point d'accès unique." }
+    ],
+    "understand_without_going": false,
+    "message": "Le pavage bas est la partie la plus photographiée et la moins instructive. Les falaises voisines, où la colonnade, l'entablement et la bande rouge de latérite se lisent en coupe, racontent toute l'histoire, et le sentier du haut les donne sans foule."
+  },
+  "media": { "hero": null, "gallery": [] },
+  "sources": [
+    { "title": "Chaussée des Géants et sa côte", "publisher": "UNESCO", "url": "https://whc.unesco.org/fr/list/369/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Giant's Causeway, visite et gestion du site", "publisher": "National Trust", "url": "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Giant's Causeway and Causeway Coast, aire protégée", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" }
+  ],
+  "score": { "criteria": { "visuel": 4, "singularite": 5, "rarete": 4, "diversite": 2, "integrite": 3, "monumentalite": 2, "actif": 1, "biologique": 2, "photogenie": 5, "pedagogie": 5, "conservation": 4, "complementarite": 5 }, "total": 100, "scored_on": "2026-08-22" }
+}

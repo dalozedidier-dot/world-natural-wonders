@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import Grid from '../../components/Grid.astro';
+import { places, taxonomies, label } from '../../data/places';
+export function getStaticPaths() {
+  return taxonomies.landscapes
+    .map(l => ({ params: { id: l.id }, props: { landscape: l, items: places.filter(p => p.landscape.types.includes(l.id)) } }))
+    .filter(e => e.props.items.length > 0);
+}
+const { landscape, items } = Astro.props;
+---
+<Base title={`${landscape.label} · 100 joyaux naturels`}>
+  <section class="band shell" style="padding-top:7rem">
+    <p class="eyebrow">{label.family(landscape.family)}</p>
+    <h1>{landscape.label}</h1>
+    <p class="lead">{items.length} lieux de la sélection relèvent de ce type de paysage.</p>
+    <div style="margin-top:2.2rem"><Grid items={items} /></div>
+  </section>
+</Base>

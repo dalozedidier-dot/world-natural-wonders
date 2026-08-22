@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import { places, taxonomies } from '../../data/places';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const cols = taxonomies.collections
+  .map(c => ({ ...c, items: places.filter(p => (p.landscape.collections ?? []).includes(c.id)) }))
+  .filter(c => c.items.length);
+---
+<Base title="Collections thématiques · 100 joyaux naturels">
+  <section class="band shell" style="padding-top:7rem">
+    <p class="eyebrow">Collections</p>
+    <h1>Traverser la sélection autrement</h1>
+    <p class="lead">Un même lieu appartient souvent à plusieurs mondes. Ces collections sont des angles de lecture, pas des catégories exclusives.</p>
+    <div class="cardgrid" style="margin-top:2.4rem">
+      {cols.map(c => (
+        <a class="card" href={`${base}/collections/${c.id}`}>
+          <div class="body">
+            <h3>{c.label}</h3>
+            <p>{c.desc}</p>
+            <p style="margin-top:.7rem;color:var(--accent-soft);font-size:.8rem">{c.items.length} lieux</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

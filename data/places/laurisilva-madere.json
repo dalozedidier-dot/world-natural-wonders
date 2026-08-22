@@ -1,0 +1,144 @@
+{
+  "id": "laurisilva-madere",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Forêt laurifère de Madère",
+    "name_official": "Laurisilva de Madère",
+    "name_local": [
+      { "lang": "pt", "value": "Laurissilva da Madeira" },
+      { "lang": "pt", "value": "Parque Natural da Madeira", "note": "Aire protégée régionale qui englobe la forêt." }
+    ],
+    "name_indigenous": null,
+    "aka": ["Laurisilva de Madère", "Forêt de lauriers de Madère"]
+  },
+  "location": {
+    "countries": ["PT"],
+    "country_labels": ["Portugal"],
+    "subdivision": "Région autonome de Madère",
+    "region": "europe",
+    "lat": 32.78,
+    "lng": -17.0,
+    "coordinate_precision": "site",
+    "bbox": [-17.25, 32.7, -16.75, 32.87],
+    "area_km2": 150,
+    "elevation_min_m": 300,
+    "elevation_max_m": 1300,
+    "depth_max_m": null,
+    "timezone": "Atlantic/Madeira"
+  },
+  "landscape": {
+    "primary": "foret-nuageuse",
+    "types": ["foret-nuageuse", "foret-temperee", "falaise"],
+    "family": "foret",
+    "iucn_ecosystem": ["T2.4 Forêts sempervirentes océaniques tempérées chaudes", "T2.6 Forêts de nuages"],
+    "biome": "Forêts humides subtropicales océaniques",
+    "climate": "Csb océanique sur le versant nord, forte occurrence de brouillard orographique",
+    "collections": ["forets-primordiales", "royaumes-eau"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "unesco-whs", "name": "Forêt laurifère de Madère", "ref": "934", "since": 1999, "criteria": ["ix", "x"], "url": "https://whc.unesco.org/fr/list/934/" },
+      { "type": "national-park", "name": "Parc naturel de Madère", "since": 1982 },
+      { "type": "kba", "name": "Massif central et laurisilva du versant nord" },
+      { "type": "nature-reserve", "name": "Réseau Natura 2000, zone spéciale de conservation Laurissilva da Madeira" }
+    ],
+    "managing_body": { "name": "Instituto das Florestas e Conservação da Natureza, IFCN, Région autonome de Madère", "url": "https://ifcn.madeira.gov.pt/" }
+  },
+  "editorial": {
+    "badges": ["unique-au-monde", "ecosysteme-majeur", "geologie-remarquable"],
+    "essential": false,
+    "lede": "Sur les versants nord d'une île volcanique atlantique subsiste une forêt à feuilles vernissées que le Tertiaire avait installée autour de la Méditerranée et que les glaciations ont partout ailleurs effacée.",
+    "why_here": "Ce n'est pas une forêt rare, c'est un fossile vivant à l'échelle d'un écosystème entier. La laurisilve couvrait une grande partie du pourtour méditerranéen au Tertiaire, sous un climat chaud et humide ; le refroidissement et l'assèchement du Quaternaire l'ont éliminée du continent, et elle n'a survécu que sur quelques îles atlantiques où l'océan a amorti les oscillations climatiques. Madère en conserve le bloc le plus vaste et le mieux préservé, environ quinze mille hectares dont la majeure partie n'a jamais été défrichée. Le site apporte à la sélection une notion que rien d'autre n'illustre aussi bien : le refuge climatique, et le rôle d'une forêt qui fabrique elle-même son eau.",
+    "presentation": "Madère est une île étroite, orientée est ouest, dont l'épine dorsale dépasse mille huit cents mètres. Cette barrière intercepte les alizés du nord-est chargés d'humidité. Le versant nord reste presque en permanence sous une nappe de nuages accrochée entre six cents et mille quatre cents mètres, tandis que le versant sud, sous le vent, connaît un climat nettement plus sec. Toute la laurisilve tient dans cette asymétrie.\n\nLa forêt occupe des pentes fortes, souvent supérieures à trente degrés, entaillées de ravins profonds et bordées vers la mer de hautes falaises. Sous la canopée, la lumière est verte et l'air saturé. Les arbres dominants sont le til, Ocotea foetens, le laurier de Madère, Laurus novocanariensis, le vinhático, Persea indica, et le barbusano, Apollonias barbujana. Tous portent des feuilles épaisses, coriaces et brillantes, ce port laurophylle qui donne son nom à la formation.\n\nLes troncs disparaissent sous les mousses, les hépatiques et les fougères. Certaines fougères atteignent des tailles remarquables dans les fonds de ravin, et la strate herbacée compte de nombreuses espèces qui n'existent nulle part ailleurs qu'en Macaronésie.\n\nLa forêt ne se contente pas de recevoir de l'eau, elle en capte. Le feuillage intercepte les gouttelettes du brouillard, qui s'accumulent et ruissellent jusqu'au sol : ce dépôt occulte ajoute une part significative aux précipitations mesurées. Cette eau alimente les levadas, un réseau de canaux à faible pente creusés à partir du quinzième siècle pour conduire le surplus du nord vers les cultures du sud. Deux mille kilomètres environ de ces canaux quadrillent l'île, et leurs sentiers de service sont devenus le moyen le plus courant de traverser la forêt.\n\nAu-dessus de la laurisilve, vers mille quatre cents mètres, la forêt cède la place à une lande d'altitude à bruyères arborescentes, puis aux crêtes rocheuses du massif central."
+    ,
+    "geology": "Madère est le sommet émergé d'un vaste édifice volcanique bâti sur le plancher océanique atlantique, à plus de quatre mille mètres sous le niveau de la mer. Il appartient à l'alignement du point chaud de Madère, une remontée de matériel mantellique fixe au-dessus de laquelle la plaque africaine dérive lentement vers l'est. Le volcanisme sous-marin a commencé il y a plus de dix millions d'années ; l'île elle-même émerge et se construit à partir d'environ cinq millions d'années.\n\nL'empilement visible dans les falaises et les entailles de ravins raconte cette histoire par tranches : coulées basaltiques successives, séparées par des paléosols rougis et des niveaux de scories, recoupées par des essaims de dykes verticaux qui étaient les conduits d'alimentation des éruptions. Ces dykes, plus durs que les coulées qu'ils traversent, ressortent en lames saillantes une fois la roche encaissante érodée. Les phases les plus récentes, quaternaires, ont mis en place des cônes de scories et des coulées dont les dernières manifestations dateraient de quelques milliers d'années.\n\nUne fois le volcanisme apaisé, l'érosion a pris le relais avec une efficacité redoutable sur des roches meubles et des pentes fortes, sous un climat très humide. Les torrents ont creusé des ribeiras profondes et rectilignes qui rayonnent depuis la crête centrale, et le recul des versants a dégagé le grand cirque de la Curral das Freiras. Sur la côte nord, l'attaque de la houle atlantique entretient des falaises de plusieurs centaines de mètres.\n\nCe relief accidenté explique la survie de la forêt autant que le climat. Les pentes les plus raides et les ravins les plus étroits sont restés inaccessibles à la hache et au feu, et c'est là que se trouve aujourd'hui l'essentiel des peuplements anciens. La géologie a fourni le refuge, l'océan a fourni la stabilité climatique, et la forêt n'a eu qu'à ne pas bouger."
+    ,
+    "dynamics": "Le moteur du système est l'alizé du nord-est, régulier toute l'année. En rencontrant le relief, l'air humide s'élève, se refroidit et condense : la mer de nuages se forme et se maintient dans une tranche d'altitude assez constante, qui coïncide exactement avec la ceinture de laurisilve. La forêt exploite ce brouillard directement. Les feuilles, les mousses et surtout les lichens épiphytes peignent les gouttelettes en suspension, qui fusionnent et tombent au sol. Ce prélèvement occulte peut ajouter plusieurs centaines de millimètres par an aux précipitations verticales et rend la ressource en eau bien plus régulière que ne le suggèrent les pluies seules. Le sol volcanique, poreux, absorbe puis restitue lentement, ce qui soutient le débit des sources en saison sèche, de juin à septembre. Retirer la forêt reviendrait à supprimer la capture du brouillard et à assécher le système : la laurisilve n'est pas alimentée par l'hydrologie de l'île, elle en est la cause partielle.",
+    "biodiversity_text": "L'endémisme macaronésien atteint ici un niveau remarquable, avec plusieurs centaines de plantes vasculaires propres à l'archipel ou à la seule île de Madère, et un cortège d'invertébrés, mollusques terrestres et coléoptères, dont beaucoup n'ont jamais été trouvés ailleurs. L'oiseau emblématique est le pigeon trocaz, Columba trocaz, endémique strict de Madère, qui se nourrit des fruits du til et du laurier et joue le rôle de principal disperseur de graines de la forêt : le grand frugivore et l'arbre dépendent l'un de l'autre. Le roitelet de Madère, Regulus madeirensis, et le pinson de Madère occupent la canopée, la chauve-souris pipistrelle de Madère chasse au crépuscule au-dessus des clairières. Le pétrel de Madère, l'un des oiseaux marins les plus rares d'Europe, niche plus haut, sur les corniches du massif central.",
+    "in_motion": "Deux forces travaillent contre la forêt. Les espèces introduites d'abord : le gingembre sauvage Hedychium gardnerianum, les acacias, l'eucalyptus et les ronces envahissent les lisières et les zones perturbées, et leur contrôle mobilise l'essentiel de l'effort de gestion. Les incendies ensuite : ceux de 2010, 2012 et 2016 ont atteint les marges du bien et brûlé des surfaces significatives de végétation indigène, dans un contexte d'étés plus chauds et plus secs. La laurisilve, adaptée à l'humidité permanente, ne repousse pas après le feu comme le fait un maquis méditerranéen. La remontée de la base des nuages, si elle se confirme, réduirait mécaniquement la ceinture où la capture du brouillard fonctionne.",
+    "guess_hints": [
+      "Forêt à feuilles vernissées, relique du Tertiaire",
+      "Île volcanique atlantique, versant exposé aux alizés",
+      "Capture d'eau par le brouillard entre 600 et 1 400 mètres",
+      "Canaux d'irrigation historiques longeant les courbes de niveau"
+    ]
+  },
+  "figures": [
+    { "label": "Bien inscrit au patrimoine mondial", "value": "environ 15 000 hectares" },
+    { "label": "Inscription UNESCO", "value": "1999, critères ix et x" },
+    { "label": "Part de forêt primaire", "value": "environ 90 % du bien" },
+    { "label": "Ceinture altitudinale de la laurisilve", "value": "environ 300 à 1 400 m" },
+    { "label": "Réseau de levadas", "value": "environ 2 000 km de canaux" },
+    { "label": "Âge de l'île émergée", "value": "environ 5 millions d'années" },
+    { "label": "Point culminant de Madère", "value": "Pico Ruivo, 1 862 m" }
+  ],
+  "geology": {
+    "age": "Volcanisme sous-marin depuis plus de 10 Ma, île émergée depuis environ 5 Ma, dernières manifestations éruptives holocènes",
+    "processes": ["volcanisme de point chaud", "empilement de coulées basaltiques", "injection de dykes", "érosion torrentielle en ravins", "recul de falaises littorales"],
+    "rock_types": ["basalte", "scories et tufs", "trachyte subordonné", "paléosols intercalés"],
+    "volcanic": { "gvp_number": null, "type": "Île volcanique de point chaud, édifice bouclier érodé", "last_eruption": "Holocène, quelques milliers d'années", "status": "Sans activité historique" }
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Pigeon trocaz", "name_sci": "Columba trocaz", "group": "oiseau", "iucn_status": "LC", "note": "Endémique de Madère, principal disperseur des graines d'arbres de la laurisilve." },
+      { "name_fr": "Til", "name_sci": "Ocotea foetens", "group": "plante", "note": "Grand arbre dominant de la laurisilve macaronésienne." },
+      { "name_fr": "Laurier de Madère", "name_sci": "Laurus novocanariensis", "group": "plante" },
+      { "name_fr": "Vinhático", "name_sci": "Persea indica", "group": "plante", "note": "Exploité pour son bois dès les débuts du peuplement de l'île." },
+      { "name_fr": "Roitelet de Madère", "name_sci": "Regulus madeirensis", "group": "oiseau", "iucn_status": "LC" },
+      { "name_fr": "Pétrel de Madère", "name_sci": "Pterodroma madeira", "group": "oiseau", "iucn_status": "EN", "note": "Niche sur les corniches du massif central, au-dessus de la forêt." }
+    ],
+    "endemism_level": "eleve",
+    "endemism_note": "Endémisme macaronésien massif, particulièrement chez les plantes vasculaires, les mollusques terrestres et les invertébrés du sol, avec de nombreuses espèces limitées à la seule île.",
+    "species_counts": { "plants": null, "birds": null, "mammals": null, "fish": null, "corals": null, "note": "Plusieurs centaines de plantes vasculaires endémiques de Madère ou de la Macaronésie, dénombrement variable selon les traitements taxonomiques." }
+  },
+  "seasonality": {
+    "best_months": [4, 5, 6, 9, 10],
+    "avoid_months": [],
+    "phenomena": [
+      { "label": "Floraison des arbres de la laurisilve", "kind": "floraison", "months": [3, 4, 5] },
+      { "label": "Saison plus sèche, sentiers praticables et sources basses", "kind": "saison-seche", "months": [6, 7, 8, 9] },
+      { "label": "Pluies principales et brouillard épais sur le versant nord", "kind": "saison-humide", "months": [11, 12, 1, 2] },
+      { "label": "Fructification et alimentation du pigeon trocaz", "kind": "autre", "months": [8, 9, 10, 11] }
+    ],
+    "notes": "La forêt reste humide et fraîche toute l'année. La différence entre les saisons tient moins à la température qu'à l'intensité des pluies et à la fréquence des éboulements sur les sentiers."
+  },
+  "visit": {
+    "accessibility": "facile",
+    "suggested_duration": "3 à 5 jours",
+    "difficulty": "Sentiers de levada plats mais parfois exposés, avec passages en corniche, tunnels et sections glissantes. Quelques itinéraires en crête demandent un vrai pied montagnard.",
+    "extreme_conditions": ["brouillard dense et permanent", "éboulements après fortes pluies", "passages exposés au vide"],
+    "permits": "Certains sentiers du parc naturel exigent un titre d'accès payant et sont soumis à quotas.",
+    "rules": [
+      "Ne rien prélever, y compris mousses, fougères et boutures : de nombreuses espèces du sous-bois sont endémiques strictes.",
+      "Nettoyer semelles et bâtons avant d'entrer en forêt, les propagules d'espèces invasives voyagent avec les marcheurs.",
+      "Feu strictement interdit hors des aires équipées, y compris réchauds, en période de risque.",
+      "Rester sur les sentiers de levada et respecter les fermetures pour éboulement.",
+      "Ne pas approcher ni éclairer les corniches de nidification du pétrel de Madère."
+    ],
+    "official_url": "https://ifcn.madeira.gov.pt/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "Le bien est intégralement protégé et la surface forestière est stable, voire en légère progression sur les marges grâce aux plantations d'espèces indigènes. Le noyau ancien, situé sur des pentes inaccessibles, conserve une structure intacte. Les deux pressions déterminantes sont extérieures au couvert lui-même : les plantes envahissantes, qui bloquent la régénération dès qu'une trouée s'ouvre, et les incendies estivaux, qui ont atteint les lisières à plusieurs reprises depuis 2010. Le retrait de l'élevage extensif et des coupes traditionnelles a en revanche nettement soulagé le milieu.",
+    "trend": "stable",
+    "threats": [
+      { "type": "invasives", "level": "eleve", "note": "Hedychium gardnerianum, acacias, eucalyptus et ronces colonisent lisières et trouées." },
+      { "type": "incendies", "level": "eleve", "note": "Épisodes de 2010, 2012 et 2016 ; la laurisilve ne se régénère pas après le feu." },
+      { "type": "climat", "level": "modere", "note": "Étés plus secs et remontée possible de la base de la couche nuageuse, qui conditionne la capture du brouillard." },
+      { "type": "tourisme", "level": "modere", "note": "Fréquentation très concentrée sur quelques sentiers de levada, érosion et piétinement des abords." }
+    ],
+    "understand_without_going": false,
+    "message": "La laurisilve se comprend depuis n'importe quel sentier du versant nord, pas seulement sur les trois itinéraires saturés. Répartir la fréquentation vaut mieux que la restreindre."
+  },
+  "media": { "hero": null, "gallery": [] },
+  "sources": [
+    { "title": "Forêt laurifère de Madère", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/934/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Instituto das Florestas e Conservação da Natureza, Madère", "publisher": "Région autonome de Madère", "url": "https://ifcn.madeira.gov.pt/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Laurisilva of Madeira, aire protégée", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
+    { "title": "Liste rouge des espèces menacées", "publisher": "UICN", "url": "https://www.iucnredlist.org/", "type": "jeu-de-donnees", "accessed": "2026-08-22" }
+  ],
+  "score": { "criteria": { "visuel": 4, "singularite": 5, "rarete": 5, "diversite": 4, "integrite": 4, "monumentalite": 3, "actif": 2, "biologique": 5, "photogenie": 4, "pedagogie": 5, "conservation": 4, "complementarite": 5 }, "total": 116, "scored_on": "2026-08-22" }
+}

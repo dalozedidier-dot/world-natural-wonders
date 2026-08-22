@@ -1,0 +1,86 @@
+---
+import Base from '../layouts/Base.astro';
+import { places, heroFor, label } from '../data/places';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const options = places.map(p => ({
+  id: p.id, name: p.identity.name_fr, country: p.location.country_labels.join(' et '),
+  region: label.region(p.location.region), family: label.family(p.landscape.family),
+  types: p.landscape.types.map(t => label.landscape(t)).join(', '),
+  area: p.location.area_km2, elev: p.location.elevation_max_m, depth: p.location.depth_max_m,
+  access: label.accessibility(p.visit.accessibility), fragility: label.fragility(p.conservation.fragility),
+  months: p.seasonality.best_months, lede: p.editorial.lede,
+  climate: p.landscape.climate, biome: p.landscape.biome,
+  designations: p.protection.designations.map(d => d.name).join(' · '),
+  hero: heroFor(p)?.local.replace(/^public\//, '/') ?? null, alt: heroFor(p)?.alt ?? ''
+})).sort((a, b) => a.name.localeCompare(b.name, 'fr'));
+---
+<Base title="Comparer deux lieux · 100 joyaux naturels">
+  <section class="band shell" style="padding-top:7rem">
+    <p class="eyebrow">Comparateur</p>
+    <h1>Deux paysages côte à côte</h1>
+    <p class="lead">Superficie, altitude, climat, saison, fragilité, statuts de protection. Utile pour comprendre ce qui sépare vraiment deux lieux que l'on croyait semblables.</p>
+
+    <div class="compare" style="margin-top:2rem">
+      <label>Premier lieu<select data-slot="a" style="width:100%;margin-top:.4rem;padding:.6rem;background:var(--ink-800);border:1px solid #ffffff22;border-radius:8px"></select></label>
+      <label>Second lieu<select data-slot="b" style="width:100%;margin-top:.4rem;padding:.6rem;background:var(--ink-800);border:1px solid #ffffff22;border-radius:8px"></select></label>
+    </div>
+    <div class="compare" id="compare-out" style="margin-top:1.6rem"></div>
+    <script type="application/json" id="compare-data" set:html={JSON.stringify(options)} />
+  </section>
+
+  <script define:vars={{ base }}>
+    const data = JSON.parse(document.getElementById('compare-data').textContent);
+    const byId = new Map(data.map(d => [d.id, d]));
+    const out = document.getElementById('compare-out');
+    const sels = [...document.querySelectorAll('select[data-slot]')];
+    const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const M = ['J','F','M','A','M','J','J','A','S','O','N','D'];
+    const num = v => (v == null ? '—' : v.toLocaleString('fr-FR'));
+
+    const params = new URLSearchParams(location.search);
+    sels.forEach((s, i) => {
+      s.innerHTML = data.map(d => `<option value="${d.id}">${esc(d.name)} — ${esc(d.country)}</option>`).join('');
+      const key = i === 0 ? 'a' : 'b';
+      const want = params.get(key);
+      s.value = want && byId.has(want) ? want : data[Math.min(i, data.length - 1)]?.id;
+      s.addEventListener('change', render);
+    });
+
+    function col(d) {
+      if (!d) return '<div></div>';
+      const months = M.map((m, i) => `<span class="${d.months.includes(i + 1) ? 'on' : ''}">${m}</span>`).join('');
+      return `
+      <div class="card" style="display:block">
+        <div class="media">${d.hero ? `<img src="${base}${d.hero}" alt="${esc(d.alt)}">` : ''}</div>
+        <div class="body">
+          <h3>${esc(d.name)}</h3>
+          <p>${esc(d.country)} · ${esc(d.region)}</p>
+          <p style="margin-top:.6rem;color:var(--paper-dim)">${esc(d.lede)}</p>
+          <div class="months">${months}</div>
+          <table class="data">
+            <tbody>
+              <tr><th>Famille</th><td>${esc(d.family)}</td></tr>
+              <tr><th>Paysages</th><td>${esc(d.types)}</td></tr>
+              <tr><th>Superficie</th><td>${num(d.area)} km²</td></tr>
+              <tr><th>Altitude max.</th><td>${num(d.elev)} m</td></tr>
+              <tr><th>Profondeur</th><td>${d.depth ? num(d.depth) + ' m' : '—'}</td></tr>
+              <tr><th>Climat</th><td>${esc(d.climate) || '—'}</td></tr>
+              <tr><th>Biome</th><td>${esc(d.biome) || '—'}</td></tr>
+              <tr><th>Accessibilité</th><td>${esc(d.access)}</td></tr>
+              <tr><th>Fragilité</th><td>${esc(d.fragility)}</td></tr>
+              <tr><th>Protection</th><td>${esc(d.designations)}</td></tr>
+            </tbody>
+          </table>
+          <p style="margin-top:.8rem"><a class="btn" href="${base}/lieux/${d.id}">Fiche complète</a></p>
+        </div>
+      </div>`;
+    }
+    function render() {
+      const [a, b] = sels.map(s => byId.get(s.value));
+      out.innerHTML = col(a) + col(b);
+      const p = new URLSearchParams({ a: sels[0].value, b: sels[1].value });
+      history.replaceState(null, '', `?${p}`);
+    }
+    render();
+  </script>
+</Base>

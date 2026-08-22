@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import { media, placeById, places } from '../data/places';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const sorted = [...media].sort((a, b) =>
+  (placeById.get(a.place)?.identity.name_fr ?? '').localeCompare(placeById.get(b.place)?.identity.name_fr ?? '', 'fr'));
+const licenses = [...new Set(media.map(m => m.license))];
+const sourceCount = places.reduce((n, p) => n + p.sources.length, 0);
+---
+<Base title="Crédits et licences · 100 joyaux naturels" description="Auteur, licence exacte, page source, modifications et date de vérification pour chaque photographie. Attribution cartographique et méthode de sourçage.">
+  <section class="band shell" style="padding-top:7rem">
+    <p class="eyebrow">Crédits</p>
+    <h1>Chaque image, chaque source</h1>
+    <p class="lead">Aucune photographie n'est affichée sans auteur identifié, licence exacte et lien vers le fichier d'origine. Les licences comportant une clause NC ou ND sont refusées, afin de préserver la liberté de recadrage et d'usage futur.</p>
+
+    <div class="factgrid" style="margin:2.2rem 0">
+      <div class="fact"><dt>Photographies</dt><dd>{media.length}</dd></div>
+      <div class="fact"><dt>Licences employées</dt><dd>{licenses.length || '—'}</dd></div>
+      <div class="fact"><dt>Sources citées</dt><dd>{sourceCount}</dd></div>
+      <div class="fact"><dt>Ratio imposé</dt><dd>3:2</dd></div>
+    </div>
+
+    <h2>Cartographie</h2>
+    <p>Fonds de carte vectoriels <a href="https://github.com/protomaps/basemaps" rel="noopener" target="_blank">Protomaps</a>, servis au format PMTiles depuis notre propre hébergement, construits à partir des données <a href="https://www.openstreetmap.org/copyright" rel="noopener" target="_blank">OpenStreetMap</a> sous licence ODbL. Rendu <a href="https://maplibre.org/" rel="noopener" target="_blank">MapLibre GL JS</a>. Le projet n'utilise pas les serveurs de tuiles publics d'OpenStreetMap, qui ne sont pas une infrastructure destinée à supporter un trafic applicatif.</p>
+
+    <h2>Photographies</h2>
+    <p>Les fichiers proviennent de Wikimedia Commons, sélectionnés à la main puis téléchargés au moment de la construction du site. Le manifeste versionné conserve pour chacun : auteur, page source, licence, version de licence, URL de la licence, modifications effectuées, dimensions, texte alternatif et date de vérification. Wikimedia signale elle-même que les conditions varient selon chaque fichier et ne garantit pas juridiquement l'exactitude de toutes les informations de licence : chaque fichier est donc vérifié manuellement avant intégration.</p>
+
+    {sorted.length === 0 && (
+      <p class="muted">Aucune photographie n'est encore intégrée. Le pipeline média est en place, la vérification manuelle des fichiers reste à faire, lieu par lieu.</p>
+    )}
+
+    {sorted.length > 0 && (
+      <div class="scroll-x" style="margin-top:1.6rem">
+        <table class="data">
+          <thead><tr><th>Lieu</th><th>Auteur</th><th>Licence</th><th>Modifications</th><th>Vérifié le</th></tr></thead>
+          <tbody>
+            {sorted.map(m => (
+              <tr>
+                <td><a href={`${base}/lieux/${m.place}`}>{placeById.get(m.place)?.identity.name_fr ?? m.place}</a></td>
+                <td>{m.author_url ? <a href={m.author_url} rel="noopener" target="_blank">{m.author}</a> : m.author}</td>
+                <td><a href={m.license_url} rel="noopener" target="_blank">{m.license} {m.license_version}</a> · <a href={m.source_page} rel="noopener" target="_blank">fichier</a></td>
+                <td>{m.modifications ?? '—'}</td>
+                <td>{m.verified_on}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )}
+
+    <h2>Données et logiciel</h2>
+    <p>Le code du projet est publié sous licence MIT. Les données éditoriales du dépôt sont réutilisables sous licence CC BY 4.0, à l'exception des notations internes, qui ne sont pas publiées. Les données et médias tiers conservent leurs licences propres.</p>
+
+    <h2>Avertissement</h2>
+    <p>Les périodes indiquées sont des repères. Météo, accès, fermetures, risques volcaniques, conditions de glace, quotas et règles environnementales changent. Vérifiez toujours auprès de l'organisme gestionnaire avant de partir. Pour les sites fragiles ou abritant des espèces sensibles, les positions sont volontairement généralisées et aucun itinéraire d'accès n'est publié.</p>
+  </section>
+</Base>

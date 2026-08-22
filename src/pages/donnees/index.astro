@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import { places, reserve, taxonomies } from '../../data/places';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base title="Données ouvertes · 100 joyaux naturels">
+  <section class="band shell" style="padding-top:7rem">
+    <p class="eyebrow">Données</p>
+    <h1>Tout est réutilisable</h1>
+    <p class="lead">Le corpus éditorial est publié en JSON et GeoJSON, validé à chaque construction par un schéma JSON Schema 2020-12. Les notations internes de sélection ne sont pas exposées.</p>
+
+    <div class="factgrid" style="margin:2rem 0">
+      <div class="fact"><dt>Lieux publiés</dt><dd>{places.length}</dd></div>
+      <div class="fact"><dt>Réservistes</dt><dd>{reserve.length}</dd></div>
+      <div class="fact"><dt>Types de paysage</dt><dd>{taxonomies.landscapes.length}</dd></div>
+      <div class="fact"><dt>Version du vocabulaire</dt><dd>{taxonomies.version}</dd></div>
+    </div>
+
+    <table class="data">
+      <tbody>
+        <tr><th><a href={`${base}/donnees/lieux.geojson`}>lieux.geojson</a></th><td>Tous les lieux publiés, points et propriétés essentielles.</td></tr>
+        <tr><th><a href={`${base}/donnees/lieux.json`}>lieux.json</a></th><td>Corpus complet, une entrée par lieu.</td></tr>
+        <tr><th><code>/donnees/lieux/&lt;id&gt;.json</code></th><td>Fiche individuelle, format utilisé par le panneau latéral.</td></tr>
+        <tr><th><a href={`${base}/donnees/taxonomies.json`}>taxonomies.json</a></th><td>Vocabulaires contrôlés : régions, paysages, familles, badges, menaces, désignations.</td></tr>
+      </tbody>
+    </table>
+
+    <h2 style="margin-top:2.4rem">Licence</h2>
+    <p>Données éditoriales sous CC BY 4.0, code sous MIT. Les statuts de protection, superficies et références proviennent de sources tierces citées dans chaque fiche et conservent leurs conditions propres.</p>
+  </section>
+</Base>

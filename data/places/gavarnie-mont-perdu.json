@@ -1,0 +1,145 @@
+{
+  "id": "gavarnie-mont-perdu",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Pyrénées, Mont-Perdu",
+    "name_official": "Pyrénées - Mont Perdu",
+    "name_local": [
+      { "lang": "es", "value": "Monte Perdido" },
+      { "lang": "oc", "value": "Mont Perdut", "note": "Gascon" },
+      { "lang": "an", "value": "Tres Serols", "note": "Nom aragonais du massif" }
+    ],
+    "name_indigenous": null,
+    "aka": ["Cirque de Gavarnie", "Ordesa et Mont-Perdu"]
+  },
+  "location": {
+    "countries": ["FR", "ES"],
+    "country_labels": ["France", "Espagne"],
+    "subdivision": "Hautes-Pyrénées, Occitanie, et province de Huesca, Aragon",
+    "region": "europe",
+    "lat": 42.6753,
+    "lng": 0.0342,
+    "coordinate_precision": "site",
+    "bbox": [-0.15, 42.55, 0.25, 42.8],
+    "area_km2": 306.39,
+    "elevation_min_m": 700,
+    "elevation_max_m": 3355,
+    "depth_max_m": null,
+    "timezone": "Europe/Paris"
+  },
+  "landscape": {
+    "primary": "montagne",
+    "types": ["montagne", "canyon", "cascade", "karst"],
+    "family": "relief",
+    "iucn_ecosystem": ["T3.2 Prairies et landes alpines", "T2.4 Forêts de conifères tempérées", "S1.1 Systèmes karstiques souterrains"],
+    "biome": "Étages montagnard, subalpin et alpin des Pyrénées",
+    "climate": "Cfb et Dfb côté nord, Csb à influence méditerranéenne côté sud, ET au dessus de 2 800 m",
+    "collections": ["vertiges", "royaumes-eau"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "unesco-mixte", "name": "Pyrénées - Mont Perdu", "ref": "773", "since": 1997, "criteria": ["iii", "iv", "v", "vii", "viii"], "url": "https://whc.unesco.org/fr/list/773/" },
+      { "type": "national-park", "name": "Parc national des Pyrénées", "since": 1967, "url": "https://www.pyrenees-parcnational.fr/" },
+      { "type": "national-park", "name": "Parque Nacional de Ordesa y Monte Perdido", "since": 1918, "url": "https://www.aragon.es/-/parque-nacional-de-ordesa-y-monte-perdido" }
+    ],
+    "managing_body": { "name": "Parc national des Pyrénées et Parque Nacional de Ordesa y Monte Perdido", "url": "https://www.pyrenees-parcnational.fr/", "note": "Gestion bilatérale coordonnée entre l'établissement français et le gouvernement d'Aragon, gestionnaire du parc espagnol." }
+  },
+  "editorial": {
+    "badges": ["exceptionnel", "geologie-remarquable", "grande-nature"],
+    "essential": false,
+    "lede": "Un massif calcaire de plus de trois mille trois cents mètres, découpé au nord en murailles de cirques et fendu au sud par deux canyons dont on ne voit pas le fond depuis le rebord.",
+    "why_here": "C'est le plus haut massif calcaire d'Europe, et il montre la même pile de roches sous deux formes opposées, à quelques kilomètres de distance. Au nord, la glace a évidé les têtes de vallée en cirques emboîtés dont les parois exposent des bancs horizontaux presque parfaits, lisibles comme une coupe géologique à ciel ouvert. Au sud, l'eau a scié des canyons étroits dans la même série. Le site montre donc côte à côte deux outils de sculpture, la glace et la rivière, agissant sur un matériau identique. Il ajoute une dimension que peu de sites naturels assument : le paysage pastoral transhumant y est encore actif et fait partie de la valeur inscrite, ce qui en fait un bien mixte assumé plutôt qu'un décor sans habitants.",
+    "presentation": "Le bien s'étend de part et d'autre de la frontière franco espagnole sur 30 639 hectares, autour du Monte Perdido, point culminant du massif à environ 3 355 mètres. La ligne de crête sépare deux versants qui ne se ressemblent pas : au nord des vallées courtes, humides et fermées par des murailles, au sud de longues vallées ouvertes sur les plaines aragonaises.\n\nCôté français se succèdent trois cirques. Gavarnie, le plus fréquenté, dessine un demi cercle de parois étagées d'environ mille cinq cents mètres de haut, dont la corniche supérieure porte la Brèche de Roland, entaille de plusieurs dizaines de mètres dans la crête. Estaubé, plus discret et plus étroit, garde une allure de vallon suspendu. Troumouse, immense et peu visité, ouvre un amphithéâtre de pelouses cerné de sommets.\n\nCôté espagnol, le canyon d'Ordesa file d'ouest en est sur une quinzaine de kilomètres, avec un profil en auge aux parois roses et grises. Añisclo, plus au sud, est une entaille étroite et sombre, guidée par une fracture, dans laquelle la rivière Bellós coule au fond d'une gorge dont on n'aperçoit le lit que par endroits. Escuaín et Pineta complètent l'ensemble.\n\nLa Grande Cascade de Gavarnie tombe de la corniche supérieure du cirque sur environ 422 mètres, ce qui en fait l'une des plus hautes chutes d'Europe. Elle ne provient pas d'un torrent d'amont visible, mais d'une résurgence de haute paroi alimentée par la fonte et par des circulations souterraines dans le calcaire du plateau frontalier.\n\nLe pastoralisme est la seconde raison de l'inscription. Les estives sont encore parcourues chaque été, et des accords de pacage entre vallées françaises et espagnoles, hérités des traités de lies et passeries, ont traversé les siècles et les frontières politiques. C'est ce paysage vivant, autant que la roche, que l'UNESCO a retenu en 1997, avant l'extension de 1999 qui a élargi la partie française.",
+    "geology": "La pile visible est presque entièrement carbonatée. Elle comprend des calcaires et des dolomies du Crétacé supérieur puis, au dessus, d'épais calcaires marins de l'Éocène, riches en nummulites, ces grands foraminifères en forme de pièce de monnaie qui datent la roche sans ambiguïté. Ces sédiments se sont déposés dans un bassin marin peu profond, sur la marge nord de la plaque ibérique, il y a environ soixante dix à quarante cinq millions d'années. L'épaisseur cumulée dépasse le millier de mètres.\n\nLa collision entre l'Ibérie et l'Europe, engagée dès le Crétacé supérieur et culminant à l'Éocène et à l'Oligocène, a ensuite déformé cet ensemble. Le mécanisme dominant n'est pas le plissement mais le chevauchement : de grandes écailles se sont détachées de leur substratum et ont glissé les unes sur les autres vers le sud. Le chevauchement de Gavarnie, l'un des accidents majeurs de la chaîne, a poussé du socle paléozoïque par dessus la couverture mésozoïque et éocène.\n\nC'est ce mode de déformation qui donne au paysage sa signature. Le massif du Mont-Perdu est un empilement d'écailles de calcaire éocène restées presque horizontales à l'intérieur de chaque unité. Les parois des cirques exposent donc des bancs superposés, réguliers, séparés de vires herbeuses, et l'œil lit la stratification sur mille cinq cents mètres de hauteur comme sur une planche de manuel.\n\nDeux processus ont ensuite creusé. Le premier est la dissolution : le calcaire absorbe l'eau, la surface se troue de lapiez et de gouffres, et les écoulements deviennent souterrains, ce qui explique des plateaux secs au dessus de résurgences puissantes. Le second est le glaciaire. Pendant les glaciations quaternaires, des langues épaisses ont occupé les vallées du Gave de Pau et de l'Arazas. Elles ont surcreusé les têtes de vallée en cirques emboîtés et transformé la vallée d'Ordesa en auge à fond plat et parois raides.\n\nAñisclo échappe à ce modèle : la gorge est étroite, en V, guidée par une fracture, et doit sa forme à l'incision de la rivière plus qu'à la glace. Sur quelques kilomètres, le site présente donc les deux signatures côte à côte, ce qui en fait un objet d'enseignement précieux. Il subsiste enfin sur la face nord du Monte Perdido un petit glacier, l'un des plus méridionaux d'Europe, qui n'est plus qu'un résidu de son extension du dix neuvième siècle."
+    ,
+    "dynamics": "Le régime hydrologique est nival, avec un pic de fonte de mai à juillet. La Grande Cascade suit cette courbe de très près : puissante au début de l'été, elle se réduit fortement en août et en septembre, et se prend en glace une partie de l'hiver. Le calcaire impose partout un fonctionnement à deux niveaux, un écoulement de surface bref et une circulation souterraine lente qui restitue l'eau plus bas, parfois de l'autre côté de la crête frontalière. Les faces nord conservent des névés tardifs et des couloirs d'avalanche actifs jusqu'en juin, et les chutes de pierres sont fréquentes au dégel. Le contraste climatique entre les deux versants structure la végétation : humidité atlantique au nord, influence méditerranéenne au sud, avec des pins à crochets, des hêtraies sapinières et, sur les corniches ensoleillées d'Ordesa, des espèces beaucoup plus thermophiles. La transhumance ovine monte en estive de juin à septembre et redescend avant les premières neiges.",
+    "biodiversity_text": "L'isard occupe les vires et les pierriers des deux versants, en effectifs solides depuis la protection. Les parois abritent le gypaète barbu, dont les Pyrénées sont l'un des derniers bastions européens, ainsi que le vautour fauve, le percnoptère et le faucon pèlerin. La marmotte, réintroduite dans les Pyrénées au milieu du vingtième siècle, y est aujourd'hui abondante. Les torrents froids hébergent le desman des Pyrénées, petit insectivore semi aquatique endémique de la chaîne et en fort déclin. Côté flore, les falaises calcaires conservent des reliques tertiaires comme la ramonde des Pyrénées, capable de reverdir après dessiccation complète, et plusieurs endémiques strictes, dont la borderée des Pyrénées. Les pelouses d'estive, entretenues par le pâturage, portent une diversité florale qui disparaît là où la transhumance cesse.",
+    "in_motion": "Le glacier du Mont-Perdu s'est réduit à une fraction de ce qu'il était au dix neuvième siècle et son maintien à moyen terme n'est plus considéré comme acquis, ce qui vaut pour l'ensemble des glaciers pyrénéens. La limite des arbres remonte, les névés permanents disparaissent, et le régime des torrents se décale vers une fonte plus précoce. Sur le versant sud, la sécheresse estivale s'allonge et fragilise les sapinières. Le second changement est social : la transhumance repose sur un petit nombre d'exploitations, et sa disparition ferait perdre au bien une part de sa valeur inscrite, tout en refermant les estives par embroussaillement. La fréquentation de Gavarnie et de la Pradera d'Ordesa a conduit à instaurer des navettes obligatoires en été.",
+    "guess_hints": [
+      "Le plus haut massif calcaire d'Europe, au dessus de 3 300 mètres",
+      "Cirques glaciaires à parois stratifiées d'environ 1 500 mètres",
+      "Chute de plus de 400 mètres alimentée par une résurgence karstique",
+      "Transhumance ovine transfrontalière encore pratiquée"
+    ]
+  },
+  "figures": [
+    { "label": "Bien inscrit", "value": "30 639 ha" },
+    { "label": "Monte Perdido", "value": "environ 3 355 m, 3 352 m selon la fiche UNESCO" },
+    { "label": "Grande Cascade de Gavarnie", "value": "environ 422 m" },
+    { "label": "Parois du cirque de Gavarnie", "value": "environ 1 500 m de hauteur" },
+    { "label": "Canyon d'Ordesa", "value": "environ 15 km de long" },
+    { "label": "Épaisseur de la série calcaire", "value": "plus de 1 000 m" },
+    { "label": "Inscription UNESCO", "value": "1997, étendue en 1999, critères iii, iv, v, vii et viii" }
+  ],
+  "geology": {
+    "age": "Calcaires du Crétacé supérieur et de l'Éocène, structuration pyrénéenne de l'Éocène à l'Oligocène, creusement glaciaire et karstique quaternaire",
+    "processes": ["chevauchement et empilement d'écailles", "surcreusement glaciaire en cirques et en auges", "incision fluviale guidée par fracture", "karstification et circulations souterraines", "éboulement de paroi"],
+    "rock_types": ["calcaire à nummulites", "calcaire crétacé", "dolomie", "grès et marnes de flysch", "socle paléozoïque chevauchant"],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Isard", "name_sci": "Rupicapra pyrenaica", "group": "mammifère", "iucn_status": "LC", "note": "Chamois des Pyrénées, présent sur les deux versants." },
+      { "name_fr": "Gypaète barbu", "name_sci": "Gypaetus barbatus", "group": "oiseau", "iucn_status": "NT", "note": "Les Pyrénées constituent l'un des derniers noyaux de reproduction d'Europe occidentale." },
+      { "name_fr": "Desman des Pyrénées", "name_sci": "Galemys pyrenaicus", "group": "mammifère", "iucn_status": "EN", "note": "Endémique de la chaîne et du nord ouest ibérique, lié aux torrents froids." },
+      { "name_fr": "Ramonde des Pyrénées", "name_sci": "Ramonda myconi", "group": "flore", "note": "Relique tertiaire des parois ombragées, reviviscente après dessiccation." },
+      { "name_fr": "Borderée des Pyrénées", "name_sci": "Borderea pyrenaica", "group": "flore", "note": "Endémique stricte des éboulis calcaires d'altitude." }
+    ],
+    "endemism_level": "eleve",
+    "endemism_note": "Refuge glaciaire de haute chaîne : plusieurs dizaines de plantes endémiques des Pyrénées, dont certaines limitées aux éboulis et aux parois calcaires du massif.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [6, 7, 9],
+    "avoid_months": [12, 1, 2, 3],
+    "phenomena": [
+      { "label": "Fonte nivale, Grande Cascade à son débit maximal", "kind": "fonte", "months": [5, 6], "note": "Les sentiers d'altitude restent enneigés à cette période." },
+      { "label": "Floraison des pelouses subalpines et alpines", "kind": "floraison", "months": [6, 7] },
+      { "label": "Montée puis descente des troupeaux en estive", "kind": "migration", "months": [6, 9] },
+      { "label": "Couleurs des hêtraies d'Ordesa", "kind": "couleurs", "months": [10, 11] },
+      { "label": "Cascade partiellement gelée et couloirs d'avalanche actifs", "kind": "glace", "months": [12, 1, 2, 3] }
+    ],
+    "notes": "Juillet et août saturent Gavarnie et la Pradera d'Ordesa, avec navettes obligatoires. Fin juin et septembre offrent des conditions comparables avec beaucoup moins de monde."
+  },
+  "visit": {
+    "accessibility": "modere",
+    "suggested_duration": "3 à 5 jours pour parcourir les deux versants",
+    "difficulty": "Marche d'approche facile jusqu'aux pieds des cirques, itinéraires d'altitude longs et exposés au dessus, haute montagne pour la Brèche et le Monte Perdido.",
+    "extreme_conditions": ["orages d'après midi en été", "chutes de pierres au dégel", "névés durs et couloirs d'avalanche jusqu'en juin"],
+    "permits": "Pas de permis individuel, mais navettes obligatoires en haute saison sur les accès de la Pradera d'Ordesa et d'Añisclo, et réglementation de parc national des deux côtés.",
+    "rules": [
+      "Chiens interdits dans la zone cœur du parc national des Pyrénées et dans le parc national espagnol, y compris tenus en laisse.",
+      "Bivouac seulement à plus d'une heure de marche des limites du parc et entre le coucher et le lever du soleil, côté français ; camping interdit côté espagnol hors refuges.",
+      "Ne pas s'approcher des troupeaux ni des chiens de protection, contourner largement les estives occupées.",
+      "Aucun prélèvement de plantes ni de minéraux, plusieurs endémiques des éboulis sont strictement protégées.",
+      "Drones interdits sur l'ensemble des deux parcs nationaux.",
+      "Emprunter les navettes obligatoires en saison plutôt que de chercher un stationnement de proximité."
+    ],
+    "official_url": "https://www.pyrenees-parcnational.fr/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "moderee",
+    "state": "Le bien est protégé des deux côtés de la frontière par des parcs nationaux anciens et solides, et l'intégrité géomorphologique n'est pas en cause. Les difficultés sont de trois ordres. La fréquentation, très concentrée dans le temps et sur quelques points d'accès, a imposé la mise en place de navettes et de quotas de stationnement à Gavarnie comme à Ordesa. Le climat agit vite en altitude : le glacier du Mont-Perdu se réduit, les névés permanents disparaissent, les sapinières du versant sud souffrent d'étés plus secs. Enfin, le maintien du pastoralisme transhumant, qui fait partie de la valeur reconnue par l'inscription, dépend d'un nombre restreint d'exploitations et de dispositifs de soutien, et la question du retour des grands prédateurs, ours et loup, en complique l'équilibre. La coordination franco espagnole a longtemps été jugée insuffisante par les instances du patrimoine mondial et reste un point de suivi.",
+    "trend": "stable",
+    "threats": [
+      { "type": "tourisme", "level": "eleve", "note": "Concentration estivale sur Gavarnie, la Pradera d'Ordesa et la Brèche de Roland." },
+      { "type": "climat", "level": "eleve", "note": "Étés plus secs, remontée des étages de végétation, stress des sapinières du versant sud." },
+      { "type": "fonte-glaciaire", "level": "eleve", "note": "Le glacier du Mont-Perdu, l'un des plus méridionaux d'Europe, est en régression avancée." },
+      { "type": "surpaturage", "level": "faible", "note": "Le risque dominant n'est pas la surcharge mais l'abandon des estives et leur embroussaillement." }
+    ],
+    "understand_without_going": false,
+    "message": "Le cirque se lit mieux tôt le matin, avant les navettes, et le versant espagnol donne du massif une image que le seul cirque de Gavarnie ne laisse pas soupçonner. Une visite qui traverse la frontière comprend le site ; une visite qui s'arrête au pied de la cascade n'en voit qu'une face."
+  },
+  "media": { "hero": null, "gallery": [] },
+  "sources": [
+    { "title": "Pyrénées - Mont Perdu", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/773/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Parc national des Pyrénées, site officiel", "publisher": "Parc national des Pyrénées", "url": "https://www.pyrenees-parcnational.fr/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Parque Nacional de Ordesa y Monte Perdido", "publisher": "Gobierno de Aragón", "url": "https://www.aragon.es/-/parque-nacional-de-ordesa-y-monte-perdido", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Parque Nacional de Ordesa y Monte Perdido, Red Natural de Aragón", "publisher": "Red Natural de Aragón", "url": "https://www.rednaturaldearagon.com/parque-nacional-de-ordesa-y-monte-perdido/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Base mondiale des aires protégées", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" }
+  ],
+  "score": { "criteria": { "visuel": 5, "singularite": 4, "rarete": 4, "diversite": 4, "integrite": 3, "monumentalite": 5, "actif": 2, "biologique": 3, "photogenie": 5, "pedagogie": 5, "conservation": 3, "complementarite": 4 }, "total": 108, "scored_on": "2026-08-22" }
+}

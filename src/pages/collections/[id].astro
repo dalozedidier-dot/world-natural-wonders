@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import Grid from '../../components/Grid.astro';
+import { places, taxonomies } from '../../data/places';
+export function getStaticPaths() {
+  return taxonomies.collections.map(c => ({
+    params: { id: c.id },
+    props: { collection: c, items: places.filter(p => (p.landscape.collections ?? []).includes(c.id)) }
+  }));
+}
+const { collection, items } = Astro.props;
+---
+<Base title={`${collection.label} · 100 joyaux naturels`} description={collection.desc}>
+  <section class="band shell" style="padding-top:7rem">
+    <p class="eyebrow">Collection</p>
+    <h1>{collection.label}</h1>
+    <p class="lead">{collection.desc}</p>
+    <p class="muted">{items.length} lieux</p>
+    <div style="margin-top:2.2rem"><Grid items={items} /></div>
+  </section>
+</Base>

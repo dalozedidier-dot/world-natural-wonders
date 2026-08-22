@@ -1,0 +1,8 @@
+---
+import PlaceCard from './PlaceCard.astro';
+import type { Place } from '../data/types';
+const { items } = Astro.props as { items: Place[] };
+---
+<div class="cardgrid">
+  {items.map(p => <PlaceCard place={p} />)}
+</div>

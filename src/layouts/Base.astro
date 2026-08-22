@@ -1,0 +1,99 @@
+---
+import '../styles/global.css';
+export interface Props {
+  title: string;
+  description?: string;
+  image?: string | null;
+  wide?: boolean;
+  bodyClass?: string;
+}
+const { title, description = "Cent paysages naturels qui racontent quatre milliards d'années d'histoire de la Terre. Atlas cartographique et éditorial, sources vérifiées, images sous licence libre.", image = null, bodyClass = '' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const url = new URL(Astro.url.pathname, Astro.site ?? 'https://example.org').href;
+const nav = [
+  { href: `${base}/`, label: 'Carte' },
+  { href: `${base}/collections`, label: 'Collections' },
+  { href: `${base}/calendrier`, label: 'Calendrier' },
+  { href: `${base}/explorer`, label: 'Deviner' },
+  { href: `${base}/terre-en-mouvement`, label: 'La Terre en mouvement' },
+  { href: `${base}/methode`, label: 'Méthode' }
+];
+const here = Astro.url.pathname.replace(/\/$/, '');
+---
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#07100f" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={url} />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:locale" content="fr_FR" />
+  {image && <meta property="og:image" content={new URL(image, Astro.site ?? url).href} />}
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+</head>
+<body class={bodyClass}>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="topbar">
+    <a class="brand" href={`${base}/`}>
+      <span class="brand-mark">100</span>
+      <span class="brand-text"><strong>Joyaux naturels</strong><small>de la Terre</small></span>
+    </a>
+    <nav aria-label="Navigation principale">
+      {nav.map(n => (
+        <a class="navlink" href={n.href} aria-current={here === n.href.replace(/\/$/, '') ? 'page' : undefined}>{n.label}</a>
+      ))}
+      <a class="navlink" href={`${base}/favoris`} id="favCount" data-fav-count>Favoris</a>
+    </nav>
+  </header>
+
+  <main id="main"><slot /></main>
+
+  <footer class="site">
+    <div class="shell cols">
+      <div>
+        <h4>Le projet</h4>
+        <p>Cent paysages naturels précis, choisis selon une méthode publiée, décrits à partir de sources officielles et scientifiques. Aucune ville, aucun monument, aucun aménagement.</p>
+      </div>
+      <div>
+        <h4>Explorer</h4>
+        <ul>
+          <li><a href={`${base}/`}>Carte mondiale</a></li>
+          <li><a href={`${base}/collections`}>Collections thématiques</a></li>
+          <li><a href={`${base}/calendrier`}>Calendrier naturel</a></li>
+          <li><a href={`${base}/comparer`}>Comparateur</a></li>
+          <li><a href={`${base}/favoris`}>Mes listes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Transparence</h4>
+        <ul>
+          <li><a href={`${base}/methode`}>Charte de sélection</a></li>
+          <li><a href={`${base}/credits`}>Crédits et licences</a></li>
+          <li><a href="https://www.openstreetmap.org/copyright" rel="noopener">© OpenStreetMap</a></li>
+          <li><a href={`${base}/donnees`}>Données ouvertes</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Avertissement</h4>
+        <p>Les conditions d'accès, la météo, les fermetures et les règles locales changent. Vérifiez toujours auprès de l'organisme gestionnaire avant de partir.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const KEY = 'wnw:lists:v1';
+    try {
+      const raw = localStorage.getItem(KEY);
+      const lists = raw ? JSON.parse(raw) : { favorites: [], seen: [], someday: [] };
+      const n = (lists.favorites || []).length;
+      const el = document.querySelector('[data-fav-count]');
+      if (el && n) el.textContent = `Favoris (${n})`;
+    } catch {}
+  </script>
+</body>
+</html>

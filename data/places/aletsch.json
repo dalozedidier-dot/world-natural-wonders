@@ -1,0 +1,143 @@
+{
+  "id": "aletsch",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Glacier d'Aletsch",
+    "name_official": "Alpes suisses Jungfrau-Aletsch",
+    "name_local": [
+      { "lang": "de", "value": "Grosser Aletschgletscher" },
+      { "lang": "de", "value": "Schweizer Alpen Jungfrau-Aletsch", "note": "Nom officiel du bien du patrimoine mondial." }
+    ],
+    "name_indigenous": null,
+    "aka": ["Grand Glacier d'Aletsch", "Jungfrau-Aletsch"]
+  },
+  "location": {
+    "countries": ["CH"],
+    "country_labels": ["Suisse"],
+    "subdivision": "Cantons du Valais et de Berne",
+    "region": "europe",
+    "lat": 46.5,
+    "lng": 8.05,
+    "coordinate_precision": "site",
+    "bbox": [7.85, 46.35, 8.25, 46.62],
+    "area_km2": 824,
+    "elevation_min_m": 1560,
+    "elevation_max_m": 4274,
+    "depth_max_m": null,
+    "timezone": "Europe/Zurich"
+  },
+  "landscape": {
+    "primary": "glacier",
+    "types": ["glacier", "montagne"],
+    "family": "glace",
+    "iucn_ecosystem": ["T6.1 Glaciers et champs de glace", "T3.2 Landes et prairies alpines", "T2.3 Forêts subalpines de conifères"],
+    "biome": "Toundra alpine et forêts de conifères de montagne",
+    "climate": "ET en altitude, Dfc à l'étage subalpin",
+    "collections": ["mondes-de-glace", "paysages-en-transformation", "vertiges"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "unesco-whs", "name": "Alpes suisses Jungfrau-Aletsch", "ref": "1037", "since": 2001, "criteria": ["vii", "viii", "ix"], "url": "https://whc.unesco.org/fr/list/1037/" },
+      { "type": "nature-reserve", "name": "Réserve naturelle de l'Aletschwald, Pro Natura", "since": 1933 },
+      { "type": "nature-reserve", "name": "Inventaire fédéral des paysages, sites et monuments naturels d'importance nationale" }
+    ],
+    "managing_body": { "name": "Centre de gestion du patrimoine mondial Alpes suisses Jungfrau-Aletsch", "url": "https://www.jungfraualetsch.ch/" }
+  },
+  "editorial": {
+    "badges": ["grande-nature", "geologie-remarquable", "exceptionnel"],
+    "essential": true,
+    "lede": "Une rivière de glace de vingt kilomètres, striée de bandes sombres parfaitement parallèles, descend d'un cirque de sommets à quatre mille mètres vers une forêt d'arolles qui la surplombe.",
+    "why_here": "Aletsch est le plus grand glacier des Alpes et le mieux mesuré du monde : la Suisse en tient les relevés depuis le dix-neuvième siècle, ce qui en fait la référence pour comprendre ce qu'un glacier de vallée fait, et ce qu'il devient. Sa lecture est immédiate, parce que les moraines médianes dessinent en surface les affluents qui l'alimentent : on voit la circulation de la glace au lieu de l'imaginer. Le site couvre en outre la coupe géologique la plus complète des Alpes, du socle cristallin de l'Aar aux nappes charriées du domaine pennique. Enfin, il fournit à la sélection le cas le plus documenté d'un paysage en train de disparaître à l'échelle d'une vie humaine.",
+    "presentation": "Le glacier commence dans un amphithéâtre de sommets qui compte parmi les plus hauts des Alpes : Jungfrau, Mönch, Aletschhorn, Finsteraarhorn. Quatre grands névés y accumulent la neige et convergent en un point unique, la Konkordiaplatz, à environ 2 700 mètres. C'est là que la glace atteint son épaisseur maximale, plus de huit cents mètres, et là que le glacier prend sa forme définitive.\n\nÀ la confluence, les moraines latérales de chaque branche se retrouvent prises au milieu du flux commun et deviennent des bandes médianes. Elles descendent ensuite sur des kilomètres, rigoureusement parallèles, sans jamais se mélanger, parce que la glace s'écoule en régime laminaire. Ces lignes sombres sur fond blanc sont la signature visuelle du glacier et son meilleur outil pédagogique : chacune raconte quel affluent l'a produite.\n\nLa langue s'incurve vers le sud-est puis vers le sud, décrit un long virage et vient mourir vers 1 560 mètres, où naît la Massa qui rejoint le Rhône. La surface, lisse en amont, se brise en séracs et en crevasses là où la pente augmente.\n\nSur la rive droite, cent à deux cents mètres au-dessus de la glace, l'Aletschwald occupe une pente exposée au sud. Cette forêt d'arolles et de mélèzes, protégée depuis 1933, pousse sur des terrains libérés par le glacier et compte des arbres de plusieurs siècles. Elle offre le seul point de vue où le regard embrasse à la fois la rivière de glace, les moraines de son extension maximale et la végétation qui reconquiert le terrain abandonné.\n\nDe cette terrasse, la mesure du recul est directe : la lisière supérieure de la forêt et les cordons morainiques de 1850 marquent un niveau de glace que l'on domine aujourd'hui de très haut."
+    ,
+    "geology": "Le bien couvre une coupe presque complète des Alpes centrales. Au sud et à l'est affleure le massif de l'Aar, un socle cristallin hercynien de granites et de gneiss mis en place il y a environ trois cents millions d'années, bien avant qu'aucune montagne alpine n'existe. Ces roches dures et peu déformables ont ensuite servi de butoir : elles expliquent la verticalité des parois et la résistance des sommets du Finsteraarhorn.\n\nAu nord, la Jungfrau et le Mönch portent une pile de sédiments mésozoïques, calcaires et marnes déposés dans l'océan alpin, arrachés à leur socle et empilés en nappes de charriage lors de la collision entre la plaque adriatique et la marge européenne, à partir d'environ trente-cinq millions d'années. Le front pennique, l'un des grands accidents de la chaîne, traverse le secteur : il marque la limite entre le domaine helvétique, resté proche de l'Europe, et les unités penniques venues du domaine océanique refermé. Voir en un seul panorama le socle, sa couverture décollée et la suture qui les sépare est ce qui a valu au site son inscription au titre de l'histoire de la Terre.\n\nLa forme actuelle est quaternaire. Depuis deux millions et demi d'années, une quarantaine de cycles glaciaires ont transformé un relief fluviatile en auges en U, en cirques et en arêtes. Aletsch est ce qui reste, très réduit, de ces appareils. Il travaille par abrasion, polissant la roche sous des centaines de mètres de glace, et par arrachement au niveau des ressauts, ce qui produit la charge morainique visible en surface.\n\nLa Massa évacue chaque année une quantité considérable de farine glaciaire, ce limon issu du broyage de la roche qui donne aux torrents alpins leur teinte laiteuse et alimente en sédiments toute la vallée du Rhône."
+    ,
+    "dynamics": "La glace se forme dans les hauts bassins, où la neige accumulée se tasse, expulse son air et se transforme en névé puis en glace en quelques décennies. Elle s'écoule ensuite vers l'aval à une vitesse qui atteint environ deux cents mètres par an dans les sections rapides et devient presque nulle près du front. Un flocon tombé sur la Jungfrau met de l'ordre de deux siècles à ressortir à la langue. La ligne d'équilibre, altitude où l'accumulation compense exactement la fonte, est le paramètre décisif : elle s'est élevée nettement depuis un demi-siècle, réduisant la zone d'alimentation et condamnant le bilan de masse à rester négatif. L'ablation culmine entre juin et septembre. L'eau de fonte percole dans les crevasses, se rassemble en un réseau de conduits intraglaciaires et ressort au portail de la Massa, dont le débit suit un cycle journalier marqué, maximal en fin d'après-midi. Le lac de Märjelen, sur le flanc du glacier, a jadis produit des vidanges brutales aujourd'hui neutralisées par la baisse du niveau de la glace.",
+    "biodiversity_text": "L'Aletschwald est le cœur biologique du site : une forêt subalpine d'arolles et de mélèzes, en partie ancienne, où le cassenoix moucheté joue un rôle décisif en dispersant les graines d'arole qu'il enterre par milliers et oublie en partie. Les pentes accueillent le chamois, le bouquetin des Alpes réintroduit au vingtième siècle, la marmotte et le lièvre variable. L'aigle royal niche sur les parois, et le gypaète barbu, éteint dans les Alpes au début du vingtième siècle, y vole de nouveau depuis le programme de réintroduction lancé dans les années 1980. Les terrains libérés par le recul du glacier offrent une chronoséquence de colonisation végétale exemplaire, des lichens et mousses pionnières sur moraine fraîche jusqu'à la forêt fermée sur les surfaces dégagées depuis le plus longtemps, ce qui a justifié le critère écologique de l'inscription.",
+    "in_motion": "Depuis son maximum du Petit Âge glaciaire vers 1850, le glacier a reculé de plusieurs kilomètres et perdu, à la Konkordiaplatz, plus de deux cents mètres d'épaisseur. Le rythme s'est accéléré depuis les années 1980, et les étés 2022 et 2023 ont figuré parmi les pires jamais mesurés pour les glaciers suisses. Les projections convergent : même dans les scénarios d'émissions modérées, Aletsch perdrait la plus grande part de son volume d'ici la fin du siècle, et ne subsisterait au mieux que sous forme de reliquats dans les hauts bassins. Le recul libère des versants déstabilisés, ce qui augmente les chutes de blocs et les laves torrentielles.",
+    "guess_hints": [
+      "Plus grand glacier d'une chaîne de moyenne latitude",
+      "Bandes de débris parallèles issues de la confluence de quatre névés",
+      "Épaisseur de glace supérieure à 800 mètres",
+      "Forêt d'arolles installée sur des terrains abandonnés par la glace"
+    ]
+  },
+  "figures": [
+    { "label": "Longueur du glacier", "value": "environ 20 km selon les relevés récents" },
+    { "label": "Surface englacée", "value": "environ 80 km²" },
+    { "label": "Épaisseur maximale à la Konkordiaplatz", "value": "plus de 800 m" },
+    { "label": "Bien inscrit au patrimoine mondial", "value": "824 km² après l'extension de 2007" },
+    { "label": "Inscription UNESCO", "value": "2001, étendue en 2007, critères vii, viii et ix" },
+    { "label": "Altitude du front", "value": "environ 1 560 m" },
+    { "label": "Point culminant du bien", "value": "Finsteraarhorn, 4 274 m" },
+    { "label": "Perte d'épaisseur à la Konkordiaplatz depuis 1850", "value": "plus de 200 m" }
+  ],
+  "geology": {
+    "age": "Socle cristallin hercynien vers 300 Ma, couverture mésozoïque, structuration alpine depuis environ 35 Ma, modelé glaciaire quaternaire",
+    "processes": ["accumulation et transformation du névé", "écoulement laminaire de la glace", "abrasion et arrachement glaciaires", "charriage de nappes", "décompression postglaciaire des versants"],
+    "rock_types": ["granite et gneiss du massif de l'Aar", "calcaires et marnes mésozoïques", "unités métamorphiques penniques"],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Arole", "name_sci": "Pinus cembra", "group": "plante", "iucn_status": "LC", "note": "Pin de haute altitude, arbre structurant de l'Aletschwald." },
+      { "name_fr": "Gypaète barbu", "name_sci": "Gypaetus barbatus", "group": "oiseau", "iucn_status": "NT", "note": "Réintroduit dans les Alpes à partir des années 1980." },
+      { "name_fr": "Bouquetin des Alpes", "name_sci": "Capra ibex", "group": "mammifère", "iucn_status": "LC" },
+      { "name_fr": "Cassenoix moucheté", "name_sci": "Nucifraga caryocatactes", "group": "oiseau", "iucn_status": "LC", "note": "Disperseur exclusif ou presque des graines d'arole." },
+      { "name_fr": "Lièvre variable", "name_sci": "Lepus timidus", "group": "mammifère", "iucn_status": "LC" }
+    ],
+    "endemism_level": "faible",
+    "endemism_note": "Faune et flore alpines largement partagées avec le reste de la chaîne, la valeur biologique tenant surtout aux successions végétales sur terrains récemment déglacés.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [7, 8, 9, 10],
+    "avoid_months": [4, 11],
+    "phenomena": [
+      { "label": "Fonte maximale, torrents glaciaires à plein débit", "kind": "fonte", "months": [7, 8], "note": "Le débit de la Massa suit un cycle journalier très marqué." },
+      { "label": "Glacier déneigé, moraines médianes parfaitement lisibles", "kind": "autre", "months": [8, 9] },
+      { "label": "Couleurs des mélèzes de l'Aletschwald", "kind": "couleurs", "months": [10] },
+      { "label": "Couverture neigeuse continue, glacier illisible en surface", "kind": "glace", "months": [12, 1, 2, 3, 4] }
+    ],
+    "notes": "Les bandes médianes ne se voient qu'une fois la neige d'hiver fondue, en fin d'été. Les installations d'altitude ferment en partie entre les saisons."
+  },
+  "visit": {
+    "accessibility": "modere",
+    "suggested_duration": "2 à 4 jours",
+    "difficulty": "Points de vue accessibles par remontées mécaniques et sentiers balisés. Toute progression sur la glace relève de l'alpinisme, encordée et avec un guide.",
+    "extreme_conditions": ["altitude supérieure à 3 000 m", "crevasses masquées", "chutes de pierres sur les moraines", "changements météorologiques rapides"],
+    "permits": null,
+    "rules": [
+      "Ne jamais s'engager sur le glacier sans encordement, matériel de sauvetage en crevasse et accompagnement compétent.",
+      "Rester sur les sentiers dans la réserve de l'Aletschwald, les sols et la régénération des aroles y sont fragiles.",
+      "Aucun bivouac ni feu dans la réserve naturelle, chiens tenus en laisse.",
+      "Ne pas circuler sur les moraines instables au-dessus de la langue, la décompression des versants provoque des chutes de blocs.",
+      "Drones interdits au-dessus de la réserve et des zones de nidification des rapaces."
+    ],
+    "official_url": "https://www.jungfraualetsch.ch/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "La protection réglementaire et la gestion sont exemplaires, et l'intégrité paysagère du cœur du bien reste très bonne. La menace est d'une autre nature : elle vient du climat global et se traduit par une perte de masse que nulle mesure locale ne peut compenser. Le suivi glaciologique suisse, l'un des plus longs du monde, documente cette trajectoire année après année. Autour du bien, la pression touristique des domaines skiables et des remontées mécaniques est réelle mais encadrée, et les projets d'aménagement en zone tampon font l'objet d'un examen strict.",
+    "trend": "degradation",
+    "threats": [
+      { "type": "climat", "level": "critique", "note": "Élévation de la ligne d'équilibre, bilan de masse durablement négatif." },
+      { "type": "fonte-glaciaire", "level": "critique", "note": "Recul pluri-kilométrique depuis 1850 et perte d'épaisseur accélérée depuis les années 1980." },
+      { "type": "tourisme", "level": "modere", "note": "Forte fréquentation des points de vue d'altitude et des installations mécaniques en périphérie." },
+      { "type": "urbanisation", "level": "faible", "note": "Extension des équipements dans les zones tampon." }
+    ],
+    "understand_without_going": false,
+    "message": "Les cordons morainiques de 1850 restent visibles depuis les sentiers de rive : c'est le meilleur point de comparaison disponible, et il ne demande ni glacier ni équipement technique."
+  },
+  "media": { "hero": null, "gallery": [] },
+  "sources": [
+    { "title": "Alpes suisses Jungfrau-Aletsch", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/1037/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Patrimoine mondial Alpes suisses Jungfrau-Aletsch, site de gestion", "publisher": "Jungfrau-Aletsch", "url": "https://www.jungfraualetsch.ch/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Réseau suisse des relevés glaciologiques", "publisher": "GLAMOS", "url": "https://www.glamos.ch/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
+    { "title": "Aletschgletscher, réserve de l'Aletschwald", "publisher": "Pro Natura Aletsch", "url": "https://www.pronatura-aletsch.ch/de/aletschgletscher", "type": "officiel", "accessed": "2026-08-22" }
+  ],
+  "score": { "criteria": { "visuel": 5, "singularite": 4, "rarete": 3, "diversite": 3, "integrite": 4, "monumentalite": 5, "actif": 5, "biologique": 3, "photogenie": 5, "pedagogie": 5, "conservation": 3, "complementarite": 4 }, "total": 111, "scored_on": "2026-08-22" }
+}

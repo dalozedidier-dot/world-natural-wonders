@@ -1,0 +1,72 @@
+---
+import Base from '../layouts/Base.astro';
+import { places, taxonomies, label, heroFor } from '../data/places';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const months = taxonomies.months.map((m, i) => {
+  const n = i + 1;
+  const items = places.filter(p => p.seasonality.best_months.includes(n));
+  const events = places.flatMap(p =>
+    (p.seasonality.phenomena ?? [])
+      .filter(ph => ph.months.includes(n))
+      .map(ph => ({ place: p, ph }))
+  );
+  return { n, name: m, items, events };
+});
+const payload = months.map(m => ({
+  n: m.n, name: m.name,
+  items: m.items.map(p => ({ id: p.id, name: p.identity.name_fr, country: p.location.country_labels.join(' et '), family: p.landscape.family, hero: heroFor(p)?.local.replace(/^public\//, '/') ?? null, alt: heroFor(p)?.alt ?? '' })),
+  events: m.events.map(e => ({ id: e.place.id, place: e.place.identity.name_fr, label: e.ph.label, kind: e.ph.kind ?? 'autre', note: e.ph.note ?? '' }))
+}));
+const colors = Object.fromEntries(taxonomies.families.map(f => [f.id, f.color]));
+---
+<Base title="Calendrier naturel mondial · 100 joyaux naturels" description="Quels joyaux naturels sont extraordinaires en octobre ? Mousson, fonte des neiges, saison des lagunes, débit maximal des cascades, couleurs automnales, floraisons, soleil de minuit.">
+  <section class="band shell" style="padding-top:7rem">
+    <p class="eyebrow">Calendrier naturel mondial</p>
+    <h1>Quels joyaux sont extraordinaires ce mois-ci ?</h1>
+    <p class="lead">La Terre ne se visite pas au hasard du calendrier. Mousson, fonte des neiges, remplissage des lagunes, débit maximal des cascades, couleurs automnales, floraisons, nuit polaire : chaque paysage a ses fenêtres.</p>
+
+    <div class="calendar" id="monthbar" style="margin:2rem 0 1.6rem" role="tablist" aria-label="Choisir un mois">
+      {months.map(m => (
+        <button type="button" role="tab" data-month={m.n} aria-pressed="false">{m.name.slice(0, 4)}</button>
+      ))}
+    </div>
+
+    <div id="calendar-out" aria-live="polite"></div>
+    <script type="application/json" id="calendar-data" set:html={JSON.stringify(payload)} />
+    <script type="application/json" id="calendar-colors" set:html={JSON.stringify(colors)} />
+  </section>
+
+  <script define:vars={{ base }}>
+    const data = JSON.parse(document.getElementById('calendar-data').textContent);
+    const colors = JSON.parse(document.getElementById('calendar-colors').textContent);
+    const out = document.getElementById('calendar-out');
+    const bar = document.getElementById('monthbar');
+    const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+    function render(n) {
+      const m = data[n - 1];
+      bar.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(Number(b.dataset.month) === n)));
+      const cards = m.items.map(p => `
+        <a class="card" href="${base}/lieux/${p.id}">
+          <div class="media">${p.hero ? `<img src="${base}${p.hero}" alt="${esc(p.alt)}" loading="lazy">` : `<div style="width:100%;height:100%;background:linear-gradient(135deg, ${colors[p.family] || '#333'}22, #0e1c1b)"></div>`}</div>
+          <div class="body"><h3>${esc(p.name)}</h3><p>${esc(p.country)}</p></div>
+        </a>`).join('');
+      const events = m.events.length ? `
+        <h2 style="margin-top:2.6rem">Ce qui se passe en ${m.name}</h2>
+        <table class="data">
+          <tbody>${m.events.map(e => `<tr><th><a href="${base}/lieux/${e.id}">${esc(e.place)}</a></th><td><strong>${esc(e.label)}</strong>${e.note ? ' ' + esc(e.note) : ''}</td></tr>`).join('')}</tbody>
+        </table>` : '';
+      out.innerHTML = `
+        <h2 style="text-transform:capitalize">${m.name} · ${m.items.length} lieux à leur meilleur</h2>
+        <div class="cardgrid" style="margin-top:1.4rem">${cards || '<p class="muted">Aucun lieu documenté pour ce mois.</p>'}</div>
+        ${events}`;
+      history.replaceState(null, '', `?mois=${n}`);
+    }
+    bar.addEventListener('click', e => {
+      const b = e.target.closest('[data-month]');
+      if (b) render(Number(b.dataset.month));
+    });
+    const q = Number(new URLSearchParams(location.search).get('mois'));
+    render(q >= 1 && q <= 12 ? q : new Date().getMonth() + 1);
+  </script>
+</Base>

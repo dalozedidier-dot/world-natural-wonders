@@ -1,0 +1,180 @@
+---
+import Base from '../layouts/Base.astro';
+import { places, lite, taxonomies, label } from '../data/places';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const colors = Object.fromEntries(taxonomies.families.map(f => [f.id, f.color]));
+const globePoints = lite.map(p => ({ id: p.id, lat: p.lat, lng: p.lng, color: colors[p.family] ?? '#c98a3f', essential: p.essential }));
+
+const countries = new Set(places.flatMap(p => p.location.countries)).size;
+const typeCount = new Set(places.flatMap(p => p.landscape.types)).size;
+
+const usedTypes = taxonomies.landscapes.filter(l => places.some(p => p.landscape.types.includes(l.id)));
+const usedCollections = taxonomies.collections.filter(c => places.some(p => (p.landscape.collections ?? []).includes(c.id)));
+---
+<Base title="100 joyaux naturels de la Terre" image={null}>
+  <section class="hero">
+    <div id="globe" data-base={base} aria-hidden="true"></div>
+    <script type="application/json" id="globe-points" set:html={JSON.stringify(globePoints)} />
+    <div class="hero-copy">
+      <p class="eyebrow">Atlas des grands paysages naturels</p>
+      <h1>Cent lieux qui racontent<br /><em>quatre milliards d'années</em><br />d'histoire de la Terre.</h1>
+      <p class="lead">Aucune ville, aucun monument, aucun jardin. Uniquement des paysages dont la forme vient de l'eau, de la roche, de la glace, du feu ou du vivant. Chaque fiche explique le mécanisme qui a produit ce que l'on voit.</p>
+      <div class="hero-actions">
+        <a class="btn btn--accent" href="#carte">Ouvrir la carte</a>
+        <a class="btn" href={`${base}/explorer`}>Deviner un lieu</a>
+        <a class="btn btn--ghost" href={`${base}/methode`}>Comment la sélection a été faite</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>{places.length}</strong><span>joyaux naturels</span></div>
+        <div><strong>{countries}</strong><span>pays et territoires</span></div>
+        <div><strong>{typeCount}</strong><span>types de paysage</span></div>
+        <div><strong>0</strong><span>lieu artificiel</span></div>
+      </div>
+    </div>
+    <div class="hero-foot shell">
+      <span>Sélection éditoriale assumée, méthode publiée, sources vérifiables.</span>
+      <span>Faites tourner le globe</span>
+    </div>
+  </section>
+
+  <section class="explorer shell" id="carte" data-base={base}>
+    <div id="explorer" data-base={base}>
+      <script type="application/json" id="places-data" set:html={JSON.stringify(lite)} />
+      <script type="application/json" id="family-colors" set:html={JSON.stringify(colors)} />
+
+      <div class="explorer-head">
+        <div>
+          <p class="eyebrow">Carte mondiale</p>
+          <h2 id="explorerTitle">Trouver un paysage</h2>
+          <p class="muted">Filtrez par région, milieu, saison ou degré d'accessibilité. Chaque filtre modifie l'adresse de la page, donc chaque vue se partage.</p>
+        </div>
+        <label class="searchbox">
+          <span aria-hidden="true">⌕</span>
+          <input type="search" data-search placeholder="Plitvice, Socotra, karst, Namibie…" aria-label="Rechercher un lieu" />
+        </label>
+      </div>
+
+      <div class="filters">
+        <div class="filter-row">
+          <span class="filter-label">Régions</span>
+          <button class="chip" data-filter="region" data-value="" type="button">Monde</button>
+          {taxonomies.regions.map(r => <button class="chip" data-filter="region" data-value={r.id} type="button">{r.label}</button>)}
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Milieux</span>
+          <button class="chip" data-filter="family" data-value="" type="button">Tous</button>
+          {taxonomies.families.filter(f => places.some(p => p.landscape.family === f.id)).map(f => (
+            <button class="chip" data-filter="family" data-value={f.id} type="button">
+              <span class="dot" style={`background:${f.color}`}></span>{f.label}
+            </button>
+          ))}
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Paysages</span>
+          <button class="chip" data-filter="type" data-value="" type="button">Tous</button>
+          {usedTypes.map(l => <button class="chip" data-filter="type" data-value={l.id} type="button">{l.label}</button>)}
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Collections</span>
+          <button class="chip" data-filter="collection" data-value="" type="button">Toutes</button>
+          {usedCollections.map(c => <button class="chip" data-filter="collection" data-value={c.id} type="button">{c.label}</button>)}
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Accessibilité</span>
+          <button class="chip" data-filter="access" data-value="" type="button">Peu importe</button>
+          {taxonomies.accessibility.map(a => <button class="chip" data-filter="access" data-value={a.id} type="button" title={a.desc}>{a.label}</button>)}
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Mois idéal</span>
+          <div class="calendar">
+            {taxonomies.months.map((m, i) => <button data-filter="month" data-value={String(i + 1)} type="button">{m.slice(0, 4)}</button>)}
+          </div>
+        </div>
+        <div class="filter-row">
+          <span class="filter-label">Raccourcis</span>
+          <button class="chip" data-filter="essential" type="button">✦ Les 20 incontournables</button>
+          <button class="chip" data-filter="favorites" type="button">♡ Mes favoris</button>
+          <button class="chip" data-clear type="button">Tout réinitialiser</button>
+        </div>
+      </div>
+
+      <div class="map-layout">
+        <aside class="results" aria-label="Liste des lieux filtrés">
+          <div class="results-head">
+            <strong data-count>{places.length} lieux</strong>
+            <span style="display:flex;gap:.3rem">
+              <button class="chip" data-random type="button">✦ Surprends-moi</button>
+            </span>
+          </div>
+          <div class="results-list" data-results aria-live="polite"></div>
+        </aside>
+
+        <div class="map-panel">
+          <div id="map" role="application" aria-label="Carte mondiale des joyaux naturels"></div>
+          <div class="map-tools">
+            <button class="btn" data-world type="button">◎ Voir le monde</button>
+          </div>
+          <div class="map-legend">
+            {taxonomies.families.filter(f => places.some(p => p.landscape.family === f.id)).map(f => (
+              <span><i class="dot" style={`background:${f.color}`}></i>{f.label}</span>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="scrim" id="scrim"></div>
+  <aside class="panel" id="panel" aria-hidden="true" aria-label="Fiche du lieu">
+    <button class="panel-close" type="button" aria-label="Fermer la fiche">×</button>
+    <div class="panel-body"></div>
+  </aside>
+
+  <section class="band tinted">
+    <div class="shell" style="display:grid;gap:2.5rem;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr))">
+      <div>
+        <p class="eyebrow">Le filtre est simple</p>
+        <h2>Le lieu doit être remarquable parce que la Terre l'a fabriqué.</h2>
+        <p class="lead">Pas de skyline, pas de palais, pas de village pittoresque. La sélection ne retient que les paysages où la géologie, l'eau, la glace, le feu ou le vivant ont produit quelque chose d'exceptionnel, et dont on peut expliquer le mécanisme.</p>
+        <p><a class="btn" href={`${base}/methode`}>Lire la charte de sélection</a></p>
+      </div>
+      <div>
+        <h3>Quatre niveaux de lecture</h3>
+        <table class="data">
+          <tbody>
+            <tr><th>10 secondes</th><td>photo, nom, position, raison de sa présence</td></tr>
+            <tr><th>2 minutes</th><td>présentation, chiffres, saison, accessibilité</td></tr>
+            <tr><th>10 minutes</th><td>histoire géologique, fonctionnement actuel, biodiversité</td></tr>
+            <tr><th>Aller plus loin</th><td>sources officielles et scientifiques, organisme gestionnaire</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="shell">
+      <p class="eyebrow">Collections</p>
+      <h2>Dix façons de traverser la sélection</h2>
+      <div class="cardgrid" style="margin-top:1.6rem">
+        {usedCollections.map(c => (
+          <a class="card" href={`${base}/collections/${c.id}`}>
+            <div class="body">
+              <h3>{c.label}</h3>
+              <p>{c.desc}</p>
+              <p style="margin-top:.6rem;color:var(--accent-soft);font-size:.78rem">
+                {places.filter(p => (p.landscape.collections ?? []).includes(c.id)).length} lieux
+              </p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <script>
+    import '../scripts/globe';
+    import '../scripts/explorer';
+  </script>
+</Base>

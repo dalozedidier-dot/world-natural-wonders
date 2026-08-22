@@ -1,0 +1,157 @@
+{
+  "id": "bromo-tengger-semeru",
+  "collection": "hundred",
+  "status": "ready",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Bromo Tengger Semeru",
+    "name_official": "Taman Nasional Bromo Tengger Semeru",
+    "name_local": [
+      { "lang": "id", "value": "Taman Nasional Bromo Tengger Semeru", "note": "Parc national de Bromo Tengger Semeru" },
+      { "lang": "jv", "value": "Gunung Bromo", "note": "Bromo dérive de Brahma, divinité du panthéon hindou." }
+    ],
+    "name_indigenous": [
+      { "people": "Tengger", "value": "Segara Wedi", "meaning": "la mer de sable, nom donné par les Tengger à la plaine de cendre qui occupe le fond de la caldeira" },
+      { "people": "Tengger", "value": "Mahameru", "meaning": "la grande montagne, nom du sommet du Semeru, considéré comme l'axe du monde" }
+    ],
+    "aka": ["Bromo", "TNBTS"]
+  },
+  "location": {
+    "countries": ["ID"],
+    "country_labels": ["Indonésie"],
+    "subdivision": "Java oriental",
+    "region": "asie",
+    "lat": -7.942,
+    "lng": 112.95,
+    "coordinate_precision": "site",
+    "bbox": [112.75, -8.25, 113.15, -7.85],
+    "area_km2": 502.76,
+    "elevation_min_m": null,
+    "elevation_max_m": 3657,
+    "depth_max_m": null,
+    "timezone": "Asia/Jakarta"
+  },
+  "landscape": {
+    "primary": "volcan",
+    "types": ["volcan", "montagne", "desert-sable"],
+    "family": "feu",
+    "iucn_ecosystem": ["T7.5 Systèmes volcaniques terrestres récents", "T1.2 Forêts tropicales de montagne", "T5.4 Déserts et semi-déserts volcaniques"],
+    "biome": "Forêts humides tropicales de montagne de Java, milieux volcaniques nus en altitude",
+    "climate": "Am à Cwb selon l'altitude",
+    "collections": ["terre-de-feu", "autre-planete", "paysages-en-transformation"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "national-park", "name": "Taman Nasional Bromo Tengger Semeru", "since": 1982, "iucn_category": "II", "url": "https://bromotenggersemeru.org/" }
+    ],
+    "managing_body": {
+      "name": "Balai Besar Taman Nasional Bromo Tengger Semeru",
+      "url": "https://bromotenggersemeru.org/",
+      "note": "Établissement du ministère indonésien des Forêts, direction générale de la conservation des écosystèmes. La surveillance volcanologique relève d'une autre autorité, le Centre de volcanologie et d'atténuation des risques géologiques."
+    }
+  },
+  "editorial": {
+    "badges": ["exceptionnel", "geologie-remarquable", "grande-nature"],
+    "essential": true,
+    "lede": "Une plaine de cendre grise de plusieurs kilomètres, enfermée dans la muraille circulaire d'une caldeira, et au milieu d'elle un cône tronqué qui exhale sans interruption son panache de soufre.",
+    "why_here": "Le site donne à voir en une seule image la structure emboîtée du volcanisme d'arc : une caldeira d'effondrement de seize kilomètres, un plancher de cendre presque plat, des cônes post-caldeira alignés sur une même fracture, et, à l'arrière-plan, le plus haut volcan de Java en éruption quasi permanente. Peu de lieux permettent de lire aussi directement la différence entre un édifice qui s'est effondré et un édifice qui se construit. La juxtaposition d'un désert volcanique et d'une forêt de montagne à moins d'une heure de marche ajoute une leçon de pédologie et de colonisation végétale. Enfin, la présence continue des Tengger, qui rendent un culte au cratère depuis des siècles, fait de ce paysage l'un des rares volcans habités dont la relation avec ses riverains est documentée sur la longue durée.",
+    "presentation": "À l'est de Java, un massif volcanique isolé se détache de la plaine agricole. En son cœur, une dépression circulaire d'environ seize kilomètres de diamètre, la caldeira du Tengger, dont le fond est occupé par une étendue de cendre et de sable volcanique presque dépourvue de végétation. Les Tengger la nomment Segara Wedi, la mer de sable. Du plancher de cette caldeira émergent plusieurs cônes accolés, dont le Batok, aux flancs profondément ravinés, et le Bromo, seul actif, dont le cratère ouvert émet en continu vapeur d'eau et gaz soufrés.\n\nAu sud, une seconde silhouette domine tout l'ensemble : le Semeru, point culminant de l'île de Java. Contrairement au Bromo, il n'est pas dans la caldeira mais adossé au massif, et son activité est d'une autre nature. Depuis des décennies, son cratère sommital produit des explosions rythmées, souvent séparées de quelques dizaines de minutes, qui projettent une bouffée de cendre visible à grande distance.\n\nLe contraste entre les deux édifices structure la visite comme la compréhension du lieu. D'un côté un vaste bassin d'effondrement où les processus dominants sont l'érosion éolienne et le ruissellement sur des cendres meubles. De l'autre un cône en croissance active, qui ajoute chaque année de la matière à son sommet et en perd par avalanches et coulées pyroclastiques sur son flanc sud-est.\n\nLes Tengger, communauté de tradition hindouiste restée en place après l'islamisation de Java, occupent les versants extérieurs de la caldeira et cultivent en terrasses jusqu'à plus de 2 000 mètres. Un temple, le Pura Luhur Poten, se dresse au pied du Bromo, sur la mer de sable elle-même. Chaque année, la cérémonie du Yadnya Kasada conduit des milliers de personnes à jeter des offrandes dans le cratère, geste qui fixe la relation entre la communauté et le volcan qui la nourrit et la menace.",
+    "geology": "Le massif appartient à l'arc volcanique de la Sonde, produit de la subduction de la plaque australo-indienne sous le bloc de la Sonde, à raison de quelques centimètres par an. La plongée de la lithosphère océanique libère de l'eau en profondeur, abaisse le point de fusion du manteau sus-jacent, et alimente une chaîne de volcans qui court sur toute la longueur de Java. Les magmas produits sont majoritairement des andésites basaltiques et des andésites, assez visqueuses pour retenir leurs gaz, donc explosives.\n\nLe complexe du Tengger s'est construit au Pléistocène par l'empilement de coulées et de dépôts pyroclastiques formant plusieurs stratovolcans successifs. La caldeira actuelle, large de seize kilomètres, ne résulte pas d'un cratère d'explosion mais d'un effondrement : la vidange rapide d'un réservoir magmatique superficiel a privé l'édifice de son support, et le toit de la chambre s'est affaissé en bloc le long de fractures circulaires. Ce mécanisme s'est probablement répété en plusieurs épisodes, et la chronologie précise reste discutée dans la littérature.\n\nAprès l'effondrement, l'activité s'est reportée à l'intérieur du bassin. Une série de cônes post-caldeira, Widodaren, Watangan, Batok, Kursi et Bromo, se sont édifiés le long d'une même fracture orientée nord-sud, ce qui explique leur alignement remarquable. Seul le Bromo reste actif ; les autres, éteints, se dégradent par ravinement, ce qui donne au Batok ses cannelures verticales caractéristiques.\n\nLa mer de sable est une accumulation de cendres, de lapillis et de scories remaniées, épaisse de plusieurs dizaines de mètres, sans réseau hydrographique organisé : l'eau s'y infiltre plus vite qu'elle ne ruisselle, et le vent redistribue les particules fines en voiles et en rides.\n\nLe Semeru relève d'une histoire distincte. C'est un stratovolcan jeune, construit sur le flanc méridional du massif, dont le cratère actif, le Jonggring Seloko, s'est décalé sur le versant sud-est. Cette dissymétrie oriente ses coulées pyroclastiques et ses lahars vers une seule vallée, celle du Besuk Kobokan, qui se remplit et se vide au rythme des éruptions et des pluies.",
+    "dynamics": "Le système fonctionne à deux vitesses. Le Bromo alterne des phases de simple dégazage et des épisodes de cendres qui durent de quelques semaines à plusieurs mois, avec un panache montant parfois à près d'un kilomètre au-dessus du cratère. Le Semeru, lui, est en éruption presque continue depuis 2017, avec des explosions vulcaniennes répétées, des avalanches incandescentes et, lors des crises majeures, des coulées pyroclastiques.\n\nLa mousson commande le second moteur du paysage. De novembre à mars, les pluies saturent les dépôts de cendre fraîche déposés sur les hauts du Semeru et déclenchent des lahars, coulées de boue chargées de blocs qui dévalent les vallées à grande vitesse. Ce couplage entre éruption et pluie explique que la période la plus dangereuse ne soit pas toujours celle de l'éruption elle-même, mais celle qui la suit.\n\nÀ l'aube, la caldeira se comporte comme un piège à air froid : une inversion thermique remplit la cuvette de brume dont n'émergent que les sommets des cônes. Ce phénomène, purement météorologique, est saisonnier et bien plus net en saison sèche."  ,
+    "biodiversity_text": "La ceinture forestière du massif abrite une forêt tropicale de montagne qui cède la place, vers 2 000 mètres, à des peuplements de casuarina de montagne, Casuarina junghuhniana, arbre pionnier capable de coloniser les cendres. Sur les crêtes pousse l'édelweiss de Java, Anaphalis javanica, plante emblématique dont la cueillette est interdite et pourtant persistante. Le parc est l'un des derniers refuges de l'aigle de Java, Nisaetus bartelsi, rapace endémique de l'île, ainsi que du cerf de Timor, Rusa timorensis, et d'une faune de passereaux montagnards. Les lacs de cratère du secteur du Semeru, Ranu Pani, Ranu Regulo et Ranu Kumbolo, forment des îlots de zone humide d'altitude dans un environnement par ailleurs très drainant. Le contraste écologique majeur du site reste celui de la mer de sable elle-même, milieu presque azoïque où la colonisation végétale est réinitialisée à chaque dépôt de cendre.",
+    "in_motion": "Le paysage change à l'échelle de l'année. L'éruption du Semeru du 4 décembre 2021 a produit des coulées pyroclastiques et des lahars qui ont fait plusieurs dizaines de morts, comblé des fonds de vallée et emporté un pont, redessinant en quelques heures le drainage du versant sud-est. En septembre 2023, un incendie déclenché lors d'une séance photographique a brûlé une large part de la végétation herbacée du secteur du Bromo et entraîné une fermeture temporaire du parc. La fréquentation, elle, croît fortement, ce qui a conduit le gestionnaire à instaurer des quotas journaliers et à fermer périodiquement certains itinéraires.",
+    "guess_hints": [
+      "Caldeira de seize kilomètres avec plusieurs cônes alignés en son centre",
+      "Plaine de cendre presque sans végétation à plus de 2 000 m",
+      "Arc volcanique de subduction, Asie du Sud-Est insulaire",
+      "Communauté hindouiste vivant sur les versants extérieurs"
+    ]
+  },
+  "figures": [
+    { "label": "Superficie du parc national", "value": "502,8 km²", "source": "Protected Planet, WDPA" },
+    { "label": "Diamètre de la caldeira du Tengger", "value": "environ 16 km", "source": "Global Volcanism Program" },
+    { "label": "Sommet du Bromo", "value": "2 329 m", "source": "Global Volcanism Program" },
+    { "label": "Sommet du Semeru", "value": "3 657 m, point culminant de Java", "source": "Global Volcanism Program" },
+    { "label": "Numéro Global Volcanism Program, Tengger", "value": "263310" },
+    { "label": "Numéro Global Volcanism Program, Semeru", "value": "263300" },
+    { "label": "Éruption du Semeru en cours depuis", "value": "2017, activité quasi quotidienne", "source": "Global Volcanism Program" },
+    { "label": "Éruption meurtrière du Semeru", "value": "4 décembre 2021" }
+  ],
+  "geology": {
+    "age": "Édifices du Tengger construits au Pléistocène, effondrements caldériques répétés ; cônes post-caldeira et Semeru d'âge holocène",
+    "processes": ["subduction", "volcanisme-explosif", "effondrement-calderique", "coulee-pyroclastique", "lahar", "erosion-eolienne"],
+    "rock_types": ["andésite basaltique", "andésite", "téphra et cendres", "scories", "dépôts pyroclastiques"],
+    "volcanic": {
+      "gvp_number": "263310 (Tengger Caldera) ; 263300 (Semeru)",
+      "type": "Caldeira à cônes post-caldeira, et stratovolcan andésitique",
+      "last_eruption": "Bromo : épisodes cendreux jusqu'en 2023 ; Semeru : éruption continue depuis 2017",
+      "status": "Actifs, surveillés en permanence, niveau d'alerte variable"
+    }
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Aigle de Java", "name_sci": "Nisaetus bartelsi", "group": "oiseau", "iucn_status": "EN", "note": "Rapace endémique de Java, population très réduite et fragmentée." },
+      { "name_fr": "Cerf de Timor", "name_sci": "Rusa timorensis", "group": "mammifère", "iucn_status": "VU" },
+      { "name_fr": "Édelweiss de Java", "name_sci": "Anaphalis javanica", "group": "plante", "note": "Plante pionnière des crêtes volcaniques, cueillette interdite." },
+      { "name_fr": "Casuarina de montagne", "name_sci": "Casuarina junghuhniana", "group": "arbre", "note": "Colonise les cendres et fixe les versants après éruption." },
+      { "name_fr": "Léopard de Java", "name_sci": "Panthera pardus melas", "group": "mammifère", "iucn_status": "CR", "note": "Présence signalée dans les massifs forestiers du parc, observations rares." }
+    ],
+    "endemism_level": "modere",
+    "endemism_note": "L'endémisme est celui de Java, sensible chez les oiseaux et les plantes d'altitude, mais le site tire surtout sa valeur biologique de la succession écologique sur substrat volcanique nu.",
+    "species_counts": { "note": "Les inventaires publiés par le gestionnaire varient selon les années ; aucun chiffre consolidé n'est repris ici." }
+  },
+  "seasonality": {
+    "best_months": [5, 6, 7, 8, 9],
+    "avoid_months": [12, 1, 2],
+    "phenomena": [
+      { "label": "Saison sèche, ciel dégagé et inversions matinales", "kind": "saison-seche", "months": [5, 6, 7, 8, 9, 10], "note": "Période où la mer de nuages au fond de la caldeira est la plus fréquente." },
+      { "label": "Mousson et risque de lahars sur le Semeru", "kind": "mousson", "months": [11, 12, 1, 2, 3], "note": "Les cendres fraîches remobilisées par la pluie alimentent les coulées de boue." },
+      { "label": "Activité explosive du Semeru", "kind": "eruption", "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "note": "Explosions quasi quotidiennes depuis 2017, sans saisonnalité." },
+      { "label": "Yadnya Kasada, offrandes des Tengger au cratère", "kind": "autre", "months": [5, 6, 7], "note": "Date mobile, fixée par le calendrier lunaire tengger, à vérifier chaque année." }
+    ],
+    "notes": "La saison sèche offre la visibilité, mais concentre aussi la fréquentation et le risque d'incendie sur les herbages de la caldeira."
+  },
+  "visit": {
+    "accessibility": "modere",
+    "suggested_duration": "2 à 3 jours",
+    "difficulty": "Marche facile sur la mer de sable et montée courte au cratère du Bromo ; la haute montagne du Semeru relève d'un tout autre engagement et sa réglementation change selon l'activité volcanique.",
+    "extreme_conditions": ["gaz volcaniques", "poussière de cendre", "températures proches de zéro avant l'aube"],
+    "permits": "Billet et enregistrement en ligne obligatoires, quotas journaliers. Les itinéraires de haute montagne font l'objet d'autorisations distinctes et peuvent être suspendus sans préavis.",
+    "rules": [
+      "Respecter en permanence le rayon d'exclusion fixé autour du cratère du Bromo par l'autorité volcanologique : il change avec le niveau d'alerte.",
+      "Ne pas quitter les pistes autorisées sur la mer de sable, la circulation libre des véhicules détruit les rares tapis de graminées qui fixent les cendres.",
+      "Aucun feu, aucun engin pyrotechnique et aucune fumée artificielle : les herbages de la caldeira brûlent en quelques minutes en saison sèche.",
+      "Ne pas cueillir l'édelweiss de Java, dont le prélèvement est interdit et sanctionné.",
+      "Se conformer aux fermetures d'accès autour du Semeru, décidées en fonction de l'activité et du risque de lahar.",
+      "Respecter le sanctuaire de Pura Luhur Poten et la cérémonie de Kasada, qui ne sont pas des spectacles."
+    ],
+    "official_url": "https://bromotenggersemeru.org/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "Le parc est doté d'une administration dédiée et d'un dispositif de surveillance volcanologique solide, mais il subit une pression touristique intense concentrée sur quelques points de vue et sur la mer de sable. Les incendies de saison sèche, souvent d'origine humaine, ont brûlé des surfaces importantes ces dernières années. La circulation des véhicules tout-terrain sur les cendres, les déchets et l'urbanisation des villages d'accès constituent les atteintes les plus visibles, tandis que l'agriculture en pente sur les versants extérieurs entretient une érosion préoccupante.",
+    "trend": "stable",
+    "threats": [
+      { "type": "tourisme", "level": "eleve", "note": "Concentration extrême de la fréquentation à l'aube sur quelques belvédères et sur le cratère du Bromo." },
+      { "type": "incendies", "level": "eleve", "note": "Feux de saison sèche répétés, dont l'incendie de septembre 2023 lié à une séance photographique." },
+      { "type": "urbanisation", "level": "modere", "note": "Extension du bâti et des équipements dans les villages d'accès." },
+      { "type": "pollution", "level": "modere", "note": "Déchets et rejets sur la mer de sable et le long des pistes." },
+      { "type": "climat", "level": "modere", "note": "Modification du régime des pluies, qui influe sur le déclenchement des lahars." }
+    ],
+    "understand_without_going": false,
+    "message": "Le paysage semble minéral et indestructible ; il tient en réalité à une pellicule de cendre et à quelques touffes de graminées que la roue d'un véhicule suffit à effacer pour des années."
+  },
+  "media": { "hero": null, "gallery": [] },
+  "sources": [
+    { "title": "Tengger Caldera", "publisher": "Global Volcanism Program, Smithsonian Institution", "url": "https://volcano.si.edu/volcano.cfm?vn=263310", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Semeru", "publisher": "Global Volcanism Program, Smithsonian Institution", "url": "https://volcano.si.edu/volcano.cfm?vn=263300", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Balai Besar Taman Nasional Bromo Tengger Semeru", "publisher": "Ministère indonésien des Forêts", "url": "https://bromotenggersemeru.org/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Bromo Tengger Semeru", "publisher": "Protected Planet, WDPA", "url": "https://www.protectedplanet.net/1269", "type": "jeu-de-donnees", "accessed": "2026-08-22" }
+  ],
+  "score": {
+    "criteria": { "visuel": 5, "singularite": 5, "rarete": 4, "diversite": 4, "integrite": 3, "monumentalite": 4, "actif": 5, "biologique": 3, "photogenie": 5, "pedagogie": 5, "conservation": 3, "complementarite": 4 },
+    "total": 115,
+    "scored_on": "2026-08-22"
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "id": "danxia-zhangye",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Reliefs de Danxia de Zhangye",
+    "name_official": "Géoparc mondial UNESCO de Zhangye",
+    "name_local": [
+      {
+        "lang": "zh",
+        "value": "张掖丹霞",
+        "note": "Zhangye Danxia"
+      },
+      {
+        "lang": "zh",
+        "value": "七彩丹霞",
+        "note": "Qicai Danxia, les Danxia aux sept couleurs"
+      }
+    ],
+    "name_indigenous": null,
+    "aka": [
+      "Collines arc-en-ciel de Zhangye",
+      "Danxia de Linze",
+      "Binggou Danxia"
+    ]
+  },
+  "location": {
+    "countries": [
+      "CN"
+    ],
+    "country_labels": [
+      "Chine"
+    ],
+    "subdivision": "Province du Gansu, corridor du Hexi, districts de Linze et de Sunan",
+    "region": "asie",
+    "lat": 38.9575,
+    "lng": 100.1178,
+    "coordinate_precision": "site",
+    "bbox": [
+      99.85,
+      38.82,
+      100.42,
+      39.08
+    ],
+    "area_km2": 1289.71,
+    "elevation_min_m": 1500,
+    "elevation_max_m": 2000,
+    "depth_max_m": null,
+    "timezone": "Asia/Shanghai"
+  },
+  "landscape": {
+    "primary": "formation-rocheuse",
+    "types": [
+      "formation-rocheuse",
+      "desert-pierre"
+    ],
+    "family": "relief",
+    "iucn_ecosystem": [
+      "T5.4 Déserts et semi-déserts froids"
+    ],
+    "biome": "Déserts froids et steppes désertiques d'Asie centrale",
+    "climate": "BWk, aride froid continental",
+    "collections": [
+      "autre-planete"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "unesco-geopark",
+        "name": "Géoparc mondial UNESCO de Zhangye",
+        "ref": null,
+        "since": 2020,
+        "criteria": [],
+        "url": "https://www.unesco.org/en/iggp/zhangye-unesco-global-geopark"
+      }
+    ],
+    "managing_body": {
+      "name": "Comité de gestion du géoparc mondial UNESCO de Zhangye, province du Gansu",
+      "url": null
+    }
+  },
+  "editorial": {
+    "badges": [
+      "geologie-remarquable",
+      "exceptionnel"
+    ],
+    "essential": false,
+    "lede": "Des collines nues rayées de bandes rouges, ocre, blanches et vert pâle, comme si une pile de sédiments avait été inclinée puis tranchée pour en exposer la stratigraphie à ciel ouvert.",
+    "why_here": "Le site donne à voir, sans végétation pour la masquer, une leçon complète de sédimentologie : chaque bande de couleur correspond à un épisode de dépôt et à un état chimique du fer piégé dans la roche. Le basculement des couches par le soulèvement récent du Tibet et de ses marges transforme une simple succession horizontale en un jeu de rayures obliques que l'érosion recoupe en arêtes. C'est l'un des rares endroits où la couleur d'une roche raconte directement les conditions d'oxygénation d'un environnement disparu depuis cent millions d'années. Il complète la sélection par un mécanisme que ni les canyons gréseux ni les karsts n'illustrent : la lecture chromatique d'un bassin continental.",
+    "presentation": "Au nord de la ville de Zhangye, dans le corridor du Hexi qui relie la Chine centrale à l'Asie intérieure, une série de croupes dénudées se dresse entre les Qilian enneigées au sud et les étendues caillouteuses du Gobi au nord. Sur une quinzaine de kilomètres, les versants sont striés de bandes régulières, du rouge brique au jaune de moutarde, du blanc crayeux au vert olive.\n\nLe secteur le plus connu, celui des collines colorées de Linze, offre des pentes douces et lisses, presque veloutées, très différentes des falaises abruptes que l'on associe d'ordinaire au terme Danxia. Un peu plus à l'ouest, le secteur de Binggou présente l'autre visage du massif : tours, corniches et enfilades de logettes creusées dans des bancs plus durs, une architecture minérale que les guides chinois décrivent comme des palais et des moucharabiehs.\n\nUn point mérite d'être posé clairement : ce site n'appartient pas au bien du patrimoine mondial « Danxia de Chine », inscrit en 2010, qui regroupe six ensembles situés dans le sud-est humide et subtropical du pays. Zhangye relève d'un parc géologique national chinois, promu géoparc mondial UNESCO en 2020, un label qui reconnaît la valeur pédagogique et la gestion du territoire, pas l'inscription au patrimoine mondial.\n\nLa distinction n'est pas administrative seulement. Les Danxia inscrites au patrimoine mondial sont des reliefs de grès rouge façonnés sous un climat chaud et arrosé, où la végétation colonise les vires et où l'eau creuse des cavités. Zhangye montre ce que devient la même famille de roches sous un climat aride et froid : peu de sol, presque pas de plantes, une érosion dominée par de rares averses violentes, le gel et le vent.\n\nLa fréquentation, très élevée depuis les années 2010, a conduit à canaliser les visiteurs sur des passerelles et des plateformes desservies par navettes, la roche tendre ne supportant pas le piétinement.",
+    "geology": "Le socle du secteur appartient à la zone de transition entre la chaîne plissée des Qilian, née de collisions du Paléozoïque inférieur, et le bloc rigide de l'Alxa. Entre ces deux ensembles s'est ouvert, au Mésozoïque, un bassin intramontagneux fermé où se sont accumulés plusieurs centaines de mètres de sédiments continentaux d'âge crétacé, grossièrement entre 135 et 100 millions d'années.\n\nCes dépôts n'ont rien de marin. Ce sont des cônes alluviaux issus des reliefs voisins, des chenaux de rivières en tresses, des plaines d'inondation et des lacs peu profonds soumis à des assèchements répétés. D'où l'empilement de conglomérats à galets, de grès moyens à grossiers et de siltites fines, chaque changement de granulométrie signalant une variation du débit ou du niveau de base.\n\nLa couleur est la signature chimique du fer contenu dans le ciment. Les niveaux rouges doivent leur teinte à l'hématite, oxyde ferrique formé en milieu bien drainé et oxydant, typique d'une plaine exondée sous climat chaud. Les niveaux jaunes et orangés relèvent de la goethite, hydroxyde de fer né en présence d'eau. Les bancs gris, verdâtres ou blanchâtres correspondent à des dépôts restés engorgés, où le fer est demeuré à l'état réduit ou a été lessivé, parfois associés à des carbonates ou à du gypse. Une succession de bandes colorées revient donc à lire une succession d'environnements et de nappes d'eau.\n\nRestait à mettre ces feuillets à la verticale. La collision de l'Inde et de l'Asie, engagée il y a une cinquantaine de millions d'années, a propagé la déformation loin vers le nord-est : les Qilian se sont relevées, le bassin a été comprimé, ses couches basculées de trente à soixante degrés et localement plissées. Le soulèvement a réactivé le creusement, et l'érosion a recoupé obliquement l'empilement incliné.\n\nSous ce climat aride, la végétation ne fixe rien. Les averses d'été ruissellent aussitôt, taillent des ravines parallèles et dégagent des arêtes rectilignes qui suivent le pendage. Les bandes que l'on voit ne sont donc pas peintes sur la pente : elles en sont la coupe.",
+    "dynamics": "Le corridor du Hexi reçoit moins de 150 millimètres de précipitations par an, concentrés sur juillet et août lorsque la mousson d'Asie de l'Est parvient à remonter jusqu'au piémont des Qilian. Ce régime commande tout le fonctionnement du site. L'essentiel de l'érosion se produit en quelques heures par an, lors d'averses courtes et intenses qui saturent la surface, décollent les particules et emportent la matière en coulées boueuses le long des ravines. Le reste du temps, le vent trie les fines et le gel fragmente la roche humidifiée, l'amplitude thermique dépassant couramment trente degrés entre le jour et la nuit. Les couleurs elles-mêmes varient : sèche, la surface se ternit sous une pellicule poussiéreuse ; mouillée, elle retrouve la saturation des pigments ferrifères, ce qui explique que les lendemains d'orage et les fins de journée soient les moments où le massif se lit le mieux. Les rivières issues des Qilian, dont la Heihe, traversent le secteur sans jamais atteindre la mer et se perdent vers les dépressions de Mongolie intérieure.",
+    "biodiversity_text": "La biodiversité n'est pas l'intérêt principal du site, et ce constat fait partie de sa lecture : la roche est nue parce que le climat et le substrat interdisent la formation d'un sol. Les creux et les fonds de ravine accueillent une végétation clairsemée de plantes résistantes au sel et à la sécheresse, notamment des Reaumuria et des Nitraria, ainsi que des touffes d'armoises dans les secteurs moins exposés. La faune est celle des steppes désertiques d'Asie intérieure : lièvre de Tolaï, renard corsac, gerboises actives la nuit, quelques rapaces qui chassent au-dessus des croupes. La gazelle à goitre, encore présente dans le nord du Gansu, occupe les plaines caillouteuses plutôt que les collines. Les zones humides du géoparc, en bordure de la Heihe, concentrent l'essentiel de la vie animale et servent de halte migratoire.",
+    "in_motion": "Les surfaces argilo-sableuses de Zhangye s'usent vite à l'échelle géologique, de l'ordre de plusieurs millimètres par an sur les pentes les plus exposées, et chaque orage remodèle légèrement les ravines. La pression humaine agit plus vite encore : le passage hors sentier laisse des traces durables sur une roche tendre qui ne cicatrise pas, ce qui a justifié la fermeture de plusieurs versants et l'installation de passerelles. À l'échelle régionale, la fonte accélérée des glaciers des Qilian modifie le débit de la Heihe, ressource stratégique pour l'irrigation des oasis du corridor, et le stress hydrique croissant pèse sur l'ensemble du couloir.",
+    "guess_hints": [
+      "Bandes rouges, ocre et vert pâle dans des sédiments continentaux",
+      "Couches basculées puis tranchées par l'érosion",
+      "Climat aride froid, moins de 150 mm de pluie par an",
+      "Asie centrale, piémont d'une haute chaîne enneigée"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Superficie du géoparc",
+      "value": "1 289,71 km²"
+    },
+    {
+      "label": "Âge des séries colorées",
+      "value": "Crétacé, environ 135 à 100 millions d'années"
+    },
+    {
+      "label": "Pendage des couches",
+      "value": "30 à 60 degrés"
+    },
+    {
+      "label": "Précipitations annuelles",
+      "value": "moins de 150 mm"
+    },
+    {
+      "label": "Altitude du site",
+      "value": "environ 1 500 à 2 000 m"
+    },
+    {
+      "label": "Géoparc mondial UNESCO",
+      "value": "2020"
+    },
+    {
+      "label": "Statut patrimoine mondial",
+      "value": "aucun, le site n'appartient pas au bien Danxia de Chine"
+    }
+  ],
+  "geology": {
+    "age": "Sédiments continentaux du Crétacé, environ 135 à 100 Ma, basculés par le soulèvement cénozoïque lié à la collision Inde-Asie",
+    "processes": [
+      "sedimentation continentale en bassin intramontagneux",
+      "oxydation et reduction du fer diagenetiques",
+      "basculement tectonique et plissement",
+      "erosion aride par ruissellement concentre",
+      "gelifraction et deflation eolienne"
+    ],
+    "rock_types": [
+      "grès",
+      "siltite",
+      "conglomérat",
+      "argilite gypseuse"
+    ],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Gazelle à goitre",
+        "name_sci": "Gazella subgutturosa",
+        "group": "mammifère",
+        "iucn_status": "VU",
+        "note": "Présente dans les plaines caillouteuses du corridor, rare sur les reliefs eux-mêmes."
+      },
+      {
+        "name_fr": "Renard corsac",
+        "name_sci": "Vulpes corsac",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Lièvre de Tolaï",
+        "name_sci": "Lepus tolai",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Réaumurie de Songarie",
+        "name_sci": "Reaumuria soongarica",
+        "group": "plante",
+        "note": "Arbrisseau halophile caractéristique des sols salés du corridor du Hexi."
+      }
+    ],
+    "endemism_level": "faible",
+    "endemism_note": "Milieu jeune, très contraint et largement minéral, sans isolement biologique marqué.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "avoid_months": [
+      12,
+      1,
+      2
+    ],
+    "phenomena": [
+      {
+        "label": "Averses de mousson, couleurs saturées après la pluie",
+        "kind": "saison-humide",
+        "months": [
+          7,
+          8
+        ],
+        "note": "Le contraste chromatique est maximal sur roche humide."
+      },
+      {
+        "label": "Tempêtes de poussière et vents de sable du printemps",
+        "kind": "autre",
+        "months": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Ciels dégagés et lumière rasante d'automne",
+        "kind": "couleurs",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Froid sec, gel nocturne marqué, affluence minimale",
+        "kind": "autre",
+        "months": [
+          12,
+          1,
+          2
+        ]
+      }
+    ],
+    "notes": "Les heures de début et de fin de journée donnent la meilleure lecture des bandes, la lumière zénithale d'été écrasant les contrastes. Les vacances nationales chinoises de début octobre concentrent une fréquentation très forte."
+  },
+  "visit": {
+    "accessibility": "facile",
+    "suggested_duration": "1 à 2 jours",
+    "difficulty": "Site aménagé, desservi par navettes, plateformes et passerelles. Aucune difficulté physique, mais chaleur et poussière en été.",
+    "extreme_conditions": [
+      "forte amplitude thermique",
+      "vents de sable au printemps",
+      "orages brefs et violents en été"
+    ],
+    "permits": null,
+    "rules": [
+      "Rester sur les passerelles et les plateformes : la roche tendre garde durablement l'empreinte des pas.",
+      "Ne prélever ni fragment de grès ni sédiment coloré.",
+      "Respecter les secteurs fermés en rotation pour laisser les versants se stabiliser.",
+      "Drones soumis à autorisation préalable auprès du gestionnaire du géoparc.",
+      "Emporter ses déchets, le vent disperse tout ce qui est laissé au sol."
+    ],
+    "official_url": "https://www.unesco.org/en/iggp/zhangye-unesco-global-geopark",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "L'intégrité géologique du massif reste bonne, mais le matériau est fragile et la fréquentation a explosé depuis l'aménagement des accès et la diffusion des images du site. Le gestionnaire a répondu par la canalisation stricte des flux, la fermeture de versants dégradés et la mise en place de navettes. Le label de géoparc mondial obtenu en 2020 s'accompagne d'obligations de suivi et de médiation scientifique, réévaluées périodiquement.",
+    "trend": "stable",
+    "threats": [
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Plusieurs millions de visiteurs annuels sur un substrat qui ne cicatrise pas."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Parkings, routes de desserte et infrastructures d'accueil en bordure immédiate."
+      },
+      {
+        "type": "secheresse",
+        "level": "modere",
+        "note": "Stress hydrique croissant du corridor du Hexi et évolution du régime de la Heihe."
+      },
+      {
+        "type": "extraction",
+        "level": "faible",
+        "note": "Activités minières et carrières dans le voisinage régional."
+      }
+    ],
+    "understand_without_going": false,
+    "message": "Le site se comprend mieux hors des pics de fréquentation, en fin de journée et de préférence après une averse. Le secteur de Binggou, moins photographié, montre l'autre morphologie du massif et supporte mieux la visite."
+  },
+  "media": {
+    "hero": null,
+    "gallery": []
+  },
+  "sources": [
+    {
+      "title": "Zhangye UNESCO Global Geopark",
+      "publisher": "UNESCO, Programme international des géosciences et des géoparcs",
+      "url": "https://www.unesco.org/en/iggp/zhangye-unesco-global-geopark",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "China Danxia",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/list/1335/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Zhangye UNESCO Global Geopark",
+      "publisher": "Global Geoparks Network",
+      "url": "http://www.globalgeopark.org/GeoparkMap/geoparks/China/14060.html",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Zhangye National Geopark",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zhangye_National_Geopark",
+      "type": "encyclopedique",
+      "accessed": "2026-08-22"
+    }
+  ],
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 4,
+      "rarete": 3,
+      "diversite": 2,
+      "integrite": 3,
+      "monumentalite": 3,
+      "actif": 2,
+      "biologique": 1,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 3,
+      "complementarite": 4
+    },
+    "total": 93,
+    "scored_on": "2026-08-22"
+  }
+}

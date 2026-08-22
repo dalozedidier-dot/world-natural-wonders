@@ -1,0 +1,376 @@
+{
+  "id": "halong",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Baie d'Ha Long et archipel de Cát Bà",
+    "name_official": "Ha Long Bay - Cat Ba Archipelago",
+    "name_local": [
+      {
+        "lang": "vi",
+        "value": "Vịnh Hạ Long",
+        "note": "littéralement la baie du dragon descendant"
+      },
+      {
+        "lang": "vi",
+        "value": "Quần đảo Cát Bà",
+        "note": "archipel de Cát Bà"
+      }
+    ],
+    "name_indigenous": null,
+    "aka": [
+      "Baie d'Along",
+      "Ha Long"
+    ]
+  },
+  "location": {
+    "countries": [
+      "VN"
+    ],
+    "country_labels": [
+      "Viêt Nam"
+    ],
+    "subdivision": "Province de Quảng Ninh et municipalité de Hải Phòng",
+    "region": "asie",
+    "lat": 20.9101,
+    "lng": 107.1839,
+    "coordinate_precision": "site",
+    "bbox": [
+      106.85,
+      20.62,
+      107.55,
+      21.05
+    ],
+    "area_km2": 656.5,
+    "elevation_min_m": 0,
+    "elevation_max_m": null,
+    "depth_max_m": null,
+    "timezone": "Asia/Ho_Chi_Minh"
+  },
+  "landscape": {
+    "primary": "karst",
+    "types": [
+      "karst",
+      "ile",
+      "grotte",
+      "falaise"
+    ],
+    "family": "cote",
+    "iucn_ecosystem": [
+      "M1.5 Systèmes marins semi-fermés",
+      "T1.1 Forêts pluviales tropicales de plaine"
+    ],
+    "biome": "Forêts tropicales humides sur karst et milieux marins côtiers",
+    "climate": "Am, tropical de mousson",
+    "collections": [
+      "sous-la-surface"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "unesco-whs",
+        "name": "Baie d'Ha Long et archipel de Cát Bà",
+        "ref": "672",
+        "since": 1994,
+        "criteria": [
+          "vii",
+          "viii"
+        ],
+        "url": "https://whc.unesco.org/fr/list/672/"
+      },
+      {
+        "type": "national-park",
+        "name": "Parc national de Cát Bà",
+        "since": 1986,
+        "url": null
+      },
+      {
+        "type": "unesco-mab",
+        "name": "Réserve de biosphère de l'archipel de Cát Bà",
+        "since": 2004,
+        "url": null
+      }
+    ],
+    "managing_body": {
+      "name": "Comité de gestion de la baie d'Ha Long, province de Quảng Ninh, et comité populaire de Hải Phòng pour la partie de Cát Bà",
+      "url": null
+    }
+  },
+  "editorial": {
+    "badges": [
+      "exceptionnel",
+      "geologie-remarquable",
+      "ecosysteme-majeur"
+    ],
+    "essential": true,
+    "lede": "Un plateau calcaire dissous pendant des millions d'années, puis noyé par la mer qui monte : il ne dépasse plus de l'eau que les sommets, un millier et demi de pitons dressés dans une brume tiède.",
+    "why_here": "Ha Long n'est pas une baie parsemée d'îles, c'est un karst continental submergé. Le paysage montre, à l'état de maquette grandeur nature, la fin d'un cycle d'évolution karstique : le fengcong, groupes de pitons coniques soudés par leur base, puis le fenglin, tours isolées séparées par des plaines, ici remplacées par la mer. La remontée du niveau marin depuis la dernière glaciation a fait le reste, et la mer continue d'attaquer chaque îlot à sa base en y creusant une encoche horizontale, marqueur direct du niveau de l'eau. Aucun autre site n'associe à ce point la lisibilité d'un modèle géomorphologique et l'échelle d'un archipel entier.",
+    "presentation": "Au nord du golfe du Tonkin, entre la ville de Hạ Long et l'île de Cát Bà, environ mille six cents îlots calcaires émergent d'une mer peu profonde et souvent laiteuse. Le bien inscrit au patrimoine mondial en retient mille cent trente-trois, répartis sur 65 650 hectares, ceinturés d'une zone tampon de 34 140 hectares.\n\nLa forme de ces îlots n'est pas aléatoire. Certains, groupés en massifs aux flancs concaves, sont des restes de fengcong, ces bouquets de cônes soudés à la base que produit la dissolution tropicale. D'autres, isolés et à parois verticales, relèvent du fenglin, stade plus avancé où seules subsistent des tours séparées. Passer des uns aux autres, en une seule navigation, revient à parcourir plusieurs millions d'années d'évolution d'un relief.\n\nÀ la base de chaque tour court une entaille horizontale, parfois profonde de plusieurs mètres, qui donne aux îlots leur silhouette de champignon. C'est l'encoche de sapement, creusée par l'action combinée de l'attaque chimique de l'eau de mer, du battement des vagues et des organismes perforants, exactement au niveau des marées.\n\nLes cavités sont partout, car un karst est d'abord un volume creux. Certaines grottes se visitent, comme Sửng Sốt ou Thiên Cung. D'autres, ennoyées, ouvrent sur des lacs marins fermés, les hồ, plans d'eau enclos au cœur d'un massif et reliés à la mer par un tunnel que l'on ne franchit qu'à marée basse. Ces enceintes abritent des communautés biologiques isolées.\n\nL'extension de 2023 à l'archipel de Cát Bà a corrigé une anomalie ancienne : les massifs forestiers les mieux conservés et le dernier refuge du langur de Cát Bà se trouvaient hors du périmètre. Le bien couvre désormais un gradient complet, du récif et de la mangrove aux forêts sur karst.",
+    "geology": "Les calcaires d'Ha Long se sont déposés sur une longue période du Paléozoïque supérieur, du Carbonifère au Permien, il y a environ 340 à 250 millions d'années, dans une mer chaude et peu profonde où s'accumulaient boues carbonatées, débris d'organismes et récifs. L'épaisseur totale de la série dépasse le kilomètre. C'est cette masse épaisse, pure et bien lithifiée qui rend possible la verticalité des tours : un calcaire impur ou finement lité s'écroulerait au lieu de se dresser.\n\nLes orogenèses mésozoïques ont ensuite plissé et fracturé l'ensemble, et c'est ce réseau de fractures qui a guidé toute la suite. L'eau de pluie, chargée de dioxyde de carbone atmosphérique et de celui produit par les sols, s'infiltre le long des diaclases et dissout la roche. Sous le climat chaud et très arrosé de la mousson tropicale, la dissolution est rapide et surtout sélective : elle élargit les fractures, isole des blocs, et transforme progressivement un plateau continu en une forêt de cônes accolés, le fengcong. En poursuivant, la corrosion abaisse les couloirs jusqu'au niveau des nappes et ne laisse plus que des tours isolées sur une plaine d'aplanissement, le fenglin. Ce paysage s'est formé à l'air libre, sur une terre ferme.\n\nLe basculement est venu du niveau de la mer. Au dernier maximum glaciaire, il y a environ vingt mille ans, la mer se tenait quelque cent vingt mètres plus bas et le golfe du Tonkin était une plaine continentale. La déglaciation a fait remonter les eaux, la mer a envahi les couloirs, les dolines et les plaines karstiques, et n'a laissé émerger que les sommets. Le niveau actuel est atteint depuis environ six à sept mille ans.\n\nLa mer a alors commencé son propre travail. À hauteur constante, elle creuse latéralement une encoche de sapement dans le pied des tours, jusqu'à provoquer des effondrements en surplomb. Les grottes anciennes, formées bien au-dessus du niveau marin actuel, se lisent en étages perchés ; les encoches fossiles, elles, enregistrent les positions successives de la mer et du continent. Le paysage est donc la superposition de deux histoires : une dissolution continentale très longue, puis une submersion très rapide.",
+    "dynamics": "La baie est peu profonde, largement abritée et soumise à un régime de marée diurne d'amplitude marquée, qui peut dépasser trois mètres en vives-eaux. Ce marnage commande l'accès aux tunnels des lacs marins fermés, découvre les platiers et alimente le renouvellement des eaux dans un plan d'eau très cloisonné, où la circulation reste lente. La mousson impose deux saisons : de mai à septembre, chaleur, humidité et pluies abondantes, avec un risque réel de typhons entre juillet et septembre ; d'octobre à avril, un temps plus frais et plus sec, mais avec de longues périodes de crachin et de brume qui noient les îlots dans une lumière diffuse. Les apports terrigènes des fleuves du delta, notamment en saison des pluies, expliquent la teinte souvent laiteuse de l'eau et limitent la vie corallienne. La faible profondeur, la faible circulation et la concentration des bateaux dans quelques itinéraires font de la qualité de l'eau le paramètre le plus sensible du système.",
+    "biodiversity_text": "Le bien réunit plusieurs écosystèmes emboîtés : forêts tropicales sur karst, mangroves, herbiers marins, récifs coralliens, grèves et lacs marins fermés. Ces derniers, isolés depuis la submersion, abritent des communautés appauvries mais originales, avec des cas d'isolement biologique documentés. Le calcaire porte une flore rupicole spécialisée, dont plusieurs espèces ne sont connues que de ces îlots, ainsi que des palmiers et des figuiers ancrés dans les fissures. L'emblème du site est le langur de Cát Bà, primate en danger critique dont la population mondiale, réduite à quelques dizaines d'individus au début des années 2000, se reconstitue lentement et reste inférieure à une centaine. L'archipel accueille aussi le macaque rhésus, des chauves-souris cavernicoles, des geckos et une avifaune côtière, tandis que les eaux abritent tortues marines et poissons de récif.",
+    "in_motion": "La mer continue de scier la base des tours, et les effondrements d'auvents rocheux font partie du fonctionnement normal du paysage. Les modèles régionaux de hausse du niveau marin annoncent un déplacement de l'encoche vers le haut au cours du siècle, avec une accélération du sapement. La transformation la plus rapide reste cependant humaine : la baie est passée en une génération d'une économie de pêche et de villages flottants à une fréquentation de plusieurs millions de visiteurs par an. Les villages flottants ont été relocalisés à terre en 2014, les fermes aquacoles réglementées, et la flotte touristique soumise à des normes de traitement des eaux usées et de matériaux de flottaison après l'interdiction des bouées de polystyrène.",
+    "guess_hints": [
+      "Tours calcaires ennoyées par la remontée de la mer",
+      "Encoche horizontale creusée à la base de chaque îlot",
+      "Climat de mousson tropicale, brume fréquente",
+      "Lacs marins fermés accessibles par un tunnel à marée basse"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Superficie du bien inscrit",
+      "value": "65 650 ha, soit 656,5 km²"
+    },
+    {
+      "label": "Zone tampon",
+      "value": "34 140 ha"
+    },
+    {
+      "label": "Îlots dans le bien inscrit",
+      "value": "1 133"
+    },
+    {
+      "label": "Îlots recensés dans l'ensemble de la baie",
+      "value": "environ 1 600"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "1994 critère vii, extension 2000 critère viii, extension à Cát Bà en 2023"
+    },
+    {
+      "label": "Remontée du niveau marin depuis le dernier maximum glaciaire",
+      "value": "environ 120 m"
+    },
+    {
+      "label": "Âge des calcaires",
+      "value": "Carbonifère et Permien, environ 340 à 250 millions d'années"
+    },
+    {
+      "label": "Langurs de Cát Bà",
+      "value": "moins d'une centaine d'individus"
+    }
+  ],
+  "geology": {
+    "age": "Calcaires du Carbonifère et du Permien, environ 340 à 250 Ma, karstification néogène et quaternaire, submersion postglaciaire",
+    "processes": [
+      "karstification tropicale guidee par les fractures",
+      "evolution fengcong vers fenglin",
+      "submersion postglaciaire",
+      "sapement marin et formation d'encoches",
+      "effondrement de voutes et de surplombs"
+    ],
+    "rock_types": [
+      "calcaire",
+      "calcaire dolomitique",
+      "schiste au contact des massifs"
+    ],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Langur de Cát Bà",
+        "name_sci": "Trachypithecus poliocephalus",
+        "group": "mammifère",
+        "iucn_status": "CR",
+        "note": "Endémique strict de l'archipel de Cát Bà, population mondiale inférieure à une centaine d'individus."
+      },
+      {
+        "name_fr": "Macaque rhésus",
+        "name_sci": "Macaca mulatta",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Tortue verte",
+        "name_sci": "Chelonia mydas",
+        "group": "reptile",
+        "iucn_status": "EN"
+      },
+      {
+        "name_fr": "Palétuvier gris",
+        "name_sci": "Avicennia marina",
+        "group": "plante",
+        "note": "Structure les mangroves des fonds de baie et des chenaux abrités."
+      }
+    ],
+    "endemism_level": "eleve",
+    "endemism_note": "L'isolement insulaire et les lacs marins fermés ont produit un endémisme réel, sur les îlots calcaires comme dans les enceintes d'eau isolées, avec plusieurs plantes rupicoles connues des seuls massifs de la baie.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [
+      10,
+      11,
+      12,
+      3,
+      4
+    ],
+    "avoid_months": [
+      7,
+      8,
+      9
+    ],
+    "phenomena": [
+      {
+        "label": "Saison des pluies et de la chaleur, risque de typhon",
+        "kind": "mousson",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "note": "Les sorties en baie sont suspendues à l'approche d'un typhon."
+      },
+      {
+        "label": "Ciels dégagés, air sec, meilleure visibilité",
+        "kind": "saison-seche",
+        "months": [
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "label": "Crachin et brume persistante sur les îlots",
+        "kind": "autre",
+        "months": [
+          1,
+          2,
+          3
+        ],
+        "note": "Lumière très douce, horizons effacés, ambiance caractéristique du golfe du Tonkin."
+      },
+      {
+        "label": "Grandes marées découvrant les tunnels des lacs marins fermés",
+        "kind": "autre",
+        "months": [
+          1,
+          2,
+          11,
+          12
+        ]
+      }
+    ],
+    "notes": "Octobre et novembre offrent le meilleur compromis entre visibilité et confort. Les fins de semaine et les fêtes nationales vietnamiennes saturent les itinéraires de croisière."
+  },
+  "visit": {
+    "accessibility": "facile",
+    "suggested_duration": "2 à 3 jours",
+    "difficulty": "Navigation organisée, débarquements aménagés. Quelques escaliers raides vers les points de vue et les grottes, kayak nécessaire pour approcher les lacs marins fermés.",
+    "extreme_conditions": [
+      "typhons de juillet à septembre",
+      "chaleur humide en été",
+      "brume réduisant fortement la visibilité en hiver"
+    ],
+    "permits": "Billet d'entrée du bien et redevance par itinéraire, perçus par le comité de gestion. Les bateaux doivent détenir une licence d'exploitation et respecter des itinéraires assignés. Le parc national de Cát Bà applique sa propre billetterie et interdit l'accès à certaines zones de protection stricte.",
+    "rules": [
+      "Naviguer uniquement avec un opérateur licencié et sur les itinéraires autorisés.",
+      "Aucun rejet d'eaux usées ni de déchets en baie : les bateaux doivent disposer d'une cuve de rétention.",
+      "Ne pas toucher ni prélever de concrétions dans les grottes aménagées.",
+      "Kayak interdit dans les enceintes des lacs marins fermés placées en protection stricte.",
+      "Ne pas nourrir ni approcher les macaques sur les plages de Cát Bà.",
+      "Baignade limitée aux zones balisées, le trafic de bateaux étant dense."
+    ],
+    "official_url": "https://whc.unesco.org/fr/list/672/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "La valeur géologique du bien n'est pas menacée dans son existence, mais son intégrité écologique et paysagère subit une pression continue. Le plan d'eau, peu profond et mal ventilé, reçoit les rejets d'une flotte touristique de plusieurs centaines de bateaux, ceux de l'aquaculture et ceux d'une zone portuaire et industrielle en forte croissance sur ses marges. Les autorités ont relocalisé les villages flottants en 2014, imposé le traitement des eaux usées à bord, banni les flotteurs en polystyrène et plafonné le nombre de licences. Ces mesures ont produit des résultats mesurables, mais la trajectoire d'urbanisation du littoral, avec ses remblais et ses complexes immobiliers, reste le point noir régulièrement soulevé lors des examens de l'état de conservation.",
+    "trend": "stable",
+    "threats": [
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Fréquentation de plusieurs millions de visiteurs par an, concentrée sur quelques itinéraires et quelques grottes."
+      },
+      {
+        "type": "pollution",
+        "level": "eleve",
+        "note": "Eaux usées des bateaux, déchets flottants et apports du delta dans un plan d'eau à faible renouvellement."
+      },
+      {
+        "type": "urbanisation",
+        "level": "eleve",
+        "note": "Remblais côtiers, ports et projets immobiliers en bordure du bien et de sa zone tampon."
+      },
+      {
+        "type": "peche",
+        "level": "modere",
+        "note": "Pêche illégale et aquaculture non réglementée dans certains secteurs."
+      },
+      {
+        "type": "climat",
+        "level": "modere",
+        "note": "Hausse du niveau marin, acidification et intensification des typhons."
+      }
+    ],
+    "understand_without_going": false,
+    "message": "La baie se comprend depuis un kayak et depuis un sommet, pas depuis le pont supérieur d'un grand bateau au mouillage. Choisir un opérateur équipé pour le traitement des eaux, éviter les itinéraires saturés autour des grottes principales et consacrer une journée à Cát Bà donne une lecture bien plus juste du site."
+  },
+  "media": {
+    "hero": null,
+    "gallery": []
+  },
+  "sources": [
+    {
+      "title": "Baie d'Ha Long et archipel de Cát Bà",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/672/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Documents et décisions relatifs au bien 672",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/list/672/documents",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Ha Long Bay - Cat Ba Archipelago, Conservation Outlook Assessment",
+      "publisher": "UICN, World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/node/1128",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Ha Long Bay - Cat Ba Archipelago, geoheritage site",
+      "publisher": "Union internationale des sciences géologiques",
+      "url": "https://iugs-geoheritage.org/geoheritage_sites/ha-long-bay-cat-ba-archipelago/",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Overview of the World Natural Heritage",
+      "publisher": "Parc national de Cát Bà",
+      "url": "https://catbanationalpark.com/overview-of-the-world-natural-heritage",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    }
+  ],
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 4,
+      "rarete": 4,
+      "diversite": 4,
+      "integrite": 3,
+      "monumentalite": 4,
+      "actif": 3,
+      "biologique": 4,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 2,
+      "complementarite": 4
+    },
+    "total": 109,
+    "scored_on": "2026-08-22"
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "id": "phong-nha",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Phong Nha-Kẻ Bàng et la grotte de Sơn Đoòng",
+    "name_official": "Vườn quốc gia Phong Nha-Kẻ Bàng",
+    "name_local": [
+      {
+        "lang": "vi",
+        "value": "Phong Nha-Kẻ Bàng"
+      },
+      {
+        "lang": "vi",
+        "value": "Hang Sơn Đoòng",
+        "note": "la grotte de la rivière de montagne"
+      }
+    ],
+    "name_indigenous": null,
+    "aka": [
+      "Son Doong",
+      "Phong Nha",
+      "Hang Én"
+    ]
+  },
+  "location": {
+    "countries": [
+      "VN"
+    ],
+    "country_labels": [
+      "Viêt Nam"
+    ],
+    "subdivision": "Centre du Viêt Nam, massif calcaire frontalier du Laos",
+    "region": "asie",
+    "lat": 17.53,
+    "lng": 106.15,
+    "coordinate_precision": "site",
+    "bbox": [
+      105.95,
+      17.28,
+      106.5,
+      17.75
+    ],
+    "area_km2": 1233.26,
+    "elevation_min_m": 50,
+    "elevation_max_m": 1128,
+    "depth_max_m": null,
+    "timezone": "Asia/Ho_Chi_Minh"
+  },
+  "landscape": {
+    "primary": "grotte",
+    "types": [
+      "grotte",
+      "karst",
+      "foret-tropicale",
+      "fleuve"
+    ],
+    "family": "souterrain",
+    "iucn_ecosystem": [
+      "S1.1 Grottes aérobies",
+      "T1.1 Forêts pluviales tropicales de plaine"
+    ],
+    "biome": "Forêts tropicales humides sempervirentes sur karst",
+    "climate": "Am, tropical de mousson à maximum pluvieux d'automne",
+    "collections": [
+      "sous-la-surface",
+      "vertiges",
+      "forets-primordiales"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "unesco-whs",
+        "name": "Parc national de Phong Nha-Kẻ Bàng et parc national de Hin Nam No",
+        "ref": "951",
+        "since": 2003,
+        "criteria": [
+          "viii",
+          "ix",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/951/"
+      },
+      {
+        "type": "national-park",
+        "name": "Parc national de Phong Nha-Kẻ Bàng",
+        "since": 2001,
+        "url": null
+      }
+    ],
+    "managing_body": {
+      "name": "Comité de gestion du parc national de Phong Nha-Kẻ Bàng",
+      "url": null
+    }
+  },
+  "editorial": {
+    "badges": [
+      "exceptionnel",
+      "unique-au-monde",
+      "geologie-remarquable",
+      "grande-nature"
+    ],
+    "essential": false,
+    "lede": "Sous une forêt tropicale posée sur du calcaire vieux de quatre cents millions d'années, une galerie assez vaste pour contenir un quartier d'immeubles, et dans laquelle pousse une forêt éclairée par des trous de plafond.",
+    "why_here": "Le massif de Kẻ Bàng est le plus ancien grand karst d'Asie, ce qui lui a laissé le temps de développer plusieurs générations de réseaux souterrains superposés. Sơn Đoòng en est l'aboutissement : une galerie dont les sections dépassent cent cinquante mètres de haut et de large, reconnue comme la plus grande galerie souterraine connue au monde. Son intérêt ne tient pas à la performance dimensionnelle mais à ce qu'elle rend visible : l'effondrement de deux portions de voûte y a ouvert des puits de lumière sous lesquels s'est installée une forêt souterraine, cas d'école du passage d'un milieu aphotique à un milieu végétalisé. Aucun autre site ne relie aussi directement le monde souterrain, le fleuve qui l'a creusé et la forêt qui le recouvre.",
+    "presentation": "Le parc national de Phong Nha-Kẻ Bàng occupe un massif calcaire de plus de mille deux cents kilomètres carrés dans le centre du Viêt Nam, contre la frontière laotienne. Sous la forêt, plus de deux cent vingt kilomètres de galeries ont été relevés depuis le début des explorations conjointes menées à partir de 1990 par la British Cave Research Association et l'université des sciences de Hanoï, et le massif est loin d'être épuisé.\n\nLe bien a d'abord été inscrit en 2003 pour sa valeur géologique, puis étendu en 2015 avec l'ajout des critères de biodiversité. En 2025, il est devenu transfrontalier par l'adjonction du parc national laotien de Hin Nam No, qui prolonge le même massif de l'autre côté de la crête, portant l'ensemble à 217 447 hectares.\n\nSơn Đoòng, repérée en 1991 par un habitant de la région, Hồ Khanh, et retrouvée puis topographiée en 2009, a redéfini les ordres de grandeur du monde souterrain. La galerie principale se suit sur environ cinq kilomètres, avec des sections dépassant cent cinquante mètres de haut et de large, et un volume estimé à près de quarante millions de mètres cubes.\n\nDeux effondrements de voûte y ont ouvert d'immenses dolines par lesquelles la lumière entre. Sous ces puits, une forêt s'est installée dans la grotte, avec des arbres de plusieurs dizaines de mètres, des fougères et une faune qui n'a pas d'équivalent ailleurs dans le réseau. Plus loin, un barrage de calcite haut de quelque quatre-vingt-dix mètres, surnommé la Grande Muraille du Viêt Nam, ferme presque la galerie.\n\nLe reste du parc se visite plus simplement. La grotte de Phong Nha se parcourt en barque sur la rivière souterraine, celle de Thiên Đường sur passerelle, et Hang Én, troisième plus grande galerie connue, sert d'étape sur la route de Sơn Đoòng.",
+    "geology": "Les calcaires de Kẻ Bàng se sont déposés à partir du Dévonien, il y a environ quatre cents millions d'années, dans des mers chaudes de la marge de l'Indochine, et l'accumulation s'est poursuivie par intermittence jusqu'au Carbonifère et au Permien. L'épaisseur cumulée dépasse largement le kilomètre. C'est cette ancienneté qui vaut au massif d'être décrit comme le plus vieux grand karst d'Asie, et elle a une conséquence directe : la roche a été soulevée, fracturée, karstifiée, enfouie puis exhumée à plusieurs reprises, si bien que le réseau souterrain n'appartient pas à une seule génération mais à plusieurs, emboîtées et étagées.\n\nLes grandes galeries suivent des accidents tectoniques rectilignes. Sơn Đoòng se développe le long d'une faille orientée nord-ouest sud-est, ce qui explique son tracé étonnamment droit. Une rivière souterraine, le Rào Thương, s'y engouffre et travaille encore le plancher de la galerie ; c'est elle qui a creusé le conduit, en régime noyé d'abord, puis à surface libre à mesure que le niveau de base s'abaissait sous l'effet du soulèvement régional.\n\nLa taille exceptionnelle de la section tient à la conjonction de quatre facteurs : un calcaire massif et mécaniquement solide, capable de tenir une voûte de très grande portée ; une pluviosité de mousson considérable, plus de deux mètres par an, qui fournit un débit énorme et donc une grande capacité de dissolution et d'abrasion ; un soulèvement continu qui abaisse sans cesse le niveau de base et prolonge le creusement vers le bas ; et beaucoup de temps.\n\nLa forme finale doit autant à l'effondrement qu'à la dissolution. Lorsque la voûte dépasse une portée critique, elle cède : les blocs tombent sur le plancher, la rivière évacue peu à peu les débris, et le vide gagne vers le haut. Répété, ce mécanisme fait remonter le plafond jusqu'à percer la surface, formant des dolines d'effondrement. Deux d'entre elles s'ouvrent dans Sơn Đoòng et y laissent entrer la lumière, la pluie et les graines.\n\nLes concrétions de la grotte comptent parmi les plus remarquables du massif, avec des colonnes de plusieurs dizaines de mètres et des gours en gradins dont les bassins contiennent des perles des cavernes, sphères de calcite formées par précipitation autour d'un noyau maintenu en mouvement par le goutte-à-goutte.",
+    "dynamics": "Le système fonctionne au rythme de la mousson. Le centre du Viêt Nam reçoit l'essentiel de ses précipitations entre septembre et novembre, avec des cumuls parmi les plus élevés du pays et des épisodes de typhon. La rivière souterraine réagit vite : le niveau peut monter de plusieurs dizaines de mètres dans les galeries, remettre en mouvement des blocs, déplacer des bancs de sable et rendre certains passages totalement infranchissables. C'est la raison pour laquelle les expéditions ne sont possibles que de janvier à la fin août, la grotte étant abandonnée à ses crues le reste de l'année. En saison sèche, le débit s'abaisse, les plages de sable réapparaissent et les siphons se vident. Le microclimat interne est remarquablement stable, autour de vingt à vingt-quatre degrés avec une humidité proche de la saturation, ce qui provoque, sous les dolines, la formation de nuages à l'intérieur même de la grotte lorsque l'air chaud extérieur rencontre l'atmosphère froide du conduit.",
+    "biodiversity_text": "Le massif porte l'un des blocs de forêt calcaire les mieux conservés d'Indochine, avec plus de quinze cents espèces de plantes vasculaires et une forêt à Calocedrus rupestris, conifère relique installé sur les crêtes rocheuses. Il abrite dix espèces de primates, dont le langur de Hatinh et le douc à pattes brunes, ainsi que le saola, bovidé décrit seulement en 1992 et probablement au bord de l'extinction, et le gibbon à joues blanches du Nord. Le monde souterrain héberge une faune troglobie spécialisée, poissons dépigmentés, crustacés et arthropodes aveugles, et de très grandes colonies de chauves-souris et de martinets, ces derniers ayant donné son nom à Hang Én. Sous les dolines de Sơn Đoòng s'est développée une végétation autonome dont les strates suivent le gradient de lumière.",
+    "in_motion": "La rivière continue de creuser et d'agrandir la galerie, et les effondrements de voûte se poursuivent à un rythme géologique dont les dolines actuelles ne sont qu'un état transitoire. À l'échelle humaine, les changements viennent d'ailleurs. La pression de la chasse au collet, générale en Asie du Sud-Est, a vidé une partie de la forêt de ses grands mammifères, et l'exploitation illégale des bois précieux persiste en lisière. Un projet de téléphérique vers Sơn Đoòng, envisagé au milieu des années 2010, a été abandonné après une opposition scientifique et publique. Le tourisme lui-même s'est structuré autour d'un contingent strict, un choix rare qui fait aujourd'hui référence.",
+    "guess_hints": [
+      "Calcaires d'environ 400 millions d'années sous forêt tropicale",
+      "Galerie souterraine dont les sections dépassent 150 mètres",
+      "Effondrements de voûte laissant entrer la lumière et pousser des arbres",
+      "Accès limité à quelques centaines de personnes par an"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Superficie du parc national vietnamien",
+      "value": "123 326 ha, soit 1 233,26 km²"
+    },
+    {
+      "label": "Superficie du bien transfrontalier depuis 2025",
+      "value": "217 447 ha"
+    },
+    {
+      "label": "Âge des calcaires",
+      "value": "environ 400 millions d'années, à partir du Dévonien"
+    },
+    {
+      "label": "Galeries topographiées",
+      "value": "plus de 220 km"
+    },
+    {
+      "label": "Sections maximales de Sơn Đoòng",
+      "value": "plus de 150 m de haut et de large"
+    },
+    {
+      "label": "Volume estimé de Sơn Đoòng",
+      "value": "environ 38,5 millions de m³"
+    },
+    {
+      "label": "Barrage de calcite dit Grande Muraille du Viêt Nam",
+      "value": "environ 90 m de haut"
+    },
+    {
+      "label": "Permis délivrés pour Sơn Đoòng",
+      "value": "environ 1 000 par an, un seul opérateur agréé"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "2003, extension 2015, extension transfrontalière 2025"
+    }
+  ],
+  "geology": {
+    "age": "Calcaires déposés à partir du Dévonien, environ 400 Ma, karstification polyphasée du Cénozoïque à aujourd'hui",
+    "processes": [
+      "karstification polyphasee",
+      "creusement par riviere souterraine",
+      "effondrement de voutes et formation de dolines",
+      "precipitation de calcite, gours et perles des cavernes",
+      "controle structural par failles"
+    ],
+    "rock_types": [
+      "calcaire massif",
+      "calcaire dolomitique",
+      "schiste et grès en bordure de massif"
+    ],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Saola",
+        "name_sci": "Pseudoryx nghetinhensis",
+        "group": "mammifère",
+        "iucn_status": "CR",
+        "note": "Bovidé de la cordillère annamitique, décrit en 1992, aucune observation confirmée depuis de nombreuses années."
+      },
+      {
+        "name_fr": "Langur de Hatinh",
+        "name_sci": "Trachypithecus hatinhensis",
+        "group": "mammifère",
+        "iucn_status": "EN",
+        "note": "Primate inféodé aux falaises calcaires du massif."
+      },
+      {
+        "name_fr": "Gibbon à joues blanches du Nord",
+        "name_sci": "Nomascus leucogenys",
+        "group": "mammifère",
+        "iucn_status": "CR"
+      },
+      {
+        "name_fr": "Cyprès de Kẻ Bàng",
+        "name_sci": "Calocedrus rupestris",
+        "group": "plante",
+        "note": "Conifère relique installé sur les crêtes calcaires sèches, découvert dans le massif en 2002."
+      },
+      {
+        "name_fr": "Salangane à nid blanc et martinets cavernicoles",
+        "name_sci": null,
+        "group": "oiseau",
+        "note": "Colonies nombreuses dans Hang Én, à l'origine du nom de la grotte."
+      }
+    ],
+    "endemism_level": "eleve",
+    "endemism_note": "Le massif appartient au foyer d'endémisme annamitique, avec des primates strictement inféodés au karst, une flore rupicole spécialisée et une faune troglobie encore mal inventoriée.",
+    "species_counts": {
+      "plants": 1500,
+      "birds": null,
+      "mammals": null,
+      "fish": null,
+      "corals": null,
+      "note": "Plus de 1 500 espèces de plantes vasculaires recensées, inventaires souterrains toujours en cours."
+    }
+  },
+  "seasonality": {
+    "best_months": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "avoid_months": [
+      9,
+      10,
+      11
+    ],
+    "phenomena": [
+      {
+        "label": "Saison des crues, grottes fermées et rivières souterraines en charge",
+        "kind": "crue",
+        "months": [
+          9,
+          10,
+          11
+        ],
+        "note": "Les niveaux peuvent monter de plusieurs dizaines de mètres dans les galeries."
+      },
+      {
+        "label": "Étiage, plages de sable dégagées et passages praticables",
+        "kind": "etiage",
+        "months": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Rayons de lumière traversant les dolines d'effondrement",
+        "kind": "autre",
+        "months": [
+          1,
+          2,
+          3
+        ],
+        "note": "L'angle du soleil et l'air plus sec rendent les faisceaux nettement visibles."
+      },
+      {
+        "label": "Chaleur et orages de mousson d'été, brumes internes marquées",
+        "kind": "mousson",
+        "months": [
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "notes": "Les expéditions vers Sơn Đoòng ne sont organisées que de janvier à la fin août. Le massif est ensuite laissé aux crues, période où même les grottes touristiques peuvent fermer plusieurs jours."
+  },
+  "visit": {
+    "accessibility": "difficile",
+    "suggested_duration": "3 à 5 jours, dont 4 jours pour l'expédition souterraine",
+    "difficulty": "Pour Sơn Đoòng, marche d'approche en forêt, franchissements de rivière, descente sur corde, escalade d'un barrage de calcite et bivouac sous terre. Condition physique sérieuse exigée et évaluation médicale. Les grottes de Phong Nha et de Thiên Đường sont en revanche accessibles à tous.",
+    "extreme_conditions": [
+      "crues brutales de la rivière souterraine",
+      "humidité proche de la saturation",
+      "sangsues en forêt",
+      "absence de secours rapide sous terre"
+    ],
+    "permits": "L'accès à Sơn Đoòng est strictement contingenté. Le nombre de permis est plafonné à environ mille visiteurs par an, soit quelques centaines de participants sur une saison d'exploitation limitée à la période de janvier à la fin août. Un seul opérateur est agréé par les autorités provinciales pour organiser ces expéditions, sous la forme d'un circuit de quatre jours encadré par des guides, des gardes forestiers du parc, des porteurs recrutés localement et une équipe de spéléologues. La visite individuelle est interdite, et l'entrée de la grotte est gardée. Les autres cavités du parc, dont Phong Nha, Thiên Đường et Hang Én, relèvent d'une billetterie ordinaire, avec un quota propre et un guide obligatoire pour Hang Én.",
+    "rules": [
+      "Aucune entrée dans Sơn Đoòng hors expédition autorisée par le parc et l'opérateur agréé.",
+      "Ne rien toucher ni prélever dans les gours : les perles des cavernes cessent de croître dès qu'elles sont déplacées.",
+      "Bivouacs uniquement sur les emplacements assignés, tous les déchets, y compris organiques, sont remontés.",
+      "Ne pas éclairer ni approcher les colonies de chauves-souris et de martinets.",
+      "Interdiction stricte d'acheter ou de transporter des produits d'espèces sauvages issues du massif.",
+      "Rester sur les passerelles dans les grottes aménagées et respecter les fermetures liées aux crues."
+    ],
+    "official_url": "https://whc.unesco.org/fr/list/951/",
+    "no_route_guidance": true
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "Le système souterrain est en bon état et bénéficie d'un régime d'accès parmi les plus restrictifs appliqués à un site touristique de cette notoriété. Le contingent de permis, l'opérateur unique, la présence de gardes forestiers et le retrait intégral des déchets ont jusqu'ici évité la dégradation observée dans beaucoup de grandes cavités ouvertes au public. Les pressions les plus sérieuses portent sur la forêt de surface : chasse au collet à grande échelle, coupe illégale de bois précieux, et projets d'infrastructures récurrents en périphérie. L'extension transfrontalière de 2025 vers le Laos élargit le périmètre de gestion à l'ensemble du massif, mais les moyens de surveillance restent inégaux de part et d'autre de la frontière.",
+    "trend": "stable",
+    "threats": [
+      {
+        "type": "braconnage",
+        "level": "eleve",
+        "note": "Pièges à collets posés massivement dans la forêt, cause principale du déclin des grands mammifères annamitiques."
+      },
+      {
+        "type": "deforestation",
+        "level": "modere",
+        "note": "Coupe illégale de bois précieux et grignotage des lisières."
+      },
+      {
+        "type": "tourisme",
+        "level": "modere",
+        "note": "Croissance rapide de la fréquentation des grottes aménagées et de la vallée d'accès, malgré le contingent appliqué à Sơn Đoòng."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Projets récurrents d'infrastructures d'accès, dont un téléphérique abandonné après contestation."
+      },
+      {
+        "type": "climat",
+        "level": "modere",
+        "note": "Intensification des typhons et des crues d'automne dans le centre du Viêt Nam."
+      }
+    ],
+    "understand_without_going": true,
+    "message": "Sơn Đoòng est un lieu que la quasi-totalité des lecteurs ne verront pas, et c'est le résultat d'un choix de gestion assumé plutôt qu'un manque. Le massif se comprend très bien depuis les grottes ouvertes au public et depuis la forêt de surface, et le quota est précisément ce qui protège la galerie."
+  },
+  "media": {
+    "hero": null,
+    "gallery": []
+  },
+  "sources": [
+    {
+      "title": "Parc national de Phong Nha-Kẻ Bàng et parc national de Hin Nam No",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/951/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Phong Nha-Ke Bang National Park",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/en/list/951",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Son Doong Cave Expedition, conditions d'accès et contingent de permis",
+      "publisher": "Oxalis Adventure",
+      "url": "https://oxalisadventure.com/tour/son-doong-cave-expedition-4d3n/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Hang Son Doong",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90oong",
+      "type": "encyclopedique",
+      "accessed": "2026-08-22"
+    }
+  ],
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 5,
+      "rarete": 5,
+      "diversite": 5,
+      "integrite": 4,
+      "monumentalite": 5,
+      "actif": 3,
+      "biologique": 4,
+      "photogenie": 4,
+      "pedagogie": 5,
+      "conservation": 3,
+      "complementarite": 5
+    },
+    "total": 124,
+    "scored_on": "2026-08-22"
+  }
+}

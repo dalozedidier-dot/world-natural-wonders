@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base title="Page introuvable · 100 joyaux naturels">
+  <section class="band shell" style="padding-top:8rem;min-height:60svh">
+    <p class="eyebrow">Erreur 404</p>
+    <h1>Ce lieu n'existe pas sur la carte</h1>
+    <p class="lead">La page demandée est introuvable. La carte mondiale reste le meilleur point de départ.</p>
+    <p style="display:flex;gap:.5rem;flex-wrap:wrap">
+      <a class="btn btn--accent" href={`${base}/`}>Retour à la carte</a>
+      <a class="btn" href={`${base}/collections`}>Collections</a>
+    </p>
+  </section>
+</Base>

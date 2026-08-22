@@ -1,0 +1,286 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allPlaces, heroFor, galleryFor, label, taxonomies } from '../../data/places';
+import type { Place } from '../../data/types';
+
+export function getStaticPaths() {
+  return allPlaces.map(p => ({ params: { id: p.id }, props: { place: p } }));
+}
+const { place } = Astro.props as { place: Place };
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const hero = heroFor(place);
+const gallery = galleryFor(place);
+const p = place;
+const fmt = (n?: number | null, unit = '') => (n == null ? null : `${n.toLocaleString('fr-FR')}${unit}`);
+const monthsOn = new Set(p.seasonality.best_months);
+const dms = (v: number, pos: string, neg: string) => {
+  const d = Math.abs(v); const deg = Math.floor(d); const m = Math.floor((d - deg) * 60);
+  const s = Math.round(((d - deg) * 60 - m) * 60);
+  return `${deg}° ${m}′ ${s}″ ${v >= 0 ? pos : neg}`;
+};
+const related = allPlaces
+  .filter(o => o.id !== p.id && o.collection !== 'reserve' &&
+    (o.landscape.family === p.landscape.family || o.location.region === p.location.region))
+  .slice(0, 4);
+---
+<Base title={`${p.identity.name_fr} · 100 joyaux naturels`} description={p.editorial.lede} image={hero ? hero.local.replace(/^public\//, '/') : null}>
+  <article>
+    <header class="place-hero">
+      {hero && <img src={`${base}${hero.local.replace(/^public\//, '/')}`} alt={hero.alt} fetchpriority="high" />}
+      <div class="shell">
+        <p class="eyebrow">{p.location.country_labels.join(' et ')}{p.location.subdivision ? ` · ${p.location.subdivision}` : ''}</p>
+        <h1>{p.identity.name_fr}</h1>
+        {p.identity.name_local?.length && (
+          <p class="muted" style="margin-top:-.4rem">
+            {p.identity.name_local.map(n => n.value).join(' · ')}
+            {p.identity.name_indigenous?.length ? ` · ${p.identity.name_indigenous.map(n => `${n.value} (${n.people})`).join(' · ')}` : ''}
+          </p>
+        )}
+        <div class="chiprow">
+          {p.editorial.badges.map(b => <span class="badge" title={label.badgeDesc(b)}>{label.badge(b)}</span>)}
+          <span class="badge badge--plain">{label.family(p.landscape.family)}</span>
+          {p.editorial.essential && <span class="badge">✦ Incontournable</span>}
+        </div>
+        <p class="lead" style="max-width:46rem">{p.editorial.lede}</p>
+        {hero && (
+          <p class="muted" style="font-size:.7rem">
+            Photo : {hero.author} · <a href={hero.source_page} rel="noopener" target="_blank">{hero.license} {hero.license_version}</a>
+          </p>
+        )}
+      </div>
+    </header>
+
+    <div class="shell place-layout">
+      <div class="prose">
+        {p.conservation.understand_without_going && (
+          <div class="callout callout--alert">
+            <strong>Comprendre ce lieu sans nécessairement y aller.</strong>
+            <p style="margin:.4rem 0 0">{p.conservation.message}</p>
+          </div>
+        )}
+
+        <h2>Pourquoi ce lieu figure dans la sélection</h2>
+        {p.editorial.why_here.split('\n\n').map(t => <p>{t}</p>)}
+
+        <h2>Présentation</h2>
+        {p.editorial.presentation.split('\n\n').map(t => <p>{t}</p>)}
+
+        {p.figures?.length && (
+          <dl class="factgrid">
+            {p.figures.map(f => <div class="fact"><dt>{f.label}</dt><dd>{f.value}</dd></div>)}
+          </dl>
+        )}
+
+        {p.editorial.geology && (<>
+          <h2>Histoire géologique</h2>
+          {p.editorial.geology.split('\n\n').map(t => <p>{t}</p>)}
+        </>)}
+
+        {p.editorial.dynamics && (<>
+          <h2>Comment le système fonctionne aujourd'hui</h2>
+          {p.editorial.dynamics.split('\n\n').map(t => <p>{t}</p>)}
+        </>)}
+
+        {p.editorial.biodiversity_text && (<>
+          <h2>Le vivant</h2>
+          {p.editorial.biodiversity_text.split('\n\n').map(t => <p>{t}</p>)}
+          {p.biodiversity?.flagship_species?.length && (
+            <div class="scroll-x">
+              <table class="data">
+                <thead><tr><th>Espèce</th><th>Nom scientifique</th><th>Liste rouge</th></tr></thead>
+                <tbody>
+                  {p.biodiversity.flagship_species.map(s => (
+                    <tr><td>{s.name_fr}</td><td><em>{s.name_sci ?? '—'}</em></td><td>{s.iucn_status ?? '—'}</td></tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+          {p.biodiversity?.endemism_note && <p class="muted">{p.biodiversity.endemism_note}</p>}
+        </>)}
+
+        <h2>Saisons</h2>
+        <div class="months">
+          {taxonomies.months.map((m, i) => <span class={monthsOn.has(i + 1) ? 'on' : ''} title={m}>{m.slice(0, 3)}</span>)}
+        </div>
+        {p.seasonality.notes && <p>{p.seasonality.notes}</p>}
+        {p.seasonality.phenomena?.length && (
+          <table class="data">
+            <tbody>
+              {p.seasonality.phenomena.map(ph => (
+                <tr>
+                  <th>{ph.months.map(m => label.month(m)).join(', ')}</th>
+                  <td><strong>{ph.label}</strong>{ph.note ? ` ${ph.note}` : ''}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+
+        <h2>Conservation et fragilité</h2>
+        <p>{p.conservation.state}</p>
+        {p.conservation.threats.map(t => (
+          <div class="threat">
+            <span class={`lvl lvl-${t.level}`}>{t.level}</span>
+            <span><strong>{label.threat(t.type)}</strong>{t.note ? ` ${t.note}` : ''}</span>
+          </div>
+        ))}
+        {p.conservation.message && !p.conservation.understand_without_going && (
+          <div class="callout">{p.conservation.message}</div>
+        )}
+
+        {p.editorial.in_motion && (<>
+          <h2>La Terre en mouvement</h2>
+          {p.editorial.in_motion.split('\n\n').map(t => <p>{t}</p>)}
+        </>)}
+
+        {p.visit.rules?.length && (<>
+          <h2>Règles essentielles</h2>
+          <ul>{p.visit.rules.map(r => <li>{r}</li>)}</ul>
+          {p.visit.no_route_guidance && (
+            <p class="muted">Cette fiche n'indique volontairement aucun itinéraire d'accès détaillé.</p>
+          )}
+        </>)}
+
+        <h2>Sources</h2>
+        <ol>
+          {p.sources.map(s => (
+            <li>
+              <a href={s.url} rel="noopener" target="_blank">{s.title}</a>
+              {s.publisher ? <span class="muted"> · {s.publisher}</span> : null}
+              {s.accessed ? <span class="muted"> · consulté le {s.accessed}</span> : null}
+            </li>
+          ))}
+        </ol>
+        <p class="muted">Dernière vérification : {p.last_verified}. Statut éditorial : {p.status}.</p>
+      </div>
+
+      <aside class="aside">
+        <div class="box">
+          <h3>Repères</h3>
+          <table class="data">
+            <tbody>
+              <tr><th>Région</th><td>{label.region(p.location.region)}</td></tr>
+              <tr><th>Pays</th><td>{p.location.country_labels.join(', ')}</td></tr>
+              <tr><th>Coordonnées</th><td>{dms(p.location.lat, 'N', 'S')}<br />{dms(p.location.lng, 'E', 'O')}
+                {p.location.coordinate_precision !== 'site' && <span class="muted"><br />position volontairement généralisée</span>}
+              </td></tr>
+              {p.location.area_km2 && <tr><th>Superficie</th><td>{fmt(p.location.area_km2, ' km²')}</td></tr>}
+              {(p.location.elevation_min_m != null || p.location.elevation_max_m != null) && (
+                <tr><th>Altitudes</th><td>{fmt(p.location.elevation_min_m, ' m')} à {fmt(p.location.elevation_max_m, ' m')}</td></tr>
+              )}
+              {p.location.depth_max_m && <tr><th>Profondeur</th><td>{fmt(p.location.depth_max_m, ' m')}</td></tr>}
+              {p.landscape.climate && <tr><th>Climat</th><td>{p.landscape.climate}</td></tr>}
+              {p.landscape.biome && <tr><th>Biome</th><td>{p.landscape.biome}</td></tr>}
+            </tbody>
+          </table>
+        </div>
+
+        <div class="box">
+          <h3>Paysages</h3>
+          <div class="chiprow" style="margin:0">
+            {p.landscape.types.map(t => <a class="badge badge--plain" href={`${base}/paysages/${t}`}>{label.landscape(t)}</a>)}
+          </div>
+          {p.landscape.iucn_ecosystem?.length && (<>
+            <h3 style="margin-top:1rem">Écosystèmes UICN</h3>
+            <ul>{p.landscape.iucn_ecosystem.map(e => <li>{e}</li>)}</ul>
+          </>)}
+        </div>
+
+        <div class="box">
+          <h3>Protection</h3>
+          <ul>
+            {p.protection.designations.map(d => (
+              <li>
+                {d.url ? <a href={d.url} rel="noopener" target="_blank">{d.name}</a> : d.name}
+                <span class="muted"> · {label.designation(d.type)}{d.since ? `, ${d.since}` : ''}{d.iucn_category ? `, UICN ${d.iucn_category}` : ''}</span>
+              </li>
+            ))}
+          </ul>
+          {p.protection.managing_body && (
+            <p class="muted" style="margin:.6rem 0 0">
+              Gestionnaire : {p.protection.managing_body.url
+                ? <a href={p.protection.managing_body.url} rel="noopener" target="_blank">{p.protection.managing_body.name}</a>
+                : p.protection.managing_body.name}
+            </p>
+          )}
+        </div>
+
+        <div class="box">
+          <h3>Visiter</h3>
+          <table class="data">
+            <tbody>
+              <tr><th>Accessibilité</th><td>{label.accessibility(p.visit.accessibility)}</td></tr>
+              <tr><th>Durée conseillée</th><td>{p.visit.suggested_duration}</td></tr>
+              {p.visit.difficulty && <tr><th>Difficulté</th><td>{p.visit.difficulty}</td></tr>}
+              {p.visit.permits && <tr><th>Permis</th><td>{p.visit.permits}</td></tr>}
+              {p.visit.extreme_conditions?.length && <tr><th>Conditions</th><td>{p.visit.extreme_conditions.join(', ')}</td></tr>}
+              <tr><th>Fragilité</th><td>{label.fragility(p.conservation.fragility)}</td></tr>
+            </tbody>
+          </table>
+          {p.visit.official_url && <p style="margin-top:.7rem"><a class="btn" href={p.visit.official_url} rel="noopener" target="_blank">Site officiel</a></p>}
+        </div>
+
+        <div class="box">
+          <h3>Mes listes</h3>
+          <div style="display:flex;gap:.35rem;flex-wrap:wrap">
+            <button class="btn" data-list="favorites" data-id={p.id} aria-pressed="false">♡ Favori</button>
+            <button class="btn" data-list="seen" data-id={p.id} aria-pressed="false">✓ Déjà vu</button>
+            <button class="btn" data-list="someday" data-id={p.id} aria-pressed="false">◷ Un jour</button>
+          </div>
+          <p class="muted" style="margin:.7rem 0 0;font-size:.76rem">Enregistré uniquement dans ce navigateur.</p>
+        </div>
+      </aside>
+    </div>
+
+    {gallery.length > 0 && (
+      <section class="band tinted">
+        <div class="shell">
+          <p class="eyebrow">Images</p>
+          <div class="cardgrid">
+            {gallery.map(g => (
+              <figure class="card" style="margin:0">
+                <div class="media"><img src={`${base}${g.local.replace(/^public\//, '/')}`} alt={g.alt} loading="lazy" /></div>
+                <figcaption class="body">
+                  <p>{g.caption ?? g.alt}</p>
+                  <p style="margin-top:.4rem">{g.author} · <a href={g.source_page} rel="noopener" target="_blank">{g.license} {g.license_version}</a></p>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {related.length > 0 && (
+      <section class="band">
+        <div class="shell">
+          <p class="eyebrow">À rapprocher</p>
+          <h2>Dans la même famille</h2>
+          <div class="cardgrid" style="margin-top:1.4rem">
+            {related.map(r => (
+              <a class="card" href={`${base}/lieux/${r.id}`}>
+                <div class="body">
+                  <h3>{r.identity.name_fr}</h3>
+                  <p>{r.location.country_labels.join(' et ')} · {label.family(r.landscape.family)}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+          <p style="margin-top:1.6rem"><a class="btn" href={`${base}/comparer?a=${p.id}`}>Comparer ce lieu avec un autre</a></p>
+        </div>
+      </section>
+    )}
+  </article>
+
+  <script>
+    import { read, toggle } from '../../scripts/store';
+    document.querySelectorAll<HTMLButtonElement>('[data-list][data-id]').forEach(btn => {
+      const list = btn.dataset.list as 'favorites' | 'seen' | 'someday';
+      const id = btn.dataset.id!;
+      const sync = () => btn.setAttribute('aria-pressed', String(read()[list].includes(id)));
+      btn.addEventListener('click', () => { toggle(list, id); sync(); });
+      sync();
+    });
+  </script>
+</Base>

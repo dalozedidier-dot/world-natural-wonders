@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import Grid from '../../components/Grid.astro';
+import { places, taxonomies } from '../../data/places';
+export function getStaticPaths() {
+  return taxonomies.regions.map(r => ({
+    params: { id: r.id },
+    props: { region: r, items: places.filter(p => p.location.region === r.id) }
+  }));
+}
+const { region, items } = Astro.props;
+const countries = [...new Set(items.flatMap(p => p.location.country_labels))].sort((a, b) => a.localeCompare(b, 'fr'));
+---
+<Base title={`${region.label} · 100 joyaux naturels`}>
+  <section class="band shell" style="padding-top:7rem">
+    <p class="eyebrow">Région</p>
+    <h1>{region.label}</h1>
+    <p class="lead">{items.length} lieux retenus, répartis sur {countries.length} pays et territoires. Quota fixé par la charte : {region.quota[0]} à {region.quota[1]}.</p>
+    <p class="muted">{countries.join(' · ')}</p>
+    <div style="margin-top:2.2rem"><Grid items={items} /></div>
+  </section>
+</Base>

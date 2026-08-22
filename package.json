@@ -1,0 +1,29 @@
+{
+  "name": "world-natural-wonders",
+  "version": "2.0.0",
+  "description": "100 joyaux naturels de la Terre, atlas éditorial et cartographique",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run validate && astro build && node scripts/build-credits.mjs",
+    "preview": "astro preview",
+    "validate": "node scripts/validate.mjs",
+    "media:fetch": "node scripts/fetch-media.mjs",
+    "media:build": "node scripts/build-images.mjs",
+    "media:credits": "node scripts/build-credits.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "test": "node --test scripts/tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@protomaps/basemaps": "^5.7.2",
+    "astro": "^7.2.4",
+    "maplibre-gl": "^6.5.0",
+    "pmtiles": "^4.5.0"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1",
+    "sharp": "^0.35.3"
+  }
+}
