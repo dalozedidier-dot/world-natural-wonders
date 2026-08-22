@@ -12,7 +12,7 @@ Aucune ville, aucun monument, aucun jardin, aucun lac de barrage. Uniquement des
 | --- | --- |
 | Socle technique | complet et fonctionnel |
 | Fiches rédigées | 33 sur 100 |
-| Photographies intégrées | 0. En attendant, chaque lieu affiche un visuel généré propre à sa famille de paysage. Lancer `npm run media:pick && npm run media:build` depuis une machine ayant accès à Internet. |
+| Photographies intégrées | 0. Chaque lieu affiche pour l'instant un visuel généré. Trois voies pour alimenter : `npm run media:pick` (Commons, nécessite Internet), `npm run media:local` (dépôt manuel, aucun réseau), ou ajout direct au manifeste. |
 | Fond de carte | PMTiles auto-hébergé, repli de démonstration en développement |
 
 Le détail de ce qui reste figure dans [`docs/reste-a-faire.md`](docs/reste-a-faire.md).

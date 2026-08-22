@@ -12,3 +12,7 @@ _bundle.tar.gz
 # dossiers de travail locaux, non versionnés
 _to_delete/
 _ancien-prototype/
+
+data/media/incoming/
+data/media/candidates.json
+public/media/

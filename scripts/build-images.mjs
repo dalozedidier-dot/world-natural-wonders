@@ -12,7 +12,7 @@ const ROOT = path.resolve(import.meta.dirname, '..');
 const MANIFEST = path.join(ROOT, 'data/media/manifest.json');
 const ORIGINALS = path.join(ROOT, 'data/media/originals');
 const DERIVED = path.join(ROOT, 'public/media');
-const WIDTHS = [480, 960, 1600, 2400];
+const WIDTHS = [480, 960, 1280, 1920];
 const UA = 'world-natural-wonders/2.0 (projet éditorial)';
 
 if (!fs.existsSync(MANIFEST)) { console.log('Aucun manifeste. Rien à faire.'); process.exit(0); }
@@ -22,8 +22,12 @@ fs.mkdirSync(DERIVED, { recursive: true });
 
 let changed = false;
 for (const item of manifest.items) {
-  const ext = path.extname(item.commons_file) || '.jpg';
-  const origPath = path.join(ORIGINALS, `${item.id}${ext}`);
+  let origPath = null;
+  for (const e of ['.jpg', '.jpeg', '.png', '.webp', '.avif', '.tif', '.tiff']) {
+    const candidate = path.join(ORIGINALS, `${item.id}${e}`);
+    if (fs.existsSync(candidate)) { origPath = candidate; break; }
+  }
+  if (!origPath) origPath = path.join(ORIGINALS, `${item.id}${path.extname(item.commons_file) || '.jpg'}`);
 
   if (!fs.existsSync(origPath)) {
     const info = await byTitle(item.commons_file);
@@ -60,18 +64,18 @@ for (const item of manifest.items) {
       console.log(`+ ${path.basename(outPath)}`);
     }
   }
-  const jpg = path.join(DERIVED, `${item.id}-1600.jpg`);
+  const jpg = path.join(DERIVED, `${item.id}-1280.jpg`);
   if (!fs.existsSync(jpg)) {
     await sharp(origPath, { failOn: 'none' })
       .resize({ width: crop.width, height: crop.height, fit: 'cover', position: 'attention' })
-      .resize({ width: 1600 }).jpeg({ quality: 82, mozjpeg: true }).toFile(jpg);
+      .resize({ width: 1280 }).jpeg({ quality: 82, mozjpeg: true }).toFile(jpg);
   }
 
-  const finalW = Math.min(1600, crop.width);
+  const finalW = Math.min(1280, crop.width);
   const finalH = Math.round(finalW / 1.5);
-  if (item.width !== finalW || item.height !== finalH || item.local !== `public/media/${item.id}-1600.jpg`) {
+  if (item.width !== finalW || item.height !== finalH || item.local !== `public/media/${item.id}-1280.jpg`) {
     item.width = finalW; item.height = finalH;
-    item.local = `public/media/${item.id}-1600.jpg`;
+    item.local = `public/media/${item.id}-1280.jpg`;
     item.modifications = item.modifications || 'recadrage centré au ratio 3:2, redimensionnement, conversion AVIF et WebP';
     changed = true;
   }

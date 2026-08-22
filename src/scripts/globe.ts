@@ -11,9 +11,15 @@ async function start(el: HTMLElement) {
     JSON.parse(document.getElementById('globe-points')!.textContent!);
   const BASE = (el.dataset.base || '').replace(/\/$/, '');
 
+  let style;
+  try {
+    style = await darkStyle();
+  } catch {
+    return; // pas de fond de carte joignable : la scène dessinée reste seule
+  }
   const map = new MlMap({
     container: el,
-    style: await darkStyle(),
+    style,
     center: [8, 22],
     zoom: 1.1,
     interactive: !reduce,
@@ -22,6 +28,9 @@ async function start(el: HTMLElement) {
     pitchWithRotate: false
   });
   // Projection globe : disponible nativement dans MapLibre GL JS.
+  let painted = false;
+  map.on('error', () => { if (!painted) el.innerHTML = ''; });
+  map.on('idle', () => { painted = true; });
   map.on('style.load', () => {
     try { map.setProjection({ type: 'globe' }); } catch { /* repli mercator */ }
     map.setSky?.({

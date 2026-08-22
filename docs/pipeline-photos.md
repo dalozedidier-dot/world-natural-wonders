@@ -41,3 +41,30 @@ Le texte alternatif décrit ce que montre l'image, pas le nom du lieu. « Barrag
 ## Règle de repli
 
 Si aucune photographie libre acceptable n'existe pour un lieu, la fiche affiche un aplat coloré dérivé de la famille de paysage. Le projet préfère une absence assumée à une image aux droits incertains.
+
+## Déposer ses propres images, sans accès réseau
+
+Quand l'API Commons n'est pas joignable, ou pour utiliser des photographies que tu as toi-même prises ou sourcées :
+
+1. `npm run media:local` une première fois pour créer `data/media/incoming/`.
+2. Dépose tes fichiers dedans, nommés par identifiant de lieu : `plitvice.jpg` devient l'héroïne, `plitvice-2.jpg` et `plitvice-3.jpg` alimentent la galerie.
+3. Crée `data/media/incoming/credits.json` :
+
+```json
+{
+  "plitvice.jpg": {
+    "author": "Nom de l'auteur",
+    "license": "CC BY-SA",
+    "license_version": "4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source_page": "https://commons.wikimedia.org/wiki/File:...",
+    "alt": "Barrages de travertin étagés entre des lacs turquoise, sous une forêt de hêtres"
+  }
+}
+```
+
+4. `npm run media:local` puis `npm run media:build` puis `npm run media:credits`.
+
+Un fichier absent de `credits.json`, ou portant une licence hors CC0, domaine public, CC BY et CC BY-SA, est refusé. Les originaux sont versionnés dans `data/media/originals/` pour que l'intégration continue puisse régénérer les dérivés sans accès à Commons ; seuls les dérivés de `public/media/` sont ignorés par Git.
+
+Le diaporama d'accueil et les fiches basculent automatiquement du visuel généré vers la photographie dès qu'une entrée existe au manifeste. Aucune modification de code n'est nécessaire.

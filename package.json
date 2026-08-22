@@ -14,7 +14,8 @@
     "media:credits": "node scripts/build-credits.mjs",
     "check:links": "node scripts/check-links.mjs",
     "test": "node --test scripts/tests/*.test.mjs",
-    "media:pick": "node scripts/pick-media.mjs"
+    "media:pick": "node scripts/pick-media.mjs",
+    "media:local": "node scripts/add-local-media.mjs"
   },
   "dependencies": {
     "@protomaps/basemaps": "^5.7.2",
