@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { allPlaces, heroFor, galleryFor, label, taxonomies } from '../../data/places';
+import { allPlaces, heroFor, galleryFor, label, taxonomies, placeholder } from '../../data/places';
 import type { Place } from '../../data/types';
 
 export function getStaticPaths() {
@@ -26,7 +26,7 @@ const related = allPlaces
 <Base title={`${p.identity.name_fr} · 100 joyaux naturels`} description={p.editorial.lede} image={hero ? hero.local.replace(/^public\//, '/') : null}>
   <article>
     <header class="place-hero">
-      {hero && <img src={`${base}${hero.local.replace(/^public\//, '/')}`} alt={hero.alt} fetchpriority="high" />}
+      <img src={hero ? `${base}${hero.local.replace(/^public\//, '/')}` : placeholder(p)} alt={hero ? hero.alt : ''} fetchpriority="high" />
       <div class="shell">
         <p class="eyebrow">{p.location.country_labels.join(' et ')}{p.location.subdivision ? ` · ${p.location.subdivision}` : ''}</p>
         <h1>{p.identity.name_fr}</h1>

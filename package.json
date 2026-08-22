@@ -13,7 +13,8 @@
     "media:build": "node scripts/build-images.mjs",
     "media:credits": "node scripts/build-credits.mjs",
     "check:links": "node scripts/check-links.mjs",
-    "test": "node --test scripts/tests/*.test.mjs"
+    "test": "node --test scripts/tests/*.test.mjs",
+    "media:pick": "node scripts/pick-media.mjs"
   },
   "dependencies": {
     "@protomaps/basemaps": "^5.7.2",

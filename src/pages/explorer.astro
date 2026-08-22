@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { places, taxonomies, heroFor, label } from '../data/places';
+import { places, taxonomies, heroFor, label, placeholder } from '../data/places';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const pool = places
   .filter(p => (p.editorial.guess_hints ?? []).length >= 2)
@@ -12,7 +12,7 @@ const pool = places
     family: label.family(p.landscape.family),
     hints: p.editorial.guess_hints,
     lede: p.editorial.lede,
-    hero: heroFor(p)?.local.replace(/^public\//, '/') ?? null,
+    hero: heroFor(p)?.local.replace(/^public\//, '/') ?? placeholder(p),
     alt: heroFor(p)?.alt ?? '',
     author: heroFor(p)?.author ?? null,
     license: heroFor(p) ? `${heroFor(p)!.license} ${heroFor(p)!.license_version}` : null,
@@ -55,7 +55,7 @@ const pool = places
       if (!pool.length) { hints.innerHTML = '<p class="muted">Aucun lieu ne comporte encore d\'indices.</p>'; return; }
       cur = pool[Math.floor(Math.random() * pool.length)];
       photo.innerHTML = cur.hero
-        ? `<img src="${base}${cur.hero}" alt="Photographie d'un lieu à deviner">`
+        ? `<img src="${cur.hero.startsWith("data:") ? "" : base}${cur.hero}" alt="Photographie d'un lieu à deviner">`
         : `<div style="width:100%;height:100%;background:linear-gradient(140deg, ${cur.color}33, #0b1817);display:grid;place-items:center;color:var(--paper-mute)">Photographie à venir</div>`;
       hints.innerHTML = cur.hints.map(h => `<div class="guess-hint">${esc(h)}</div>`).join('');
       answer.classList.remove('is-open');

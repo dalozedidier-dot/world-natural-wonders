@@ -189,6 +189,33 @@ async function init(root: HTMLElement) {
       lieu: (readState().lieu as string) || undefined
     });
     document.dispatchEvent(new Event('wnw:filters'));
+    updateActive();
+  }
+
+  const activeEl = root.querySelector<HTMLElement>('[data-active-filters]');
+  const clearBtn = root.querySelector<HTMLElement>('[data-clear-btn]');
+  const refine = root.querySelector<HTMLDetailsElement>('details.refine');
+
+  function updateActive() {
+    if (!activeEl) return;
+    const tags: string[] = [];
+    root.querySelectorAll<HTMLButtonElement>('[data-filter][data-value]').forEach(b => {
+      if (b.dataset.value && b.getAttribute('aria-pressed') === 'true') {
+        tags.push((b.textContent || '').trim());
+      }
+    });
+    if (filters.essential) tags.push('Incontournables');
+    if (filters.favorites) tags.push('Favoris');
+    if (filters.q) tags.push(`« ${filters.q} »`);
+    activeEl.innerHTML = tags.length
+      ? tags.map(t => `<span class="tag">${esc(t)}</span>`).join(' ')
+      : '<span class="muted">Aucun filtre actif</span>';
+    if (clearBtn) clearBtn.hidden = tags.length === 0;
+    // ouvre le panneau Affiner si un filtre avancé y est actif
+    if (refine && !refine.open) {
+      const deep = filters.type.length || filters.collection.length || filters.access.length || filters.month.length;
+      if (deep) refine.open = true;
+    }
   }
 
   function renderList(items: Lite[]) {
@@ -198,7 +225,7 @@ async function init(root: HTMLElement) {
     }
     listEl.innerHTML = items.map(p => `
       <button class="result" data-open="${p.id}" type="button">
-        <span class="thumb">${p.hero ? `<img src="${BASE}${p.hero}" alt="" loading="lazy" decoding="async">` : ''}<span class="fam" style="background:${colors[p.family] || '#888'}"></span></span>
+        <span class="thumb">${p.hero ? `<img src="${src(p.hero, BASE)}" alt="" loading="lazy" decoding="async">` : ''}<span class="fam" style="background:${colors[p.family] || '#888'}"></span></span>
         <span>
           <h3>${esc(p.name)}${p.essential ? ' <span aria-label="incontournable">✦</span>' : ''}</h3>
           <p>${esc(p.country)}</p>
@@ -268,6 +295,7 @@ function toGeoJSON(items: Lite[]): GeoJSON.FeatureCollection {
   };
 }
 
+const src = (u: string | null | undefined, base: string) => (!u ? '' : u.startsWith('data:') ? u : base + u);
 const esc = (s: string) => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]!));
 const para = (t?: string) => (t ? t.split('\n\n').map(x => `<p>${esc(x)}</p>`).join('') : '');
 const MONTHS = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
@@ -285,8 +313,8 @@ function renderSheet(p: any, BASE: string): string {
 
   return `
   <div class="sheet-hero">
-    ${hero ? `<img src="${BASE}${hero.src}" alt="${esc(hero.alt)}">` : ''}
-    ${hero ? `<p class="credit">${esc(hero.author)} · <a href="${hero.source_page}" target="_blank" rel="noopener">${esc(hero.license)} ${esc(hero.license_version)}</a></p>` : ''}
+    ${hero ? `<img src="${src(hero.src, BASE)}" alt="${esc(hero.alt || '')}">` : ''}
+    ${hero && !hero.generated ? `<p class="credit">${esc(hero.author)} · <a href="${hero.source_page}" target="_blank" rel="noopener">${esc(hero.license)} ${esc(hero.license_version)}</a></p>` : ''}
   </div>
   <div class="sheet-inner">
     <p class="sheet-kicker">${esc(p.location.country_labels.join(' et '))}${p.location.subdivision ? ' · ' + esc(p.location.subdivision) : ''}</p>

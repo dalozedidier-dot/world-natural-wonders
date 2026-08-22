@@ -1,4 +1,5 @@
 import type { Place, MediaItem, Taxonomies } from './types';
+import { placeholder } from './placeholder';
 
 const placeModules = import.meta.glob<Place>('../../data/places/*.json', { eager: true, import: 'default' });
 export const allPlaces: Place[] = Object.values(placeModules)
@@ -36,6 +37,7 @@ export const label = {
   month: (n: number) => taxonomies.months[n - 1] ?? String(n)
 };
 
+export { placeholder };
 export const heroFor = (p: Place) => (p.media?.hero ? mediaById.get(p.media.hero) : undefined);
 export const galleryFor = (p: Place) => (p.media?.gallery ?? []).map(id => mediaById.get(id)).filter(Boolean) as MediaItem[];
 
@@ -45,7 +47,7 @@ export interface PlaceLite {
   family: string; types: string[]; badges: string[]; essential: boolean;
   lat: number; lng: number; bbox?: [number, number, number, number] | null;
   months: number[]; access: string; fragility: string; collections: string[];
-  lede: string; hints: string[]; hero?: string | null; alt?: string | null;
+  lede: string; hints: string[]; hero?: string | null; hasPhoto: boolean; alt?: string | null;
   elevation?: number | null; search: string;
 }
 
@@ -69,8 +71,9 @@ export const toLite = (p: Place): PlaceLite => {
     collections: p.landscape.collections ?? [],
     lede: p.editorial.lede,
     hints: p.editorial.guess_hints ?? [],
-    hero: hero ? hero.local.replace(/^public\//, '/') : null,
-    alt: hero?.alt ?? null,
+    hero: hero ? hero.local.replace(/^public\//, '/') : placeholder(p),
+    hasPhoto: Boolean(hero),
+    alt: hero?.alt ?? `${p.identity.name_fr}, visuel généré en attendant une photographie sous licence libre`,
     elevation: p.location.elevation_max_m ?? null,
     search: [
       p.identity.name_fr, p.identity.name_official, ...(p.identity.aka ?? []),

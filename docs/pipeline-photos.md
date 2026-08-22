@@ -6,6 +6,18 @@ Version 1.0 · 2026-08-22
 
 Téléchargement au moment de la construction, manifeste de licences versionné. Le dépôt ne dépend d'aucun appel réseau à l'affichage, ce qui garantit la stabilité, la performance et surtout la traçabilité juridique.
 
+## À lancer depuis une machine ayant accès à Internet
+
+Les sessions Claude tournent derrière une liste blanche réseau qui ne contient pas `commons.wikimedia.org`. Les deux commandes suivantes doivent donc être exécutées sur ta machine, pas depuis une session assistée :
+
+```bash
+npm run media:pick      # présélection automatique d'une héroïne par lieu
+npm run media:build     # téléchargement, recadrage 3:2, AVIF et WebP
+npm run media:credits   # régénération de CREDITS.md
+```
+
+`media:pick` écrit dans le manifeste avec `verified_by: "auto"`. Tant qu'un relecteur humain n'a pas ouvert chaque page source, aucune fiche ne peut passer au statut `license_checked`.
+
 ## Étapes
 
 1. **Découverte.** `npm run media:fetch -- <id>` interroge l'API Wikimedia Commons et propose des candidats, en écartant d'emblée toute licence NC ou ND. Le résultat est écrit dans `data/media/candidates.json`. Ce fichier est une aide, jamais une décision.

@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { allPlaces, heroFor, label, taxonomies } from '../../../data/places';
+import { allPlaces, heroFor, label, taxonomies, placeholder } from '../../../data/places';
 
 export function getStaticPaths() {
   return allPlaces.map(p => ({ params: { id: p.id } }));
@@ -21,7 +21,7 @@ export const GET: APIRoute = ({ params }) => {
           license_version: hero.license_version,
           source_page: hero.source_page
         }
-      : null,
+      : { src: placeholder(p), alt: '', author: null, license: null, license_version: null, source_page: null, generated: true },
     __badgeLabels: Object.fromEntries(taxonomies.badges.map(b => [b.id, b.label])),
     __threatLabels: Object.fromEntries(taxonomies.threats.map(t => [t.id, t.label])),
     __familyLabel: label.family(p.landscape.family)
