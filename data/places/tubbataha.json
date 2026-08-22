@@ -1,0 +1,433 @@
+{
+  "id": "tubbataha",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Parc naturel des récifs de Tubbataha",
+    "name_official": "Tubbataha Reefs Natural Park",
+    "name_local": [
+      {
+        "lang": "tl",
+        "value": "Bahurang Tubbataha"
+      },
+      {
+        "lang": "en",
+        "value": "Tubbataha Reefs Natural Park"
+      }
+    ],
+    "name_indigenous": [
+      {
+        "people": "Samal",
+        "value": "Tubbataha",
+        "meaning": "Récif long exposé à marée basse, selon l'étymologie samal généralement retenue."
+      }
+    ],
+    "aka": [
+      "Récifs de Tubbataha",
+      "Atolls de Tubbataha"
+    ]
+  },
+  "location": {
+    "countries": [
+      "PH"
+    ],
+    "country_labels": [
+      "Philippines"
+    ],
+    "subdivision": "Province de Palawan, mer de Sulu",
+    "region": "asie",
+    "lat": 8.9,
+    "lng": 119.9,
+    "coordinate_precision": "generalized",
+    "bbox": [
+      119.6,
+      8.5,
+      120.2,
+      9.4
+    ],
+    "area_km2": 968,
+    "elevation_min_m": -750,
+    "elevation_max_m": 5,
+    "depth_max_m": 750,
+    "timezone": "Asia/Manila"
+  },
+  "landscape": {
+    "primary": "atoll",
+    "types": [
+      "atoll",
+      "ocean",
+      "ile"
+    ],
+    "family": "marin",
+    "iucn_ecosystem": [
+      "M1.3 Récifs coralliens photiques",
+      "M2.1 Eaux épipélagiques",
+      "MT1.3 Rivages coralliens"
+    ],
+    "biome": "Récifs coralliens océaniques de la mer de Sulu",
+    "climate": "Am tropical de mousson",
+    "collections": [
+      "bouts-du-monde",
+      "grands-rassemblements",
+      "vertiges"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "unesco-whs",
+        "name": "Parc naturel des récifs de Tubbataha",
+        "ref": "653",
+        "since": 1993,
+        "criteria": [
+          "vii",
+          "ix",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/653/"
+      },
+      {
+        "type": "marine-protected",
+        "name": "Tubbataha Reefs Natural Park, zone de non-prélèvement intégrale",
+        "ref": null,
+        "since": 1988,
+        "criteria": [],
+        "url": null
+      },
+      {
+        "type": "ramsar",
+        "name": "Tubbataha Reefs Natural Park, site Ramsar",
+        "ref": null,
+        "since": 1999,
+        "criteria": [],
+        "url": null
+      },
+      {
+        "type": "iucn-green-list",
+        "name": "Liste verte UICN des aires protégées et conservées",
+        "ref": null,
+        "since": null,
+        "criteria": [],
+        "url": null
+      }
+    ],
+    "managing_body": {
+      "name": "Tubbataha Management Office, sous l'autorité du Tubbataha Protected Area Management Board",
+      "url": "https://tubbatahareefs.org/",
+      "note": "Poste de gardes occupé en permanence sur le récif nord, patrouilles conjointes avec les garde-côtes et la marine."
+    }
+  },
+  "editorial": {
+    "badges": [
+      "ecosysteme-majeur",
+      "tres-sauvage",
+      "exceptionnel"
+    ],
+    "essential": false,
+    "lede": "Au milieu d'une mer profonde de sept cent cinquante mètres, deux atolls affleurent seuls, entourés de murs verticaux où la vie s'accroche jusqu'à la limite du bleu.",
+    "why_here": "Tubbataha démontre ce qu'un récif corallien redevient quand on lui retire toute pression directe : ici, aucune pêche, aucun prélèvement, aucun mouillage, et un poste de gardes habité toute l'année. C'est l'un des très rares points de comparaison dont dispose la science pour savoir à quoi ressemblait un récif tropical avant l'exploitation, avec des densités de prédateurs que l'on ne trouve presque plus ailleurs. L'isolement, plus de cent cinquante kilomètres de haute mer dans toutes les directions, est le facteur clé de cette intégrité, et il fait aussi de ces atolls un réservoir de larves pour la mer de Sulu tout entière. Le site apporte enfin une forme géologique différente des récifs frangeants et barrières habituels : des atolls océaniques bâtis sur un socle immergé, aux tombants presque verticaux.",
+    "presentation": "Le parc protège 96 828 hectares au cœur de la mer de Sulu, à environ cent cinquante kilomètres de Puerto Princesa, sur l'île de Palawan. Il comprend deux atolls séparés par un chenal profond de huit kilomètres, le récif nord et le récif sud, auxquels l'extension de 2009 a ajouté le récif de Jessie Beazley, un haut-fond isolé situé une vingtaine de kilomètres plus au nord.\n\nÀ marée haute, il n'y a presque rien à voir depuis la surface : quelques bancs de sable, une petite île à oiseaux, un phare et le poste des gardes. Toute la substance du lieu est immergée. Les platiers, larges de plusieurs centaines de mètres, s'interrompent brutalement sur des tombants qui plongent en paroi verticale, dont l'un est décrit dans le dossier d'inscription comme un mur perpendiculaire de cent mètres.\n\nL'inventaire officiel fait état de 374 espèces de coraux, soit environ neuf dixièmes de toutes celles connues aux Philippines, de près de cinq cents espèces de poissons, de onze espèces de cétacés et d'autant d'espèces de requins. Les tortues vertes et imbriquées y nidifient, et sept espèces d'oiseaux marins se reproduisent sur Bird Islet et South Islet.\n\nLa protection date de 1988 et l'inscription au patrimoine mondial de 1993. Le parc est une zone de non-prélèvement intégrale : aucune pêche, aucune collecte, aucun ancrage sur le récif. Des gardes se relaient en permanence sur une station bâtie sur le récif nord, appuyés par les garde-côtes et la marine. Ce dispositif a une histoire douloureuse, celle d'affrontements avec des pêcheurs illégaux et d'échouages de navires, dont celui d'un dragueur de mines américain en 2013, qui a détruit plusieurs milliers de mètres carrés de corail et donné lieu à une indemnisation.\n\nL'accès est enfin limité par la météo. La navigation n'est raisonnablement sûre que pendant une brève accalmie entre les deux moussons, de la mi-mars à la mi-juin.",
+    "geology": "Les atolls de Tubbataha se dressent sur un haut-fond de la mer de Sulu, un bassin marginal ouvert par une phase d'extension au Néogène, entre Palawan et l'archipel philippin proprement dit. Ce bassin n'est pas une simple cuvette : il possède une croûte océanique jeune, formée quand la région s'est étirée derrière une zone de subduction, et son fond avoisine ici sept cent cinquante mètres.\n\nSur des reliefs de ce plancher, probablement d'anciens hauts structuraux ou édifices volcaniques ennoyés, les coraux ont pu s'installer dès qu'ils se sont trouvés dans la zone éclairée. La suite obéit au mécanisme classique décrit par Darwin pour les atolls : tant que la construction récifale compense l'affaissement du support et la remontée du niveau marin, le récif reste en surface, et l'édifice s'élève verticalement par-dessus lui-même. Le résultat est un empilement de plusieurs centaines de mètres de calcaire corallien reposant sur un socle immergé, coiffé d'un anneau vivant qui n'affleure que de quelques mètres.\n\nLa géométrie du site s'explique par cette croissance verticale. Les tombants sont raides parce que le récif ne peut pas s'étaler : il n'a pas de plateforme continentale sous lui, seulement le vide. Les parois combinent donc des fronts de croissance actifs, des surfaces d'effondrement et des encoches héritées de niveaux marins plus bas.\n\nCar le niveau de la mer n'a pas cessé de varier. Lors du dernier maximum glaciaire, il y a environ vingt mille ans, la surface de l'océan se trouvait plus de cent mètres en dessous de l'actuelle : les platiers de Tubbataha étaient alors émergés, exposés à la pluie, et se sont karstifiés en surface comme n'importe quel calcaire continental. La remontée postglaciaire les a ré-immergés et les coraux ont recolonisé cette plateforme durcie. Les lagons peu profonds, les pinacles internes et les passes recoupent souvent d'anciens drains karstiques hérités de cette période d'émersion.\n\nLes îlots de sable, eux, n'ont rien de permanent. Ils sont faits de débris coralliens broyés par la houle, s'allongent et se déplacent au fil des saisons, et leur cimentation en dalles de grès de plage constitue le seul substrat un peu stable pour la nidification.",
+    "dynamics": "Le parc vit au rythme des deux moussons. D'octobre à février, l'amihan de nord-est balaie la mer de Sulu ; de juin à septembre, l'habagat de sud-ouest prend le relais avec des dépressions tropicales. Entre les deux subsiste une accalmie courte, de la mi-mars à la mi-juin, seule fenêtre où la mer permet d'approcher un récif dépourvu de mouillage abrité. Cette contrainte physique, autant que la réglementation, limite la fréquentation à une poignée de semaines par an.\n\nEn profondeur, la position au milieu d'un bassin ouvert expose les tombants à des courants soutenus qui apportent en permanence du plancton et attirent bancs de carangues, barracudas et requins. Des remontées d'eau plus froide le long des parois tempèrent localement la couche de surface.\n\nLa saisonnalité biologique suit ce calendrier. Les oiseaux marins se reproduisent surtout pendant la période calme, les tortues pondent sur les bancs de sable au fil de l'année avec des pics, et le corail émet ses gamètes lors d'épisodes de ponte synchronisés en fin de saison chaude.",
+    "biodiversity_text": "Le parc concentre l'essentiel de la diversité corallienne philippine sur une surface minuscule : 374 espèces de coraux durs, soit environ quatre-vingt-dix pour cent du total national, et près de cinq cents espèces de poissons. La caractéristique la plus parlante n'est cependant pas le nombre d'espèces mais la structure des peuplements. Faute de pêche, les grands prédateurs sont abondants, et le dossier d'inscription fait état d'une densité de requins de récif parmi les plus élevées connues. Onze espèces de cétacés fréquentent les eaux du parc. Les tortues vertes et imbriquées nidifient sur les îlots. Sept espèces d'oiseaux marins s'y reproduisent, notamment fous, sternes et noddis, sur Bird Islet et South Islet, deux des rares terres émergées de toute la mer de Sulu, ce qui leur donne une importance sans rapport avec leur taille.",
+    "in_motion": "Les îlots bougent : Bird Islet a changé de forme et de surface au fil des décennies sous l'effet de la houle, ce qui déplace les colonies d'oiseaux. Les épisodes de blanchissement se sont répétés depuis la fin des années 1990 et de nouveau lors des vagues de chaleur marine récentes, avec des reprises inégales selon les secteurs et la profondeur. La surveillance permanente a en revanche fait reculer la pêche illégale, et les récifs endommagés par les échouages de navires font l'objet d'un suivi de recolonisation qui montre combien la reconstruction d'une structure corallienne est lente. L'élévation du niveau de la mer pose enfin la question de la persistance des bancs de sable de nidification.",
+    "guess_hints": [
+      "Deux atolls isolés au milieu d'un bassin de sept cent cinquante mètres de fond",
+      "Zone de non-prélèvement intégrale, gardée toute l'année",
+      "Accès limité à une accalmie de trois mois entre deux moussons",
+      "Tombants coralliens verticaux en pleine mer tropicale"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Bien inscrit au patrimoine mondial",
+      "value": "96 828 ha",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "1993, extension en 2009, critères vii, ix et x",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Coraux durs",
+      "value": "374 espèces, environ 90 % du total philippin",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Poissons",
+      "value": "près de 500 espèces",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Requins et cétacés",
+      "value": "11 espèces de chacun",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Oiseaux marins nicheurs",
+      "value": "7 espèces",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Profondeur moyenne des eaux du parc",
+      "value": "environ 750 m",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Tombant vertical",
+      "value": "mur d'environ 100 m",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Distance à Puerto Princesa",
+      "value": "environ 150 km"
+    }
+  ],
+  "geology": {
+    "age": "Bassin de la mer de Sulu ouvert au Néogène, édification corallienne sur socle immergé, karstification des platiers lors des bas niveaux marins quaternaires, récif actuel postglaciaire",
+    "processes": [
+      "croissance récifale verticale compensant subsidence et remontée marine",
+      "karstification des platiers en période d'émersion glaciaire",
+      "ennoiement postglaciaire et recolonisation corallienne",
+      "bioérosion et effondrement des tombants",
+      "accumulation et migration des bancs de sable corallien"
+    ],
+    "rock_types": [
+      "calcaire corallien",
+      "grès de plage",
+      "sable bioclastique"
+    ],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Requin corail",
+        "name_sci": "Triaenodon obesus",
+        "group": "poisson cartilagineux",
+        "iucn_status": "VU",
+        "note": "Abondant sur les platiers et les tombants, indicateur de la non-exploitation."
+      },
+      {
+        "name_fr": "Requin gris de récif",
+        "name_sci": "Carcharhinus amblyrhynchos",
+        "group": "poisson cartilagineux",
+        "iucn_status": "EN"
+      },
+      {
+        "name_fr": "Tortue imbriquée",
+        "name_sci": "Eretmochelys imbricata",
+        "group": "reptile",
+        "iucn_status": "CR",
+        "note": "Nidification sur les îlots de sable du parc."
+      },
+      {
+        "name_fr": "Tortue verte",
+        "name_sci": "Chelonia mydas",
+        "group": "reptile",
+        "iucn_status": "EN"
+      },
+      {
+        "name_fr": "Napoléon",
+        "name_sci": "Cheilinus undulatus",
+        "group": "poisson",
+        "iucn_status": "EN"
+      },
+      {
+        "name_fr": "Fou à pieds rouges",
+        "name_sci": "Sula sula",
+        "group": "oiseau",
+        "iucn_status": "LC",
+        "note": "Colonie de Bird Islet, l'une des rares terres émergées de la mer de Sulu."
+      }
+    ],
+    "endemism_level": "faible",
+    "endemism_note": "Peuplement typique de l'Indo-Pacifique occidental, sans endémisme local marqué : la valeur du site tient à l'intégrité de la structure des peuplements plutôt qu'à des espèces propres.",
+    "species_counts": {
+      "corals": 374,
+      "fish": 500,
+      "birds": 7,
+      "note": "Chiffres du dossier d'inscription au patrimoine mondial, poissons arrondis à la valeur approchée annoncée."
+    }
+  },
+  "seasonality": {
+    "best_months": [
+      4,
+      5,
+      6
+    ],
+    "avoid_months": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "phenomena": [
+      {
+        "label": "Fenêtre de mer calme entre les deux moussons, seule période d'accès",
+        "kind": "autre",
+        "months": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "note": "De la mi-mars à la mi-juin en pratique."
+      },
+      {
+        "label": "Mousson de sud-ouest, habagat, et dépressions tropicales",
+        "kind": "mousson",
+        "months": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Mousson de nord-est, amihan, mer forte et houle croisée",
+        "kind": "mousson",
+        "months": [
+          11,
+          12,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Reproduction des colonies d'oiseaux marins sur les îlots",
+        "kind": "migration",
+        "months": [
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Pointes de température de surface et risque de blanchissement",
+        "kind": "autre",
+        "months": [
+          5,
+          6
+        ]
+      }
+    ],
+    "notes": "La saison d'accès n'est pas une préférence mais une contrainte : en dehors de la fenêtre de printemps, la mer de Sulu ne permet pas d'approcher un récif sans mouillage abrité."
+  },
+  "visit": {
+    "accessibility": "expedition",
+    "suggested_duration": "5 à 7 jours sur place, saison d'accès très courte",
+    "difficulty": "Seule modalité d'accès, la navigation depuis Palawan sur une nuit environ, avec vie à bord et plongées en dérive dans le courant.",
+    "extreme_conditions": [
+      "haute mer sans abri",
+      "courants soutenus le long des tombants",
+      "éloignement complet des secours"
+    ],
+    "permits": "Permis d'entrée délivré par le Tubbataha Management Office, obligatoire et nominatif, embarcation autorisée uniquement.",
+    "rules": [
+      "Aucun prélèvement, d'aucune sorte : le parc est une zone de non-prélèvement intégrale, y compris pour les coquillages et le sable.",
+      "Aucun mouillage sur le récif, uniquement les corps-morts prévus et la dérive.",
+      "Débarquement interdit sur Bird Islet et South Islet, observation depuis l'eau ou l'embarcation.",
+      "Distance de sécurité imposée avec les colonies d'oiseaux et les tortues en nidification.",
+      "Aucun rejet d'eaux usées ni de déchets dans les limites du parc.",
+      "Respect des consignes des gardes en poste et déclaration de tout dommage au récif."
+    ],
+    "official_url": "https://tubbatahareefs.org/",
+    "no_route_guidance": true
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "Tubbataha est considéré comme l'une des aires marines protégées les mieux gérées d'Asie du Sud-Est. La combinaison d'un isolement extrême, d'un statut de non-prélèvement intégral et d'une présence humaine permanente de gardes a permis de maintenir des peuplements de prédateurs et une couverture corallienne remarquables. Les menaces résiduelles sont pour l'essentiel extérieures au contrôle des gestionnaires : le réchauffement de la mer et les épisodes de blanchissement, les incursions de pêche illégale et le risque d'échouage de navires, dont plusieurs cas documentés ont détruit des surfaces significatives de récif.",
+    "trend": "stable",
+    "threats": [
+      {
+        "type": "blanchissement",
+        "level": "eleve",
+        "note": "Épisodes répétés depuis la fin des années 1990, aggravés par les vagues de chaleur marines récentes."
+      },
+      {
+        "type": "climat",
+        "level": "eleve",
+        "note": "Réchauffement, acidification et élévation du niveau marin sur les bancs de sable de nidification."
+      },
+      {
+        "type": "peche",
+        "level": "modere",
+        "note": "Incursions illégales, contenues par les patrouilles mais jamais nulles."
+      },
+      {
+        "type": "pollution",
+        "level": "modere",
+        "note": "Échouages de navires et rejets liés au trafic maritime dans la mer de Sulu."
+      },
+      {
+        "type": "tourisme",
+        "level": "faible",
+        "note": "Fréquentation intrinsèquement limitée par la saison et par les permis."
+      }
+    ],
+    "understand_without_going": true,
+    "message": "Ce site est un témoin scientifique autant qu'un paysage. Sa valeur tient précisément au fait que peu de gens y vont : les rapports annuels de suivi publiés par les gestionnaires en disent plus long que n'importe quelle plongée."
+  },
+  "media": {
+    "hero": null,
+    "gallery": []
+  },
+  "sources": [
+    {
+      "title": "Parc naturel des récifs de Tubbataha",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/653/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Tubbataha Reefs Natural Park, site du gestionnaire",
+      "publisher": "Tubbataha Management Office",
+      "url": "https://tubbatahareefs.org/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Tubbataha Reefs Natural Park, fiche d'aire protégée",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "World Heritage Outlook, évaluation de la conservation",
+      "publisher": "UICN",
+      "url": "https://worldheritageoutlook.iucn.org/",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    }
+  ],
+  "score": {
+    "criteria": {
+      "visuel": 4,
+      "singularite": 4,
+      "rarete": 4,
+      "diversite": 4,
+      "integrite": 5,
+      "monumentalite": 3,
+      "actif": 2,
+      "biologique": 5,
+      "photogenie": 4,
+      "pedagogie": 4,
+      "conservation": 5,
+      "complementarite": 4
+    },
+    "total": 107,
+    "scored_on": "2026-08-22"
+  }
+}

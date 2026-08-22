@@ -7,7 +7,7 @@ export interface Props {
   wide?: boolean;
   bodyClass?: string;
 }
-const { title, description = "Cent paysages naturels qui racontent quatre milliards d'années d'histoire de la Terre. Atlas cartographique et éditorial, sources vérifiées, images sous licence libre.", image = null, bodyClass = '' } = Astro.props;
+const { title, description = "Cent paysages naturels qui racontent quatre milliards d'années d'histoire de la Terre. Sélection éditoriale assumée, méthode publiée, faits sourcés, images sous licence libre.", image = null, bodyClass = '' } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const url = new URL(Astro.url.pathname, Astro.site ?? 'https://example.org').href;
 const nav = [
@@ -57,7 +57,7 @@ const here = Astro.url.pathname.replace(/\/$/, '');
     <div class="shell cols">
       <div>
         <h4>Le projet</h4>
-        <p>Cent paysages naturels précis, choisis selon une méthode publiée, décrits à partir de sources officielles et scientifiques. Aucune ville, aucun monument, aucun aménagement.</p>
+        <p>Cent paysages naturels précis. Le choix est subjectif et assumé comme tel, la méthode qui l'a produit est publiée, et les faits de chaque fiche sont sourcés. Aucune ville, aucun monument, aucun aménagement.</p>
       </div>
       <div>
         <h4>Explorer</h4>

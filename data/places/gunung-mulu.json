@@ -1,0 +1,406 @@
+{
+  "id": "gunung-mulu",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Parc national de Gunung Mulu",
+    "name_official": "Taman Negara Gunung Mulu",
+    "name_local": [
+      {
+        "lang": "ms",
+        "value": "Taman Negara Gunung Mulu",
+        "note": "Gunung signifie montagne en malais."
+      }
+    ],
+    "name_indigenous": [
+      {
+        "people": "Berawan",
+        "value": "Mulu",
+        "meaning": "Toponyme berawan repris pour désigner le massif."
+      }
+    ],
+    "aka": [
+      "Mulu",
+      "Grottes de Mulu"
+    ]
+  },
+  "location": {
+    "countries": [
+      "MY"
+    ],
+    "country_labels": [
+      "Malaisie"
+    ],
+    "subdivision": "Sarawak, division de Miri, Bornéo",
+    "region": "asie",
+    "lat": 4.05,
+    "lng": 114.9,
+    "coordinate_precision": "site",
+    "bbox": [
+      114.75,
+      3.9,
+      115.1,
+      4.25
+    ],
+    "area_km2": 529,
+    "elevation_min_m": 30,
+    "elevation_max_m": 2376,
+    "depth_max_m": null,
+    "timezone": "Asia/Kuching"
+  },
+  "landscape": {
+    "primary": "grotte",
+    "types": [
+      "grotte",
+      "karst",
+      "foret-tropicale",
+      "montagne"
+    ],
+    "family": "souterrain",
+    "iucn_ecosystem": [
+      "S1.1 Grottes souterraines aérobies",
+      "T1.1 Forêts pluviales tropicales de basses terres",
+      "T1.3 Forêts tropicales de montagne"
+    ],
+    "biome": "Forêt pluviale tropicale de Bornéo sur karst",
+    "climate": "Af équatorial, très humide toute l'année",
+    "collections": [
+      "sous-la-surface",
+      "vertiges",
+      "forets-primordiales"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "unesco-whs",
+        "name": "Parc national du Gunung Mulu",
+        "ref": "1013",
+        "since": 2000,
+        "criteria": [
+          "vii",
+          "viii",
+          "ix",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/1013/"
+      },
+      {
+        "type": "national-park",
+        "name": "Gunung Mulu National Park",
+        "ref": null,
+        "since": 1974,
+        "criteria": [],
+        "url": null
+      }
+    ],
+    "managing_body": {
+      "name": "Sarawak Forestry Corporation, pour le compte du gouvernement de l'État de Sarawak",
+      "url": "https://www.sarawakforestry.com/",
+      "note": "Exploitation du parc confiée à un opérateur sous concession, avec des personnels issus des communautés berawan et penan."
+    }
+  },
+  "editorial": {
+    "badges": [
+      "geologie-remarquable",
+      "unique-au-monde",
+      "grande-nature",
+      "ecosysteme-majeur"
+    ],
+    "essential": true,
+    "lede": "Sous une forêt pluviale de Bornéo se cache l'un des plus grands vides connus de la planète, une salle où l'on pourrait aligner des avions de ligne sans jamais atteindre la paroi opposée.",
+    "why_here": "Mulu réunit dans un seul massif ce que la plupart des sites karstiques n'offrent que séparément : des salles souterraines d'un volume sans équivalent, des rivières souterraines actives, une forêt de lames de calcaire dressées à la surface et un gradient forestier complet de la plaine alluviale au sommet gréseux. La démonstration géologique est directe : on y voit la même roche produire, selon qu'elle est attaquée par l'eau de pluie en surface ou par une rivière en profondeur, des pinacles acérés et des cathédrales creuses. Le site apporte aussi à la sélection un phénomène biologique de masse, la sortie quotidienne de millions de chauves-souris, qui matérialise le lien de matière entre le monde souterrain et la forêt. Enfin, sa gestion associe les Berawan et les Penan, dont les territoires coutumiers recouvrent le massif.",
+    "presentation": "Le parc couvre 52 864 hectares dans le nord du Sarawak, à Bornéo, contre la frontière du Brunei. Inscrit au patrimoine mondial en 2000 au titre des quatre critères naturels, il est l'un des rares biens à cumuler valeur esthétique, valeur géologique, valeur écologique et valeur de biodiversité.\n\nTrois montagnes structurent le paysage. Le Gunung Mulu, point culminant à environ 2 376 mètres, est bâti dans des grès. Le Gunung Api, à 1 682 mètres, et le Gunung Benarat sont des massifs de calcaire, et c'est en eux que se développe le réseau souterrain.\n\nCe réseau est l'un des plus étudiés et des plus vastes du monde tropical. La Sarawak Chamber, découverte en 1981 dans le système de Gua Nasib Bagus, mesure environ 600 mètres sur 415 pour une hauteur avoisinant 80 mètres, ce qui la place parmi les plus grandes salles souterraines connues, avec un volume estimé autour de douze millions de mètres cubes. Deer Cave, plus accessible, offre un couloir dont le diamètre atteint 120 à 150 mètres, longtemps tenu pour le plus large passage souterrain répertorié.\n\nÀ la tombée du jour, l'entrée de Deer Cave devient une scène. Des millions de molosses de l'espèce Chaerephon plicatus quittent la grotte en colonnes ondulantes qui mettent parfois plus d'une heure à s'écouler, sous la surveillance de rapaces qui attendent au débouché.\n\nSur les flancs du Gunung Api, à quelque 1 200 mètres, se dresse une autre signature du site : des centaines de lames et d'aiguilles de calcaire de quarante à cinquante mètres, les pinacles, qui percent la végétation comme une palissade.\n\nLe massif est habité de longue date. Les Berawan cultivent et pêchent dans les vallées, les Penan, chasseurs-cueilleurs devenus en partie sédentaires, occupent l'intérieur forestier. Leurs droits coutumiers sur ces terres et leur place dans les revenus du parc ont fait l'objet de tensions et de négociations répétées.",
+    "geology": "La roche mère du monde souterrain de Mulu est la formation calcaire du Melinau, une épaisse plateforme carbonatée déposée entre l'Éocène et le Miocène, soit approximativement entre cinquante et vingt-trois millions d'années, dans une mer chaude et peu profonde bordant le nord de Bornéo. Sa puissance dépasse le kilomètre par endroits, et sa pureté chimique, très élevée, explique la vigueur de la dissolution.\n\nSous ce calcaire et à côté de lui affleurent des séries plus anciennes, gréseuses et argileuses, du groupe de Mulu, d'âge crétacé supérieur à éocène. Ce contraste lithologique commande tout le paysage : les grès imperméables portent le sommet du Gunung Mulu et alimentent en eaux de ruissellement les massifs calcaires voisins, tandis que le calcaire, lui, absorbe et évacue par l'intérieur.\n\nÀ partir du Miocène supérieur, la convergence régionale a plissé et faillé l'ensemble, redressant les bancs de calcaire jusqu'à la verticale par endroits et soulevant le massif de plus d'un kilomètre. Ce soulèvement, encore actif, est le moteur du creusement : à chaque abaissement du niveau de base, les rivières souterraines s'enfoncent et abandonnent leurs anciens conduits en hauteur. C'est pourquoi les galeries de Mulu s'étagent sur plusieurs niveaux, les plus hautes et les plus sèches étant les plus anciennes.\n\nLa taille des salles s'explique par une conjonction rare. Des rivières allogènes, chargées et puissantes, descendent des grès et s'engouffrent dans le calcaire ; le climat équatorial fournit une pluviométrie considérable et constante ; la roche est massive et pure ; et la structure plissée guide les écoulements le long de plans favorables. Le résultat est un creusement rapide, suivi d'effondrements de voûte qui font croître les vides bien au-delà du volume initialement dissous. La Sarawak Chamber doit sa forme à cet effondrement en cascade sur des bancs inclinés.\n\nEn surface, la même eau produit l'inverse. La pluie acide de la canopée découpe le calcaire nu du Gunung Api le long des joints et des diaclases, isolant des lames verticales dont l'érosion différentielle affine les arêtes. Les pinacles sont le résidu de ce découpage, des piliers qui ont résisté quand tout ce qui les entourait s'est dissous.",
+    "dynamics": "Le système fonctionne comme une machine hydraulique alimentée en continu. Les précipitations, très abondantes et réparties sur toute l'année, ruissellent sur les grès imperméables du Gunung Mulu, se concentrent en rivières et disparaissent brutalement au contact du calcaire dans des pertes bien identifiées. L'eau ressort plusieurs kilomètres plus loin par des résurgences puissantes qui alimentent la rivière Melinau.\n\nLes crues souterraines sont l'événement dominant. Un orage sur les hauteurs suffit à faire monter le niveau de plusieurs mètres dans certaines galeries en quelques heures, ce qui rend l'exploration des conduits actifs dangereuse et impose des règles strictes aux visiteurs comme aux spéléologues.\n\nLe cycle biologique quotidien est tout aussi réglé. Les colonies de chauves-souris insectivores sortent chaque soir chasser au-dessus de la canopée et rentrent à l'aube. Le guano qu'elles déposent au sol des grottes constitue la base d'une chaîne alimentaire souterraine entière, blattes, myriapodes, araignées et prédateurs associés, dans un milieu privé de photosynthèse.",
+    "biodiversity_text": "Le parc réunit dix-sept zones de végétation le long d'un gradient qui va de la forêt alluviale de plaine à la végétation rabougrie du sommet, avec de l'ordre de trois mille cinq cents espèces de plantes vasculaires recensées, dont une remarquable diversité de palmiers. La forêt sur calcaire, contrainte par un sol mince et un drainage rapide, porte une flore distincte de celle des grès voisins. Le monde souterrain abrite plusieurs millions de chauves-souris réparties entre une dizaine d'espèces, dont la colonie de molosses de Deer Cave, estimée autour de trois millions d'individus, et des salanganes dont les nids servent de support à une exploitation ancienne. La faune cavernicole compte de nombreuses espèces adaptées à l'obscurité, dépigmentées et privées d'yeux, dont plusieurs ne sont connues que de ce massif.",
+    "in_motion": "Le parc lui-même reste bien conservé, mais son environnement change. Les basses terres du nord du Sarawak ont connu une conversion massive en plantations et une exploitation forestière intensive, ce qui isole progressivement le massif dans une matrice dégradée. L'accès s'est simplifié depuis l'ouverture d'une liaison aérienne régulière, et la fréquentation des grottes aménagées a augmenté, avec les questions habituelles de microclimat, d'éclairage et de dérangement des colonies. Les revendications foncières des Penan et des Berawan sur les terres du parc et ses abords restent ouvertes et structurent le débat sur la gouvernance du site.",
+    "guess_hints": [
+      "Une salle souterraine parmi les plus vastes connues",
+      "Sortie quotidienne de plusieurs millions de chauves-souris",
+      "Aiguilles de calcaire de quarante mètres au-dessus de la forêt",
+      "Climat équatorial très humide sur une grande île d'Asie du Sud-Est"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Bien inscrit au patrimoine mondial",
+      "value": "52 864 ha",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "2000, critères vii, viii, ix et x",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Gunung Mulu",
+      "value": "environ 2 376 m",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Gunung Api",
+      "value": "1 682 m",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Sarawak Chamber",
+      "value": "environ 600 m sur 415 m, 80 m de haut",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Volume de la Sarawak Chamber",
+      "value": "de l'ordre de 12 millions de m³",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Deer Cave",
+      "value": "corridor de 120 à 150 m de diamètre",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Chauves-souris de Deer Cave",
+      "value": "environ 3 millions d'individus",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Plantes vasculaires",
+      "value": "environ 3 500 espèces",
+      "source": "UNESCO"
+    }
+  ],
+  "geology": {
+    "age": "Calcaires du Melinau d'âge éocène à miocène, grès crétacés à éocènes du groupe de Mulu, plissement et soulèvement depuis le Miocène supérieur, creusement karstique plio-quaternaire",
+    "processes": [
+      "dissolution karstique par rivières allogènes",
+      "effondrement de voûte et croissance des salles",
+      "étagement des galeries lié au soulèvement",
+      "découpage des pinacles par dissolution le long des diaclases",
+      "contraste hydrologique entre grès imperméables et calcaire"
+    ],
+    "rock_types": [
+      "calcaire de plateforme",
+      "grès",
+      "argilite",
+      "shale"
+    ],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Molosse plissé",
+        "name_sci": "Chaerephon plicatus",
+        "group": "mammifère",
+        "iucn_status": "LC",
+        "note": "Colonie de Deer Cave estimée autour de trois millions d'individus."
+      },
+      {
+        "name_fr": "Salangane à nid comestible",
+        "name_sci": "Aerodramus fuciphagus",
+        "group": "oiseau",
+        "iucn_status": "LC",
+        "note": "Niche dans l'obscurité, s'oriente par écholocation."
+      },
+      {
+        "name_fr": "Rhinocéros calao",
+        "name_sci": "Buceros rhinoceros",
+        "group": "oiseau",
+        "iucn_status": "VU"
+      },
+      {
+        "name_fr": "Gibbon de Müller",
+        "name_sci": "Hylobates muelleri",
+        "group": "mammifère",
+        "iucn_status": "EN"
+      },
+      {
+        "name_fr": "Népenthès",
+        "name_sci": "Nepenthes spp.",
+        "group": "plante",
+        "iucn_status": null,
+        "note": "Plusieurs espèces de plantes à urnes sur les sols pauvres et les crêtes."
+      }
+    ],
+    "endemism_level": "eleve",
+    "endemism_note": "Endémisme fort dans la faune cavernicole, plusieurs invertébrés troglobies n'étant connus que de ce massif, et endémisme borneen classique dans la forêt de surface.",
+    "species_counts": {
+      "plants": 3500,
+      "note": "Plantes vasculaires recensées dans le parc, dont une diversité de palmiers exceptionnelle."
+    }
+  },
+  "seasonality": {
+    "best_months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "avoid_months": [
+      12,
+      1
+    ],
+    "phenomena": [
+      {
+        "label": "Sortie du soir des chauves-souris de Deer Cave",
+        "kind": "autre",
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "note": "Toute l'année, mais annulée ou avortée les soirs de forte pluie."
+      },
+      {
+        "label": "Mousson du nord-est, pluies renforcées et crues souterraines fréquentes",
+        "kind": "mousson",
+        "months": [
+          11,
+          12,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Période un peu moins pluvieuse, conduits actifs plus praticables",
+        "kind": "autre",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Fructification irrégulière de la forêt diptérocarpacée",
+        "kind": "floraison",
+        "months": [
+          3,
+          4,
+          5
+        ],
+        "note": "Phénomène pluriannuel et imprévisible, non annuel."
+      }
+    ],
+    "notes": "Il n'existe pas de vraie saison sèche : la pluie tombe toute l'année et détermine surtout l'accessibilité des galeries actives et de la piste des pinacles."
+  },
+  "visit": {
+    "accessibility": "modere",
+    "suggested_duration": "4 à 6 jours",
+    "difficulty": "Grottes aménagées faciles, mais ascension des pinacles très exigeante, et spéléologie sportive réservée aux personnes encadrées et entraînées.",
+    "extreme_conditions": [
+      "crues soudaines dans les conduits actifs",
+      "chaleur et humidité proches de la saturation",
+      "sangsues et sols glissants"
+    ],
+    "permits": "Entrée du parc payante, guide obligatoire pour toutes les grottes et pour la course d'aventure, inscription préalable pour les pinacles.",
+    "rules": [
+      "Aucun accès aux grottes sans guide agréé du parc.",
+      "Ne pas toucher les concrétions ni prélever le moindre fragment de calcite.",
+      "Rester derrière les barrières et sur les passerelles pour ne pas perturber les colonies de chauves-souris et de salanganes.",
+      "Interdiction du flash et des éclairages puissants dirigés vers les colonies au moment de la sortie du soir.",
+      "Décontaminer chaussures et matériel entre deux réseaux souterrains, pour limiter la propagation de champignons pathogènes des chauves-souris.",
+      "Faire demi-tour immédiatement en cas de montée des eaux ou d'orage sur les hauteurs."
+    ],
+    "official_url": "https://whc.unesco.org/fr/list/1013/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "moderee",
+    "state": "L'intégrité du bien est bonne : le massif est protégé depuis 1974, sa topographie décourage l'exploitation et la gestion est structurée. Les difficultés viennent surtout de l'extérieur, avec la conversion des basses terres environnantes en plantations et l'exploitation forestière qui réduisent la connectivité écologique. À l'intérieur, la fréquentation reste modérée en valeur absolue mais se concentre sur quelques grottes aménagées, où l'éclairage et le piétinement modifient localement le microclimat. La question des droits fonciers coutumiers des Penan et des Berawan demeure un enjeu central de gouvernance.",
+    "trend": "stable",
+    "threats": [
+      {
+        "type": "deforestation",
+        "level": "eleve",
+        "note": "Conversion et exploitation forestière dans les basses terres autour du parc, isolement croissant du massif."
+      },
+      {
+        "type": "tourisme",
+        "level": "modere",
+        "note": "Concentration sur quelques grottes aménagées, dérangement possible des colonies."
+      },
+      {
+        "type": "climat",
+        "level": "modere",
+        "note": "Modification du régime des pluies et intensification des crues souterraines."
+      },
+      {
+        "type": "extraction",
+        "level": "faible",
+        "note": "Pression périphérique liée aux concessions forestières et aux plantations."
+      },
+      {
+        "type": "pollution",
+        "level": "faible",
+        "note": "Qualité de l'eau des rivières allogènes tributaire des bassins versants amont."
+      }
+    ],
+    "understand_without_going": false,
+    "message": "Une grotte se dégrade par le contact autant que par la lumière. Se limiter aux itinéraires balisés, éteindre les lampes puissantes au passage des colonies et laisser les concrétions intactes suffit à ne rien coûter au site."
+  },
+  "media": {
+    "hero": null,
+    "gallery": []
+  },
+  "sources": [
+    {
+      "title": "Parc national du Gunung Mulu",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1013/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Gunung Mulu National Park, site officiel du parc",
+      "publisher": "Sarawak Forestry Corporation",
+      "url": "https://www.sarawakforestry.com/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Gunung Mulu National Park, fiche d'aire protégée",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "World Heritage Outlook, évaluation de la conservation",
+      "publisher": "UICN",
+      "url": "https://worldheritageoutlook.iucn.org/",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    }
+  ],
+  "score": {
+    "criteria": {
+      "visuel": 4,
+      "singularite": 5,
+      "rarete": 5,
+      "diversite": 5,
+      "integrite": 5,
+      "monumentalite": 5,
+      "actif": 3,
+      "biologique": 4,
+      "photogenie": 4,
+      "pedagogie": 5,
+      "conservation": 4,
+      "complementarite": 5
+    },
+    "total": 124,
+    "scored_on": "2026-08-22"
+  }
+}

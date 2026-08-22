@@ -1,0 +1,410 @@
+{
+  "id": "raja-ampat",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Raja Ampat",
+    "name_official": "Kepulauan Raja Ampat",
+    "name_local": [
+      {
+        "lang": "id",
+        "value": "Kepulauan Raja Ampat",
+        "note": "Les Quatre Rois, d'après les quatre grandes îles de l'archipel."
+      }
+    ],
+    "name_indigenous": [
+      {
+        "people": "Ma'ya",
+        "value": "Waigeo",
+        "meaning": "Nom de la plus grande île du nord de l'archipel."
+      }
+    ],
+    "aka": [
+      "Les Quatre Rois",
+      "Bird's Head Seascape"
+    ]
+  },
+  "location": {
+    "countries": [
+      "ID"
+    ],
+    "country_labels": [
+      "Indonésie"
+    ],
+    "subdivision": "Papouasie occidentale (Papua Barat Daya)",
+    "region": "asie",
+    "lat": -0.5,
+    "lng": 130.5,
+    "coordinate_precision": "generalized",
+    "bbox": [
+      129.5,
+      -2.4,
+      131.5,
+      0.6
+    ],
+    "area_km2": null,
+    "elevation_min_m": -600,
+    "elevation_max_m": 1000,
+    "depth_max_m": null,
+    "timezone": "Asia/Jayapura"
+  },
+  "landscape": {
+    "primary": "atoll",
+    "types": [
+      "atoll",
+      "ile",
+      "karst",
+      "ocean"
+    ],
+    "family": "marin",
+    "iucn_ecosystem": [
+      "M1.3 Récifs coralliens photiques",
+      "M1.1 Herbiers marins",
+      "T1.1 Forêts pluviales tropicales de basses terres"
+    ],
+    "biome": "Récifs coralliens tropicaux et forêt pluviale insulaire",
+    "climate": "Af équatorial",
+    "collections": [
+      "bouts-du-monde",
+      "grands-rassemblements"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "marine-protected",
+        "name": "Réseau d'aires marines protégées de Raja Ampat (Kawasan Konservasi Perairan)",
+        "ref": null,
+        "since": 2007,
+        "criteria": [],
+        "url": null
+      },
+      {
+        "type": "unesco-geopark",
+        "name": "Géoparc mondial UNESCO de Raja Ampat",
+        "ref": null,
+        "since": 2023,
+        "criteria": [],
+        "url": null
+      },
+      {
+        "type": "indigenous-protected",
+        "name": "Zones de sasi laut, fermetures coutumières gérées par les clans côtiers",
+        "ref": null,
+        "since": null,
+        "criteria": [],
+        "url": null
+      },
+      {
+        "type": "kba",
+        "name": "Aires clés pour la biodiversité du Bird's Head Seascape",
+        "ref": null,
+        "since": null,
+        "criteria": [],
+        "url": null
+      }
+    ],
+    "managing_body": {
+      "name": "Autorité des aires de conservation marine de Raja Ampat, sous tutelle du ministère indonésien des Affaires maritimes et de la Pêche",
+      "url": "https://kkp.go.id/",
+      "note": "Cogestion avec les gouvernements de district et les communautés détentrices de droits coutumiers."
+    }
+  },
+  "editorial": {
+    "badges": [
+      "ecosysteme-majeur",
+      "exceptionnel",
+      "unique-au-monde",
+      "tres-sauvage"
+    ],
+    "essential": true,
+    "lede": "Des centaines de dômes calcaires coiffés de forêt émergent de lagons turquoise, posés sur les récifs les plus riches en coraux durs jamais recensés sur la planète.",
+    "why_here": "Le Triangle de corail concentre la plus forte diversité marine du globe, et Raja Ampat en occupe le sommet : les inventaires y comptent davantage d'espèces de coraux durs que sur n'importe quel autre récif connu. Cette richesse n'est pas un artefact de comptage, elle découle d'une position au carrefour du Pacifique et de l'océan Indien, là où le flux traversier indonésien pousse en permanence des masses d'eau entre les îles. L'archipel apporte en outre une leçon de géologie que peu de sites livrent avec autant de clarté, celle d'un karst calcaire soulevé puis ennoyé, dont les dômes découpés dessinent aujourd'hui des labyrinthes de lagons. Il illustre enfin un modèle de gestion rare, où des aires marines sont cogérées avec les communautés qui vivent de ces eaux, et où les requins et les raies manta sont protégés par un arrêté local avant de l'être par la loi nationale.",
+    "presentation": "Les Quatre Rois, Raja Ampat en malais, désignent Waigeo, Batanta, Salawati et Misool, quatre grandes îles autour desquelles gravitent plus de mille cinq cents îlots, récifs et hauts-fonds répartis sur quelque quarante mille kilomètres carrés de terre et de mer, au large de la pointe occidentale de la Nouvelle-Guinée.\n\nLe motif visuel qui a fait la réputation du lieu tient en deux noms, Wayag et Piaynemo. Là, des massifs de calcaire corallien émergent en centaines de cônes et de champignons rocheux, sapés à leur base par le ressac et l'action chimique de l'eau de mer, coiffés d'une végétation qui s'accroche à la roche nue. Entre ces cônes, l'eau peu profonde prend des teintes de vert et de bleu qui trahissent le fond de sable, d'herbiers ou de corail.\n\nSous la surface, l'archipel détient un record de densité biologique. Les recensements du Bird's Head Seascape, ensemble marin dont Raja Ampat forme le cœur, portent sur environ six cents espèces de coraux durs, soit près des trois quarts des espèces connues dans le monde, et sur plus de mille trois cents espèces de poissons de récif. Aucune autre mer n'atteint cette combinaison de richesse et de compacité.\n\nCes eaux ne sont pas inhabitées. Les peuples de langue ma'ya, biak et matbat vivent ici depuis des siècles et pratiquent le sasi laut, une fermeture temporaire de zones de pêche décidée par les clans et levée collectivement. Ce droit coutumier a servi de matrice au réseau d'aires marines protégées mis en place à partir de 2007, dont les patrouilles associent gardes officiels et équipages villageois.\n\nLa notoriété du site est récente et elle a un coût. Les mouillages, les liaisons rapides et les croisières de plongée se sont multipliés à partir des années 2010, obligeant les gestionnaires à plafonner certaines zones et à instaurer une redevance d'entrée affectée à la conservation.",
+    "geology": "Raja Ampat se situe sur la marge nord de la plaque australienne, à l'endroit où celle-ci se déchire contre la plaque Pacifique le long de la faille de Sorong, un grand décrochement senestre qui traverse la tête de l'oiseau papoue. Ce contact n'est pas une simple ligne : il a découpé la région en lanières crustales déplacées les unes par rapport aux autres, ce qui explique que des îles voisines puissent porter des socles d'âges très différents.\n\nMisool, au sud, expose les terrains les plus anciens de l'archipel, avec des séries sédimentaires du Jurassique et du Crétacé déposées sur une marge continentale australienne alors submergée. Waigeo, au nord, appartient à un domaine plus océanique, où affleurent des roches basiques et ultrabasiques héritées d'un ancien plancher océanique et d'arcs volcaniques accrétés.\n\nPar-dessus ces socles se sont installées, au Paléogène puis au Néogène, d'épaisses plateformes de calcaire construites par les récifs eux-mêmes en eaux chaudes et peu profondes. C'est cette couverture carbonatée qui donne au paysage sa signature actuelle. Le jeu de la faille de Sorong et la convergence régionale ont soulevé ces plateformes au-dessus du niveau de la mer, les exposant à la pluie tropicale.\n\nLa suite est un manuel de karstification. L'eau chargée de dioxyde de carbone a dissous le calcaire le long des fractures, creusant un réseau de dolines et de couloirs qui a isolé peu à peu des tours et des cônes résiduels. Puis les oscillations du niveau marin quaternaire ont fait le reste : à chaque remontée, la mer a envahi les couloirs dissous et transformé le karst continental en archipel. Les encoches horizontales que l'on voit à la base des dômes, souvent profondes de plusieurs mètres, enregistrent ce travail conjoint du ressac, des organismes perforants et de la dissolution à la ligne d'eau.",
+    "dynamics": "L'archipel est traversé par le flux traversier indonésien, ce transfert permanent d'eau du Pacifique vers l'océan Indien qui s'engouffre entre les îles de l'archipel indonésien. Resserré dans les détroits de Dampier et de Sagewin, ce courant s'accélère, se heurte aux reliefs sous-marins et force des remontées d'eau plus froide et plus riche en nutriments. De là vient la productivité inhabituelle de ces récifs, et la présence régulière de bancs de poissons planctonophages et de raies manta autour des monts sous-marins.\n\nLe même brassage explique une partie de la relative résistance observée lors des épisodes de blanchissement : les masses d'eau se renouvellent vite et les pointes de température de surface y sont amorties par rapport à des lagons fermés. Cette protection est réelle mais partielle, et rien n'indique qu'elle tienne face à un réchauffement prolongé.\n\nLe climat équatorial ne connaît pas de saison sèche marquée. Les vents changent en revanche de direction au fil de l'année, ce qui déplace les zones abritées et conditionne la navigation entre décembre et février, période où la houle du nord-ouest rend certains passages inconfortables.",
+    "biodiversity_text": "Au-delà des chiffres de coraux et de poissons, l'archipel est un foyer d'endémisme à petite échelle. Plusieurs poissons de récif, dont des gobies, des demoiselles et le célèbre poisson-tapis épaulette, ne sont connus que de quelques baies. Les eaux abritent des populations importantes de raies manta de récif et de raies manta océaniques, ainsi que des dugongs sur les herbiers et des tortues vertes et imbriquées sur les plages de sable. Les cavités et les surplombs de calcaire servent de dortoirs à des requins-baleines de passage aux abords des plateformes de pêche flottantes du golfe de Cenderawasih voisin. À terre, les îles portent une forêt pluviale à affinités papoues, avec deux paradisiers propres à l'archipel, le paradisier rouge de Waigeo et Batanta, et le paradisier de Wilson, dont les mâles dégagent des aires de parade sur le sol forestier.",
+    "in_motion": "La fréquentation a changé d'échelle en une décennie : d'une poignée de bateaux de plongée, l'archipel est passé à des dizaines de navires de croisière plongée et à une offre de séjours en villages. La redevance d'entrée et les quotas de mouillage tentent d'encadrer cette croissance. En mer, le réchauffement se fait sentir par des épisodes de blanchissement plus fréquents, même si les récifs les mieux ventilés récupèrent jusqu'ici assez vite. À terre, l'exploitation du nickel a progressé sur certaines îles de la région, avec des rejets qui peuvent atteindre les récifs, question devenue centrale dans le débat public indonésien récent.",
+    "guess_hints": [
+      "Karst calcaire ennoyé sous l'équateur",
+      "Records mondiaux de richesse en coraux durs",
+      "Plus de mille cinq cents îles et îlots",
+      "Un courant océanique traversant un archipel entre deux océans"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Îles et îlots",
+      "value": "plus de 1 500",
+      "source": "WWF Coral Triangle"
+    },
+    {
+      "label": "Emprise terre et mer",
+      "value": "environ 40 000 km²",
+      "source": "WWF Coral Triangle"
+    },
+    {
+      "label": "Coraux durs recensés",
+      "value": "environ 600 espèces dans le Bird's Head Seascape",
+      "source": "WWF Coral Triangle"
+    },
+    {
+      "label": "Part des coraux durs du monde",
+      "value": "de l'ordre de 75 %",
+      "source": "WWF Coral Triangle"
+    },
+    {
+      "label": "Poissons de récif",
+      "value": "plus de 1 300 espèces",
+      "source": "WWF Coral Triangle"
+    },
+    {
+      "label": "Aires marines protégées",
+      "value": "7 aires, environ 9 100 km²",
+      "source": "WWF Coral Triangle"
+    },
+    {
+      "label": "Géoparc mondial UNESCO",
+      "value": "reconnu en 2023"
+    }
+  ],
+  "geology": {
+    "age": "Socles jurassiques à crétacés sur Misool, domaines océaniques accrétés sur Waigeo, plateformes carbonatées paléogènes et néogènes, soulèvement et karstification plio-quaternaires",
+    "processes": [
+      "décrochement le long de la faille de Sorong",
+      "accrétion de terrains océaniques",
+      "construction récifale carbonatée",
+      "soulèvement tectonique",
+      "karstification tropicale",
+      "ennoiement par la remontée marine postglaciaire",
+      "encoches de bioérosion à la ligne d'eau"
+    ],
+    "rock_types": [
+      "calcaire récifal",
+      "calcaire de plateforme",
+      "roches ultrabasiques",
+      "basalte",
+      "grès et argilites mésozoïques"
+    ],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Raie manta de récif",
+        "name_sci": "Mobula alfredi",
+        "group": "poisson cartilagineux",
+        "iucn_status": "VU",
+        "note": "Stations de nettoyage fréquentées toute l'année autour de plusieurs monts sous-marins."
+      },
+      {
+        "name_fr": "Requin-tapis épaulette de Raja Ampat",
+        "name_sci": "Hemiscyllium freycineti",
+        "group": "poisson cartilagineux",
+        "iucn_status": null,
+        "note": "Petit requin marcheur des platiers, à répartition très restreinte."
+      },
+      {
+        "name_fr": "Paradisier rouge",
+        "name_sci": "Paradisaea rubra",
+        "group": "oiseau",
+        "iucn_status": "NT",
+        "note": "Endémique de Waigeo et Batanta."
+      },
+      {
+        "name_fr": "Paradisier de Wilson",
+        "name_sci": "Diphyllodes respublica",
+        "group": "oiseau",
+        "iucn_status": "NT",
+        "note": "Endémique de Waigeo et Batanta, parades au sol."
+      },
+      {
+        "name_fr": "Dugong",
+        "name_sci": "Dugong dugon",
+        "group": "mammifère",
+        "iucn_status": "VU",
+        "note": "Herbiers des baies abritées."
+      },
+      {
+        "name_fr": "Tortue imbriquée",
+        "name_sci": "Eretmochelys imbricata",
+        "group": "reptile",
+        "iucn_status": "CR"
+      }
+    ],
+    "endemism_level": "eleve",
+    "endemism_note": "Endémisme marin à très petite échelle, plusieurs poissons de récif n'étant connus que de quelques baies ou détroits, et endémisme insulaire chez les oiseaux de Waigeo et Batanta.",
+    "species_counts": {
+      "corals": 600,
+      "fish": 1300,
+      "note": "Chiffres du Bird's Head Seascape, ensemble marin dont Raja Ampat constitue le cœur."
+    }
+  },
+  "seasonality": {
+    "best_months": [
+      10,
+      11,
+      3,
+      4
+    ],
+    "avoid_months": [
+      1,
+      2
+    ],
+    "phenomena": [
+      {
+        "label": "Houle de nord-ouest, passages exposés et visibilité variable",
+        "kind": "saison-humide",
+        "months": [
+          12,
+          1,
+          2
+        ],
+        "note": "Période où de nombreuses embarcations se replient sur les baies abritées."
+      },
+      {
+        "label": "Agrégations de raies manta sur les stations de nettoyage",
+        "kind": "migration",
+        "months": [
+          10,
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ],
+        "note": "Présence fluctuante, liée à l'abondance de plancton."
+      },
+      {
+        "label": "Mers plus calmes et eaux claires entre les deux régimes de vent",
+        "kind": "autre",
+        "months": [
+          10,
+          11,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Pointes de température de surface et risque de blanchissement",
+        "kind": "autre",
+        "months": [
+          4,
+          5,
+          11,
+          12
+        ]
+      }
+    ],
+    "notes": "Le climat équatorial ne produit pas de saison sèche nette. Ce sont les régimes de vent, plus que la pluie, qui déterminent la praticabilité des différents secteurs de l'archipel."
+  },
+  "visit": {
+    "accessibility": "difficile",
+    "suggested_duration": "8 à 12 jours",
+    "difficulty": "Deux vols intérieurs puis liaison maritime, distances importantes entre les groupes d'îles, hébergements dispersés.",
+    "extreme_conditions": [
+      "courants forts dans les détroits",
+      "chaleur et humidité permanentes",
+      "éloignement des secours"
+    ],
+    "permits": "Une redevance d'entrée dans les aires marines protégées est obligatoire et nominative, son produit est affecté à la conservation et aux communautés.",
+    "rules": [
+      "Ne jamais mouiller sur le corail : utiliser les corps-morts ou dériver.",
+      "Respecter les distances minimales avec les raies manta et ne pas se placer au-dessus d'elles sur les stations de nettoyage.",
+      "Respecter les zones fermées par le sasi coutumier, signalées par les villages.",
+      "Aucun prélèvement de coquillage, de corail ou de poisson dans les zones de non-prélèvement.",
+      "Aucune crème solaire non minérale avant mise à l'eau sur les platiers.",
+      "Demander l'accord du clan détenteur des droits avant d'accoster sur une plage habitée ou d'utiliser un point d'eau."
+    ],
+    "official_url": null,
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "L'état général des récifs reste bon au regard des standards régionaux, grâce à un réseau d'aires marines protégées cogéré et à une surveillance active. Les patrouilles conjointes ont fortement réduit la pêche à l'explosif et au cyanure qui sévissait dans les années 1990 et 2000. Les populations de requins de récif se sont reconstituées après la mise en place du sanctuaire local. Les points faibles tiennent à la croissance rapide du tourisme, à la pression de pêche aux marges du réseau et à la perspective de projets extractifs sur les îles de la région.",
+    "trend": "stable",
+    "threats": [
+      {
+        "type": "blanchissement",
+        "level": "modere",
+        "note": "Épisodes plus fréquents, atténués localement par le brassage des courants mais non annulés."
+      },
+      {
+        "type": "tourisme",
+        "level": "modere",
+        "note": "Mouillages, croisières de plongée et pression sur quelques sites emblématiques."
+      },
+      {
+        "type": "peche",
+        "level": "modere",
+        "note": "Pêche illégale aux marges du réseau et demande extérieure pour les poissons de récif vivants."
+      },
+      {
+        "type": "extraction",
+        "level": "eleve",
+        "note": "Exploitation du nickel dans la région et risques de rejets sédimentaires vers les récifs."
+      },
+      {
+        "type": "climat",
+        "level": "eleve",
+        "note": "Réchauffement et acidification à l'échelle du bassin."
+      }
+    ],
+    "understand_without_going": false,
+    "message": "Un récif se juge à sa structure autant qu'à ses couleurs. Le meilleur service à rendre ici est de payer la redevance, de dormir dans les hébergements communautaires et de ne rien toucher."
+  },
+  "media": {
+    "hero": null,
+    "gallery": []
+  },
+  "sources": [
+    {
+      "title": "Raja Ampat, Indonesia",
+      "publisher": "WWF, Coral Triangle",
+      "url": "https://wwf.panda.org/discover/knowledge_hub/where_we_work/coraltriangle/coraltrianglefacts/places/rajaampatindonesia/",
+      "type": "encyclopedique",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Kementerian Kelautan dan Perikanan, ministère indonésien des Affaires maritimes et de la Pêche",
+      "publisher": "République d'Indonésie",
+      "url": "https://kkp.go.id/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Aires protégées d'Indonésie",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Bird's Head Seascape, programme marin",
+      "publisher": "Conservation International",
+      "url": "https://www.conservation.org/",
+      "type": "media",
+      "accessed": "2026-08-22"
+    }
+  ],
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 4,
+      "rarete": 5,
+      "diversite": 5,
+      "integrite": 4,
+      "monumentalite": 3,
+      "actif": 2,
+      "biologique": 5,
+      "photogenie": 5,
+      "pedagogie": 4,
+      "conservation": 4,
+      "complementarite": 5
+    },
+    "total": 116,
+    "scored_on": "2026-08-22"
+  }
+}

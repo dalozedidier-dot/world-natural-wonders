@@ -1,0 +1,142 @@
+{
+  "id": "yakushima",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Yakushima",
+    "name_official": "Yakushima",
+    "name_local": [
+      { "lang": "ja", "value": "屋久島", "note": "Yakushima, l'île de Yaku." }
+    ],
+    "name_indigenous": null,
+    "aka": ["Île de Yaku", "Alpes de l'océan"]
+  },
+  "location": {
+    "countries": ["JP"],
+    "country_labels": ["Japon"],
+    "subdivision": "Préfecture de Kagoshima, archipel d'Ōsumi",
+    "region": "asie",
+    "lat": 30.35,
+    "lng": 130.5,
+    "coordinate_precision": "site",
+    "bbox": [130.35, 30.2, 130.68, 30.48],
+    "area_km2": 505,
+    "elevation_min_m": 0,
+    "elevation_max_m": 1936,
+    "depth_max_m": null,
+    "timezone": "Asia/Tokyo"
+  },
+  "landscape": {
+    "primary": "foret-temperee",
+    "types": ["foret-temperee", "montagne", "foret-nuageuse"],
+    "family": "foret",
+    "iucn_ecosystem": ["T2.4 Forêts pluviales tempérées chaudes", "T2.2 Forêts tempérées sempervirentes", "T6.4 Landes et fourrés d'altitude"],
+    "biome": "Forêts humides subtropicales et tempérées d'Asie orientale",
+    "climate": "Cfa littoral, Cfb puis Dfb en altitude",
+    "collections": ["forets-primordiales", "royaumes-eau", "autre-planete"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "unesco-whs", "name": "Yakushima", "ref": "662", "since": 1993, "criteria": ["vii", "ix"], "url": "https://whc.unesco.org/fr/list/662/" },
+      { "type": "unesco-mab", "name": "Réserve de biosphère de Yakushima", "ref": null, "since": 1980 },
+      { "type": "national-park", "name": "Parc national de Yakushima", "ref": null, "since": 2012 },
+      { "type": "ramsar", "name": "Nagata-hama, plage de ponte des tortues caouannes", "ref": null, "since": 2005 }
+    ],
+    "managing_body": { "name": "Ministère de l'Environnement du Japon, Centre de conservation du patrimoine mondial de Yakushima", "url": "https://www.env.go.jp/en/park/yakushima/ywhcc/" }
+  },
+  "editorial": {
+    "badges": ["exceptionnel", "ecosysteme-majeur", "geologie-remarquable"],
+    "essential": false,
+    "lede": "Un dôme de granite jeté dans le courant chaud du Pacifique, où la pluie tombe presque un jour sur deux et où des cèdres millénaires portent des jardins de mousses jusque sous les crêtes.",
+    "why_here": "Sur une île d'environ 500 km², la végétation passe sans rupture du subtropical littoral au subalpin des crêtes, à près de deux mille mètres. Ce raccourci d'un gradient qui demande ailleurs des milliers de kilomètres de latitude est exactement ce que l'UNESCO a retenu en 1993. Il tient à une cause précise : un bloc de granite soulevé très vite au milieu d'un océan chaud, qui force l'air humide à monter et à se décharger. Le site apporte à la sélection la démonstration la plus nette du lien entre relief, pluie et étagement du vivant, avec en prime des arbres dont la longévité est une conséquence directe de la pauvreté du sol.",
+    "presentation": "Yakushima est presque circulaire, une centaine de kilomètres de tour, et pratiquement toute sa surface est en pente. Une quarantaine de sommets dépassent mille mètres, ce qui a valu à l'île le surnom d'Alpes de l'océan. Le point culminant, le Miyanoura-dake, atteint 1 936 mètres à moins de quinze kilomètres du rivage, un dénivelé que peu d'îles de cette taille peuvent revendiquer.\n\nL'île intercepte la mousson d'été comme les vents froids du nord-ouest en hiver, et le courant du Kuroshio maintient une mer chaude à son pied. Il en résulte des cumuls de pluie parmi les plus élevés du Japon : de l'ordre de 4 000 mm sur la côte, jusqu'à 8 000 ou 10 000 mm dans l'intérieur montagneux. Un dicton local veut qu'il y pleuve trente-cinq jours par mois. Cette abondance explique le tapis de mousses et d'hépatiques qui recouvre sols, souches et blocs dans la forêt de moyenne altitude, plusieurs centaines d'espèces qui donnent au sous-bois sa lumière verte particulière.\n\nLes cèdres du Japon, les sugi, poussent ici sur un sol granitique pauvre. La croissance est lente, le bois dense et très résineux, donc résistant à la pourriture : c'est la raison pour laquelle certains individus atteignent des âges hors norme. On nomme yakusugi les sujets de plus de mille ans. Le plus célèbre, le Jomon Sugi, repéré en 1966, est estimé à plusieurs milliers d'années selon les méthodes retenues, sans que l'on puisse trancher ; il s'observe aujourd'hui depuis une plateforme placée à distance de ses racines.\n\nLa forêt n'a pas échappé aux hommes. À partir du dix-septième siècle, le domaine de Satsuma a organisé une coupe intensive des grands sugi, débités sur place en bardeaux de toiture, et les souches de cette période jalonnent encore les versants. Les arbres épargnés étaient souvent ceux dont la forme tordue ne convenait pas au débit, ce qui explique en partie l'allure noueuse des géants restants. Sur les souches abandonnées, de jeunes cèdres ont pris racine, et la forêt se régénère depuis, sous protection.",
+    "geology": "Le socle de Yakushima appartient au groupe de Shimanto, un empilement de grès et d'argilites accumulés dans une fosse océanique puis raclés et accrétés à la marge asiatique entre le Crétacé et le Paléogène. Ces roches sédimentaires, plissées et faiblement métamorphisées, forment aujourd'hui une bande périphérique le long du littoral.\n\nLe cœur de l'île est tout autre : un vaste massif de granite, intrusion mise en place au Miocène, il y a environ quatorze à quinze millions d'années. Il appartient à une famille de plutons du même âge alignés sur la zone externe du sud-ouest du Japon. Leur mise en place est liée à la subduction d'une lithosphère océanique très jeune, donc encore chaude, sous l'arc japonais : ce contexte thermique inhabituel explique que du magma granitique ait pu se former aussi près de la fosse, alors que les granites naissent d'ordinaire bien plus en arrière.\n\nCe corps s'est cristallisé à plusieurs kilomètres de profondeur. Tout ce que l'on voit aujourd'hui, dômes polis, dalles inclinées, chaos de blocs arrondis, correspond donc à l'intérieur d'une chambre magmatique mise à nu par l'érosion. L'exhumation a été rapide à l'échelle géologique : l'île se soulève depuis le Pliocène et le Quaternaire à un rythme qui a permis de retirer plusieurs kilomètres de couverture en quelques millions d'années seulement.\n\nLa forme des reliefs découle directement de la roche. Le granite se débite selon trois familles de fractures à peu près orthogonales ; l'altération chimique attaque les arêtes plus vite que les faces, et les blocs se transforment progressivement en boules. Sous la pluie de Yakushima, cette altération est intense, mais les pentes sont raides, si bien que les produits fins sont évacués vers la mer et que les dômes restent dénudés. Le sol qui subsiste est mince, acide et pauvre en nutriments, ce qui contribue directement à la lenteur de croissance des arbres et donc à leur longévité.\n\nLes rivières descendent en cascades le long des joints de la roche, creusant des gorges courtes et très inclinées, et l'île ne possède pratiquement pas de plaine côtière : les routes s'accrochent à une étroite corniche entre la montagne et le Pacifique.",
+    "dynamics": "Trois moteurs se combinent. Le Kuroshio, courant chaud qui longe l'île, maintient des températures de surface élevées toute l'année et charge l'atmosphère en vapeur. Le relief force cet air à s'élever, ce qui déclenche des pluies orographiques presque permanentes, plus fortes sur les versants exposés au sud et à l'est en été, au nord-ouest en hiver. Enfin les typhons, entre août et octobre, apportent des épisodes très violents et jouent un rôle écologique en ouvrant des trouées dans la canopée, condition de la régénération.\n\nL'étagement suit cette mécanique. Jusque vers 600 mètres domine une forêt subtropicale sempervirente de chênes et de camphriers ; au-dessus s'installe la forêt de sugi et de conifères associés, entre 600 et 1 600 mètres environ ; plus haut, le vent et le gel imposent une lande à bambou nain et rhododendrons, enneigée une partie de l'hiver. La température peut varier d'une quinzaine de degrés entre le rivage et le sommet dans la même journée.",
+    "biodiversity_text": "Un peu plus de 1 900 espèces de plantes vasculaires ont été recensées, dont plusieurs dizaines d'endémiques strictes, souvent des formes naines de plantes continentales installées sur les crêtes ventées. Les mousses et hépatiques comptent parmi les groupes les plus riches du Japon, avec plusieurs centaines d'espèces qui font l'identité visuelle du sous-bois. Deux sous-espèces endémiques structurent la faune terrestre : le macaque de Yakushima, plus petit et plus sombre que le macaque japonais du continent, et le cerf de Yakushima, également de taille réduite, effet classique de l'insularité. La côte occidentale accueille la principale plage de ponte de la tortue caouanne au Japon. L'île se situe à la charnière entre les domaines paléarctique et oriental, ce qui explique la juxtaposition d'espèces septentrionales et subtropicales sur quelques kilomètres de dénivelé.",
+    "in_motion": "L'île reçoit plus de deux cent mille visiteurs par an, dont une fraction importante emprunte le même itinéraire vers le Jomon Sugi. La concentration a produit une érosion des sentiers et une saturation des points de passage, à quoi les gestionnaires ont répondu par une navette obligatoire en saison, une plateforme d'observation à distance de l'arbre et une contribution demandée aux randonneurs pour l'entretien. La population de cerfs a par ailleurs fortement augmenté depuis les années 1990, et son broutage limite la régénération du sous-bois et modifie la composition floristique. Les typhons, enfin, restent l'agent de renouvellement principal de la canopée, et l'évolution de leur intensité fait l'objet d'un suivi.",
+    "guess_hints": [
+      "Île granitique d'environ 500 km² culminant près de 2 000 m",
+      "Jusqu'à 10 000 mm de pluie par an dans l'intérieur",
+      "Conifères plurimillénaires sous un tapis de mousses",
+      "Archipel tempéré chaud d'Asie de l'Est"
+    ]
+  },
+  "figures": [
+    { "label": "Bien inscrit au patrimoine mondial", "value": "10 747 ha, 1993, critères vii et ix" },
+    { "label": "Superficie de l'île", "value": "environ 500 km²" },
+    { "label": "Point culminant", "value": "Miyanoura-dake, 1 936 m" },
+    { "label": "Précipitations", "value": "environ 4 000 mm sur la côte, jusqu'à 10 000 mm dans l'intérieur" },
+    { "label": "Sommets de plus de 1 000 m", "value": "une quarantaine" },
+    { "label": "Flore vasculaire", "value": "plus de 1 900 espèces" },
+    { "label": "Âge du granite", "value": "environ 14 à 15 millions d'années, Miocène" },
+    { "label": "Yakusugi", "value": "cèdres de plus de 1 000 ans" }
+  ],
+  "geology": {
+    "age": "Socle sédimentaire crétacé et paléogène du groupe de Shimanto, granite miocène vers 14 à 15 Ma, soulèvement plio-quaternaire",
+    "processes": ["intrusion granitique en zone externe d'arc", "soulevement et exhumation rapides", "alteration en boules du granite", "erosion torrentielle sous fortes pluies", "perturbation par les typhons"],
+    "rock_types": ["granite à hornblende et biotite", "grès et argilites du groupe de Shimanto", "hornfels de contact"],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Cèdre du Japon", "name_sci": "Cryptomeria japonica", "group": "plante", "iucn_status": "NT", "note": "Les sujets millénaires sont appelés yakusugi." },
+      { "name_fr": "Macaque de Yakushima", "name_sci": "Macaca fuscata yakui", "group": "mammifère", "note": "Sous-espèce endémique de l'île." },
+      { "name_fr": "Cerf de Yakushima", "name_sci": "Cervus nippon yakushimae", "group": "mammifère", "note": "Sous-espèce endémique de petite taille." },
+      { "name_fr": "Tortue caouanne", "name_sci": "Caretta caretta", "group": "reptile", "iucn_status": "VU", "note": "Ponte sur les plages de la côte nord-ouest." }
+    ],
+    "endemism_level": "eleve",
+    "endemism_note": "Isolement insulaire ancien et gradient altitudinal marqué : près d'une centaine de taxons végétaux endémiques et deux sous-espèces de mammifères propres à l'île.",
+    "species_counts": { "plants": 1900, "birds": 150, "mammals": 16, "fish": null, "corals": null, "note": "Ordres de grandeur publiés pour l'ensemble de l'île." }
+  },
+  "seasonality": {
+    "best_months": [4, 5, 10, 11],
+    "avoid_months": [6, 8, 9],
+    "phenomena": [
+      { "label": "Saison des pluies, cumuls maximaux sur les versants", "kind": "saison-humide", "months": [5, 6, 7] },
+      { "label": "Saison des typhons", "kind": "autre", "months": [8, 9, 10] },
+      { "label": "Ponte des tortues caouannes sur les plages du nord-ouest", "kind": "autre", "months": [5, 6, 7], "note": "Accès aux plages réglementé pendant la période de ponte." },
+      { "label": "Neige sur les crêtes et sentiers d'altitude difficiles", "kind": "autre", "months": [12, 1, 2, 3] },
+      { "label": "Rhododendrons en fleur sur les landes sommitales", "kind": "floraison", "months": [5, 6] }
+    ],
+    "notes": "Le printemps et l'automne offrent les fenêtres les plus favorables. Il pleut toute l'année : un équipement imperméable sérieux n'est pas un confort mais une condition de sécurité."
+  },
+  "visit": {
+    "accessibility": "modere",
+    "suggested_duration": "3 à 5 jours",
+    "difficulty": "Randonnées longues et très humides, dénivelés importants, sentiers glissants sur racines et granite poli. La marche vers le Jomon Sugi demande une journée complète.",
+    "extreme_conditions": ["pluies intenses et crues rapides", "typhons", "hypothermie possible en altitude même en été"],
+    "permits": "Navette obligatoire en saison sur la route d'accès aux principaux sentiers, contribution demandée pour l'entretien des chemins et enregistrement requis pour les bivouacs en montagne.",
+    "rules": [
+      "Rester sur les caillebotis et les sentiers balisés : les mousses et les racines superficielles ne supportent pas le piétinement.",
+      "Observer le Jomon Sugi depuis la plateforme prévue, sans approcher ni toucher l'arbre.",
+      "Emporter un sac hygiénique portable, les toilettes étant rares et les sols peu filtrants.",
+      "Ne pas nourrir ni approcher les macaques et les cerfs, y compris depuis les véhicules.",
+      "Aucun éclairage ni fréquentation nocturne des plages pendant la période de ponte des tortues."
+    ],
+    "official_url": "https://www.env.go.jp/en/park/yakushima/ywhcc/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "moderee",
+    "state": "L'état de conservation est globalement bon et la gestion est structurée, entre parc national, réserve de biosphère et bien du patrimoine mondial. Les enjeux sont concentrés plutôt que diffus : érosion des sentiers les plus fréquentés, surabondance du cerf qui bloque la régénération du sous-bois, et vulnérabilité de la forêt aux typhons. Les coupes de l'époque d'Edo puis de l'après-guerre ont laissé des peuplements de reconstitution qui se referment lentement, mais le noyau de forêt ancienne du cœur montagneux a été préservé.",
+    "trend": "stable",
+    "threats": [
+      { "type": "tourisme", "level": "modere", "note": "Concentration sur un petit nombre d'itinéraires, érosion et saturation en haute saison." },
+      { "type": "climat", "level": "modere", "note": "Évolution du régime des typhons et remontée possible des étages de végétation." },
+      { "type": "deforestation", "level": "faible", "note": "Héritage des coupes anciennes plutôt que menace actuelle, l'exploitation ayant cessé dans le bien." },
+      { "type": "invasives", "level": "faible", "note": "Surveillance des espèces introduites sur une île à forte endémicité." }
+    ],
+    "understand_without_going": false,
+    "message": "L'intérêt de Yakushima ne se joue pas devant un seul arbre célèbre. Monter lentement depuis la côte, en traversant les étages de végétation, apprend davantage sur l'île que la file d'attente au bout du sentier le plus fréquenté."
+  },
+  "media": { "hero": null, "gallery": [] },
+  "sources": [
+    { "title": "Yakushima", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/662/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Centre de conservation du patrimoine mondial de Yakushima", "publisher": "Ministère de l'Environnement du Japon", "url": "https://www.env.go.jp/en/park/yakushima/ywhcc/wh/toroku.html", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Yakushima, World Heritage Datasheet", "publisher": "UNEP-WCMC", "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/yakushima/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
+    { "title": "Yakushima", "publisher": "World Natural Heritage in Japan", "url": "https://world-natural-heritage.jp/en/yakushima/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Yakushima", "publisher": "Wikipédia en anglais", "url": "https://en.wikipedia.org/wiki/Yakushima", "type": "encyclopedique", "accessed": "2026-08-22" }
+  ],
+  "score": { "criteria": { "visuel": 4, "singularite": 4, "rarete": 4, "diversite": 4, "integrite": 4, "monumentalite": 3, "actif": 2, "biologique": 4, "photogenie": 5, "pedagogie": 5, "conservation": 4, "complementarite": 4 }, "total": 106, "scored_on": "2026-08-22" }
+}

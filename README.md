@@ -1,6 +1,8 @@
 # 100 joyaux naturels de la Terre
 
-Atlas éditorial et cartographique consacré à cent paysages naturels précis, choisis selon une méthode publiée et décrits à partir de sources officielles et scientifiques.
+Atlas éditorial et cartographique consacré à cent paysages naturels précis.
+
+Le choix des cent est subjectif, et le projet ne prétend pas le contraire : aucune science ne dit ce qu'est un joyau. Ce qui est publié, c'est la méthode employée pour trancher, afin que le lecteur puisse la discuter. Ce qui est sourcé, ce sont les faits de chaque fiche : géologie, dimensions, statuts, espèces, saisons.
 
 Aucune ville, aucun monument, aucun jardin, aucun lac de barrage. Uniquement des lieux dont la forme vient de l'eau, de la roche, de la glace, du feu ou du vivant, et dont on peut expliquer le mécanisme.
 
@@ -9,7 +11,7 @@ Aucune ville, aucun monument, aucun jardin, aucun lac de barrage. Uniquement des
 | | |
 | --- | --- |
 | Socle technique | complet et fonctionnel |
-| Fiches rédigées | 22 sur 100 |
+| Fiches rédigées | 33 sur 100 |
 | Photographies intégrées | 0, pipeline en place, vérification des licences à faire |
 | Fond de carte | PMTiles auto-hébergé, repli de démonstration en développement |
 

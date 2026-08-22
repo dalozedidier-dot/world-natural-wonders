@@ -9,4 +9,6 @@ public/tiles/*.pmtiles
 public/media/derived/
 _bundle.tar.gz
 
+# dossiers de travail locaux, non versionnés
 _to_delete/
+_ancien-prototype/

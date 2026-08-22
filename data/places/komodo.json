@@ -1,0 +1,410 @@
+{
+  "id": "komodo",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Parc national de Komodo",
+    "name_official": "Taman Nasional Komodo",
+    "name_local": [
+      {
+        "lang": "id",
+        "value": "Taman Nasional Komodo"
+      }
+    ],
+    "name_indigenous": [
+      {
+        "people": "Ata Modo",
+        "value": "Ora",
+        "meaning": "Nom donné au varan géant par les habitants de l'île de Komodo."
+      }
+    ],
+    "aka": [
+      "Îles de Komodo",
+      "Komodo, Rinca et Padar"
+    ]
+  },
+  "location": {
+    "countries": [
+      "ID"
+    ],
+    "country_labels": [
+      "Indonésie"
+    ],
+    "subdivision": "Petites îles de la Sonde orientales (Nusa Tenggara Timur)",
+    "region": "asie",
+    "lat": -8.55,
+    "lng": 119.48,
+    "coordinate_precision": "site",
+    "bbox": [
+      119.2,
+      -8.9,
+      119.85,
+      -8.2
+    ],
+    "area_km2": 2193,
+    "elevation_min_m": -200,
+    "elevation_max_m": 735,
+    "depth_max_m": 200,
+    "timezone": "Asia/Makassar"
+  },
+  "landscape": {
+    "primary": "faune",
+    "types": [
+      "faune",
+      "savane",
+      "ile",
+      "atoll"
+    ],
+    "family": "vivant",
+    "iucn_ecosystem": [
+      "T4.2 Savanes pyrophiles",
+      "M1.3 Récifs coralliens photiques",
+      "T7.4 Mosaïques agricoles et pastorales insulaires"
+    ],
+    "biome": "Forêts sèches et savanes des petites îles de la Sonde",
+    "climate": "Aw tropical à saison sèche marquée",
+    "collections": [
+      "grands-rassemblements",
+      "bouts-du-monde"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "unesco-whs",
+        "name": "Parc national de Komodo",
+        "ref": "609",
+        "since": 1991,
+        "criteria": [
+          "vii",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/609/"
+      },
+      {
+        "type": "national-park",
+        "name": "Taman Nasional Komodo",
+        "ref": null,
+        "since": 1980,
+        "criteria": [],
+        "url": null
+      },
+      {
+        "type": "unesco-mab",
+        "name": "Réserve de biosphère de Komodo",
+        "ref": null,
+        "since": 1977,
+        "criteria": [],
+        "url": null
+      },
+      {
+        "type": "marine-protected",
+        "name": "Zone marine du parc national, incluant le détroit de Sape",
+        "ref": null,
+        "since": null,
+        "criteria": [],
+        "url": null
+      }
+    ],
+    "managing_body": {
+      "name": "Balai Taman Nasional Komodo, direction générale de la conservation des écosystèmes, ministère indonésien de l'Environnement et des Forêts",
+      "url": null,
+      "note": "Gestion partagée avec les autorités provinciales pour les activités touristiques."
+    }
+  },
+  "editorial": {
+    "badges": [
+      "unique-au-monde",
+      "ecosysteme-majeur",
+      "exceptionnel"
+    ],
+    "essential": true,
+    "lede": "Sur des collines de savane brûlée qui plongent dans une mer de courants, subsiste le plus grand lézard du monde, un prédateur de trois mètres cantonné à quelques îles et à rien d'autre.",
+    "why_here": "Komodo est l'un des rares endroits où l'insularité a produit un géant plutôt qu'un nain, et où ce géant est encore là. Le varan de Komodo, seul grand prédateur terrestre de ces îles, occupe une niche que des mammifères remplissent partout ailleurs : c'est un cas d'école d'évolution en vase clos. Le site se lit aussi comme une coupe à travers la ligne de Wallace, cette frontière biogéographique où les faunes asiatique et australienne se rencontrent sans se mélanger. Enfin, la juxtaposition d'une savane sèche née d'une ombre pluviométrique et de récifs parmi les plus productifs de l'archipel donne à voir, sur quelques centaines de mètres, deux mondes que rien ne prédisposait à se toucher.",
+    "presentation": "Le parc couvre 219 322 hectares répartis entre trois grandes îles, Komodo, Rinca et Padar, et une constellation d'îlots, de bras de mer et de récifs entre Sumbawa et Florès. Il a été créé en 1980 et inscrit au patrimoine mondial en 1991 au titre des critères vii et x.\n\nLe paysage terrestre surprend qui attend une jungle équatoriale. Les versants portent une savane à graminées hautes, ponctuée de palmiers lontar et de bosquets épineux, jaune paille pendant la plus grande partie de l'année. Seuls les vallons abrités et les sources permanentes conservent des lambeaux de forêt de mousson.\n\nLe varan de Komodo est le motif central du parc. Adulte, il dépasse couramment deux mètres et peut approcher trois mètres pour une centaine de kilogrammes. Sa morsure combine une lacération profonde, des glandes à venin qui entretiennent le saignement et une flore bactérienne abondante. Il chasse les cerfs rusa, les sangliers et les buffles introduits, se nourrit volontiers de charognes, et pratique le cannibalisme, ce qui contraint les jeunes à passer leurs premières années dans les arbres.\n\nLes îles ne sont pas des réserves vides. Une population résidente vit à Komodo et à Rinca, notamment le village de Komodo, dont les habitants, les Ata Modo, revendiquent une présence ancienne et un lien de coexistence avec l'animal. Les projets d'aménagement touristique portés depuis 2019, les plans de relogement évoqués puis abandonnés et la forte hausse des tarifs d'entrée annoncée en 2022 ont provoqué des grèves des opérateurs locaux et un débat national sur la place des habitants dans la gestion du parc.\n\nDans l'eau, le décor change radicalement. Le détroit de Sape et les passes voisines canalisent des courants qui peuvent atteindre plusieurs nœuds, alimentant des récifs, des remontées d'eau froide et des agrégations de raies manta.",
+    "geology": "Komodo appartient à l'arc volcanique de la Sonde, la chaîne d'îles engendrée par la plongée de la plaque australienne sous la plaque de la Sonde le long de la fosse de Java. Cette subduction, active depuis des dizaines de millions d'années, a construit un chapelet d'édifices volcaniques qui court de Sumatra à Florès puis se poursuit vers Banda.\n\nLes îles du parc ne portent pas de volcan actif, mais elles sont bâties sur les produits de cet arc. Le substrat associe des laves andésitiques, des brèches et surtout d'épais dépôts de tufs et de matériaux volcanoclastiques remaniés, issus d'éruptions du Néogène et du Quaternaire ancien. Ces roches, tendres et litées, se débitent en croupes arrondies et en ravines profondes lorsque la pluie de mousson arrive sur un sol dénudé, ce qui donne aux collines leur modelé caractéristique en plis serrés.\n\nDes calcaires récifaux plus récents ourlent certaines côtes et se retrouvent parfois soulevés en terrasses au-dessus du niveau actuel de la mer, témoignage du relèvement tectonique de la région. La couleur rose de plusieurs plages du parc provient du mélange du sable corallien blanc avec des débris rouges de corail organ-pipe et de coquilles.\n\nLa position du parc est aussi une charnière biogéographique. La ligne de Wallace, tracée au dix-neuvième siècle pour marquer la limite entre faunes asiatique et australienne, passe à l'ouest de ces îles. Elle correspond à des bras de mer profonds que les baisses du niveau marin glaciaires n'ont jamais asséchés : quand les plateformes de la Sonde et de Sahul étaient émergées, ce couloir restait en eau. Les îles de la Sonde orientale sont donc restées isolées, ce qui explique la pauvreté de leur faune terrestre en grands mammifères et laisse comprendre pourquoi un reptile a pu occuper le sommet de la chaîne alimentaire.",
+    "dynamics": "Le climat du parc est l'un des plus secs d'Indonésie. Les îles sont placées sous le vent des reliefs de Sumbawa et de Florès et reçoivent une pluviométrie faible et très concentrée, l'essentiel tombant entre décembre et mars. Pendant huit mois, la savane sèche complètement, les ruisseaux disparaissent et les animaux se concentrent autour de quelques points d'eau permanents. Les feux, allumés par la foudre en fin de saison sèche ou par les hommes pour renouveler le pâturage, entretiennent cette formation herbacée aux dépens de la forêt : la savane de Komodo est un milieu maintenu par le feu autant que par le déficit de pluie.\n\nEn mer, le régime est inverse et bien plus vigoureux. Le détroit de Sape et les passes entre les îles constituent l'un des couloirs par lesquels le flux traversier indonésien transite du Pacifique vers l'océan Indien. Les marées y accélèrent l'eau à plusieurs nœuds, créent des tourbillons visibles en surface et forcent des remontées d'eau profonde et froide. Cette pompe alimente les récifs en nutriments et attire raies manta, requins et bancs de poissons.",
+    "biodiversity_text": "Le varan de Komodo, classé en danger par l'UICN, occupe Komodo, Rinca, Gili Motang, Nusa Kode et quelques secteurs de Florès. Le document d'inscription au patrimoine mondial avance un ordre de grandeur de cinq mille sept cents individus. Ses proies principales sont le cerf rusa de Timor, le sanglier et le buffle domestique retourné à l'état sauvage. Le cortège terrestre comprend aussi le cacatoès à huppe jaune, la mégapode d'Orange qui incube ses œufs dans des monticules de débris chauffés par la fermentation, et plusieurs serpents dont le cobra cracheur. En mer, les récifs abritent un très grand nombre d'espèces de poissons et de coraux, des tortues vertes et imbriquées, des dugongs sur les herbiers, et des agrégations régulières de raies manta de récif dans les passes à fort courant.",
+    "in_motion": "Le parc est entré dans une phase de tension entre conservation, tourisme de masse venu de Labuan Bajo et droits des habitants. Les projets d'aménagement lancés en 2019 sur Rinca et à Padar, la perspective de relogement des villageois puis son abandon, et le relèvement brutal du droit d'entrée annoncé en 2022, suspendu après des mouvements de protestation, ont installé un débat durable. Sur le terrain, la fréquentation des sentiers d'observation s'est concentrée sur quelques boucles courtes. En mer, les épisodes de blanchissement et la pression sur les grands poissons progressent, tandis que la savane subit des feux plus étendus lors des saisons sèches les plus longues.",
+    "guess_hints": [
+      "Savane sèche entretenue par le feu sur des îles volcaniques",
+      "Le plus grand lézard vivant",
+      "Charnière entre faunes asiatique et australienne",
+      "Détroits parcourus par des courants de plusieurs nœuds"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Bien inscrit au patrimoine mondial",
+      "value": "219 322 ha",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "1991, critères vii et x",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Varans de Komodo",
+      "value": "de l'ordre de 5 700 individus",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Longueur du varan adulte",
+      "value": "jusqu'à environ 3 m",
+      "source": null
+    },
+    {
+      "label": "Création du parc national",
+      "value": "1980"
+    },
+    {
+      "label": "Point culminant du parc",
+      "value": "environ 735 m"
+    },
+    {
+      "label": "Statut UICN du varan",
+      "value": "en danger"
+    }
+  ],
+  "geology": {
+    "age": "Arc volcanique de la Sonde, dépôts volcaniques néogènes et quaternaires, calcaires récifaux soulevés plus récents",
+    "processes": [
+      "subduction de la plaque australienne",
+      "volcanisme d'arc",
+      "remaniement volcanoclastique",
+      "ravinement en saison des pluies",
+      "soulèvement de terrasses récifales"
+    ],
+    "rock_types": [
+      "andésite",
+      "tuf volcanique",
+      "brèche volcanoclastique",
+      "calcaire récifal"
+    ],
+    "volcanic": {
+      "gvp_number": null,
+      "type": "Arc insulaire de la Sonde",
+      "last_eruption": null,
+      "status": "Aucun édifice actif dans le parc, arc régional actif"
+    }
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Varan de Komodo",
+        "name_sci": "Varanus komodoensis",
+        "group": "reptile",
+        "iucn_status": "EN",
+        "note": "Plus grand lézard vivant, cantonné à quelques îles et à une frange de Florès."
+      },
+      {
+        "name_fr": "Cerf rusa de Timor",
+        "name_sci": "Rusa timorensis",
+        "group": "mammifère",
+        "iucn_status": "VU",
+        "note": "Proie principale du varan."
+      },
+      {
+        "name_fr": "Cacatoès à huppe jaune",
+        "name_sci": "Cacatua sulphurea",
+        "group": "oiseau",
+        "iucn_status": "CR"
+      },
+      {
+        "name_fr": "Mégapode d'Orange",
+        "name_sci": "Megapodius reinwardt",
+        "group": "oiseau",
+        "iucn_status": "LC",
+        "note": "Incube ses œufs dans des monticules de débris végétaux."
+      },
+      {
+        "name_fr": "Raie manta de récif",
+        "name_sci": "Mobula alfredi",
+        "group": "poisson cartilagineux",
+        "iucn_status": "VU"
+      },
+      {
+        "name_fr": "Tortue verte",
+        "name_sci": "Chelonia mydas",
+        "group": "reptile",
+        "iucn_status": "EN"
+      }
+    ],
+    "endemism_level": "eleve",
+    "endemism_note": "Endémisme insulaire marqué chez les vertébrés terrestres, dont le varan de Komodo, favorisé par des bras de mer profonds jamais asséchés au cours des baisses glaciaires du niveau marin.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "avoid_months": [
+      1,
+      2
+    ],
+    "phenomena": [
+      {
+        "label": "Saison des pluies, savane verte et mer plus agitée",
+        "kind": "saison-humide",
+        "months": [
+          12,
+          1,
+          2,
+          3
+        ],
+        "note": "Les collines reverdissent quelques semaines seulement."
+      },
+      {
+        "label": "Saison sèche, herbe dorée et concentration de la faune autour des points d'eau",
+        "kind": "saison-seche",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Période de ponte des varans, femelles sur les monticules de nidification",
+        "kind": "autre",
+        "months": [
+          8,
+          9
+        ],
+        "note": "Les femelles réutilisent souvent d'anciens monticules de mégapodes."
+      },
+      {
+        "label": "Agrégations de raies manta dans les passes à fort courant",
+        "kind": "migration",
+        "months": [
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "notes": "La saison sèche donne des paysages jaunes et une mer plus calme. La saison des pluies verdit la savane mais rend la navigation entre les îles moins fiable."
+  },
+  "visit": {
+    "accessibility": "modere",
+    "suggested_duration": "2 à 4 jours",
+    "difficulty": "Accès en bateau depuis Labuan Bajo, marches courtes mais chaudes sur terrain sec, courants marins exigeants pour la plongée.",
+    "extreme_conditions": [
+      "chaleur et absence d'ombre",
+      "courants marins violents dans les passes",
+      "rareté de l'eau douce"
+    ],
+    "permits": "Droit d'entrée obligatoire et accompagnement par un garde du parc pour toute progression à terre.",
+    "rules": [
+      "Ne jamais se déplacer à terre sans garde du parc, y compris sur les boucles courtes.",
+      "Rester groupé et ne pas s'accroupir ni s'isoler en présence d'un varan.",
+      "Aucune alimentation de la faune, sous aucune forme, y compris pour la photographie.",
+      "Respecter les zones de non-prélèvement en mer et n'utiliser que les mouillages fixes.",
+      "Respecter la vie du village de Komodo, ses terrains et ses points d'eau, et demander l'accord avant toute photographie de personnes."
+    ],
+    "official_url": "https://whc.unesco.org/fr/list/609/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "La population de varans est jugée stable dans le cœur du parc, mais elle est confinée à une aire minuscule, ce qui la rend vulnérable à un événement unique, maladie, incendie majeur ou élévation du niveau marin sur les habitats côtiers de basse altitude. En mer, la surveillance a réduit les pratiques destructrices sans les faire disparaître aux marges. Le point sensible du moment est de nature politique : le développement touristique accéléré depuis Labuan Bajo, les aménagements engagés sur Rinca et Padar et les tensions autour du prix d'entrée et du statut des habitants pèsent sur la crédibilité de la gestion.",
+    "trend": "inconnue",
+    "threats": [
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Croissance rapide des arrivées, concentration sur quelques sentiers et mouillages, aménagements contestés."
+      },
+      {
+        "type": "climat",
+        "level": "eleve",
+        "note": "Saisons sèches allongées et élévation du niveau marin sur les habitats côtiers utilisés par les varans."
+      },
+      {
+        "type": "incendies",
+        "level": "modere",
+        "note": "Feux de savane plus étendus en fin de saison sèche."
+      },
+      {
+        "type": "peche",
+        "level": "modere",
+        "note": "Pression sur les grands poissons et pêche illégale aux marges de la zone marine."
+      },
+      {
+        "type": "blanchissement",
+        "level": "modere",
+        "note": "Épisodes récurrents sur les récifs les moins ventilés."
+      },
+      {
+        "type": "braconnage",
+        "level": "faible",
+        "note": "Prélèvement d'ongulés proies du varan signalé par le passé."
+      }
+    ],
+    "understand_without_going": false,
+    "message": "Le parc n'est pas un zoo à ciel ouvert et ses habitants ne sont pas un décor. Choisir un opérateur local, limiter le nombre de sites visités et accepter de ne pas voir de varan sont les meilleures contributions possibles."
+  },
+  "media": {
+    "hero": null,
+    "gallery": []
+  },
+  "sources": [
+    {
+      "title": "Parc national de Komodo",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/609/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Komodo National Park, fiche d'aire protégée",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Varanus komodoensis, évaluation de la Liste rouge",
+      "publisher": "UICN",
+      "url": "https://www.iucnredlist.org/",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Kementerian Lingkungan Hidup dan Kehutanan, ministère indonésien de l'Environnement et des Forêts",
+      "publisher": "République d'Indonésie",
+      "url": "https://www.menlhk.go.id/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    }
+  ],
+  "score": {
+    "criteria": {
+      "visuel": 4,
+      "singularite": 5,
+      "rarete": 5,
+      "diversite": 4,
+      "integrite": 4,
+      "monumentalite": 3,
+      "actif": 2,
+      "biologique": 5,
+      "photogenie": 4,
+      "pedagogie": 5,
+      "conservation": 3,
+      "complementarite": 5
+    },
+    "total": 115,
+    "scored_on": "2026-08-22"
+  }
+}

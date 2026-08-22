@@ -1,0 +1,139 @@
+{
+  "id": "wadi-rum",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Aire protégée de Wadi Rum",
+    "name_official": "منطقة وادي رم المحمية",
+    "name_local": [{ "lang": "ar", "value": "وادي رم" }],
+    "name_indigenous": null,
+    "aka": ["Wadi Rum", "Vallée de la Lune"]
+  },
+  "location": {
+    "countries": ["JO"],
+    "country_labels": ["Jordanie"],
+    "subdivision": "Gouvernorat d'Aqaba",
+    "region": "asie",
+    "lat": 29.64,
+    "lng": 35.43,
+    "coordinate_precision": "site",
+    "bbox": [35.2, 29.3, 35.75, 29.95],
+    "area_km2": 742,
+    "elevation_min_m": 800,
+    "elevation_max_m": 1734,
+    "depth_max_m": null,
+    "timezone": "Asia/Amman"
+  },
+  "landscape": {
+    "primary": "desert-pierre",
+    "types": ["desert-pierre", "formation-rocheuse", "desert-sable", "falaise"],
+    "family": "desert",
+    "iucn_ecosystem": ["T5.2 Déserts et semi-déserts chauds", "T5.1 Déserts rocheux et hamadas"],
+    "biome": "Désert et semi-désert chaud",
+    "climate": "BWh aride chaud, amplitude thermique journalière forte",
+    "collections": ["autre-planete", "vertiges"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "unesco-mixte", "name": "Zone protégée du Wadi Rum", "ref": "1377", "since": 2011, "criteria": ["iii", "v", "vii"], "url": "https://whc.unesco.org/fr/list/1377/" },
+      { "type": "nature-reserve", "name": "Aire protégée de Wadi Rum", "since": 1998 }
+    ],
+    "managing_body": { "name": "Autorité de la zone économique spéciale d'Aqaba, gestionnaire de l'aire protégée", "url": null, "note": "La gestion quotidienne associe l'autorité publique et les coopératives bédouines locales." }
+  },
+  "editorial": {
+    "badges": ["exceptionnel", "geologie-remarquable", "grande-nature"],
+    "essential": false,
+    "lede": "Des montagnes de grès aux flancs verticaux, posées sur un socle de granite sombre et séparées par des couloirs de sable rouge, dessinent un désert à l'architecture presque délibérée.",
+    "why_here": "Wadi Rum n'est pas un désert de dunes mais un désert de pierre, et c'est un cas d'école de la manière dont la structure d'un massif dicte la forme d'un paysage. Le contact net entre un socle granitique précambrien et une pile de grès paléozoïques y est visible depuis le sol, sur des centaines de kilomètres carrés, ce qu'aucun autre site de la sélection ne montre aussi lisiblement. La géométrie des jebels, isolés les uns des autres par des couloirs rectilignes, découle directement du réseau de fractures qui découpe la pile gréseuse. S'y ajoute une continuité d'occupation humaine sur une douzaine de millénaires, lisible dans des dizaines de milliers de pétroglyphes et d'inscriptions, qui a valu au site une inscription mixte.",
+    "presentation": "Le bien couvre un peu plus de sept cents kilomètres carrés du sud jordanien, à la limite du désert d'Arabie. Sa signature visuelle tient à une répétition : des massifs isolés, les jebels, aux parois hautes de trois à cinq cents mètres, séparés par de larges couloirs plats emplis de sable. Le sol de ces couloirs est presque horizontal, ce qui accentue la verticalité des parois et donne l'impression de circuler entre des îles de roche.\n\nLe rouge du sable ne vient pas d'un pigment exotique mais de l'altération des grès et de la libération d'oxydes de fer qui enrobent les grains de quartz. Les parois, elles, alternent des bandes claires et sombres selon les niveaux, et se creusent en alvéoles et en cannelures dans les zones les plus tendres.\n\nDeux ponts naturels rendent la mécanique visible. Umm Fruth, court et bas, se traverse à pied. Burdah, perché plus haut sur son massif, est une arche fine formée là où deux abris sous roche se sont rejoints en perçant un éperon. Les deux montrent la même chose : le grès s'évide de l'intérieur avant que la voûte ne se rompe.\n\nLe site est habité et exploité de longue date. Les tribus bédouines, en particulier les Zalabia et les Zawaideh, gèrent aujourd'hui l'essentiel de l'accueil des visiteurs, des campements et des circuits en véhicule. Cette organisation communautaire fait partie de la valeur reconnue du bien, au titre de la relation entre une société pastorale et un milieu aride.\n\nSur les parois basses et les abris, on relève environ vingt-cinq mille pétroglyphes et vingt mille inscriptions, en écritures thamoudéenne, nabatéenne, ainsi que d'autres alphabets, témoins d'une occupation continue sur environ douze mille ans.",
+    "geology": "L'histoire commence dans un socle. Sous les massifs affleurent, en bas de versant et dans quelques vallées, des granites et des roches métamorphiques du Précambrien, âgés d'environ huit cents à six cents millions d'années, appartenant au bouclier arabo-nubien. Ces roches sombres, altérées en boules, forment un soubassement irrégulier.\n\nSur cette surface d'érosion s'est déposée, au Cambrien puis à l'Ordovicien, une épaisse pile de grès. Ce sont des sables continentaux et marins peu profonds, apportés par des systèmes fluviatiles venus du sud, accumulés sur des centaines de mètres pendant des dizaines de millions d'années. Le contact entre le granite et la base de ces grès est une discordance majeure : elle représente un immense intervalle de temps effacé par l'érosion, et on la suit à l'oeil d'un massif à l'autre.\n\nLa suite tient à trois facteurs. Le premier est la tectonique : l'ouverture de la mer Rouge et le jeu de la faille du Levant, depuis une vingtaine de millions d'années, ont soulevé la région et l'ont fracturée selon deux directions dominantes, presque perpendiculaires. Le second est l'érosion différentielle : la pile gréseuse n'est pas homogène, elle contient des niveaux argileux et des grès mal cimentés qui cèdent plus vite que les bancs massifs. Le troisième est l'aridité, qui limite l'action des cours d'eau et laisse le champ libre à l'écroulement gravitaire.\n\nLe résultat est mécanique. L'eau des rares averses s'infiltre par les fractures et les élargit, isolant des blocs de plus en plus indépendants. Sur les flancs, elle est arrêtée par les niveaux argileux, ressort en suintements et déchausse la base des bancs massifs, qui finissent par se rompre le long des fractures verticales. La paroi recule donc en gardant sa verticalité, au lieu de s'adoucir en pente. Les couloirs de sable ne sont rien d'autre que la trace des fractures les plus exploitées, comblée par les débris quartzeux des massifs voisins. Umm Fruth et Burdah sont l'aboutissement local de ce processus, quand deux évidements se rejoignent avant que la voûte ne cède.",
+    "dynamics": "Le système est régi par la rareté et la brutalité de l'eau. Les précipitations annuelles restent faibles, concentrées entre novembre et mars, et tombent souvent en averses intenses qui ruissellent immédiatement sur la roche nue. Ces épisodes produisent des crues éclair dans les couloirs, capables de déplacer du sable et des blocs en quelques heures, avant que tout ne s'assèche. Une partie de l'eau s'infiltre dans les grès, aquifère régional important, et ressort en sources basses au contact des niveaux imperméables, ce qui explique la localisation des points d'eau historiques et de la végétation ligneuse. L'amplitude thermique quotidienne, très forte, fait travailler la roche par dilatation et contraction, et contribue à la desquamation des surfaces. Le vent, enfin, remanie le sable des couloirs et entretient des placages et des dunes accrochées au pied des parois, sans jamais construire d'erg véritable.",
+    "biodiversity_text": "La vie s'organise autour des rares points d'eau et de l'ombre des parois. La flore, adaptée à l'aridité, comprend des acacias dispersés dans les couloirs, des genévriers de Phénicie sur les hauteurs les plus fraîches, et une strate d'annuelles qui n'apparaît qu'après les pluies d'hiver. Le bouquetin de Nubie fréquente les vires et les hauts de massifs, où il trouve refuge et une végétation résiduelle. Le loup d'Arabie, le renard de Blanford et le caracal comptent parmi les carnivores signalés dans la région, à faible densité. L'avifaune associe des espèces sahélo-sahariennes et méditerranéennes, dont le traquet à tête blanche, et l'axe migratoire de la vallée du Rift amène au printemps et à l'automne un passage de rapaces. Les sols cryptogamiques et les lichens des parois, discrets, sont les organismes les plus vulnérables au piétinement et au passage des véhicules.",
+    "in_motion": "L'évolution la plus rapide n'est pas géologique mais humaine. Le nombre de campements installés dans les couloirs a fortement augmenté depuis l'inscription du bien, avec une multiplication des structures fixes, dont des bulles transparentes et des installations sanitaires, dans des secteurs auparavant vides. Cette dispersion fragmente le paysage nocturne, augmente la production de déchets et étend le réseau de traces de véhicules sur des sols qui se réparent très lentement. En parallèle, le tournage de longs métrages de science-fiction a accru la notoriété du site et la fréquentation. Les gestionnaires et les coopératives bédouines cherchent depuis plusieurs années à encadrer l'implantation des campements et à concentrer les circuits.",
+    "guess_hints": [
+      "Grès paléozoïques posés sur un socle granitique ancien",
+      "Massifs isolés séparés par des couloirs de sable, contrôle par fractures",
+      "Désert chaud du sud-ouest asiatique",
+      "Dizaines de milliers de gravures et d'inscriptions anciennes"
+    ]
+  },
+  "figures": [
+    { "label": "Bien inscrit UNESCO", "value": "74 180 ha, zone tampon de 59 177 ha" },
+    { "label": "Inscription UNESCO", "value": "2011, bien mixte, critères iii, v et vii" },
+    { "label": "Hauteur des parois", "value": "de 300 à 500 m au-dessus des couloirs" },
+    { "label": "Point culminant du massif de Rum", "value": "environ 1 734 m" },
+    { "label": "Pétroglyphes recensés", "value": "environ 25 000" },
+    { "label": "Inscriptions recensées", "value": "environ 20 000" },
+    { "label": "Occupation humaine documentée", "value": "environ 12 000 ans" }
+  ],
+  "geology": {
+    "age": "Socle granitique et métamorphique précambrien, vers 800 à 600 Ma, couverture gréseuse cambro-ordovicienne, soulèvement et fracturation néogènes",
+    "processes": ["discordance socle et couverture", "controle structural par fractures orthogonales", "erosion differentielle sur niveaux argileux", "recul de paroi par ecroulement gravitaire", "formation de ponts naturels", "accumulation eolienne dans les couloirs"],
+    "rock_types": ["granite", "roches métamorphiques précambriennes", "grès cambro-ordoviciens", "niveaux argileux intercalés", "sables quartzeux éoliens"],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Bouquetin de Nubie", "name_sci": "Capra nubiana", "group": "mammifère", "iucn_status": "VU", "note": "Fréquente les vires et les hauts de massifs." },
+      { "name_fr": "Loup d'Arabie", "name_sci": "Canis lupus arabs", "group": "mammifère", "note": "Présent à très faible densité dans la région." },
+      { "name_fr": "Caracal", "name_sci": "Caracal caracal", "group": "mammifère", "iucn_status": "LC" },
+      { "name_fr": "Acacia", "name_sci": "Vachellia tortilis", "group": "plante", "note": "Arbre structurant des couloirs sableux." },
+      { "name_fr": "Genévrier de Phénicie", "name_sci": "Juniperus phoenicea", "group": "plante", "note": "Relicte des hauteurs les plus fraîches." }
+    ],
+    "endemism_level": "faible",
+    "endemism_note": "La faune et la flore appartiennent à des cortèges sahélo-sahariens et irano-touraniens largement répandus ; la valeur du site est paysagère, géologique et culturelle plutôt que fondée sur l'endémisme.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [3, 4, 10, 11],
+    "avoid_months": [6, 7, 8],
+    "phenomena": [
+      { "label": "Chaleur extrême en milieu de journée", "kind": "saison-seche", "months": [6, 7, 8], "note": "Les températures rendent la marche déconseillée hors des premières heures." },
+      { "label": "Pluies d'hiver et crues éclair dans les couloirs", "kind": "crue", "months": [11, 12, 1, 2, 3] },
+      { "label": "Floraison éphémère des annuelles après les pluies", "kind": "floraison", "months": [3, 4] },
+      { "label": "Passage migratoire de rapaces sur l'axe du Rift", "kind": "migration", "months": [3, 4, 9, 10] },
+      { "label": "Nuits froides et gelées possibles", "kind": "autre", "months": [12, 1, 2] }
+    ],
+    "notes": "Le printemps et l'automne offrent des températures praticables et une lumière rasante longue. L'été concentre la chaleur et la fréquentation de mi-journée sur quelques points fixes."
+  },
+  "visit": {
+    "accessibility": "modere",
+    "suggested_duration": "2 à 4 jours",
+    "difficulty": "Accès routier jusqu'au village de Rum, puis déplacements en véhicule tout terrain sur sable ; les ascensions de jebels et les traversées de siqs exigent un guide et de l'escalade facile.",
+    "extreme_conditions": ["chaleur estivale sévère", "crues éclair en hiver", "amplitude thermique nocturne", "absence d'eau en dehors des points connus"],
+    "permits": "Entrée soumise à un droit d'accès à l'aire protégée, accompagnement local requis pour les circuits en véhicule et les ascensions.",
+    "rules": [
+      "Circuler uniquement sur les traces existantes : les croûtes de surface et les sols cryptogamiques mettent des décennies à se reconstituer.",
+      "Ne toucher ni mouiller aucun pétroglyphe ou inscription, et ne pas gratter les parois pour en améliorer le contraste.",
+      "Ne pas escalader les ponts naturels d'Umm Fruth et de Burdah hors des voies utilisées par les guides locaux, la roche s'y délite.",
+      "Bivouaquer dans les campements agréés plutôt que d'installer un camp isolé dans les couloirs.",
+      "Rapporter l'intégralité des déchets, y compris les eaux usées, et ne pas prélever de bois d'acacia pour le feu.",
+      "Ne jamais s'engager dans un couloir étroit pendant ou après une averse, en raison des crues éclair."
+    ],
+    "official_url": "https://whc.unesco.org/fr/list/1377/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "moderee",
+    "state": "Le paysage rocheux lui-même est robuste, mais son cadre se dégrade. La principale préoccupation est la prolifération des campements dans les couloirs, souvent bâtis en dur ou semi-dur, qui fragmente le paysage, multiplie les sources lumineuses nocturnes et pose des problèmes de gestion des déchets et des eaux usées. Le réseau de traces de véhicules s'étend en dehors des circuits établis et endommage durablement les sols. Les gravures et inscriptions subissent des dommages ponctuels par contact et par graffiti. La gestion associe l'autorité publique et les coopératives bédouines, ce qui donne au site une capacité réelle de régulation, encore inégalement appliquée.",
+    "trend": "degradation",
+    "threats": [
+      { "type": "tourisme", "level": "eleve", "note": "Multiplication des campements et des circuits en véhicule, y compris hors des zones prévues." },
+      { "type": "urbanisation", "level": "modere", "note": "Constructions fixes et infrastructures dans les couloirs de l'aire protégée." },
+      { "type": "pollution", "level": "modere", "note": "Déchets, eaux usées et pollution lumineuse nocturne." },
+      { "type": "secheresse", "level": "modere", "note": "Prélèvements sur l'aquifère gréseux régional et aridification." },
+      { "type": "surpaturage", "level": "faible", "note": "Pression du cheptel sur les acacias et les annuelles." }
+    ],
+    "understand_without_going": false,
+    "message": "Le paysage de Wadi Rum se lit d'autant mieux qu'on y passe une nuit loin des groupes électrogènes. Choisir un campement raccordé et discret, et limiter les kilomètres en véhicule au profit de la marche, réduit l'essentiel de l'empreinte."
+  },
+  "media": { "hero": null, "gallery": [] },
+  "sources": [
+    { "title": "Zone protégée du Wadi Rum, fiche du bien inscrit", "publisher": "UNESCO Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/1377/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Wadi Rum Protected Area, aires protégées et limites", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
+    { "title": "Statuts de conservation des espèces citées", "publisher": "UICN Liste rouge", "url": "https://www.iucnredlist.org/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
+    { "title": "Wadi Rum", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Wadi_Rum", "type": "encyclopedique", "accessed": "2026-08-22" }
+  ],
+  "score": { "criteria": { "visuel": 5, "singularite": 4, "rarete": 3, "diversite": 3, "integrite": 3, "monumentalite": 4, "actif": 1, "biologique": 2, "photogenie": 5, "pedagogie": 4, "conservation": 3, "complementarite": 4 }, "total": 94, "scored_on": "2026-08-22" }
+}

@@ -1,0 +1,152 @@
+{
+  "id": "shiretoko",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Péninsule de Shiretoko",
+    "name_official": "Shiretoko",
+    "name_local": [
+      { "lang": "ja", "value": "知床半島", "note": "Shiretoko-hantō, la péninsule de Shiretoko." }
+    ],
+    "name_indigenous": [
+      { "people": "Aïnous", "value": "sir etok", "meaning": "L'extrémité de la terre, origine du toponyme japonais." }
+    ],
+    "aka": ["Shiretoko-hantō", "Parc national de Shiretoko"]
+  },
+  "location": {
+    "countries": ["JP"],
+    "country_labels": ["Japon"],
+    "subdivision": "Hokkaidō, sous-préfectures d'Okhotsk et de Nemuro",
+    "region": "asie",
+    "lat": 44.15,
+    "lng": 145.15,
+    "coordinate_precision": "site",
+    "bbox": [144.85, 43.85, 145.4, 44.35],
+    "area_km2": 711,
+    "elevation_min_m": 0,
+    "elevation_max_m": 1661,
+    "depth_max_m": null,
+    "timezone": "Asia/Tokyo"
+  },
+  "landscape": {
+    "primary": "falaise",
+    "types": ["falaise", "foret-temperee", "volcan", "ocean"],
+    "family": "cote",
+    "iucn_ecosystem": ["T2.3 Forêts boréales et subalpines", "M1.1 Plateaux continentaux", "M2.1 Banquises et glaces de mer saisonnières"],
+    "biome": "Forêts mixtes et de conifères d'Asie du Nord-Est, marge de banquise saisonnière",
+    "climate": "Dfb à Dfc, influence de la mer d'Okhotsk",
+    "collections": ["mondes-de-glace", "bouts-du-monde", "grands-rassemblements"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "unesco-whs", "name": "Shiretoko", "ref": "1193", "since": 2005, "criteria": ["ix", "x"], "url": "https://whc.unesco.org/fr/list/1193/" },
+      { "type": "national-park", "name": "Parc national de Shiretoko", "ref": null, "since": 1964 },
+      { "type": "ramsar", "name": "Shiretoko", "ref": null, "since": 2005 },
+      { "type": "marine-protected", "name": "Composante marine du bien, jusqu'à 3 km au large", "ref": null, "since": 2005 }
+    ],
+    "managing_body": { "name": "Ministère de l'Environnement du Japon, avec l'Agence des forêts et les administrations de Hokkaidō, Shari et Rausu", "url": "https://www.env.go.jp/en/" }
+  },
+  "editorial": {
+    "badges": ["ecosysteme-majeur", "unique-au-monde", "tres-sauvage"],
+    "essential": false,
+    "lede": "Une lame de volcans plongeant dans la mer d'Okhotsk, où la banquise la plus méridionale de l'hémisphère nord vient chaque hiver déposer la nourriture qui finira dans l'estomac des ours.",
+    "why_here": "Shiretoko démontre une chose difficile à voir ailleurs : le lien direct et mesurable entre un phénomène physique, la formation de glace de mer, et la structure d'une chaîne alimentaire complète. La glace dérivante arrive ici vers 44 degrés de latitude nord, anomalie qui tient au dessalement de la mer d'Okhotsk par un très grand fleuve. Elle transporte des nutriments, déclenche au printemps une floraison de phytoplancton, et cette production remonte par le zooplancton, les poissons et les saumons jusqu'aux ours bruns et aux pygargues. Le site apporte à la sélection un cas rare de continuité explicite entre océanographie et écologie terrestre, sur une péninsule dont le cœur reste sans route.",
+    "presentation": "La péninsule s'avance sur environ soixante-dix kilomètres vers le nord-est, entre la mer d'Okhotsk et le détroit de Nemuro. Elle est étroite, vingt-cinq kilomètres au plus, et une crête volcanique la parcourt de bout en bout, culminant au Rausu-dake à 1 661 mètres. Les versants tombent souvent en falaises directement dans la mer, et la partie terminale n'est atteignable que par bateau ou par plusieurs jours de marche.\n\nEn janvier, la glace apparaît au large ; en février elle recouvre l'horizon. Elle ne s'est pas formée là : elle vient du nord de la mer d'Okhotsk, où le fleuve Amour déverse assez d'eau douce pour abaisser la salinité de la couche superficielle. Une eau moins salée gèle à température plus élevée et se mélange moins avec les couches profondes, si bien que la mer prend malgré une latitude où l'on n'attendrait pas de banquise. Les vents du nord poussent ensuite ces plaques jusqu'aux côtes de Hokkaidō.\n\nLa glace n'est pas un couvercle stérile. Des algues se développent à sa face inférieure, et sa fonte printanière libère à la fois ces cellules et les éléments nutritifs qu'elle transportait, dans une couche de surface stabilisée par l'eau douce de fonte. La floraison qui en résulte nourrit le zooplancton, puis les poissons, puis les saumons qui remontent en automne les rivières de la péninsule. Les ours bruns les pêchent, les pygargues et les renards se disputent les carcasses, et l'azote d'origine marine se retrouve, mesurable, dans les arbres des berges.\n\nLe nom vient de l'aïnou sir etok, que l'on traduit par l'extrémité de la terre. Les Aïnous ont fréquenté et nommé cette côte bien avant la colonisation de Hokkaidō par l'État japonais au dix-neuvième siècle, et une grande partie de la toponymie locale, Rausu, Utoro, Shari, conserve cette origine. Des tentatives de colonisation agricole au vingtième siècle ont échoué face au climat ; les terres abandonnées ont été rachetées à partir des années 1970 par un mouvement citoyen de souscription, puis replantées, ce qui a préparé la consolidation du parc et l'inscription de 2005.",
+    "geology": "Shiretoko est un morceau d'arc volcanique. La péninsule prolonge vers le sud-ouest l'arc des Kouriles, construit par la subduction de la plaque pacifique sous la plaque d'Okhotsk, à raison de plusieurs centimètres par an, dans une fosse située à moins de deux cents kilomètres au sud-est.\n\nLe soubassement est fait de laves et de dépôts volcano-sédimentaires du Miocène et du Pliocène, accumulés en milieu sous-marin puis émergés. Par-dessus s'élèvent les édifices récents, alignés sur l'axe de la péninsule et actifs au Quaternaire : le Rausu-dake, le Shiretoko-dake, le Io-zan. Ce dernier, dont le nom signifie montagne de soufre, présente une particularité très rare : il a émis du soufre natif à l'état fondu lors d'éruptions du dix-neuvième et du vingtième siècle, coulées jaunes descendues dans les ravins, et le soufre y a été exploité industriellement.\n\nLes laves sont surtout andésitiques, ce qui est la signature des arcs insulaires. Visqueuses, elles construisent des dômes et des coulées épaisses plutôt que des cônes en pente douce, et elles produisent des éruptions explosives. Les coulées descendues jusqu'à la mer ont formé des plateaux dont l'érosion marine a taillé le front : c'est l'origine des longues falaises rectilignes de la côte d'Okhotsk, hautes de cent à deux cents mètres, entaillées par des cascades qui tombent directement dans l'eau salée, dont certaines sont alimentées par des sources chaudes.\n\nLes glaciations quaternaires n'ont laissé ici que des traces limitées, mais le gel et le dégel restent des agents efficaces : les parois se débitent, les éboulis s'accumulent au pied des falaises, et les avalanches nettoient les couloirs chaque hiver. Les rivières, courtes et raides, transportent une charge grossière jusqu'à la mer.\n\nLa marge se relève lentement, et des terrasses marines soulevées jalonnent le littoral, marqueurs des anciens niveaux relatifs de la mer. L'ensemble forme un relief jeune, encore en construction, où la roche est rarement à plus de quelques milliers d'années de sa mise en place.",
+    "dynamics": "Le calendrier physique est dominé par la glace. Elle apparaît généralement au large en janvier, atteint la côte entre la fin janvier et février, tient jusqu'en mars, puis se disloque. Sa présence coupe la houle, refroidit l'air et interdit toute navigation ; sa fonte déclenche au contraire, en avril et mai, la floraison planctonique qui structure l'année biologique de la péninsule.\n\nLes saumons prennent le relais à l'automne : saumon rose et saumon kéta remontent les rivières entre août et octobre, suivis par les ours qui doivent constituer leurs réserves avant l'hibernation. En hiver, les pygargues venus du continent et de Sakhaline se concentrent sur la lisière de glace et le long des côtes, où ils trouvent poissons et carcasses.\n\nL'enneigement des versants est abondant et tardif, le col routier qui relie les deux versants reste fermé une bonne partie de l'année, et les rivières connaissent une crue de fonte au printemps.",
+    "biodiversity_text": "L'ours brun atteint ici l'une des densités les plus fortes connues au monde, conséquence directe de la ressource en saumons. Le cerf sika de Hokkaidō est abondant au point de peser sur la végétation. Sur les falaises et la banquise, deux grands rapaces se côtoient en hiver : le pygargue empereur, aussi appelé aigle de mer de Steller, qui hiverne ici en effectifs significatifs, et le pygargue à queue blanche, présent toute l'année. Le kétoupa de Blakiston, l'un des plus grands hiboux du monde, subsiste dans les forêts riveraines et fait l'objet d'un programme de conservation. Côté marin, l'otarie de Steller hiverne le long des côtes et le phoque largha met bas sur la glace. Les rivières accueillent plusieurs salmonidés, dont l'omble Dolly Varden, qui atteint ici la limite méridionale mondiale pour ses formes migratrices.",
+    "in_motion": "L'étendue de la glace de mer en mer d'Okhotsk diminue depuis les années 1970, et la durée pendant laquelle elle touche la côte de Shiretoko se raccourcit. L'enjeu n'est pas seulement paysager : moins de glace signifie une floraison printanière moins vive et moins de fer apporté au plateau continental, donc une base alimentaire plus étroite pour toute la chaîne. Les gestionnaires suivent en parallèle la population de cerfs, dont la pression sur la strate herbacée est devenue un problème de conservation, et les interactions entre ours et visiteurs, en hausse le long de la route côtière. L'inscription a par ailleurs imposé de restaurer la libre circulation des saumons, plusieurs ouvrages de rivière ayant été modifiés dans ce but.",
+    "guess_hints": [
+      "Péninsule volcanique d'environ 70 km de long",
+      "Glace dérivante la plus méridionale de l'hémisphère nord",
+      "Des ours bruns qui pêchent le saumon en bord de mer",
+      "Latitude 44° nord, façade d'une mer semi-fermée"
+    ]
+  },
+  "figures": [
+    { "label": "Bien inscrit au patrimoine mondial", "value": "71 100 ha, 2005, critères ix et x" },
+    { "label": "Composante marine", "value": "jusqu'à 3 km au large" },
+    { "label": "Longueur de la péninsule", "value": "environ 70 km" },
+    { "label": "Point culminant", "value": "Rausu-dake, 1 661 m" },
+    { "label": "Latitude", "value": "environ 44° nord" },
+    { "label": "Glace dérivante à la côte", "value": "généralement de janvier à mars" },
+    { "label": "Parc national", "value": "créé en 1964" },
+    { "label": "Hauteur des falaises d'Okhotsk", "value": "de 100 à 200 m" }
+  ],
+  "geology": {
+    "age": "Soubassement volcano-sédimentaire miocène et pliocène, édifices volcaniques quaternaires encore actifs",
+    "processes": ["subduction et volcanisme d'arc", "erosion marine des plateaux de lave", "gelifraction et avalanches", "soulevement et terrasses marines"],
+    "rock_types": ["andésite", "dacite", "tufs et brèches volcaniques", "dépôts volcano-sédimentaires marins"],
+    "volcanic": {
+      "gvp_number": null,
+      "type": "Stratovolcans et dômes d'arc insulaire, alignement Rausu-dake, Shiretoko-dake, Io-zan",
+      "last_eruption": "Éruptions historiques du Io-zan au dix-neuvième et au vingtième siècle, avec émission de soufre fondu",
+      "status": "Actif, surveillé par l'Agence météorologique du Japon"
+    }
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Ours brun", "name_sci": "Ursus arctos yesoensis", "group": "mammifère", "iucn_status": "LC", "note": "Densité parmi les plus élevées au monde, liée à la ressource en saumons." },
+      { "name_fr": "Pygargue empereur", "name_sci": "Haliaeetus pelagicus", "group": "oiseau", "iucn_status": "VU", "note": "Également appelé aigle de mer de Steller, hivernant sur la lisière de glace." },
+      { "name_fr": "Pygargue à queue blanche", "name_sci": "Haliaeetus albicilla", "group": "oiseau", "iucn_status": "LC" },
+      { "name_fr": "Kétoupa de Blakiston", "name_sci": "Ketupa blakistoni", "group": "oiseau", "iucn_status": "EN", "note": "Chouette pêcheuse des forêts riveraines, population japonaise très réduite." },
+      { "name_fr": "Saumon kéta", "name_sci": "Oncorhynchus keta", "group": "poisson", "note": "Vecteur du transfert de nutriments marins vers la forêt." },
+      { "name_fr": "Otarie de Steller", "name_sci": "Eumetopias jubatus", "group": "mammifère", "iucn_status": "NT" }
+    ],
+    "endemism_level": "faible",
+    "endemism_note": "Faune et flore d'affinité nord-asiatique, avec des sous-espèces propres à Hokkaidō plutôt qu'un endémisme strict. La valeur du site tient à la productivité et à l'intégrité des chaînes trophiques, non à la singularité taxonomique.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [2, 6, 7, 9, 10],
+    "avoid_months": [4, 11],
+    "phenomena": [
+      { "label": "Glace dérivante à la côte", "kind": "glace", "months": [1, 2, 3], "note": "Arrivée et durée variables d'une année à l'autre, avec une tendance au raccourcissement." },
+      { "label": "Floraison planctonique après la débâcle", "kind": "fonte", "months": [4, 5] },
+      { "label": "Remontée des saumons et concentration des ours en rivière", "kind": "migration", "months": [8, 9, 10] },
+      { "label": "Concentration hivernale des pygargues sur la lisière de glace", "kind": "migration", "months": [1, 2, 3] },
+      { "label": "Couleurs d'automne sur les versants forestiers", "kind": "couleurs", "months": [9, 10] }
+    ],
+    "notes": "Février est la fenêtre de la glace dérivante, l'été et le début de l'automne celle des sentiers et de la navigation côtière. Le col routier de la péninsule est fermé une grande partie de l'hiver et du printemps."
+  },
+  "visit": {
+    "accessibility": "modere",
+    "suggested_duration": "3 à 4 jours",
+    "difficulty": "Accès routier et maritime aisé sur les deux versants, mais partie terminale de la péninsule sans route, réservée à la navigation ou à une marche engagée en terrain à ours.",
+    "extreme_conditions": ["froid et vent violents en hiver", "présence dense d'ours bruns", "houle et glace bloquant la navigation"],
+    "permits": "Enregistrement et règles d'accompagnement obligatoires sur certains secteurs, notamment le plateau des cinq lacs pendant la période d'activité des ours.",
+    "rules": [
+      "Suivre le système d'accès encadré du plateau des cinq lacs, imposé selon la période et la présence d'ours.",
+      "Ne jamais s'arrêter ni sortir du véhicule pour photographier un ours depuis la route côtière.",
+      "Stocker toute nourriture hors d'atteinte et ne rien laisser derrière soi, y compris les déchets organiques.",
+      "Respecter les distances d'approche imposées aux bateaux vis-à-vis des falaises à rapaces et des mammifères marins.",
+      "Ne pas circuler sur la glace dérivante hors des sorties encadrées par des opérateurs autorisés."
+    ],
+    "official_url": null,
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "moderee",
+    "state": "L'intégrité écologique est remarquable pour une péninsule située dans un pays densément peuplé : la partie terminale n'est pas desservie par la route, les chaînes trophiques sont complètes et les grands prédateurs sont présents en effectifs naturels. Les points de vigilance sont identifiés et suivis : surabondance du cerf sika, ouvrages de rivière entravant la montaison des saumons, interactions entre ours et visiteurs le long de la route côtière, articulation entre la pêche côtière et la protection marine. La réduction de la banquise constitue la menace de fond, car elle attaque la base même du fonctionnement du site.",
+    "trend": "stable",
+    "threats": [
+      { "type": "climat", "level": "eleve", "note": "Diminution de l'étendue et de la durée de la glace de mer en mer d'Okhotsk, avec effet en cascade sur la productivité." },
+      { "type": "tourisme", "level": "modere", "note": "Concentration sur quelques sites et sur la route côtière, avec risque d'accoutumance des ours." },
+      { "type": "hydro", "level": "modere", "note": "Barrages et seuils de rivière limitant la montaison des saumons, plusieurs ouvrages modifiés depuis l'inscription." },
+      { "type": "peche", "level": "modere", "note": "Conciliation entre pêche côtière traditionnelle et objectifs de la composante marine du bien." },
+      { "type": "surpaturage", "level": "modere", "note": "Pression du cerf sika sur la strate herbacée et la régénération forestière." }
+    ],
+    "understand_without_going": false,
+    "message": "Shiretoko se lit d'abord depuis la mer, là où la glace, le plancton et les saumons rendent visible la chaîne qui aboutit à l'ours. Février et septembre racontent deux moitiés du même mécanisme."
+  },
+  "media": { "hero": null, "gallery": [] },
+  "sources": [
+    { "title": "Shiretoko", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/1193/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Shiretoko, World Heritage Datasheet", "publisher": "UNEP-WCMC", "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/shiretoko/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
+    { "title": "Shiretoko, World Heritage Outlook", "publisher": "UICN", "url": "https://worldheritageoutlook.iucn.org/node/1138", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Shiretoko, patrimoine mondial", "publisher": "Japan National Tourism Organization", "url": "https://www.japan.travel/en/world-heritage/shiretoko/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Shiretoko National Park", "publisher": "Wikipédia en anglais", "url": "https://en.wikipedia.org/wiki/Shiretoko_National_Park", "type": "encyclopedique", "accessed": "2026-08-22" }
+  ],
+  "score": { "criteria": { "visuel": 4, "singularite": 5, "rarete": 4, "diversite": 4, "integrite": 4, "monumentalite": 3, "actif": 3, "biologique": 5, "photogenie": 4, "pedagogie": 5, "conservation": 4, "complementarite": 5 }, "total": 115, "scored_on": "2026-08-22" }
+}

@@ -1,0 +1,141 @@
+{
+  "id": "baikal",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Lac Baïkal",
+    "name_official": "Озеро Байкал",
+    "name_local": [{ "lang": "ru", "value": "Озеро Байкал" }],
+    "name_indigenous": [{ "people": "Bouriates", "value": "Байгал далай", "meaning": "la mer Baïkal, nom bouriate du lac" }],
+    "aka": ["Baïkal", "la mer sacrée"]
+  },
+  "location": {
+    "countries": ["RU"],
+    "country_labels": ["Russie"],
+    "subdivision": "Oblast d'Irkoutsk et république de Bouriatie",
+    "region": "asie",
+    "lat": 53.5,
+    "lng": 108.0,
+    "coordinate_precision": "site",
+    "bbox": [103.6, 51.4, 110.0, 55.9],
+    "area_km2": 31722,
+    "elevation_min_m": 456,
+    "elevation_max_m": 2588,
+    "depth_max_m": 1642,
+    "timezone": "Asia/Irkutsk"
+  },
+  "landscape": {
+    "primary": "lac",
+    "types": ["lac", "foret-boreale", "montagne"],
+    "family": "eau",
+    "iucn_ecosystem": ["F2.1 Grands lacs d'eau douce permanents", "T2.3 Forêts boréales et subalpines"],
+    "biome": "Forêts de conifères boréales",
+    "climate": "Dwc continental subarctique, adouci sur les rives par l'inertie thermique du lac",
+    "collections": ["royaumes-eau", "autre-planete", "paysages-en-transformation"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "unesco-whs", "name": "Lac Baïkal", "ref": "754", "since": 1996, "criteria": ["vii", "viii", "ix", "x"], "url": "https://whc.unesco.org/fr/list/754/" },
+      { "type": "nature-reserve", "name": "Réserve naturelle d'État de Barguzine", "since": 1916 },
+      { "type": "national-park", "name": "Parc national du Pribaïkalié", "since": 1986 },
+      { "type": "national-park", "name": "Parc national de Zabaïkalski", "since": 1986 }
+    ],
+    "managing_body": { "name": "Ministère des ressources naturelles et de l'écologie de la Fédération de Russie", "url": "https://www.mnr.gov.ru/" }
+  },
+  "editorial": {
+    "badges": ["exceptionnel", "unique-au-monde", "geologie-remarquable", "ecosysteme-majeur"],
+    "essential": true,
+    "lede": "Une déchirure de l'écorce continentale remplie d'eau douce, dont le fond descend bien au-dessous du niveau de la mer et dont l'âge a laissé à la vie le temps d'y inventer des espèces qui n'existent nulle part ailleurs.",
+    "why_here": "Le Baïkal n'est pas un grand lac de plus : c'est le seul rift continental actif de la planète qui soit occupé par une masse d'eau douce profonde et durable. Sa fosse se creuse depuis 25 à 30 millions d'années, quand la plupart des lacs du monde, creusés par les glaciers, n'ont pas dix mille ans. Cette permanence explique tout le reste : un endémisme comparable à celui d'un archipel océanique, une colonne d'eau oxygénée jusqu'au fond alors que rien ne l'y oblige, et une accumulation d'environ 20 % de l'eau douce liquide de surface du globe dans une seule cuvette. Aucun autre site de la sélection ne permet de montrer aussi clairement ce que produit un continent qui commence à se rompre.",
+    "presentation": "Vu d'en haut, le Baïkal dessine un croissant de plus de six cents kilomètres de long pour une largeur qui dépasse rarement cinquante. Cette forme n'a rien d'accidentel : elle épouse un système de failles qui découpe la Sibérie méridionale, et les montagnes qui bordent la rive nord-ouest ne sont rien d'autre que l'épaulement soulevé de cette fracture.\n\nLa profondeur maximale relevée, environ 1 642 m, place le plan d'eau dans une catégorie à part. Le fond du lac se situe à plus de mille mètres sous le niveau de l'océan, et sous ce fond s'empilent encore plusieurs kilomètres de sédiments accumulés depuis l'ouverture du rift. Ces carottes sédimentaires constituent l'une des meilleures archives climatiques continentales de l'hémisphère nord.\n\nLe volume est l'argument décisif : une seule cuvette contient environ un cinquième de l'eau douce liquide de surface de la planète, davantage que l'ensemble des Grands Lacs nord-américains réunis. L'eau y est d'une transparence peu commune, avec des disques de Secchi visibles à plusieurs dizaines de mètres au large en fin d'hiver.\n\nDe février à mars, la surface se prend en une glace épaisse et compacte qui autorise la circulation. Le gel n'est pas lisse : les contraintes thermiques soulèvent des champs de blocs redressés, les hummocks, et la glace claire piège des chapelets de bulles de méthane issues des sédiments, empilées en colonnes visibles à travers plusieurs dizaines de centimètres de glace.\n\nAutour du lac s'étend la taïga, dominée par le mélèze de Sibérie et le pin de Sibérie, entrecoupée sur les rives orientales de steppes sèches. L'île d'Olkhon, la plus grande du lac, concentre cette juxtaposition improbable de sable, de steppe et de falaises au bord d'une eau glaciale.",
+    "geology": "Le Baïkal occupe l'axe d'un rift continental actif, une zone où la lithosphère s'étire et s'amincit au contact du craton sibérien, très ancien et rigide, et du bloc amourien qui pivote lentement vers le sud-est. L'ouverture du rift est engagée depuis 25 à 30 millions d'années, avec une accélération notable au cours des derniers millions d'années.\n\nL'étirement fonctionne comme partout ailleurs : la croûte se fracture en grandes failles normales, un compartiment central s'effondre entre elles et forme un fossé, tandis que les bords se soulèvent en épaulements. Ici, le compartiment effondré est occupé par l'eau et les épaulements sont les chaînes du Baïkal, du Barguzine et du Khamar-Daban. La géométrie du lac, avec sa rive occidentale rectiligne et abrupte et sa rive orientale plus douce, traduit directement cette dissymétrie de faille.\n\nLe fossé n'est pas unique. Trois bassins successifs, séparés par des hauts fonds dont la ride Akademitcheski, se relaient du sud au nord. Chacun se comporte comme un demi-graben, avec sa faille maîtresse et son sens de basculement propre, ce qui explique que la profondeur maximale ne soit pas centrée.\n\nÀ mesure que le fond s'enfonce, les rivières y déversent leurs sédiments. L'épaisseur de ce remplissage dépasse plusieurs kilomètres, ce qui signifie que la fosse tectonique réelle est bien plus profonde que la tranche d'eau visible. La subsidence l'emporte donc sur le comblement, condition indispensable pour qu'un lac survive des dizaines de millions d'années au lieu de se transformer en plaine alluviale.\n\nL'extension se poursuit à une vitesse de l'ordre de quelques millimètres par an, et la région reste l'une des plus sismiques de Sibérie. Le séisme de 1862 a fait s'affaisser une partie du delta de la Selenga sous les eaux, épisode souvent cité comme la démonstration la plus nette que le rift continue de travailler à l'échelle humaine. À très long terme, cette structure préfigure ce qu'a été l'ouverture d'un océan avant qu'il ne s'ouvre.",
+    "dynamics": "Le paradoxe du Baïkal est que ses eaux profondes restent oxygénées jusqu'au fond, ce qui n'a rien d'automatique dans un lac de cette hauteur d'eau. Le renouvellement est assuré par une convection saisonnière : au printemps et à l'automne, les eaux de surface passent par la température de densité maximale, deviennent plus lourdes que celles du dessous et plongent, entraînées le long des talus par des courants descendants. Ce mécanisme, aidé par le vent et par la compressibilité de l'eau à forte pression, ventile l'ensemble de la colonne. Plus de trois cents cours d'eau alimentent le lac, la Selenga en apportant à elle seule environ la moitié, mais un seul exutoire l'évacue, l'Angara. La prise en glace intervient généralement en janvier et se maintient jusqu'en mai ; la glace la plus praticable et la plus lisible se rencontre en février et en mars, quand l'épaisseur dépasse fréquemment le mètre.",
+    "biodiversity_text": "Le taux d'endémisme est celui d'un archipel isolé, non d'un lac. Le phoque de Sibérie, seul phoque strictement dulcicole au monde avec quelques populations relictuelles ailleurs, y boucle son cycle entier, mettant bas dans des loges creusées sous la neige. Les amphipodes constituent le groupe le plus spectaculaire, avec plusieurs centaines d'espèces propres au lac, occupant toutes les profondeurs et tous les régimes alimentaires, jusqu'aux formes géantes des fonds. Les Comephorus, poissons sans écailles, translucides et vivipares, vivent en pleine eau profonde et remontent la nuit ; ils constituent la principale biomasse de poissons du lac. À la base de la chaîne, le copépode Epischura baikalensis filtre l'eau et contribue à sa transparence. Les fonds rocheux portent des éponges d'eau douce arborescentes de la famille des Lubomirskiidae, dont la couleur verte vient de leurs algues symbiotiques.",
+    "in_motion": "Depuis les années 2010, les rives peu profondes connaissent des proliférations d'algues filamenteuses du genre Spirogyra, attribuées aux rejets d'eaux usées mal traitées des localités et des sites de fréquentation. Ces tapis verts se déposent sur les fonds rocheux, étouffent les éponges endémiques et signalent une eutrophisation littorale dans un lac par ailleurs très pauvre en nutriments. En parallèle, la durée de la prise en glace se raccourcit et la température des eaux de surface augmente, ce qui touche d'abord les organismes psychrophiles adaptés à une eau froide et stable. L'ancienne usine de cellulose de Baïkalsk, arrêtée en 2013, laisse un héritage de boues industrielles stockées à proximité immédiate du lac, dont le traitement reste en cours.",
+    "guess_hints": [
+      "Rift continental actif occupé par de l'eau douce",
+      "Plus de 1 600 m de fond",
+      "Asie du Nord, taïga et gel de plusieurs mois",
+      "Endémisme très élevé pour un milieu continental"
+    ]
+  },
+  "figures": [
+    { "label": "Profondeur maximale", "value": "1 642 m" },
+    { "label": "Superficie du plan d'eau", "value": "environ 31 700 km²" },
+    { "label": "Part de l'eau douce liquide de surface du globe", "value": "environ 20 %" },
+    { "label": "Âge du rift", "value": "25 à 30 millions d'années" },
+    { "label": "Bien inscrit UNESCO", "value": "8 800 000 ha, soit 88 000 km²" },
+    { "label": "Inscription UNESCO", "value": "1996, critères vii, viii, ix et x" },
+    { "label": "Longueur du lac", "value": "environ 630 km" },
+    { "label": "Exutoire unique", "value": "l'Angara" }
+  ],
+  "geology": {
+    "age": "Ouverture du rift engagée il y a 25 à 30 millions d'années, remplissage sédimentaire de plusieurs kilomètres, extension toujours active",
+    "processes": ["rifting continental", "failles normales et demi-grabens", "subsidence tectonique", "sedimentation lacustre profonde", "sismicite active"],
+    "rock_types": ["gneiss et granites du craton sibérien", "roches métamorphiques protérozoïques", "sédiments lacustres néogènes et quaternaires"],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Phoque de Sibérie", "name_sci": "Pusa sibirica", "group": "mammifère", "iucn_status": "LC", "note": "Seul pinnipède au monde dont le cycle entier se déroule en eau douce." },
+      { "name_fr": "Golomianka", "name_sci": "Comephorus baicalensis", "group": "poisson", "note": "Poisson pélagique translucide et vivipare, sans vessie natatoire." },
+      { "name_fr": "Omoul du Baïkal", "name_sci": "Coregonus migratorius", "group": "poisson", "note": "Salmonidé endémique, pêche commerciale fortement restreinte depuis 2017." },
+      { "name_fr": "Éponge d'eau douce du Baïkal", "name_sci": "Lubomirskia baicalensis", "group": "spongiaire", "note": "Colonies arborescentes vertes, sensibles à l'eutrophisation littorale." },
+      { "name_fr": "Copépode filtreur endémique", "name_sci": "Epischura baikalensis", "group": "crustacé", "note": "Maillon central du réseau trophique pélagique." }
+    ],
+    "endemism_level": "exceptionnel",
+    "endemism_note": "La longévité du lac, plusieurs dizaines de millions d'années sans assèchement, a permis des radiations évolutives comparables à celles d'un archipel isolé, particulièrement chez les amphipodes et les gastéropodes.",
+    "species_counts": { "fish": null, "note": "Plus de deux mille espèces animales recensées, dont une large majorité d'endémiques selon les compilations taxonomiques russes." }
+  },
+  "seasonality": {
+    "best_months": [2, 3, 7, 8],
+    "avoid_months": [4, 5, 11, 12],
+    "phenomena": [
+      { "label": "Glace praticable, hummocks et bulles de méthane piégées", "kind": "glace", "months": [2, 3], "note": "Épaisseur dépassant fréquemment un mètre." },
+      { "label": "Débâcle, glace instable et navigation impossible", "kind": "fonte", "months": [4, 5] },
+      { "label": "Eaux libres, températures de surface les plus hautes", "kind": "autre", "months": [7, 8] },
+      { "label": "Couleurs des mélèzes sur les versants de taïga", "kind": "couleurs", "months": [9, 10] }
+    ],
+    "notes": "Deux saisons utiles et peu comparables : la fenêtre de glace de février et mars, et l'été court de juillet et août. Les intersaisons cumulent les inconvénients des deux."
+  },
+  "visit": {
+    "accessibility": "modere",
+    "suggested_duration": "6 à 10 jours",
+    "difficulty": "Distances considérables, routes rares sur la rive nord-est, froid intense en hiver et circulation sur glace soumise à conditions.",
+    "extreme_conditions": ["froid extrême en hiver", "vents locaux violents dont le sarma", "fissures et crêtes de compression sur la glace"],
+    "permits": "Autorisation requise pour entrer dans les zapovedniks et certaines zones des parcs nationaux.",
+    "rules": [
+      "Ne pas rejeter d'eaux grises ni de détergents dans le lac ni dans les cours d'eau tributaires, les rives peu profondes étant déjà touchées par les proliférations algales.",
+      "S'en tenir aux itinéraires balisés sur la glace et se conformer aux relevés d'épaisseur locaux avant tout déplacement motorisé.",
+      "Respecter les zones de mise bas du phoque de Sibérie et n'approcher aucune loge sous la neige.",
+      "Ne prélever ni éponges, ni galets ornementaux, ni organismes sur les fonds rocheux littoraux.",
+      "Sur l'île d'Olkhon, ne pas bivouaquer hors des emplacements désignés, les sols sableux se dégradant très vite."
+    ],
+    "official_url": "https://whc.unesco.org/fr/list/754/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "L'intégrité du bassin profond reste bonne et la transparence du large est intacte, mais la ceinture littorale se dégrade nettement. L'eutrophisation des rives, alimentée par des eaux usées insuffisamment traitées, provoque des proliférations de Spirogyra et le dépérissement des éponges endémiques. L'arrêt de l'usine de cellulose de Baïkalsk en 2013 a supprimé la source de pollution industrielle la plus visible, mais les boues stockées sur le site restent à traiter. À l'échelle du bassin versant, les projets d'aménagement hydroélectrique sur la Selenga et ses affluents en Mongolie inquiètent les gestionnaires, car ils modifieraient l'apport principal en eau et en sédiments.",
+    "trend": "degradation",
+    "threats": [
+      { "type": "pollution", "level": "eleve", "note": "Eaux usées littorales, héritage industriel de Baïkalsk, déchets de la fréquentation estivale." },
+      { "type": "climat", "level": "eleve", "note": "Raccourcissement de la saison de glace et réchauffement des eaux de surface, défavorables aux espèces psychrophiles." },
+      { "type": "hydro", "level": "modere", "note": "Projets d'aménagement sur la Selenga, principal tributaire, et sur ses affluents." },
+      { "type": "tourisme", "level": "modere", "note": "Concentration sur quelques rives accessibles, dont Olkhon, sans assainissement à la hauteur." },
+      { "type": "peche", "level": "modere", "note": "Effondrement puis restriction de la pêche à l'omoul." }
+    ],
+    "understand_without_going": false,
+    "message": "Le Baïkal se dégrade là où on l'aborde, c'est-à-dire sur quelques kilomètres de rive. Choisir un hébergement doté d'un assainissement réel change davantage l'impact d'un séjour que le choix de la saison."
+  },
+  "media": { "hero": null, "gallery": [] },
+  "sources": [
+    { "title": "Lac Baïkal, fiche du bien inscrit", "publisher": "UNESCO Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/754/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Ministère des ressources naturelles et de l'écologie", "publisher": "Fédération de Russie", "url": "https://www.mnr.gov.ru/", "type": "officiel", "accessed": "2026-08-22" },
+    { "title": "Lake Baikal, aires protégées et limites", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
+    { "title": "Statuts de conservation des espèces citées", "publisher": "UICN Liste rouge", "url": "https://www.iucnredlist.org/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
+    { "title": "Lake Baikal", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Lake_Baikal", "type": "encyclopedique", "accessed": "2026-08-22" }
+  ],
+  "score": { "criteria": { "visuel": 5, "singularite": 5, "rarete": 5, "diversite": 4, "integrite": 4, "monumentalite": 5, "actif": 4, "biologique": 5, "photogenie": 5, "pedagogie": 5, "conservation": 3, "complementarite": 5 }, "total": 127, "scored_on": "2026-08-22" }
+}

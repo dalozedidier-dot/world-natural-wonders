@@ -2,9 +2,9 @@
 
 Mis à jour le 2026-08-22.
 
-## 1. Les 78 fiches restantes
+## 1. Les 67 fiches restantes
 
-La sélection des 100 est arrêtée et équilibrée. 22 fiches sont rédigées. Voici les 78 restantes, avec leur identifiant, leur cadrage et le mécanisme naturel à expliquer. Ce tableau est fait pour être repris directement comme brief de rédaction, sans refaire le travail de sélection.
+La sélection des 100 est arrêtée et équilibrée. 33 fiches sont rédigées. Voici les 67 restantes, avec leur identifiant, leur cadrage et le mécanisme naturel à expliquer. Ce tableau est fait pour être repris directement comme brief de rédaction, sans refaire le travail de sélection.
 
 Procédure pour chacune : suivre `docs/BRIEF-REDACTION.md`, imiter `data/places/geirangerfjord.json`, écrire dans `data/places/<id>.json`, puis `npm run validate`.
 
@@ -12,26 +12,15 @@ Procédure pour chacune : suivre `docs/BRIEF-REDACTION.md`, imiter `data/places/
 
 Complète : plitvice, dolomites, geirangerfjord, lofoten, vatnajokull-jokulsarlon, landmannalaugar, chaussee-des-geants, skocjan, aletsch, laurisilva-madere, delta-danube, bialowieza, tara-durmitor, gavarnie-mont-perdu.
 
-### Asie, 14 restantes sur 22
+### Asie, 3 restantes sur 22
 
-Faites : zhangjiajie, jiuzhaigou, huangshan, guilin-li, danxia-zhangye, halong, phong-nha, bromo-tengger-semeru.
+Faites : zhangjiajie, jiuzhaigou, huangshan, guilin-li, danxia-zhangye, halong, phong-nha, bromo-tengger-semeru, raja-ampat, komodo, gunung-mulu, tubbataha, sundarbans, yakushima, shiretoko, baikal, kamtchatka, socotra, wadi-rum.
 
 | id | Lieu | Pays | Famille | Mécanisme à expliquer |
 | --- | --- | --- | --- | --- |
-| `raja-ampat` | Raja Ampat | Indonésie | marin | Cœur du Triangle de corail, karst ennoyé, Indonesian Throughflow, aires marines communautaires |
-| `komodo` | Parc national de Komodo | Indonésie | vivant | Insularité et gigantisme du varan, savane d'ombre pluviométrique, ligne de Wallace |
-| `gunung-mulu` | Gunung Mulu | Malaisie | souterrain | Sarawak Chamber, sortie des chauves-souris, pinacles, karst tropical |
-| `tubbataha` | Récifs de Tubbataha | Philippines | marin | Atolls isolés en mer de Sulu, non-prélèvement intégral, fenêtre d'accès de trois mois |
-| `sundarbans` | Sundarbans | Bangladesh | cote | Plus grande mangrove du monde, delta et subsidence, salinisation, tigre du Bengale |
-| `yakushima` | Yakushima | Japon | foret | Dôme granitique, gradient subtropical vers subalpin, pluviométrie extrême, sugi millénaires |
-| `shiretoko` | Péninsule de Shiretoko | Japon | cote | Glace dérivante la plus méridionale, chaîne trophique glace vers ours brun |
 | `sagarmatha` | Sagarmatha, Everest | Népal | relief | Collision Inde-Asie, calcaires marins au sommet, lacs glaciaires et vidange brutale. essential |
 | `nanda-devi` | Nanda Devi et Vallée des Fleurs | Inde | relief | Sanctuaire fermé, muraille annulaire, prairies fleuries de mousson |
 | `tian-shan-occidental` | Tian Shan occidental | KZ, KG, UZ | relief | Forêts de noyers et pommiers sauvages, centre d'origine du pommier |
-| `baikal` | Lac Baïkal | Russie | eau | Rift actif, 1 642 m, 20 % de l'eau douce de surface, endémisme extrême. essential |
-| `kamtchatka` | Volcans du Kamtchatka | Russie | feu | Subduction pacifique, vallée des Geysers, lahar de 2007, saumons et ours |
-| `socotra` | Archipel de Socotra | Yémen | cote | Isolement gondwanien, 300 plantes endémiques, dragonniers sans régénération |
-| `wadi-rum` | Wadi Rum | Jordanie | desert | Grès cambro-ordoviciens sur granite, jebels et couloirs de sable, ponts naturels |
 
 ### Afrique, 15 restantes sur 15
 

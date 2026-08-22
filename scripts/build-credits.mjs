@@ -19,8 +19,6 @@ const out = `# Crédits, licences et méthode
 
 Fichier généré automatiquement par \`scripts/build-credits.mjs\`. Ne pas modifier à la main.
 
-Dernière génération : ${new Date().toISOString().slice(0, 10)}
-
 ## Cartographie
 
 Fonds vectoriels [Protomaps](https://github.com/protomaps/basemaps) au format PMTiles, auto-hébergés, construits à partir des données [OpenStreetMap](https://www.openstreetmap.org/copyright) sous licence ODbL. Rendu par [MapLibre GL JS](https://maplibre.org/). Le projet n'utilise pas les serveurs de tuiles publics d'OpenStreetMap.

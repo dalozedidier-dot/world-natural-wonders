@@ -1,0 +1,407 @@
+{
+  "id": "kamtchatka",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-22",
+  "identity": {
+    "name_fr": "Volcans du Kamtchatka",
+    "name_official": "Вулканы Камчатки",
+    "name_local": [
+      {
+        "lang": "ru",
+        "value": "Вулканы Камчатки"
+      }
+    ],
+    "name_indigenous": null,
+    "aka": [
+      "Kamtchatka",
+      "Klioutchevskoï",
+      "Vallée des Geysers"
+    ]
+  },
+  "location": {
+    "countries": [
+      "RU"
+    ],
+    "country_labels": [
+      "Russie"
+    ],
+    "subdivision": "Kraï du Kamtchatka",
+    "region": "asie",
+    "lat": 56.0,
+    "lng": 160.0,
+    "coordinate_precision": "region",
+    "bbox": [
+      155.5,
+      51.3,
+      162.5,
+      57.2
+    ],
+    "area_km2": 39958,
+    "elevation_min_m": 0,
+    "elevation_max_m": 4754,
+    "depth_max_m": null,
+    "timezone": "Asia/Kamchatka"
+  },
+  "landscape": {
+    "primary": "volcan",
+    "types": [
+      "volcan",
+      "geothermal",
+      "fleuve",
+      "toundra"
+    ],
+    "family": "feu",
+    "iucn_ecosystem": [
+      "T2.3 Forêts boréales et subalpines",
+      "T6.4 Toundras et landes de montagne",
+      "F1.2 Rivières et ruisseaux permanents de haute latitude"
+    ],
+    "biome": "Taïga, toundra de montagne et fourrés de pin nain",
+    "climate": "Dfc subarctique océanique, très neigeux sur les versants exposés au Pacifique",
+    "collections": [
+      "terre-de-feu",
+      "bouts-du-monde",
+      "paysages-en-transformation"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "unesco-whs",
+        "name": "Volcans du Kamtchatka",
+        "ref": "765",
+        "since": 1996,
+        "criteria": [
+          "vii",
+          "viii",
+          "ix",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/765/"
+      },
+      {
+        "type": "nature-reserve",
+        "name": "Réserve naturelle d'État de Kronotski",
+        "since": 1934
+      },
+      {
+        "type": "nature-reserve",
+        "name": "Réserve naturelle d'État du Kamtchatka sud",
+        "since": 1983
+      },
+      {
+        "type": "national-park",
+        "name": "Parc naturel du Kamtchatka, ensemble de secteurs volcaniques"
+      }
+    ],
+    "managing_body": {
+      "name": "Réserve naturelle d'État de Kronotski",
+      "url": "https://kronoki.ru/"
+    }
+  },
+  "editorial": {
+    "badges": [
+      "exceptionnel",
+      "grande-nature",
+      "geologie-remarquable",
+      "tres-sauvage"
+    ],
+    "essential": false,
+    "lede": "Une péninsule où une plaque océanique plonge sous un continent, et où le résultat de cette plongée se lit à ciel ouvert : cônes de près de cinq mille mètres, champs de geysers et rivières saturées de saumons.",
+    "why_here": "Le Kamtchatka montre une marge de subduction complète, du plan de faille profond jusqu'au sommet des cônes, sur une bande de terre où presque rien n'a été aménagé. La densité de volcans actifs y est parmi les plus fortes du globe, et surtout la gamme des styles éruptifs y est exceptionnellement large : stratovolcans andésitiques, coulées basaltiques fluides, caldeiras, champs hydrothermaux. Ce qui achève de rendre le site indispensable, c'est le couplage entre géologie et vivant : la fertilité des cendres et la clarté des rivières issues des versants volcaniques y entretiennent l'une des plus grandes diversités de salmonidés du Pacifique, et par ricochet une des plus fortes densités d'ours bruns au monde. Peu de lieux permettent de tenir ensemble ces deux récits.",
+    "presentation": "Le bien inscrit n'est pas un massif unique mais un ensemble en série de six composantes, réparties le long de la péninsule et couvrant près de quarante mille kilomètres carrés. Ce découpage traduit une réalité de terrain : l'activité volcanique se concentre sur deux alignements parallèles, une chaîne orientale encore active et une chaîne centrale plus ancienne, séparées par la dépression que draine la rivière Kamtchatka.\n\nLe groupe de Klioutchevskaïa en constitue le cœur. Klioutchevskoï, culminant à environ 4 754 m, est le plus haut volcan actif d'Eurasie, et l'un des plus productifs de la planète en volume de magma émis. Autour de lui se serrent Bezymianny, dont l'effondrement latéral de 1956 a servi de référence pour comprendre celui du mont Saint Helens, et Tolbatchik, massif basaltique dont la fissure sud a produit en 2012 et 2013 une éruption de coulées très fluides, la plus importante éruption basaltique historique de la péninsule.\n\nPlus au sud, la caldeira d'Ouzon et la vallée des Geysers concentrent l'hydrothermalisme. Ce vallon encaissé, découvert en 1941, abrite l'un des rares champs de geysers importants du monde, dans un environnement de mousses thermophiles et de dépôts colorés.\n\nLa péninsule n'est pas un espace sans habitants : les Itelmènes, les Koriaks et les Évènes y vivent depuis très longtemps, la pêche au saumon et l'élevage du renne structurant encore une partie des usages du territoire.\n\nLe reste du paysage est fait de toundra de montagne, de fourrés impénétrables de pin nain, de bouleaux de pierre tordus et de rivières limpides. Les routes s'arrêtent vite : au-delà, l'accès se fait par hélicoptère, par véhicule tout terrain sur pistes ou à pied, ce qui explique que l'empreinte humaine reste faible sur la plus grande partie du bien.",
+    "geology": "La péninsule est bâtie sur une marge convergente : la plaque pacifique plonge vers le nord-ouest sous la plaque nord-américaine, à une vitesse de l'ordre de huit centimètres par an, l'une des plus rapides du globe. La fosse des Kouriles et du Kamtchatka marque la ligne de plongée au large de la côte orientale.\n\nÀ mesure que la plaque descend, elle se réchauffe et libère l'eau contenue dans ses minéraux hydratés. Cette eau abaisse le point de fusion du manteau sus-jacent, qui fond partiellement et produit des magmas. Ceux-ci montent, stationnent dans la croûte, s'y différencient, et alimentent en surface un arc volcanique décalé d'une centaine de kilomètres par rapport à la fosse. C'est la raison pour laquelle les volcans s'alignent en chaîne parallèle à la côte.\n\nLa diversité des roches émises traduit la durée de ce stationnement crustal. Les magmas peu évolués donnent des basaltes fluides, comme ceux du Tolbatchik, capables de parcourir plusieurs kilomètres en nappes. Les magmas plus différenciés, andésitiques et dacitiques, sont visqueux et riches en gaz : ils construisent des cônes raides, produisent des dômes et des explosions violentes, comme à Bezymianny ou à Chiveloutch.\n\nLe nord de la péninsule présente une particularité rare : la subduction y bute sur la ride Empereur, une chaîne de volcans sous-marins portée par la plaque pacifique, et l'arc se termine par un bord de plaque déchiré. Cette configuration explique l'anomalie thermique du secteur et la productivité inhabituelle du groupe de Klioutchevskaïa.\n\nEn surface, l'histoire récente est celle des caldeiras. Plusieurs effondrements majeurs, dont ceux d'Ouzon et de Krasheninnikov, ont vidé des chambres magmatiques superficielles au Pléistocène et à l'Holocène, laissant des dépressions de plusieurs kilomètres. Ce sont ces cuvettes fracturées, associées à un flux de chaleur élevé, qui hébergent aujourd'hui les champs hydrothermaux et les geysers : l'eau météorique s'y infiltre, se réchauffe au contact des roches chaudes, et remonte par des conduits assez étroits pour que l'ébullition se fasse par à-coups.",
+    "dynamics": "Le système fonctionne en continu. Plusieurs volcans de la péninsule sont en activité au cours d'une même année, avec des panaches de cendres qui affectent régulièrement le trafic aérien du Pacifique nord, et Klioutchevskoï enchaîne des épisodes stromboliens et des coulées avec une fréquence de quelques années seulement. Le second moteur est hydrologique. L'enneigement considérable des versants exposés au Pacifique alimente des rivières froides et bien oxygénées, dont les graviers volcaniques offrent des frayères de qualité. La remontée des saumons du Pacifique, échelonnée de juin à octobre selon les espèces, injecte chaque été une masse de nutriments marins dans les bassins versants. La vallée des Geysers rappelle enfin qu'un versant hydrothermal est un terrain instable : en juin 2007, un vaste glissement de terrain transformé en lahar a barré la rivière Geyzernaïa et noyé une partie des sources, avant que le lac de barrage ne se vidange partiellement et qu'une partie des geysers ne réapparaisse.",
+    "biodiversity_text": "Les rivières du Kamtchatka accueillent l'ensemble des espèces de saumons du Pacifique du genre Oncorhynchus, ce qui en fait l'une des régions les plus complètes du monde pour ce groupe. Cette ressource saisonnière soutient une population d'ours bruns dont la densité compte parmi les plus élevées de la planète, ainsi qu'une concentration remarquable de pygargues de Steller, grand rapace piscivore qui hiverne en nombre sur la péninsule. Le mouflon des neiges fréquente les hauts versants, le renne sauvage de la toundra du sud subsiste en effectifs réduits. Les cônes récents et les coulées fraîches offrent des surfaces nues que colonisent d'abord lichens et mousses, séquence de recolonisation observable en direct. Autour des sources chaudes se maintiennent des communautés microbiennes thermophiles et des mousses dont l'aire se limite à quelques mètres carrés de sol chaud.",
+    "in_motion": "Le paysage se reconstruit à vue. Chaque éruption du Tolbatchik ou de Klioutchevskoï ajoute des coulées et des champs de scories qui effacent la végétation puis se laissent recoloniser en quelques décennies. Le lahar de juin 2007 a montré qu'un champ de geysers pouvait être partiellement enseveli, puis se réorganiser. Les glaciers sommitaux, dont plusieurs sont directement en contact avec des zones chaudes, reculent, ce qui accroît le risque de lahars lors des éruptions. Sur le versant humain, la fréquentation reste faible mais se concentre sur quelques sites héliportés, et la pression de la pêche illicite au saumon, pour le caviar rouge, demeure la principale atteinte documentée aux rivières.",
+    "guess_hints": [
+      "Arc volcanique de subduction en bordure de continent",
+      "Plus haut volcan actif de son continent, proche de 4 750 m",
+      "Champ de geysers dans une caldeira",
+      "Rivières à saumons et très forte densité d'ours"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Bien inscrit UNESCO",
+      "value": "environ 3 995 770 ha, en six composantes"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "1996, extension en 2001, critères vii, viii, ix et x"
+    },
+    {
+      "label": "Altitude de Klioutchevskoï",
+      "value": "environ 4 754 m"
+    },
+    {
+      "label": "Altitude du Tolbatchik",
+      "value": "environ 3 611 m"
+    },
+    {
+      "label": "Éruption fissurale du Tolbatchik",
+      "value": "novembre 2012 à septembre 2013"
+    },
+    {
+      "label": "Lahar de la vallée des Geysers",
+      "value": "juin 2007"
+    },
+    {
+      "label": "Vitesse de convergence des plaques",
+      "value": "de l'ordre de 8 cm par an"
+    }
+  ],
+  "geology": {
+    "age": "Arc volcanique néogène et quaternaire, édifices actuels majoritairement construits au cours des dizaines de milliers d'années les plus récentes",
+    "processes": [
+      "subduction de la plaque pacifique",
+      "fusion partielle du coin mantellique",
+      "differenciation magmatique crustale",
+      "effondrement de caldeira",
+      "hydrothermalisme et geysers",
+      "lahars et avalanches de debris"
+    ],
+    "rock_types": [
+      "basalte",
+      "andésite",
+      "dacite",
+      "téphras et ignimbrites",
+      "dépôts hydrothermaux siliceux"
+    ],
+    "volcanic": {
+      "gvp_number": "300260",
+      "type": "Stratovolcan basaltique à andésitique, Klioutchevskoï, au sein d'un arc de subduction",
+      "last_eruption": "Activité récurrente, éruptions documentées jusqu'aux années 2020 selon le Global Volcanism Program",
+      "status": "actif"
+    }
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Ours brun du Kamtchatka",
+        "name_sci": "Ursus arctos",
+        "group": "mammifère",
+        "iucn_status": "LC",
+        "note": "Densité parmi les plus élevées au monde, indexée sur la remontée des saumons."
+      },
+      {
+        "name_fr": "Pygargue de Steller",
+        "name_sci": "Haliaeetus pelagicus",
+        "group": "oiseau",
+        "iucn_status": "VU",
+        "note": "Hivernage important sur la péninsule."
+      },
+      {
+        "name_fr": "Saumon rouge",
+        "name_sci": "Oncorhynchus nerka",
+        "group": "poisson",
+        "note": "Une des espèces d'un cortège de salmonidés du Pacifique presque complet."
+      },
+      {
+        "name_fr": "Mouflon des neiges",
+        "name_sci": "Ovis nivicola",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Renne",
+        "name_sci": "Rangifer tarandus",
+        "group": "mammifère",
+        "iucn_status": "VU",
+        "note": "Population sauvage du sud très réduite."
+      }
+    ],
+    "endemism_level": "modere",
+    "endemism_note": "L'endémisme strict reste limité, la péninsule étant reliée au continent, mais l'isolement relatif et la jeunesse des substrats volcaniques entretiennent des formes locales, notamment chez les salmonidés et les communautés thermophiles.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [
+      7,
+      8,
+      9
+    ],
+    "avoid_months": [
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "phenomena": [
+      {
+        "label": "Remontée des saumons et concentration des ours sur les rivières",
+        "kind": "migration",
+        "months": [
+          7,
+          8,
+          9
+        ],
+        "note": "Le pic varie selon les espèces et les bassins."
+      },
+      {
+        "label": "Fenêtre climatique la plus stable pour les approches héliportées",
+        "kind": "autre",
+        "months": [
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Couleurs de la toundra de montagne",
+        "kind": "couleurs",
+        "months": [
+          9
+        ]
+      },
+      {
+        "label": "Enneigement massif, accès terrestre très réduit",
+        "kind": "autre",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Épisodes éruptifs possibles toute l'année",
+        "kind": "eruption",
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ],
+    "notes": "La saison utile est courte, de fin juin à début septembre. Le brouillard côtier et la couverture nuageuse annulent fréquemment les rotations d'hélicoptère, y compris en plein été."
+  },
+  "visit": {
+    "accessibility": "expedition",
+    "suggested_duration": "10 à 14 jours",
+    "difficulty": "Aucune route ne dessert la majorité du bien, logistique héliportée ou tout terrain, autonomie requise, météo très changeante.",
+    "extreme_conditions": [
+      "chutes de cendres",
+      "gaz volcaniques",
+      "rivières en crue",
+      "brouillard persistant",
+      "rencontres rapprochées avec l'ours brun"
+    ],
+    "permits": "Accès réglementé aux réserves d'État, autorisation et accompagnement obligatoires pour la vallée des Geysers et la caldeira d'Ouzon.",
+    "rules": [
+      "N'accéder à la vallée des Geysers et à la caldeira d'Ouzon qu'avec l'autorisation de la réserve et en restant sur les caillebotis, la croûte siliceuse cédant sous le poids.",
+      "Stocker toute nourriture en conteneur étanche et ne jamais laisser de déchets alimentaires, la densité d'ours rendant l'habituation rapide et fatale pour l'animal.",
+      "Se conformer aux niveaux d'alerte aéronautique et volcanique publiés avant toute approche d'un édifice en activité.",
+      "Ne pas prélever de dépôts hydrothermaux ni de bombes volcaniques.",
+      "Traverser les rivières à saumons hors des frayères actives et ne pas circuler en véhicule dans les lits."
+    ],
+    "official_url": "https://kronoki.ru/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "moderee",
+    "state": "L'intégrité physique du bien reste élevée, protégée par l'éloignement et par l'absence de réseau routier. Les préoccupations portent moins sur le paysage que sur la ressource halieutique : la pêche illégale au saumon, alimentée par le marché des œufs, réduit les remontées dans plusieurs bassins et affecte en cascade ours et pygargues. Des projets miniers et des aménagements touristiques aux abords ont été signalés à plusieurs reprises comme des sujets de vigilance pour le bien en série. L'hydrothermalisme et les zones de sol chaud, très localisés, restent les milieux les plus sensibles au piétinement.",
+    "trend": "stable",
+    "threats": [
+      {
+        "type": "peche",
+        "level": "eleve",
+        "note": "Braconnage du saumon pour les œufs, avec effets sur toute la chaîne trophique."
+      },
+      {
+        "type": "extraction",
+        "level": "modere",
+        "note": "Projets miniers en périphérie des composantes du bien."
+      },
+      {
+        "type": "tourisme",
+        "level": "modere",
+        "note": "Concentration héliportée sur quelques sites hydrothermaux fragiles."
+      },
+      {
+        "type": "climat",
+        "level": "modere",
+        "note": "Recul des glaciers sommitaux et aggravation du risque de lahars."
+      },
+      {
+        "type": "braconnage",
+        "level": "modere",
+        "note": "Prélèvements sur l'ours brun et le mouflon des neiges."
+      }
+    ],
+    "understand_without_going": false,
+    "message": "Un séjour au Kamtchatka repose presque entièrement sur l'hélicoptère. Concentrer les rotations et allonger le temps passé au sol vaut mieux que multiplier les sauts d'un site à l'autre."
+  },
+  "media": {
+    "hero": null,
+    "gallery": []
+  },
+  "sources": [
+    {
+      "title": "Volcans du Kamtchatka, fiche du bien inscrit",
+      "publisher": "UNESCO Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/765/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Klyuchevskoy, fiche volcan 300260",
+      "publisher": "Global Volcanism Program, Smithsonian Institution",
+      "url": "https://volcano.si.edu/volcano.cfm?vn=300260",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Tolbachik, fiche volcan 300240",
+      "publisher": "Global Volcanism Program, Smithsonian Institution",
+      "url": "https://volcano.si.edu/volcano.cfm?vn=300240",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Réserve naturelle d'État de Kronotski",
+      "publisher": "Kronotsky Zapovednik",
+      "url": "https://kronoki.ru/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Volcanoes of Kamchatka, aires protégées",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    }
+  ],
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 4,
+      "rarete": 4,
+      "diversite": 5,
+      "integrite": 5,
+      "monumentalite": 5,
+      "actif": 5,
+      "biologique": 4,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 4,
+      "complementarite": 4
+    },
+    "total": 123,
+    "scored_on": "2026-08-22"
+  }
+}
