@@ -8,3 +8,5 @@ dist/
 public/tiles/*.pmtiles
 public/media/derived/
 _bundle.tar.gz
+
+_to_delete/
