@@ -70,8 +70,15 @@ function normalise(pages: any[]): Photo[] {
     (Math.abs(a.width / a.height - 1.5) - Math.abs(b.width / b.height - 1.5)) || (b.width - a.width));
 }
 
+/**
+ * L'audit d'accessibilité et de performance doit porter sur un DOM stable.
+ * PUBLIC_DISABLE_RUNTIME_PHOTOS=1 coupe l'appel réseau : le site s'appuie
+ * alors uniquement sur les images vérifiées du manifeste.
+ */
+const RUNTIME_DISABLED = import.meta.env.PUBLIC_DISABLE_RUNTIME_PHOTOS === '1';
+
 export async function findPhotos(query: string, limit = 6): Promise<Photo[]> {
-  if (!query) return [];
+  if (!query || RUNTIME_DISABLED) return [];
   if (memory.has(query)) return memory.get(query) ?? [];
   const cached = readCache()[query];
   if (cached) { memory.set(query, cached); return cached; }
@@ -122,6 +129,7 @@ export async function illustrate(img: HTMLImageElement, query: string, onCredit?
 
 /** Observe les images marquées data-illustrate et les remplace quand elles approchent du viewport. */
 export function illustrateOnScroll(root: ParentNode = document) {
+  if (RUNTIME_DISABLED) return;
   const targets = Array.from(root.querySelectorAll<HTMLImageElement>('img[data-illustrate]'));
   if (!targets.length) return;
   const io = new IntersectionObserver(entries => {

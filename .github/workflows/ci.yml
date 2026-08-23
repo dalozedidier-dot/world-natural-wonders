@@ -56,7 +56,10 @@ jobs:
       - run: npm ci
       - name: Construction des images dérivées
         run: npm run media:build
-      - run: npx astro build
+      - name: Build sans chargement d'images à l'exécution
+        run: npx astro build
+        env:
+          PUBLIC_DISABLE_RUNTIME_PHOTOS: '1'
       - name: Lighthouse
         uses: treosh/lighthouse-ci-action@v12
         with:

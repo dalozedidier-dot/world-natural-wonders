@@ -7,16 +7,55 @@
         "http://localhost/lieux/plitvice/index.html",
         "http://localhost/calendrier/index.html",
         "http://localhost/collections/index.html",
-        "http://localhost/credits/index.html"
+        "http://localhost/credits/index.html",
+        "http://localhost/comparer/index.html"
       ],
       "numberOfRuns": 1,
-      "settings": { "onlyCategories": ["accessibility", "seo", "best-practices"] }
+      "settings": {
+        "onlyCategories": [
+          "accessibility",
+          "seo",
+          "best-practices"
+        ]
+      }
     },
     "assert": {
       "assertions": {
-        "categories:accessibility": ["error", { "minScore": 0.98 }],
-        "categories:seo": ["warn", { "minScore": 0.9 }],
-        "categories:best-practices": ["warn", { "minScore": 0.85 }]
+        "color-contrast": "error",
+        "image-alt": "error",
+        "link-name": "error",
+        "button-name": "error",
+        "heading-order": "error",
+        "html-has-lang": "error",
+        "document-title": "error",
+        "aria-allowed-attr": "error",
+        "aria-valid-attr-value": "error",
+        "aria-required-attr": "error",
+        "dlitem": "error",
+        "definition-list": "error",
+        "list": "error",
+        "listitem": "error",
+        "label": "error",
+        "meta-viewport": "error",
+        "target-size": "warn",
+        "categories:accessibility": [
+          "warn",
+          {
+            "minScore": 0.98
+          }
+        ],
+        "categories:seo": [
+          "warn",
+          {
+            "minScore": 0.9
+          }
+        ],
+        "categories:best-practices": [
+          "warn",
+          {
+            "minScore": 0.85
+          }
+        ]
       }
     }
   }

@@ -519,3 +519,27 @@ details.refine > summary:hover { color: var(--paper); }
   transition: all .3s var(--ease);
 }
 .slide-dots button[aria-current="true"]::before { background: var(--accent-soft); width: 1.15rem; border-radius: 100px; }
+
+/* ---------- zones cliquables : 24 px minimum, marge de sécurité ----------
+   Lighthouse évalue target-size au pixel près. Plusieurs contrôles passaient
+   tout juste et échouaient selon les métriques de police du poste. On garantit
+   désormais la taille sans changer l'apparence. */
+.slide-dots { gap: .25rem; }
+.slide-dots button { width: 1.75rem; height: 1.75rem; }
+
+.calendar button { min-height: 2rem; min-width: 2.9rem; padding-inline: .6rem; }
+.chip { min-height: 2rem; }
+.navlink { display: inline-flex; align-items: center; min-height: 2rem; }
+.small-btn { min-height: 2rem; }
+
+footer.site li { margin-bottom: 0; }
+footer.site li a { display: inline-flex; align-items: center; min-height: 1.75rem; padding-block: .1rem; }
+footer.site .footer-links a { min-height: 1.75rem; display: inline-flex; align-items: center; }
+
+.aside .box a, .prose ol li a, .prose ul li a { padding-block: .12rem; }
+.chiprow .badge { min-height: 1.6rem; }
+a.badge { min-height: 1.75rem; }
+
+.panel-close, .dialog-close { min-width: 2.5rem; min-height: 2.5rem; }
+.searchbox input { min-height: 1.75rem; }
+.slide-caption a { display: inline-flex; align-items: center; min-height: 1.6rem; }
