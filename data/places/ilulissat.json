@@ -1,0 +1,257 @@
+{
+  "id": "ilulissat",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-23",
+  "identity": {
+    "name_fr": "Fjord glacé d'Ilulissat",
+    "name_official": "Ilulissat Icefjord",
+    "name_local": [
+      {
+        "lang": "kl",
+        "value": "Kangia"
+      }
+    ],
+    "name_indigenous": [
+      {
+        "people": "Kalaallit",
+        "value": "Kangia",
+        "meaning": "fjord oriental"
+      }
+    ],
+    "aka": [
+      "Ilulissat Kangia"
+    ]
+  },
+  "location": {
+    "countries": [
+      "GL"
+    ],
+    "country_labels": [
+      "Groenland"
+    ],
+    "subdivision": "Avannaata",
+    "region": "polaire",
+    "lat": 69.1667,
+    "lng": -49.8333,
+    "coordinate_precision": "region",
+    "bbox": [
+      -51,
+      68.9,
+      -48.5,
+      69.35
+    ],
+    "area_km2": 4024,
+    "elevation_min_m": 0,
+    "elevation_max_m": 1200,
+    "depth_max_m": null,
+    "timezone": "America/Nuuk"
+  },
+  "landscape": {
+    "primary": "glacier",
+    "types": [
+      "glacier",
+      "fjord",
+      "inlandsis",
+      "polaire",
+      "falaise"
+    ],
+    "family": "glace",
+    "iucn_ecosystem": [
+      "T6.5 Désert polaire",
+      "M4.2 Fjords glaciaires"
+    ],
+    "biome": "Marge de l'inlandsis, glacier émissaire et fjord arctique",
+    "climate": "Polaire côtier",
+    "collections": [
+      "mondes-de-glace",
+      "paysages-en-transformation",
+      "royaumes-eau",
+      "bouts-du-monde"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "unesco-whs",
+        "name": "Fjord glacé d'Ilulissat",
+        "ref": "1149",
+        "since": 2004,
+        "criteria": [
+          "vii",
+          "viii"
+        ],
+        "url": "https://whc.unesco.org/en/list/1149/"
+      }
+    ],
+    "managing_body": {
+      "name": "Ilulissat Icefjord Office",
+      "url": "https://kangia.gl/"
+    }
+  },
+  "editorial": {
+    "badges": [
+      "exceptionnel",
+      "grande-nature",
+      "geologie-remarquable"
+    ],
+    "essential": true,
+    "lede": "Un glacier majeur de l'inlandsis pousse vers la mer un fleuve de glace qui se fracture en icebergs géants, puis s'accumule derrière un seuil sous-marin.",
+    "why_here": "Ilulissat est l'une des démonstrations les plus lisibles du trajet de la neige continentale jusqu'à l'océan. Vitesse du glacier, vêlage, seuil rocheux et embâcle d'icebergs composent une machine glaciaire visible à l'échelle du paysage.",
+    "presentation": "Sermeq Kujalleq draine une partie de l'inlandsis groenlandais vers Kangia, le fjord glacé. La glace s'écoule sous son propre poids, accélère dans une vallée encaissée et se brise au front en blocs parfois hauts comme des immeubles.\n\nLe fjord n'évacue pas immédiatement cette production. Près de son embouchure, un seuil sous-marin retient les icebergs les plus profonds. Ils s'y échouent, se poussent et forment un embâcle mobile. Lorsqu'ils s'amincissent ou se retournent, ils franchissent le seuil et gagnent la baie de Disko.\n\nLe front a connu des avancées et retraits documentés depuis les premières observations scientifiques. Un retrait rapide au début du vingt et unième siècle a accompagné une accélération et un amincissement marqués, rappelant qu'un glacier n'est pas un monument immobile mais un écoulement sensible à l'océan et à l'air.",
+    "geology": "Le fjord occupe une vallée profondément surcreusée lors des glaciations quaternaires dans un socle précambrien. Le seuil correspond à une remontée du fond et à des dépôts glaciaires. L'inlandsis transforme l'accumulation neigeuse en glace, qui se déforme et glisse vers la côte.",
+    "dynamics": "La position du front dépend du débit venu de l'amont, de la fonte, du contact avec l'eau et du vêlage. Les icebergs échoués se libèrent par marées, fractures et fonte, rendant l'embouchure changeante d'une heure à l'autre.",
+    "biodiversity_text": "Le fjord et la baie relient productivité marine et toundra arctique. Phoques annelés, baleines, poissons et oiseaux utilisent les eaux enrichies, tandis que la végétation terrestre reste basse et saisonnière.",
+    "in_motion": "Le retrait et l'accélération de Sermeq Kujalleq sont suivis par satellites et mesures de terrain. Ce glacier contribue au transfert de masse de l'inlandsis vers la mer, dans un Groenland qui perd globalement de la glace.",
+    "guess_hints": [
+      "Un glacier émissaire très rapide relie une calotte à la mer",
+      "Des icebergs géants restent bloqués sur un seuil sous-marin",
+      "Le nom local du fjord est Kangia",
+      "Le front est cartographié depuis plus de deux siècles"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Bien du patrimoine mondial",
+      "value": "4 024 km²"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "2004, critères vii et viii"
+    }
+  ],
+  "geology": {
+    "age": "Socle précambrien, vallée glaciaire quaternaire et dynamique actuelle",
+    "processes": [
+      "écoulement glaciaire",
+      "surcreusement",
+      "vêlage",
+      "échouage d'icebergs",
+      "retrait glaciaire"
+    ],
+    "rock_types": [
+      "gneiss",
+      "granite",
+      "dépôts glaciaires"
+    ],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Phoque annelé",
+        "name_sci": "Pusa hispida",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Baleine à bosse",
+        "name_sci": "Megaptera novaeangliae",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      }
+    ],
+    "endemism_level": "faible",
+    "endemism_note": "La valeur biologique vient surtout des connexions saisonnières arctiques.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "avoid_months": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "phenomena": [
+      {
+        "label": "Soleil de minuit",
+        "kind": "soleil-de-minuit",
+        "months": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Nuit polaire et glace hivernale",
+        "kind": "nuit-polaire",
+        "months": [
+          12,
+          1
+        ]
+      }
+    ],
+    "notes": "La glace est instable en toute saison; ce calendrier décrit le phénomène et non un passage sûr."
+  },
+  "visit": {
+    "accessibility": "difficile",
+    "suggested_duration": "À observer uniquement depuis les secteurs officiellement autorisés",
+    "difficulty": "Froid, météo changeante, falaises et icebergs instables.",
+    "extreme_conditions": [
+      "froid",
+      "vents",
+      "glace instable",
+      "chute d'icebergs"
+    ],
+    "permits": "Respecter le zonage du bien UNESCO et les règles locales en vigueur.",
+    "rules": [
+      "Rester sur les aménagements autorisés.",
+      "Ne jamais s'approcher d'un front glaciaire ou d'un iceberg échoué.",
+      "Respecter les communautés locales et les sites archéologiques."
+    ],
+    "official_url": "https://kangia.gl/",
+    "no_route_guidance": true
+  },
+  "conservation": {
+    "fragility": "critique",
+    "state": "La valeur paysagère demeure exceptionnelle, mais l'amincissement de l'inlandsis et les changements rapides du front témoignent d'une dégradation climatique majeure.",
+    "trend": "degradation",
+    "threats": [
+      {
+        "type": "climat",
+        "level": "critique",
+        "note": "Réchauffement de l'air et de l'océan."
+      },
+      {
+        "type": "fonte-glaciaire",
+        "level": "critique",
+        "note": "Perte de masse et retrait du glacier émissaire."
+      },
+      {
+        "type": "tourisme",
+        "level": "modere",
+        "note": "Pression localisée près des points d'observation."
+      }
+    ],
+    "understand_without_going": true,
+    "message": "La beauté des icebergs est aussi la manifestation visible d'un transfert accéléré de glace continentale vers l'océan."
+  },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Ilulissat Icefjord Sermeq Kujalleq icebergs Greenland"
+  },
+  "sources": [
+    {
+      "title": "Ilulissat Icefjord, a world heritage site",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1149/",
+      "type": "officiel",
+      "accessed": "2026-08-23"
+    },
+    {
+      "title": "Ilulissat Icefjord",
+      "publisher": "GEUS",
+      "url": "https://eng.geus.dk/products-services-facilities/publications/popular-geology/books/ilulissat-icefjord",
+      "type": "scientifique",
+      "accessed": "2026-08-23"
+    }
+  ]
+}

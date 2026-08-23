@@ -1,0 +1,275 @@
+{
+  "id": "wrangel",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-23",
+  "identity": {
+    "name_fr": "Île Wrangel",
+    "name_official": "Остров Врангеля",
+    "name_local": [
+      {
+        "lang": "ru",
+        "value": "Остров Врангеля"
+      },
+      {
+        "lang": "ckt",
+        "value": "Умӄиԓир"
+      }
+    ],
+    "name_indigenous": [
+      {
+        "people": "Tchouktches",
+        "value": "Umqiḷir",
+        "meaning": "île aux ours polaires"
+      }
+    ],
+    "aka": [
+      "Wrangel Island"
+    ]
+  },
+  "location": {
+    "countries": [
+      "RU"
+    ],
+    "country_labels": [
+      "Russie"
+    ],
+    "subdivision": "District autonome de Tchoukotka",
+    "region": "polaire",
+    "lat": 71.2,
+    "lng": -179.4,
+    "coordinate_precision": "region",
+    "bbox": [
+    -180,
+      70.6,
+    180,
+      71.7
+    ],
+    "area_km2": 7608.7,
+    "elevation_min_m": 0,
+    "elevation_max_m": 1096,
+    "depth_max_m": null,
+    "timezone": "Asia/Anadyr"
+  },
+  "landscape": {
+    "primary": "polaire",
+    "types": [
+      "polaire",
+      "toundra",
+      "ile",
+      "faune",
+      "montagne"
+    ],
+    "family": "polaire",
+    "iucn_ecosystem": [
+      "T6.3 Toundra arctique",
+      "M4.1 Banquise saisonnière"
+    ],
+    "biome": "Toundra arctique insulaire et côtes de la mer des Tchouktches",
+    "climate": "Polaire arctique",
+    "collections": [
+      "bouts-du-monde",
+      "grands-rassemblements",
+      "paysages-en-transformation"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "unesco-whs",
+        "name": "Système naturel de la réserve de l'île Wrangel",
+        "ref": "1023",
+        "since": 2004,
+        "criteria": [
+          "ix",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/en/list/1023/"
+      },
+      {
+        "type": "nature-reserve",
+        "name": "Réserve naturelle d'État de l'île Wrangel",
+        "since": 1976,
+        "criteria": [],
+        "ref": null,
+        "url": "https://whc.unesco.org/en/list/1023/"
+      }
+    ],
+    "managing_body": {
+      "name": "Ministère russe des ressources naturelles, réserve de Wrangel",
+      "url": "https://whc.unesco.org/en/list/1023/"
+    }
+  },
+  "editorial": {
+    "badges": [
+      "unique-au-monde",
+      "ecosysteme-majeur",
+      "tres-sauvage"
+    ],
+    "essential": false,
+    "lede": "Restée en partie libre de glace au maximum glaciaire, cette île arctique a conservé une flore exceptionnellement riche et les derniers mammouths connus.",
+    "why_here": "Wrangel relie deux histoires rarement réunies : celle d'un refuge pléistocène où des mammouths ont survécu jusqu'à environ quatre mille ans, et celle d'un grand site actuel de reproduction pour ours polaires, morses et oiseaux.",
+    "presentation": "L'île se trouve entre mers de Sibérie orientale et des Tchouktches, traversée par des montagnes et bordée de plaines de toundra. Une partie du territoire n'a pas été recouverte par la dernière grande calotte, ce qui a permis la continuité de sols, plantes et lignées animales.\n\nDes mammouths laineux nains y ont persisté des millénaires après leur disparition continentale, jusqu'au milieu de l'Holocène. Leur survie ne transforme pas l'île en monde figé : isolement, petite population et changement environnemental ont fini par fermer ce dernier refuge.\n\nAujourd'hui, la banquise saisonnière commande l'écologie. Les ours polaires utilisent l'île pour les tanières de maternité; les morses se rassemblent sur la côte lorsque la glace se retire; d'immenses colonies d'oiseaux exploitent la productivité marine. La richesse floristique est remarquable pour cette latitude.",
+    "geology": "Wrangel expose un assemblage de roches sédimentaires et métamorphiques plissées, soulevé puis remodelé par gel, rivières et glaciers locaux. L'absence de glaciation continentale complète a préservé reliefs et dépôts plus anciens.",
+    "dynamics": "Le calendrier de la banquise détermine accès aux phoques, tanières, rassemblements de morses et migrations. Le pergélisol, les crues de fonte et l'érosion côtière répondent à des saisons arctiques qui changent rapidement.",
+    "biodiversity_text": "L'UNESCO souligne une diversité végétale et un endémisme exceptionnels pour l'Arctique. Ours polaire, morse du Pacifique, harfang, oie des neiges et renne introduit composent un système où milieux marins et terrestres sont étroitement liés.",
+    "in_motion": "La réduction de la banquise oblige davantage de morses à se rassembler à terre et modifie les déplacements des ours. L'isolement qui protégea jadis le refuge ne le protège pas d'un climat global.",
+    "guess_hints": [
+      "Les derniers mammouths connus y vivaient encore il y a environ quatre mille ans",
+      "Une partie du sol a échappé à la dernière grande glaciation",
+      "Le nom tchouktche évoque les ours polaires",
+      "La flore est exceptionnellement riche pour une île arctique"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Superficie",
+      "value": "environ 7 609 km²"
+    },
+    {
+      "label": "Disparition des derniers mammouths",
+      "value": "il y a environ 4 000 ans"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "2004"
+    }
+  ],
+  "geology": {
+    "age": "Socle et séries paléozoïques à mésozoïques, modelé quaternaire",
+    "processes": [
+      "plissement",
+      "soulèvement",
+      "gélifraction",
+      "érosion côtière",
+      "pergélisol"
+    ],
+    "rock_types": [
+      "schiste",
+      "calcaire",
+      "grès",
+      "roches métamorphiques"
+    ],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Ours polaire",
+        "name_sci": "Ursus maritimus",
+        "group": "mammifère",
+        "iucn_status": "VU"
+      },
+      {
+        "name_fr": "Morse du Pacifique",
+        "name_sci": "Odobenus rosmarus divergens",
+        "group": "mammifère",
+        "iucn_status": "VU"
+      },
+      {
+        "name_fr": "Oie des neiges",
+        "name_sci": "Anser caerulescens",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      }
+    ],
+    "endemism_level": "exceptionnel",
+    "endemism_note": "Refuge non entièrement englacé, l'île conserve de nombreux taxons et assemblages arctiques singuliers.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "avoid_months": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "phenomena": [
+      {
+        "label": "Soleil de minuit et reproduction",
+        "kind": "soleil-de-minuit",
+        "months": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Formation des tanières et nuit polaire",
+        "kind": "nuit-polaire",
+        "months": [
+          11,
+          12,
+          1
+        ]
+      }
+    ],
+    "notes": "Calendrier écologique uniquement; aucune indication d'accès n'est fournie."
+  },
+  "visit": {
+    "accessibility": "expedition",
+    "suggested_duration": "Compréhension à distance recommandée",
+    "difficulty": "Isolement extrême, ours polaires, glace de mer et cadre réglementaire strict.",
+    "extreme_conditions": [
+      "ours polaires",
+      "froid",
+      "banquise",
+      "absence de secours"
+    ],
+    "permits": "Réserve naturelle d'accès strictement réglementé; contexte international susceptible d'affecter toute possibilité légale.",
+    "rules": [
+      "Ne pas chercher un accès autonome.",
+      "Ne jamais approcher tanières, échoueries ou colonies.",
+      "Respecter les restrictions officielles et scientifiques."
+    ],
+    "official_url": "https://whc.unesco.org/en/list/1023/",
+    "no_route_guidance": true
+  },
+  "conservation": {
+    "fragility": "critique",
+    "state": "La réserve protège efficacement les terres, mais le recul de la banquise transforme rapidement les relations entre prédateurs, proies et rivages.",
+    "trend": "degradation",
+    "threats": [
+      {
+        "type": "climat",
+        "level": "critique",
+        "note": "Perte de glace marine et dégel du pergélisol."
+      },
+      {
+        "type": "pollution",
+        "level": "eleve",
+        "note": "Polluants persistants et risques liés aux activités arctiques."
+      }
+    ],
+    "understand_without_going": true,
+    "message": "Le refuge des derniers mammouths rappelle que même l'isolement le plus extrême ne garantit pas la survie."
+  },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Wrangel Island polar bear walrus tundra"
+  },
+  "sources": [
+    {
+      "title": "Natural System of Wrangel Island Reserve",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1023/",
+      "type": "officiel",
+      "accessed": "2026-08-23"
+    },
+    {
+      "title": "Late Quaternary dynamics of Arctic biota from ancient environmental genomics",
+      "publisher": "Nature",
+      "url": "https://www.nature.com/articles/s41586-021-04016-x",
+      "type": "scientifique",
+      "accessed": "2026-08-23"
+    }
+  ]
+}

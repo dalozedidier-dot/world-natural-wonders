@@ -1,0 +1,263 @@
+{
+  "id": "peninsule-antarctique-lemaire",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-23",
+  "identity": {
+    "name_fr": "Canal Lemaire et péninsule Antarctique",
+    "name_official": "Antarctic Peninsula",
+    "name_local": [],
+    "name_indigenous": null,
+    "aka": [
+      "Péninsule Antarctique",
+      "Canal Lemaire"
+    ]
+  },
+  "location": {
+    "countries": [
+      "AQ"
+    ],
+    "country_labels": [
+      "Antarctique"
+    ],
+    "subdivision": null,
+    "region": "polaire",
+    "lat": -65.1,
+    "lng": -64,
+    "coordinate_precision": "region",
+    "bbox": [
+      -68,
+      -69,
+      -57,
+      -61
+    ],
+    "area_km2": null,
+    "elevation_min_m": 0,
+    "elevation_max_m": 3239,
+    "depth_max_m": null,
+    "timezone": "Antarctica/Palmer"
+  },
+  "landscape": {
+    "primary": "polaire",
+    "types": [
+      "polaire",
+      "glacier",
+      "fjord",
+      "montagne",
+      "faune"
+    ],
+    "family": "polaire",
+    "iucn_ecosystem": [
+      "T6.5 Désert polaire",
+      "M4.1 Banquise saisonnière"
+    ],
+    "biome": "Désert polaire maritime, glaciers côtiers et écosystèmes de banquise",
+    "climate": "Polaire maritime",
+    "collections": [
+      "mondes-de-glace",
+      "vertiges",
+      "paysages-en-transformation",
+      "bouts-du-monde"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "antarctic-treaty",
+        "name": "Zone du Traité sur l'Antarctique",
+        "since": 1961,
+        "criteria": [],
+        "ref": null,
+        "url": "https://www.ats.aq/"
+      }
+    ],
+    "managing_body": {
+      "name": "Parties au Traité sur l'Antarctique",
+      "url": "https://www.ats.aq/"
+    }
+  },
+  "editorial": {
+    "badges": [
+      "exceptionnel",
+      "grande-nature",
+      "tres-sauvage"
+    ],
+    "essential": false,
+    "lede": "Une chaîne de sommets englacés s'avance vers l'Amérique du Sud, entaillée de chenaux où glaciers, banquise et colonies d'oiseaux répondent au climat.",
+    "why_here": "La péninsule rend visibles, dans un même paysage, la géologie d'une marge active, le fonctionnement de glaciers maritimes et une réorganisation écologique rapide. Le canal Lemaire en condense la puissance visuelle sans résumer un territoire immense et vulnérable.",
+    "presentation": "La péninsule est le long doigt montagneux qui prolonge l'Antarctique vers le nord. Ses sommets émergent d'un réseau de glaciers, de détroits et d'îles. Le canal Lemaire n'est qu'une étroite incision marine entre Booth Island et la côte continentale, célèbre pour ses parois et ses glaces dérivantes.\n\nSous cette scène se poursuit une chaîne apparentée aux Andes, édifiée par des épisodes de subduction, d'accrétion et de volcanisme. La glace épaissit les vallées, les surcreuse, puis livre des icebergs à l'océan.\n\nLa façade occidentale maritime réagit fortement aux variations de l'atmosphère et de l'océan. Le recul de nombreux glaciers et les ruptures des plateformes Larsen A en 1995 et Larsen B en 2002 montrent que la transformation ne se limite pas à une ligne sur une carte. La disparition d'une plateforme flottante ne fait pas directement monter la mer, mais elle peut libérer l'écoulement des glaciers terrestres qu'elle retenait.",
+    "geology": "La péninsule assemble des fragments crustaux et des arcs magmatiques soudés au bord de la plaque antarctique pendant le Mésozoïque et le Cénozoïque. Les reliefs furent ensuite remodelés par les glaciations. Les auges sous-marines témoignent de langues glaciaires autrefois plus étendues, tandis que les fjords occupent des vallées surcreusées.",
+    "dynamics": "Vent, courants, neige et température déterminent chaque saison l'étendue de la banquise et la stabilité des fronts. Les plateformes flottantes amortissent certains glaciers terrestres. Lorsqu'elles s'amincissent ou se fragmentent, leur effet de freinage diminue.",
+    "biodiversity_text": "Manchots papous, Adélie et à jugulaire, phoques crabiers, léopards de mer et baleines exploitent une mosaïque mobile. Dans plusieurs secteurs occidentaux, les papous gagnent du terrain tandis que les Adélie, plus liés à la glace, reculent, mais les tendances varient selon les colonies et les années.",
+    "in_motion": "La région a connu un réchauffement marqué au cours de la seconde moitié du vingtième siècle, puis une forte variabilité. Le signal de fond associe air, océan, glace et disponibilité du krill. Le tourisme antarctique se concentre très majoritairement dans cette péninsule, ce qui renforce la nécessité de règles communes.",
+    "guess_hints": [
+      "Une chaîne montagneuse prolonge les Andes au-delà d'un passage océanique",
+      "Deux plateformes de glace voisines se sont disloquées en 1995 et 2002",
+      "Trois espèces de manchots répondent différemment au recul de la glace",
+      "Un chenal étroit traverse un paysage de pics et d'icebergs"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Rupture de Larsen A",
+      "value": "1995"
+    },
+    {
+      "label": "Rupture de Larsen B",
+      "value": "2002"
+    },
+    {
+      "label": "Saison touristique principale",
+      "value": "octobre à avril"
+    }
+  ],
+  "geology": {
+    "age": "Arc magmatique mésozoïque à cénozoïque, modelé par les glaciations quaternaires",
+    "processes": [
+      "subduction",
+      "accrétion tectonique",
+      "érosion glaciaire",
+      "vêlage",
+      "désintégration de plateforme"
+    ],
+    "rock_types": [
+      "roches volcaniques",
+      "granitoïdes",
+      "roches sédimentaires"
+    ],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Manchot papou",
+        "name_sci": "Pygoscelis papua",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Manchot Adélie",
+        "name_sci": "Pygoscelis adeliae",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Phoque crabier",
+        "name_sci": "Lobodon carcinophaga",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      }
+    ],
+    "endemism_level": "faible",
+    "endemism_note": "La spécialisation au froid est forte, mais de nombreuses espèces circulent dans tout l'océan Austral.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "avoid_months": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "phenomena": [
+      {
+        "label": "Lumière australe prolongée et banquise saisonnière réduite",
+        "kind": "soleil-de-minuit",
+        "months": [
+          11,
+          12,
+          1
+        ]
+      },
+      {
+        "label": "Extension de la banquise et nuit polaire",
+        "kind": "glace",
+        "months": [
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "notes": "Les conditions changent rapidement et l'accès reste soumis aux opérateurs, aux autorités et à la glace."
+  },
+  "visit": {
+    "accessibility": "expedition",
+    "suggested_duration": "À comprendre à distance ou dans un programme antarctique autorisé",
+    "difficulty": "Froid, vents, mer, glace, isolement et absence de secours immédiat.",
+    "extreme_conditions": [
+      "froid",
+      "vents violents",
+      "glace dérivante",
+      "isolement"
+    ],
+    "permits": "Toute activité relève du système du Traité sur l'Antarctique et des règles nationales applicables.",
+    "rules": [
+      "Ne pas perturber la faune ni les sites scientifiques.",
+      "Respecter les distances et procédures de biosécurité.",
+      "Ne laisser aucun déchet et ne rien prélever."
+    ],
+    "official_url": "https://www.ats.aq/e/tourism.html",
+    "no_route_guidance": true
+  },
+  "conservation": {
+    "fragility": "critique",
+    "state": "Glaciers, banquise et réseaux alimentaires changent rapidement, tandis que la fréquentation se concentre sur un petit nombre de sites côtiers.",
+    "trend": "degradation",
+    "threats": [
+      {
+        "type": "climat",
+        "level": "critique",
+        "note": "Le réchauffement de l'air et de l'océan modifie glace, glaciers et habitats."
+      },
+      {
+        "type": "fonte-glaciaire",
+        "level": "critique",
+        "note": "Recul des fronts et perte de plateformes dans plusieurs secteurs."
+      },
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "La concentration des débarquements accroît dérangement et risque biologique."
+      }
+    ],
+    "understand_without_going": true,
+    "message": "La péninsule se comprend comme un système climatique vivant, pas comme une collection de points à atteindre."
+  },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Antarctic Peninsula Lemaire Channel glaciers penguins"
+  },
+  "sources": [
+    {
+      "title": "Tourism and non-governmental activities",
+      "publisher": "Antarctic Treaty Secretariat",
+      "url": "https://www.ats.aq/e/tourism.html",
+      "type": "officiel",
+      "accessed": "2026-08-23"
+    },
+    {
+      "title": "Antarctica",
+      "publisher": "British Antarctic Survey",
+      "url": "https://www.bas.ac.uk/about/where-we-work/antarctica/",
+      "type": "scientifique",
+      "accessed": "2026-08-23"
+    },
+    {
+      "title": "Larsen B Ice Shelf",
+      "publisher": "NASA Earth Observatory",
+      "url": "https://earthobservatory.nasa.gov/world-of-change/LarsenB",
+      "type": "scientifique",
+      "accessed": "2026-08-23"
+    }
+  ]
+}

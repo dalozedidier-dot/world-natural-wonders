@@ -1,0 +1,352 @@
+{
+  "id": "daintree",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-23",
+  "identity": {
+    "name_fr": "Wet Tropics et forêt de Daintree",
+    "name_official": "Wet Tropics of Queensland",
+    "name_local": [
+      {
+        "lang": "en",
+        "value": "Wet Tropics of Queensland"
+      }
+    ],
+    "name_indigenous": null,
+    "aka": [
+      "Daintree Rainforest",
+      "Tropiques humides du Queensland"
+    ]
+  },
+  "location": {
+    "countries": [
+      "AU"
+    ],
+    "country_labels": [
+      "Australie"
+    ],
+    "subdivision": "Nord-est du Queensland",
+    "region": "oceanie",
+    "lat": -16.25,
+    "lng": 145.45,
+    "coordinate_precision": "region",
+    "bbox": [
+      145.0,
+      -19.3,
+      146.7,
+      -15.5
+    ],
+    "area_km2": 8934.53,
+    "elevation_min_m": 0,
+    "elevation_max_m": 1622,
+    "depth_max_m": null,
+    "timezone": "Australia/Brisbane"
+  },
+  "landscape": {
+    "primary": "foret-tropicale",
+    "types": [
+      "foret-tropicale",
+      "foret-nuageuse",
+      "mangrove",
+      "fleuve",
+      "montagne",
+      "ocean"
+    ],
+    "family": "foret",
+    "iucn_ecosystem": [
+      "T1.1 Forêts tropicales humides",
+      "T1.3 Forêts tropicales montagnardes",
+      "MT1.2 Mangroves et littoraux tropicaux"
+    ],
+    "biome": "Forêts gondwaniennes tropicales, mangroves, montagnes humides et côte récifale",
+    "climate": "Tropical humide saisonnier, soumis aux moussons, pluies orographiques et cyclones",
+    "collections": [
+      "forets-primordiales",
+      "bouts-du-monde",
+      "paysages-en-transformation"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "unesco-whs",
+        "name": "Wet Tropics of Queensland",
+        "since": 1988,
+        "criteria": [
+          "vii",
+          "viii",
+          "ix",
+          "x"
+        ],
+        "ref": "486",
+        "url": "https://whc.unesco.org/en/list/486/"
+      }
+    ],
+    "managing_body": {
+      "name": "Wet Tropics Management Authority avec les Rainforest Aboriginal Peoples",
+      "url": "https://www.wettropics.gov.au/"
+    }
+  },
+  "editorial": {
+    "badges": [
+      "ecosysteme-majeur",
+      "exceptionnel",
+      "tres-sauvage"
+    ],
+    "essential": false,
+    "lede": "Le long de la côte tropicale australienne, une forêt issue de lignées gondwaniennes descend jusqu'aux mangroves et aux plages face à la Grande Barrière.",
+    "why_here": "Les Wet Tropics conservent l'un des enregistrements vivants les plus complets de l'évolution des plantes terrestres, des fougères anciennes aux conifères du Sud puis aux plantes à fleurs. Sur moins de 0,2 % de l'Australie, ils concentrent une part spectaculaire de ses espèces. Daintree en est le visage le plus connu, mais le joyau est un corridor de 450 kilomètres où altitude, pluie, sols et refuges climatiques ont maintenu des lignées disparues ailleurs.",
+    "presentation": "Au nord du Daintree River, la canopée rencontre presque la mer. Palmiers, lianes et grands arbres bordent plages et mangroves, avec des récifs frangeants au large. Plus au sud et en altitude, les nuages entretiennent des forêts fraîches très différentes.\n\nLe casoar à casque avale de gros fruits et disperse leurs graines sur de longues distances. Sa disparition couperait un lien de régénération que peu d'autres animaux peuvent remplacer.\n\nLa forêt n'est pas restée identique depuis le Gondwana. Elle a survécu par déplacement et contraction dans des refuges humides, puis s'est diversifiée avec l'isolement de l'Australie et l'apparition de climats plus secs.",
+    "geology": "Les reliefs reposent sur un assemblage ancien de granites, métamorphites et roches volcaniques édifié le long de la marge orientale australienne. Soulèvement, failles et érosion ont créé une chaîne proche de la côte, forçant l'air maritime à monter et à condenser sa vapeur.\n\nLes pluies intenses découpent ravins et cascades et produisent des sols très lessivés. Sur les pentes, glissements et cyclones ouvrent des trouées où la succession forestière recommence. Les rivières transportent sédiments et nutriments vers mangroves, herbiers et récifs.\n\nLa proximité entre montagne et plateau continental explique une continuité écologique rare, mais aussi un risque : sols et polluants libérés dans le bassin atteignent rapidement la mer.",
+    "dynamics": "Cyclones, crues, chablis et glissements structurent naturellement la mosaïque. Une forêt mature peut perdre sa canopée en quelques heures puis repartir depuis arbres survivants, graines et rejets. Le réchauffement réduit cependant les refuges frais des sommets et favorise des événements de chaleur qui dépassent les variations historiques.",
+    "biodiversity_text": "L'UNESCO signale plus de 3 000 plantes vasculaires, 576 espèces et 44 genres végétaux endémiques, 107 mammifères, 368 oiseaux, 113 reptiles et 51 amphibiens. Casoar, dendrolague de Lumholtz, phalanger lémurien et grenouilles torrenticoles illustrent des lignées très restreintes.",
+    "in_motion": "Routes, collisions, chiens, plantes invasives, fragmentation et urbanisation affectent surtout les basses terres. Les cyclones plus intenses et la chaleur menacent les espèces de montagne. La cogestion doit renforcer les droits et savoirs de dix-huit groupes aborigènes de la forêt tropicale, notamment le feu culturel et la lecture saisonnière du pays.",
+    "guess_hints": [
+      "La forêt longe la Grande Barrière sur environ 450 kilomètres",
+      "Elle conserve des étapes vivantes de l'évolution des plantes terrestres",
+      "Un grand oiseau incapable de voler disperse ses plus gros fruits",
+      "Moins de 0,2 % de l'Australie concentre une part majeure de sa biodiversité"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Superficie UNESCO",
+      "value": "893 453 ha"
+    },
+    {
+      "label": "Longueur côtière",
+      "value": "environ 450 km"
+    },
+    {
+      "label": "Plantes vasculaires",
+      "value": "plus de 3 000 espèces"
+    },
+    {
+      "label": "Plantes endémiques",
+      "value": "576 espèces et 44 genres"
+    },
+    {
+      "label": "Oiseaux",
+      "value": "368 espèces"
+    }
+  ],
+  "geology": {
+    "age": "Socle paléozoïque et mésozoïque, relief et sols cénozoïques à actuels",
+    "processes": [
+      "orogenèse ancienne",
+      "intrusion granitique",
+      "soulèvement de marge",
+      "érosion fluviale",
+      "altération tropicale",
+      "glissement",
+      "sédimentation côtière"
+    ],
+    "rock_types": [
+      "granite",
+      "schiste",
+      "gneiss",
+      "roches volcaniques",
+      "alluvions"
+    ],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Casoar à casque",
+        "name_sci": "Casuarius casuarius",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Dendrolague de Lumholtz",
+        "name_sci": "Dendrolagus lumholtzi",
+        "group": "mammifère",
+        "iucn_status": "NT"
+      },
+      {
+        "name_fr": "Phalanger lémurien",
+        "name_sci": "Hemibelideus lemuroides",
+        "group": "mammifère",
+        "iucn_status": "NT"
+      },
+      {
+        "name_fr": "Grenouille blindée",
+        "name_sci": "Litoria lorica",
+        "group": "amphibien",
+        "iucn_status": "CR"
+      }
+    ],
+    "endemism_level": "exceptionnel",
+    "endemism_note": "Reliefs, refuges climatiques et isolement continental ont conservé des genres anciens et produit de nombreux endémiques à petite aire.",
+    "species_counts": {
+      "plants": 3000,
+      "birds": 368,
+      "mammals": 107,
+      "note": "Chiffres UNESCO; 113 reptiles et 51 amphibiens sont également signalés."
+    }
+  },
+  "seasonality": {
+    "best_months": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "avoid_months": [
+      1,
+      2,
+      3
+    ],
+    "phenomena": [
+      {
+        "label": "Saison plus sèche et fraîche",
+        "kind": "saison-seche",
+        "months": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Mousson, crues et cyclones",
+        "kind": "mousson",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Fructification et activité variables du casoar",
+        "kind": "autre",
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ],
+    "notes": "Pluie et fermeture restent possibles toute l'année. Ne jamais franchir une route ou un cours d'eau fermé après crue."
+  },
+  "visit": {
+    "accessibility": "modere",
+    "suggested_duration": "3 à 7 jours sur les sites et passerelles ouverts",
+    "difficulty": "Chaleur, humidité, crues, routes isolées, crocodiles, casoars et cyclones.",
+    "extreme_conditions": [
+      "chaleur",
+      "humidité",
+      "mousson",
+      "crue",
+      "cyclone",
+      "faune sauvage"
+    ],
+    "permits": "Respecter permis, fermetures et règles des parcs et pays aborigènes; certains secteurs nécessitent guides ou autorisations spécifiques.",
+    "rules": [
+      "Ne nourrir ni approcher casoars et crocodiles.",
+      "Ne jamais entrer dans une eau signalée à crocodiles ou après crue.",
+      "Nettoyer chaussures et matériel pour limiter pathogènes et graines.",
+      "Rester sur passerelles et sentiers, surtout dans les forêts de montagne.",
+      "Respecter les sites et consignes des Traditional Owners."
+    ],
+    "official_url": "https://www.wettropics.gov.au/",
+    "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "critique",
+    "state": "La majorité du couvert subsiste, mais les basses terres et les refuges montagnards concentrent fragmentation et risque climatique.",
+    "trend": "degradation",
+    "threats": [
+      {
+        "type": "climat",
+        "level": "critique",
+        "note": "Chaleur et déplacement des nuages réduisent les habitats frais sans altitude de repli."
+      },
+      {
+        "type": "urbanisation",
+        "level": "eleve",
+        "note": "Routes et constructions fragmentent les basses terres et augmentent les collisions de casoars."
+      },
+      {
+        "type": "invasives",
+        "level": "eleve",
+        "note": "Plantes, cochons, chats et pathogènes modifient sous-bois, sols et faune."
+      },
+      {
+        "type": "incendies",
+        "level": "eleve",
+        "note": "Les lisières asséchées sont vulnérables à un feu auquel la forêt humide résiste mal."
+      },
+      {
+        "type": "pollution",
+        "level": "modere",
+        "note": "Sédiments et produits agricoles circulent rapidement vers rivières et récifs."
+      }
+    ],
+    "understand_without_going": false,
+    "message": "Cette forêt est ancienne mais pas invulnérable. La protéger relie corridors de casoars, refuges frais des sommets et qualité de l'eau jusqu'au récif."
+  },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Daintree rainforest cassowary Cape Tribulation Australia"
+  },
+  "sources": [
+    {
+      "title": "Wet Tropics of Queensland",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/486/",
+      "type": "officiel",
+      "accessed": "2026-08-23"
+    },
+    {
+      "title": "Wet Tropics Management Authority",
+      "publisher": "Queensland Government",
+      "url": "https://www.wettropics.gov.au/",
+      "type": "officiel",
+      "accessed": "2026-08-23"
+    },
+    {
+      "title": "Wet Tropics best practice",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/486/bestpractice",
+      "type": "officiel",
+      "accessed": "2026-08-23"
+    }
+  ],
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 5,
+      "rarete": 5,
+      "diversite": 5,
+      "integrite": 4,
+      "monumentalite": 4,
+      "actif": 4,
+      "biologique": 5,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 5,
+      "complementarite": 5
+    },
+    "total": 127,
+    "scored_on": "2026-08-23"
+  }
+}

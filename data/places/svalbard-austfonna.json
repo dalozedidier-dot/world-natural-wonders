@@ -1,0 +1,264 @@
+{
+  "id": "svalbard-austfonna",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-23",
+  "identity": {
+    "name_fr": "Svalbard et calotte d'Austfonna",
+    "name_official": "Svalbard og Austfonna",
+    "name_local": [
+      {
+        "lang": "no",
+        "value": "Austfonna"
+      }
+    ],
+    "name_indigenous": null,
+    "aka": [
+      "Austfonna"
+    ]
+  },
+  "location": {
+    "countries": [
+      "NO"
+    ],
+    "country_labels": [
+      "Norvège"
+    ],
+    "subdivision": "Svalbard",
+    "region": "polaire",
+    "lat": 79.8,
+    "lng": 24,
+    "coordinate_precision": "region",
+    "bbox": [
+      10,
+      76,
+      35,
+      81
+    ],
+    "area_km2": 8120,
+    "elevation_min_m": 0,
+    "elevation_max_m": 783,
+    "depth_max_m": null,
+    "timezone": "Arctic/Longyearbyen"
+  },
+  "landscape": {
+    "primary": "inlandsis",
+    "types": [
+      "inlandsis",
+      "glacier",
+      "polaire",
+      "ile",
+      "faune"
+    ],
+    "family": "glace",
+    "iucn_ecosystem": [
+      "T6.5 Désert polaire",
+      "M4.1 Banquise saisonnière"
+    ],
+    "biome": "Calotte insulaire, toundra arctique et mers de glace saisonnière",
+    "climate": "Polaire arctique",
+    "collections": [
+      "mondes-de-glace",
+      "paysages-en-transformation",
+      "bouts-du-monde"
+    ]
+  },
+  "protection": {
+    "designations": [
+      {
+        "type": "nature-reserve",
+        "name": "Nordaust-Svalbard naturreservat",
+        "since": 1973,
+        "criteria": [],
+        "ref": null,
+        "url": "https://www.sysselmesteren.no/en/"
+      }
+    ],
+    "managing_body": {
+      "name": "Governor of Svalbard",
+      "url": "https://www.sysselmesteren.no/en/"
+    }
+  },
+  "editorial": {
+    "badges": [
+      "grande-nature",
+      "tres-sauvage",
+      "geologie-remarquable"
+    ],
+    "essential": false,
+    "lede": "Sur une île du haut Arctique, l'une des plus vastes calottes glaciaires d'Europe se termine par un front marin presque continu, parcouru de glaciers qui accélèrent par à-coups.",
+    "why_here": "Austfonna associe l'échelle d'une calotte, un immense front de vêlage et le comportement spectaculaire des glaciers en surge. Le Svalbard offre en outre un observatoire avancé de l'amplification arctique.",
+    "presentation": "Austfonna couvre une grande partie de Nordaustlandet. Son dôme paraît lisse depuis l'intérieur, mais sa bordure orientale tombe dans la mer en une longue muraille de glace. De nombreux bassins d'écoulement convergent vers ce front et répondent différemment à la topographie du socle.\n\nCertains glaciers du Svalbard connaissent des surges : après une longue phase lente, ils accélèrent brutalement, avancent et transfèrent beaucoup de glace vers l'aval avant de ralentir. Basin-3 d'Austfonna a ainsi connu une forte accélération au vingt et unième siècle. Ce comportement interne se combine désormais à la chaleur croissante de l'air et de l'océan.\n\nLe Svalbard se réchauffe beaucoup plus vite que la moyenne mondiale. La neige, le pergélisol, la banquise et les glaciers changent ensemble, modifiant ruissellement, habitats et accès à la nourriture pour la faune.",
+    "geology": "La calotte repose sur des roches sédimentaires et cristallines modelées par plusieurs glaciations. La glace s'écoule par déformation et glissement basal. Là où le lit descend sous la mer, l'eau océanique peut influencer le front et favoriser le vêlage.",
+    "dynamics": "Accumulation neigeuse, fonte estivale, écoulement et perte d'icebergs forment le bilan de masse. Les surges redistribuent la glace sans être à elles seules une preuve climatique, mais le bilan régional négatif et le réchauffement fournissent le contexte de long terme.",
+    "biodiversity_text": "Ours polaire, morse, renard arctique, renne du Svalbard et oiseaux marins utilisent un archipel où la glace marine commande l'accès aux proies. La toundra brève répond fortement aux dates de fonte.",
+    "in_motion": "Les observations du Norwegian Polar Institute et du service Copernicus documentent recul, amincissement et épisodes d'accélération. Dans cet Arctique maritime, une variation hivernale peut compter autant qu'un été chaud.",
+    "guess_hints": [
+      "Une calotte insulaire borde la mer sur un front immense",
+      "Des bassins glaciaires accélèrent parfois par surges",
+      "Le territoire connaît une amplification extrême du réchauffement arctique",
+      "Ours et morses dépendent d'une banquise saisonnière changeante"
+    ]
+  },
+  "figures": [
+    {
+      "label": "Superficie d'Austfonna",
+      "value": "environ 8 120 km²"
+    },
+    {
+      "label": "Type",
+      "value": "calotte glaciaire insulaire à vaste front de vêlage"
+    }
+  ],
+  "geology": {
+    "age": "Glaciations quaternaires et calotte actuelle",
+    "processes": [
+      "accumulation nivale",
+      "écoulement glaciaire",
+      "surge glaciaire",
+      "vêlage",
+      "fonte basale"
+    ],
+    "rock_types": [
+      "roches sédimentaires",
+      "gneiss",
+      "granite"
+    ],
+    "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      {
+        "name_fr": "Ours polaire",
+        "name_sci": "Ursus maritimus",
+        "group": "mammifère",
+        "iucn_status": "VU"
+      },
+      {
+        "name_fr": "Morse",
+        "name_sci": "Odobenus rosmarus",
+        "group": "mammifère",
+        "iucn_status": "VU"
+      },
+      {
+        "name_fr": "Renne du Svalbard",
+        "name_sci": "Rangifer tarandus platyrhynchus",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      }
+    ],
+    "endemism_level": "modere",
+    "endemism_note": "Quelques sous-espèces terrestres sont propres à l'archipel, tandis que la faune marine circule largement.",
+    "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "avoid_months": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "phenomena": [
+      {
+        "label": "Soleil de minuit",
+        "kind": "soleil-de-minuit",
+        "months": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Nuit polaire",
+        "kind": "nuit-polaire",
+        "months": [
+          11,
+          12,
+          1,
+          2
+        ]
+      }
+    ],
+    "notes": "Les mois indiquent lumière et dynamique naturelle, sans conseil d'approche de la calotte."
+  },
+  "visit": {
+    "accessibility": "expedition",
+    "suggested_duration": "Compréhension à distance recommandée pour Austfonna",
+    "difficulty": "Glace de mer, ours polaires, crevasses, froid et secours éloignés.",
+    "extreme_conditions": [
+      "ours polaires",
+      "crevasses",
+      "froid",
+      "banquise mobile"
+    ],
+    "permits": "Réglementation environnementale du Svalbard et restrictions des réserves naturelles.",
+    "rules": [
+      "Ne jamais approcher la faune ni un front de vêlage.",
+      "Respecter les zones interdites et la biosécurité.",
+      "Aucun itinéraire autonome n'est fourni."
+    ],
+    "official_url": "https://www.sysselmesteren.no/en/",
+    "no_route_guidance": true
+  },
+  "conservation": {
+    "fragility": "critique",
+    "state": "Calotte, banquise et pergélisol perdent leur stabilité dans l'une des régions où le réchauffement observé est le plus amplifié.",
+    "trend": "degradation",
+    "threats": [
+      {
+        "type": "climat",
+        "level": "critique",
+        "note": "Amplification arctique très forte."
+      },
+      {
+        "type": "fonte-glaciaire",
+        "level": "critique",
+        "note": "Bilan de masse négatif et fronts changeants."
+      },
+      {
+        "type": "pollution",
+        "level": "modere",
+        "note": "Polluants transportés à longue distance et activités maritimes."
+      }
+    ],
+    "understand_without_going": true,
+    "message": "L'échelle d'Austfonna se lit mieux dans les séries satellitaires que depuis un front instable et dangereux."
+  },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Austfonna ice cap Svalbard calving front"
+  },
+  "sources": [
+    {
+      "title": "Austfonna",
+      "publisher": "Norwegian Polar Institute",
+      "url": "https://data.npolar.no/placename/",
+      "type": "scientifique",
+      "accessed": "2026-08-23"
+    },
+    {
+      "title": "Climate in Svalbard 2100",
+      "publisher": "Norwegian Centre for Climate Services",
+      "url": "https://www.miljodirektoratet.no/globalassets/publikasjoner/m1242/m1242.pdf",
+      "type": "scientifique",
+      "accessed": "2026-08-23"
+    },
+    {
+      "title": "Environmental protection",
+      "publisher": "Governor of Svalbard",
+      "url": "https://www.sysselmesteren.no/en/maps-and-gps/thematic-maps/nature-conservations-areas/nature-reserves/",
+      "type": "officiel",
+      "accessed": "2026-08-23"
+    }
+  ]
+}
