@@ -1,10 +1,10 @@
 # Reste à faire
 
-Mis à jour le 2026-08-22.
+Mis à jour le 2026-08-23.
 
-## 1. Les 61 fiches restantes
+## 1. Les 39 fiches restantes
 
-La sélection des 100 est arrêtée et équilibrée. 39 fiches sont rédigées. Voici les 61 restantes, avec leur identifiant, leur cadrage et le mécanisme naturel à expliquer. Ce tableau est fait pour être repris directement comme brief de rédaction, sans refaire le travail de sélection.
+La sélection des 100 est arrêtée et équilibrée. 61 fiches sont rédigées. Voici les 39 restantes, avec leur identifiant, leur cadrage et le mécanisme naturel à expliquer. Ce tableau est fait pour être repris directement comme brief de rédaction, sans refaire le travail de sélection.
 
 Procédure pour chacune : suivre `docs/BRIEF-REDACTION.md`, imiter `data/places/geirangerfjord.json`, écrire dans `data/places/<id>.json`, puis `npm run validate`.
 
@@ -16,39 +16,16 @@ Complète : plitvice, dolomites, geirangerfjord, lofoten, vatnajokull-jokulsarlo
 
 Complète : zhangjiajie, jiuzhaigou, huangshan, guilin-li, danxia-zhangye, halong, phong-nha, bromo-tengger-semeru, raja-ampat, komodo, gunung-mulu, tubbataha, sundarbans, yakushima, shiretoko, baikal, kamtchatka, socotra, wadi-rum, sagarmatha, nanda-devi, tian-shan-occidental.
 
-### Afrique, 12 restantes sur 15
+### Afrique, 0 restante sur 15
 
-Faites : victoria-falls, okavango, namib-sossusvlei.
+Complète : victoria-falls, okavango, namib-sossusvlei, serengeti, ngorongoro, nyiragongo-virunga, bwindi, rwenzori, kilimandjaro, simien, tsingy-bemaraha, banc-arguin, tassili-najjer, region-florale-cap, danakil-erta-ale.
 
-| id | Lieu | Pays | Famille | Mécanisme à expliquer |
-| --- | --- | --- | --- | --- |
-| `nyiragongo-virunga` | Nyiragongo et Virunga | RDC | feu | Lac de lave permanent, laves néphélinitiques, gorille de montagne, conflit. understand_without_going |
-| `serengeti` | Serengeti | Tanzanie | vivant | Migration, sols de cendres volcaniques, cycle pluies et pâturages. essential |
-| `ngorongoro` | Cratère du Ngorongoro | Tanzanie | feu | Caldeira intacte, effondrement vers 2,5 Ma, aire à usages multiples maasaï |
-| `kilimandjaro` | Kilimandjaro | Tanzanie | feu | Stratovolcan à trois cônes, cinq étages écologiques, recul de la calotte |
-| `bwindi` | Forêt de Bwindi | Ouganda | foret | Refuge forestier du Pléistocène, gorilles, permis, déplacement des Batwa en 1991 |
-| `rwenzori` | Monts Rwenzori | Ouganda | relief | Horst du rift occidental, glaciers équatoriaux en disparition, séneçons géants |
-| `simien` | Monts Simien | Éthiopie | relief | Trapps oligocènes érodés en escarpement, gélada, walia |
-| `danakil-erta-ale` | Danakil et Erta Ale | Éthiopie | feu | Point triple Afar, croûte océanique à terre, lac de lave, Dallol et extrêmophiles |
-| `tsingy-bemaraha` | Tsingy de Bemaraha | Madagascar | relief | Lapiaz géant en lames, calcaires jurassiques, karst épigé et souterrain |
-| `banc-arguin` | Banc d'Arguin | Mauritanie | cote | Upwelling, plus grande concentration de limicoles hivernants, pêche imraguen |
-| `tassili-najjer` | Tassili n'Ajjer | Algérie | desert | Forêt de pierre gréseuse, arches, cyprès reliques, mémoire du Sahara vert |
-| `region-florale-cap` | Région florale du Cap | Afrique du Sud | vivant | Plus petit règne floral, fynbos, le feu comme processus vital, invasives ligneuses |
+### Amérique du Nord et centrale, 5 restantes sur 15
 
-### Amérique du Nord et centrale, 15 restantes sur 15
+Faites : grand-canyon, yellowstone, yosemite, redwood, denali, everglades, rocheuses-canadiennes, nahanni, gros-morne, baie-de-fundy.
 
 | id | Lieu | Pays | Famille | Mécanisme à expliquer |
 | --- | --- | --- | --- | --- |
-| `grand-canyon` | Grand Canyon | États-Unis | relief | Deux milliards d'années de strates, Grande Discordance, incision depuis 5 à 6 Ma. essential |
-| `yellowstone` | Yellowstone | États-Unis | feu | Point chaud et caldeiras, plus vaste système hydrothermal, cascade trophique du loup. essential |
-| `yosemite` | Yosemite | États-Unis | relief | Batholite, exfoliation, surcreusement glaciaire, séquoias, régime du feu. essential |
-| `redwood` | Redwood | États-Unis | foret | Plus grands arbres du monde, brouillard et absorption foliaire, restauration |
-| `denali` | Denali | États-Unis | relief | Faille de Denali, dénivelé depuis la base, pergélisol et éboulement de Pretty Rocks |
-| `everglades` | Everglades | États-Unis | eau | River of Grass, écoulement laminaire sur calcaire, restauration, pythons invasifs |
-| `rocheuses-canadiennes` | Rocheuses canadiennes | Canada | relief | Chevauchements, farine glaciaire, champ de glace Columbia, schistes de Burgess |
-| `nahanni` | Nahanni | Canada | relief | Premier bien naturel UNESCO, rivière antécédente, karst, sources thermales |
-| `gros-morne` | Gros Morne | Canada | relief | Péridotite du manteau obducté, preuve de la tectonique, fjords lacustres |
-| `baie-de-fundy` | Baie de Fundy | Canada | cote | Plus grand marnage du monde par résonance, falaises de Joggins |
 | `barranca-del-cobre` | Barranca del Cobre | Mexique | relief | Six canyons dans les ignimbrites de la Sierra Madre, peuple rarámuri |
 | `sac-actun` | Sistema Sac Actun | Mexique | souterrain | Plus long réseau noyé connu, halocline, bas niveaux marins glaciaires, cénotes |
 | `morne-trois-pitons` | Morne Trois Pitons | Dominique | feu | Arc des Petites Antilles, Boiling Lake, forêt pluviale, ouragan Maria |

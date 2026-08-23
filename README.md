@@ -11,7 +11,7 @@ Aucune ville, aucun monument, aucun jardin, aucun lac de barrage. Uniquement des
 | | |
 | --- | --- |
 | Socle technique | complet et fonctionnel |
-| Fiches rédigées | 39 sur 100 |
+| Fiches rédigées | 61 sur 100 |
 | Photographies | Chargées à la volée depuis Wikimedia Commons par le navigateur du visiteur, avec filtrage des licences et affichage de l'auteur. Le pipeline de téléchargement au build reste la cible : `npm run media:pick` ou `npm run media:local`, puis `npm run media:build`. |
 | Fond de carte | PMTiles auto-hébergé, repli de démonstration en développement |
 
