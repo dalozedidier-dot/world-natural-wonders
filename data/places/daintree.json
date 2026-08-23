@@ -31,7 +31,7 @@
     "lng": 145.45,
     "coordinate_precision": "region",
     "bbox": [
-      145.0,
+      145,
       -19.3,
       146.7,
       -15.5
@@ -304,7 +304,7 @@
     "message": "Cette forêt est ancienne mais pas invulnérable. La protéger relie corridors de casoars, refuges frais des sommets et qualité de l'eau jusqu'au récif."
   },
   "media": {
-    "hero": null,
+    "hero": "daintree-paradise",
     "gallery": [],
     "query": "Daintree rainforest cassowary Cape Tribulation Australia"
   },

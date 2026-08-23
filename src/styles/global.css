@@ -492,6 +492,7 @@ details.refine > summary:hover { color: var(--paper); }
   transform: scale(1.06); transform-origin: 58% 45%;
   filter: saturate(1) contrast(1.03) brightness(.94);
 }
+.slide picture { display: block; width: 100%; height: 100%; }
 .slide[data-active="true"] { opacity: 1; }
 .scene-slides img { width: 100%; height: 100%; }
 .slide[data-active="true"] img { animation: kenburns 22s ease-out forwards; }

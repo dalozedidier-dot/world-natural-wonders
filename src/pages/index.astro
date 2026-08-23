@@ -19,14 +19,13 @@ const stars = Array.from({ length: 190 }, () => {
   const y = Math.pow(rnd(), 1.7) * 620;
   return { x: +(rnd() * 1600).toFixed(1), y: +y.toFixed(1), r: +(rnd() * 1.25 + 0.25).toFixed(2), o: +(0.18 + rnd() * 0.62).toFixed(2) };
 });
-// diaporama : un lieu par famille de paysage, les incontournables d'abord
-const seen = new Set<string>();
-const slides = [...places]
-  .sort((a, b) => Number(b.editorial.essential) - Number(a.editorial.essential))
-  .filter(p => { if (seen.has(p.landscape.family)) return false; seen.add(p.landscape.family); return true; })
-  .concat(places.filter(p => p.editorial.essential))
-  .filter((p, i, arr) => arr.findIndex(x => x.id === p.id) === i)
-  .slice(0, 9)
+// Diaporama d'accueil : sélection éditoriale fixe de panoramas paradisiaques.
+// Chaque image est locale et inscrite au manifeste, donc le hero ne dépend
+// plus de Wikimedia Commons au chargement de la page.
+const paradiseIds = ['raja-ampat', 'daintree', 'lencois-maranhenses', 'shark-bay', 'halong'];
+const slides = paradiseIds
+  .map(id => places.find(p => p.id === id))
+  .filter((p): p is (typeof places)[number] => Boolean(p))
   .map(p => {
     const h = heroFor(p);
     return {
@@ -51,10 +50,14 @@ const orbPoints = lite.map(p => {
 <Base title="100 joyaux naturels de la Terre" image={null}>
   <section class="hero">
     <div class="scene" aria-hidden="true">
-      <div class="scene-slides" data-slides>
+      <div class="scene-slides" data-slides data-base={base}>
         {slides.map((sl, i) => (
           <figure class="slide" data-slide={String(i)} data-active={i === 0 ? 'true' : 'false'}>
-            <img src={sl.src} data-illustrate={sl.photo ? undefined : sl.q} alt="" loading={i === 0 ? 'eager' : 'lazy'} decoding="async" />
+            <picture>
+              <source srcset={sl.src.replace(/-1280\.jpg$/, '-1920.avif')} type="image/avif" />
+              <source srcset={sl.src.replace(/-1280\.jpg$/, '-1920.webp')} type="image/webp" />
+              <img src={sl.src} alt="" loading={i === 0 ? 'eager' : 'lazy'} decoding="async" fetchpriority={i === 0 ? 'high' : 'auto'} />
+            </picture>
           </figure>
         ))}
       </div>

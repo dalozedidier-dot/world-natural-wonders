@@ -2,8 +2,6 @@
  * Diaporama du hero. Fondu lent, arrêt au survol et hors onglet actif,
  * navigation par pastilles, et respect de prefers-reduced-motion.
  */
-import { firstPhoto, type Photo } from './photos';
-
 const container = document.querySelector<HTMLElement>('[data-slides]');
 const dataEl = document.getElementById('slides-data');
 
@@ -13,7 +11,7 @@ if (container && dataEl) {
   const figures = Array.from(container.querySelectorAll<HTMLElement>('[data-slide]'));
   const dots = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-dot]'));
   const caption = document.querySelector<HTMLElement>('[data-caption-text]');
-  const base = (document.getElementById('globe')?.dataset.base || '').replace(/\/$/, '');
+  const base = (container.dataset.base || '').replace(/\/$/, '');
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const DUREE = 9000;
 
@@ -52,24 +50,6 @@ if (container && dataEl) {
   show(0);
   schedule();
 
-  // Illustration progressive depuis Wikimedia Commons, dans l'ordre d'apparition.
-  (async () => {
-    for (let i = 0; i < slides.length; i++) {
-      const s = slides[i];
-      if (s.photo || !s.q) continue;
-      const photo: Photo | null = await firstPhoto(s.q);
-      if (!photo) continue;
-      const probe = new Image();
-      probe.decoding = 'async';
-      probe.src = photo.url;
-      try { await probe.decode(); } catch { continue; }
-      const img = figures[i]?.querySelector('img');
-      if (!img) continue;
-      img.src = photo.url;
-      s.photo = true;
-      s.credit = `${photo.author} · ${photo.license}`;
-      s.creditUrl = photo.page;
-      if (i === index) show(index);
-    }
-  })();
+  // Si un dérivé moderne échoue, le navigateur utilise automatiquement le JPG
+  // local du <img>. Aucune requête d'illustration distante n'est nécessaire ici.
 }
