@@ -1,0 +1,108 @@
+{
+  "id": "sagarmatha",
+  "collection": "hundred",
+  "status": "fact_checked",
+  "last_verified": "2026-08-23",
+  "identity": {
+    "name_fr": "Parc national de Sagarmatha",
+    "name_official": "Sagarmatha National Park",
+    "name_local": [{ "lang": "ne", "value": "सगरमाथा राष्ट्रिय निकुञ्ज" }],
+    "name_indigenous": [{ "people": "Tibétains et Sherpas", "value": "Chomolungma", "meaning": "Déesse mère du monde" }],
+    "aka": ["Everest", "Khumbu", "Chomolungma"]
+  },
+  "location": {
+    "countries": ["NP"], "country_labels": ["Népal"],
+    "subdivision": "District de Solukhumbu, province de Koshi", "region": "asie",
+    "lat": 27.9653, "lng": 86.9131, "coordinate_precision": "site",
+    "bbox": [86.45, 27.68, 87.1, 28.12], "area_km2": 1244,
+    "elevation_min_m": 2845, "elevation_max_m": 8848.86, "depth_max_m": null,
+    "timezone": "Asia/Kathmandu"
+  },
+  "landscape": {
+    "primary": "montagne", "types": ["montagne", "glacier", "toundra"], "family": "relief",
+    "iucn_ecosystem": ["T6.4 Prairies et landes alpines", "T6.5 Déserts nival et alpin"],
+    "biome": "Himalaya oriental alpin et subalpin",
+    "climate": "Climat montagnard à nival, sous influence de la mousson d'été",
+    "collections": ["vertiges", "mondes-de-glace", "bouts-du-monde", "paysages-en-transformation"]
+  },
+  "protection": {
+    "designations": [
+      { "type": "unesco-whs", "name": "Parc national de Sagarmatha", "ref": "120", "since": 1979, "criteria": ["vii"], "url": "https://whc.unesco.org/fr/list/120/" },
+      { "type": "national-park", "name": "Sagarmatha National Park", "since": 1976 }
+    ],
+    "managing_body": { "name": "Department of National Parks and Wildlife Conservation, Népal", "url": "https://dnpwc.gov.np/" }
+  },
+  "editorial": {
+    "badges": ["exceptionnel", "grande-nature", "geologie-remarquable"], "essential": true,
+    "lede": "Au-dessus des vallées du peuple sherpa, la collision de deux continents a porté d'anciens fonds marins jusqu'au point culminant de la Terre.",
+    "why_here": "Sagarmatha ne figure pas ici pour un record isolé. Le parc rend visible une collision continentale encore active, depuis les gneiss profonds exhumés dans les vallées jusqu'aux calcaires d'origine marine proches du sommet. Ses glaciers alimentent le bassin du Dudh Kosi et enregistrent rapidement le réchauffement de la haute montagne. Aucun autre lieu de la sélection ne réunit avec une telle force l'échelle tectonique, l'étagement biologique et l'histoire culturelle sherpa.",
+    "presentation": "Le parc national occupe 1 244 km² du Khumbu, contre la frontière tibétaine. Son plancher se situe vers 2 845 mètres et son sommet à 8 848,86 mètres. En une cinquantaine de kilomètres, le relief traverse donc six kilomètres verticaux, de la forêt de pins et de rhododendrons aux roches et aux glaces où aucune plante vasculaire ne subsiste.\n\nLe paysage ne se résume pas à une pyramide. Les vallées de la Dudh Kosi et de ses affluents organisent un amphithéâtre de sommets, Lhotse, Cho Oyu, Nuptse, Ama Dablam et Thamserku. Entre eux descendent les glaciers du Khumbu, de Ngozumpa et de Nangpa. Leurs langues basses sont souvent cachées sous une épaisse couverture de débris, percée de mares et de falaises de glace.\n\nCe territoire est habité et nommé depuis bien avant l'alpinisme international. Les communautés sherpa ont relié villages, monastères, pâturages et cols dans un paysage sacré où plusieurs sommets demeurent des demeures de divinités. Le parc ne peut donc pas être décrit comme une nature vide. Son fonctionnement actuel dépend aussi des choix de ces communautés, qui participent à la gestion de la zone tampon.\n\nLa célébrité de l'Everest concentre cependant les flux dans quelques vallées. Le contraste est net entre les itinéraires très fréquentés, les villages transformés par le tourisme et des vallons latéraux où les processus glaciaires, torrentiels et écologiques dominent encore.",
+    "geology": "L'Himalaya résulte de la fermeture de l'océan Téthys puis de la collision de la plaque indienne avec l'Eurasie, commencée il y a environ cinquante millions d'années. La croûte continentale, trop légère pour plonger facilement dans le manteau, s'est raccourcie, épaissie et empilée le long de grands chevauchements. La convergence se poursuit aujourd'hui, ce que rappellent les séismes et la déformation mesurée par satellite.\n\nDans le Khumbu, l'érosion a ouvert une coupe à travers cet empilement. Les parties basses exposent des roches métamorphiques portées à haute température et partiellement fondues, notamment des gneiss et des migmatites. Plus haut apparaissent des leucogranites clairs, issus de la fusion de la croûte épaissie et injectés à la fin de l'Oligocène et au Miocène.\n\nPrès du sommet de l'Everest, les roches changent encore. La bande jaune visible sous la pyramide sommitale appartient à une succession métamorphisée, surmontée par des calcaires ordoviciens contenant des traces d'organismes marins. La présence de sédiments déposés dans une mer il y a plus de quatre cents millions d'années, aujourd'hui au-dessus de huit kilomètres, donne la mesure du soulèvement et de l'empilement tectonique.\n\nLes glaciers ont ensuite repris cette architecture. Ils ont élargi les vallées en auges, poli les verrous rocheux et abandonné des moraines qui retiennent aujourd'hui des lacs. Les parois continuent de s'écrouler sous l'effet du gel, de la décompression et des séismes, tandis que les torrents évacuent les débris vers le Gange.",
+    "dynamics": "La mousson apporte l'essentiel des précipitations de juin à septembre. En altitude, elles tombent sous forme de neige et alimentent les glaciers, mais l'accumulation varie fortement avec le vent, l'orientation et l'ombre des sommets. Au printemps, la fonte nivale gonfle les torrents avant que les pluies d'été ne prennent le relais.\n\nLes glaciers couverts de débris ne réagissent pas comme des langues de glace nues. Une mince couche de pierres accélère la fonte en absorbant le rayonnement, tandis qu'une couverture épaisse l'isole. La perte de volume se concentre alors dans les falaises de glace et autour des mares, qui s'agrandissent et peuvent fusionner en lacs proglaciaires.",
+    "biodiversity_text": "L'amplitude altitudinale produit une succession rapide d'habitats. Les versants inférieurs portent des forêts de pin de l'Himalaya, de sapin, de bouleau et de rhododendron. Au-dessus de la limite des arbres viennent les fourrés de genévrier, les pelouses alpines, puis les communautés clairsemées des éboulis. Le léopard des neiges chasse notamment le tahr de l'Himalaya et le porte-musc alpin dans les étages rocheux. Le panda roux subsiste dans les forêts à bambous des altitudes inférieures, tandis que l'impeyan fréquente les lisières subalpines.",
+    "in_motion": "Les glaciers du parc perdent de la masse et plusieurs lacs proglaciaires s'étendent. Cette transformation déstabilise les moraines et modifie la saisonnalité de l'eau en aval. Dans le même temps, la fréquentation, les déchets, les besoins énergétiques et les infrastructures progressent le long des axes principaux. Le séisme de 2015 a rappelé que la construction de l'Himalaya se poursuit à l'échelle humaine.",
+    "guess_hints": ["Anciens calcaires marins à plus de 8 000 mètres", "Collision continentale toujours active", "Glaciers couverts de débris sous influence de la mousson", "Forêts de rhododendrons puis désert nival"]
+  },
+  "figures": [
+    { "label": "Point culminant", "value": "8 848,86 m" }, { "label": "Superficie", "value": "1 244 km²" },
+    { "label": "Amplitude altitudinale", "value": "environ 6 000 m" }, { "label": "Inscription UNESCO", "value": "1979, critère vii" },
+    { "label": "Création du parc", "value": "1976" }
+  ],
+  "geology": {
+    "age": "Sédiments ordoviciens au sommet, métamorphisme et granites cénozoïques, soulèvement himalayen depuis environ 50 Ma",
+    "processes": ["collision continentale", "chevauchement tectonique", "métamorphisme", "anatexie crustale", "érosion glaciaire"],
+    "rock_types": ["calcaire", "gneiss", "migmatite", "leucogranite", "schiste"], "volcanic": null
+  },
+  "biodiversity": {
+    "flagship_species": [
+      { "name_fr": "Léopard des neiges", "name_sci": "Panthera uncia", "group": "mammifère", "iucn_status": "VU" },
+      { "name_fr": "Panda roux", "name_sci": "Ailurus fulgens", "group": "mammifère", "iucn_status": "EN" },
+      { "name_fr": "Tahr de l'Himalaya", "name_sci": "Hemitragus jemlahicus", "group": "mammifère", "iucn_status": "NT" },
+      { "name_fr": "Lophophore resplendissant", "name_sci": "Lophophorus impejanus", "group": "oiseau", "iucn_status": "LC" }
+    ],
+    "endemism_level": "modere", "endemism_note": "Le parc appartient à l'Himalaya oriental, foyer d'endémisme, mais les hautes altitudes abritent surtout des espèces réparties le long de la chaîne.", "species_counts": null
+  },
+  "seasonality": {
+    "best_months": [3, 4, 5, 10, 11], "avoid_months": [6, 7, 8],
+    "phenomena": [
+      { "label": "Floraison des rhododendrons aux altitudes inférieures", "kind": "floraison", "months": [3, 4, 5] },
+      { "label": "Mousson, nuages et pluies abondantes", "kind": "mousson", "months": [6, 7, 8, 9] },
+      { "label": "Ciels généralement plus secs après la mousson", "kind": "saison-seche", "months": [10, 11] },
+      { "label": "Froid intense et neige en altitude", "kind": "glace", "months": [12, 1, 2] }
+    ],
+    "notes": "Les fenêtres les plus stables se situent avant et après la mousson. Les conditions de haute montagne peuvent changer en quelques heures toute l'année."
+  },
+  "visit": {
+    "accessibility": "difficile", "suggested_duration": "10 à 18 jours selon l'altitude atteinte",
+    "difficulty": "Marche prolongée en altitude, acclimatation indispensable et secours limités.",
+    "extreme_conditions": ["hypoxie", "froid intense", "avalanches", "chutes de pierres", "météo changeante"],
+    "permits": "Permis du parc national et formalités locales en vigueur.",
+    "rules": ["Prévoir une acclimatation progressive et redescendre en cas de symptômes sévères.", "Rapporter tous les déchets non biodégradables.", "Respecter les monastères, murs de mani et lieux sacrés.", "Ne pas quitter les parcours autorisés dans les secteurs fragiles.", "Ne jamais approcher ni nourrir la faune sauvage."],
+    "official_url": "https://dnpwc.gov.np/", "no_route_guidance": false
+  },
+  "conservation": {
+    "fragility": "elevee",
+    "state": "Le cœur du parc conserve des habitats de haute montagne largement continus, mais les vallées les plus fréquentées cumulent pression touristique, déchets, nouvelles infrastructures et effets rapides du changement climatique sur les glaciers et les lacs.",
+    "trend": "degradation",
+    "threats": [
+      { "type": "climat", "level": "critique", "note": "Réchauffement de haute altitude et modification de l'enneigement." },
+      { "type": "fonte-glaciaire", "level": "critique", "note": "Perte de masse glaciaire et croissance de lacs morainiques." },
+      { "type": "tourisme", "level": "eleve", "note": "Concentration saisonnière dans quelques vallées." },
+      { "type": "pollution", "level": "eleve", "note": "Déchets solides et assainissement difficiles à gérer en altitude." },
+      { "type": "urbanisation", "level": "modere", "note": "Extension des équipements liés au tourisme." }
+    ],
+    "understand_without_going": false,
+    "message": "Le record attire, mais le parc se comprend dans toute sa hauteur. Rester plus longtemps dans une vallée et soutenir les services gérés localement permet une acclimatation plus sûre."
+  },
+  "media": { "hero": null, "gallery": [], "query": "Sagarmatha National Park Everest Khumbu Nepal" },
+  "sources": [
+    { "title": "Parc national de Sagarmatha", "publisher": "Centre du patrimoine mondial de l'UNESCO", "url": "https://whc.unesco.org/fr/list/120/", "type": "officiel", "accessed": "2026-08-23" },
+    { "title": "Sagarmatha National Park", "publisher": "Department of National Parks and Wildlife Conservation, Nepal", "url": "https://dnpwc.gov.np/", "type": "officiel", "accessed": "2026-08-23" },
+    { "title": "State of Conservation Report of Sagarmatha National Park", "publisher": "Gouvernement du Népal et UNESCO", "url": "https://whc.unesco.org/document/218298", "type": "officiel", "accessed": "2026-08-23" },
+    { "title": "Sagarmatha National Park, documents and decisions", "publisher": "Centre du patrimoine mondial de l'UNESCO", "url": "https://whc.unesco.org/en/list/120/documents", "type": "officiel", "accessed": "2026-08-23" }
+  ],
+  "score": {
+    "criteria": { "visuel": 5, "singularite": 5, "rarete": 5, "diversite": 4, "integrite": 4, "monumentalite": 5, "actif": 5, "biologique": 3, "photogenie": 5, "pedagogie": 5, "conservation": 5, "complementarite": 5 },
+    "total": 127, "scored_on": "2026-08-23"
+  }
+}

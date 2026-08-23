@@ -2,9 +2,9 @@
 
 Mis à jour le 2026-08-22.
 
-## 1. Les 67 fiches restantes
+## 1. Les 64 fiches restantes
 
-La sélection des 100 est arrêtée et équilibrée. 33 fiches sont rédigées. Voici les 67 restantes, avec leur identifiant, leur cadrage et le mécanisme naturel à expliquer. Ce tableau est fait pour être repris directement comme brief de rédaction, sans refaire le travail de sélection.
+La sélection des 100 est arrêtée et équilibrée. 36 fiches sont rédigées. Voici les 64 restantes, avec leur identifiant, leur cadrage et le mécanisme naturel à expliquer. Ce tableau est fait pour être repris directement comme brief de rédaction, sans refaire le travail de sélection.
 
 Procédure pour chacune : suivre `docs/BRIEF-REDACTION.md`, imiter `data/places/geirangerfjord.json`, écrire dans `data/places/<id>.json`, puis `npm run validate`.
 
@@ -12,15 +12,9 @@ Procédure pour chacune : suivre `docs/BRIEF-REDACTION.md`, imiter `data/places/
 
 Complète : plitvice, dolomites, geirangerfjord, lofoten, vatnajokull-jokulsarlon, landmannalaugar, chaussee-des-geants, skocjan, aletsch, laurisilva-madere, delta-danube, bialowieza, tara-durmitor, gavarnie-mont-perdu.
 
-### Asie, 3 restantes sur 22
+### Asie, 0 restante sur 22
 
-Faites : zhangjiajie, jiuzhaigou, huangshan, guilin-li, danxia-zhangye, halong, phong-nha, bromo-tengger-semeru, raja-ampat, komodo, gunung-mulu, tubbataha, sundarbans, yakushima, shiretoko, baikal, kamtchatka, socotra, wadi-rum.
-
-| id | Lieu | Pays | Famille | Mécanisme à expliquer |
-| --- | --- | --- | --- | --- |
-| `sagarmatha` | Sagarmatha, Everest | Népal | relief | Collision Inde-Asie, calcaires marins au sommet, lacs glaciaires et vidange brutale. essential |
-| `nanda-devi` | Nanda Devi et Vallée des Fleurs | Inde | relief | Sanctuaire fermé, muraille annulaire, prairies fleuries de mousson |
-| `tian-shan-occidental` | Tian Shan occidental | KZ, KG, UZ | relief | Forêts de noyers et pommiers sauvages, centre d'origine du pommier |
+Complète : zhangjiajie, jiuzhaigou, huangshan, guilin-li, danxia-zhangye, halong, phong-nha, bromo-tengger-semeru, raja-ampat, komodo, gunung-mulu, tubbataha, sundarbans, yakushima, shiretoko, baikal, kamtchatka, socotra, wadi-rum, sagarmatha, nanda-devi, tian-shan-occidental.
 
 ### Afrique, 15 restantes sur 15
 
