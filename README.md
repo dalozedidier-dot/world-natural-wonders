@@ -42,7 +42,7 @@ src/
   data/           types TypeScript, chargeur, rendu Markdown
   layouts/        gabarit de base
   components/     carte de lieu, grille
-  pages/          accueil, fiches, collections, régions, paysages, calendrier, devinette, Terre en mouvement, comparateur, favoris, méthode, crédits, données
+  pages/          accueil, fiches, collections, régions, paysages, calendrier, devinette, Terre en mouvement, comparateur, favoris, crédits, données
   scripts/        globe, explorateur cartographique, abstraction de fond de carte, listes locales, état d'URL
   styles/         système visuel
 .github/workflows/ ci, deploy-pages, verification

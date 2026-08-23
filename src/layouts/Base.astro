@@ -7,7 +7,7 @@ export interface Props {
   wide?: boolean;
   bodyClass?: string;
 }
-const { title, description = "Cent paysages naturels qui racontent quatre milliards d'années d'histoire de la Terre. Sélection éditoriale assumée, méthode publiée, faits sourcés, images sous licence libre.", image = null, bodyClass = '' } = Astro.props;
+const { title, description = "Cent paysages naturels qui racontent quatre milliards d'années d'histoire de la Terre, avec leurs saisons, leur géologie et les espèces qui les habitent.", image = null, bodyClass = '' } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const url = new URL(Astro.url.pathname, Astro.site ?? 'https://example.org').href;
 const nav = [
@@ -15,8 +15,7 @@ const nav = [
   { href: `${base}/collections`, label: 'Collections' },
   { href: `${base}/calendrier`, label: 'Calendrier' },
   { href: `${base}/explorer`, label: 'Deviner' },
-  { href: `${base}/terre-en-mouvement`, label: 'La Terre en mouvement' },
-  { href: `${base}/methode`, label: 'Méthode' }
+  { href: `${base}/terre-en-mouvement`, label: 'La Terre en mouvement' }
 ];
 const here = Astro.url.pathname.replace(/\/$/, '');
 ---
@@ -66,9 +65,8 @@ const here = Astro.url.pathname.replace(/\/$/, '');
         </ul>
       </div>
       <div>
-        <h2 class="foot-title">Transparence</h2>
+        <h2 class="foot-title">À propos</h2>
         <ul>
-          <li><a href={`${base}/methode`}>Charte de sélection</a></li>
           <li><a href={`${base}/credits`}>Crédits et licences</a></li>
           <li><a href="https://www.openstreetmap.org/copyright" rel="noopener">© OpenStreetMap</a></li>
           <li><a href={`${base}/donnees`}>Données ouvertes</a></li>

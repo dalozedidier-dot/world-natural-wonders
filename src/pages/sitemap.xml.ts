@@ -6,7 +6,7 @@ export const GET: APIRoute = ({ site }) => {
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   const urls = [
     '', '/collections', '/calendrier', '/explorer', '/terre-en-mouvement',
-    '/comparer', '/favoris', '/methode', '/credits', '/donnees',
+    '/comparer', '/favoris', '/credits', '/donnees',
     ...allPlaces.map(p => `/lieux/${p.id}`),
     ...taxonomies.collections.map(c => `/collections/${c.id}`),
     ...taxonomies.regions.map(r => `/regions/${r.id}`),
