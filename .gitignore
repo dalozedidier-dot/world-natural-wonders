@@ -16,11 +16,3 @@ _ancien-prototype/
 data/media/incoming/
 data/media/candidates.json
 public/media/
-
-# Candidats rejetés lors du contrôle visuel du diaporama
-data/media/originals/daintree-hero.jpg
-data/media/originals/galapagos-hero.jpg
-data/media/originals/galapagos-paradise.jpg
-data/media/originals/grande-barriere-hero.jpg
-data/media/originals/lagon-nouvelle-caledonie-hero.jpg
-data/media/originals/palau-rock-islands-hero.jpg

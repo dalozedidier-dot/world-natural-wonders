@@ -54,6 +54,8 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm }
       - run: npm ci
+      - name: Construction des images dérivées
+        run: npm run media:build
       - run: npx astro build
       - name: Lighthouse
         uses: treosh/lighthouse-ci-action@v12
