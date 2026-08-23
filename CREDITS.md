@@ -14,7 +14,7 @@ _Aucune photographie intégrée à ce jour._
 
 ## Sources éditoriales
 
-36 fiche(s), 154 source(s) citée(s). Le détail figure au bas de chaque fiche, avec la date de consultation.
+39 fiche(s), 166 source(s) citée(s). Le détail figure au bas de chaque fiche, avec la date de consultation.
 
 ## Licences du projet
 

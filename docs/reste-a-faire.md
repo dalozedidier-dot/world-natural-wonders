@@ -2,9 +2,9 @@
 
 Mis à jour le 2026-08-22.
 
-## 1. Les 64 fiches restantes
+## 1. Les 61 fiches restantes
 
-La sélection des 100 est arrêtée et équilibrée. 36 fiches sont rédigées. Voici les 64 restantes, avec leur identifiant, leur cadrage et le mécanisme naturel à expliquer. Ce tableau est fait pour être repris directement comme brief de rédaction, sans refaire le travail de sélection.
+La sélection des 100 est arrêtée et équilibrée. 39 fiches sont rédigées. Voici les 61 restantes, avec leur identifiant, leur cadrage et le mécanisme naturel à expliquer. Ce tableau est fait pour être repris directement comme brief de rédaction, sans refaire le travail de sélection.
 
 Procédure pour chacune : suivre `docs/BRIEF-REDACTION.md`, imiter `data/places/geirangerfjord.json`, écrire dans `data/places/<id>.json`, puis `npm run validate`.
 
@@ -16,13 +16,12 @@ Complète : plitvice, dolomites, geirangerfjord, lofoten, vatnajokull-jokulsarlo
 
 Complète : zhangjiajie, jiuzhaigou, huangshan, guilin-li, danxia-zhangye, halong, phong-nha, bromo-tengger-semeru, raja-ampat, komodo, gunung-mulu, tubbataha, sundarbans, yakushima, shiretoko, baikal, kamtchatka, socotra, wadi-rum, sagarmatha, nanda-devi, tian-shan-occidental.
 
-### Afrique, 15 restantes sur 15
+### Afrique, 12 restantes sur 15
+
+Faites : victoria-falls, okavango, namib-sossusvlei.
 
 | id | Lieu | Pays | Famille | Mécanisme à expliquer |
 | --- | --- | --- | --- | --- |
-| `victoria-falls` | Chutes Victoria, Mosi-oa-Tunya | ZM, ZW | eau | Recul de la ligne de chute dans les basaltes du Karoo, gorges en zigzag. essential |
-| `okavango` | Delta de l'Okavango | Botswana | eau | Delta endoréique, crue décalée en saison sèche, graben du Kalahari. essential |
-| `namib-sossusvlei` | Namib-Naukluft et Sossusvlei | Namibie | desert | Désert le plus ancien, sables recyclés par l'Orange et le Benguela, brouillard côtier |
 | `nyiragongo-virunga` | Nyiragongo et Virunga | RDC | feu | Lac de lave permanent, laves néphélinitiques, gorille de montagne, conflit. understand_without_going |
 | `serengeti` | Serengeti | Tanzanie | vivant | Migration, sols de cendres volcaniques, cycle pluies et pâturages. essential |
 | `ngorongoro` | Cratère du Ngorongoro | Tanzanie | feu | Caldeira intacte, effondrement vers 2,5 Ma, aire à usages multiples maasaï |
