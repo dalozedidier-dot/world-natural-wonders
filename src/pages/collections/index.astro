@@ -15,7 +15,7 @@ const cols = taxonomies.collections
       {cols.map(c => (
         <a class="card" href={`${base}/collections/${c.id}`}>
           <div class="body">
-            <h3>{c.label}</h3>
+            <h2>{c.label}</h2>
             <p>{c.desc}</p>
             <p style="margin-top:.7rem;color:var(--accent-soft);font-size:.8rem">{c.items.length} lieux</p>
           </div>

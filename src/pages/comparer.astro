@@ -60,7 +60,7 @@ const options = places.map(p => ({
       <div class="card" style="display:block">
         <div class="media">${d.hero ? `<img src="${d.hero.startsWith("data:") ? "" : base}${d.hero}" alt="${esc(d.alt)}">` : ''}</div>
         <div class="body">
-          <h3>${esc(d.name)}</h3>
+          <h2>${esc(d.name)}</h2>
           <p>${esc(d.country)} · ${esc(d.region)}</p>
           <p style="margin-top:.6rem;color:var(--paper-dim)">${esc(d.lede)}</p>
           <div class="months">${months}</div>

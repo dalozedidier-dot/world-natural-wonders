@@ -13,12 +13,12 @@ const sourceCount = places.reduce((n, p) => n + p.sources.length, 0);
     <h1>Chaque image, chaque source</h1>
     <p class="lead">Aucune photographie n'est affichée sans auteur identifié, licence exacte et lien vers le fichier d'origine. Les licences comportant une clause NC ou ND sont refusées, afin de préserver la liberté de recadrage et d'usage futur.</p>
 
-    <div class="factgrid" style="margin:2.2rem 0">
+    <dl class="factgrid" style="margin:2.2rem 0">
       <div class="fact"><dt>Photographies</dt><dd>{media.length}</dd></div>
       <div class="fact"><dt>Licences employées</dt><dd>{licenses.length || '—'}</dd></div>
       <div class="fact"><dt>Sources citées</dt><dd>{sourceCount}</dd></div>
       <div class="fact"><dt>Ratio imposé</dt><dd>3:2</dd></div>
-    </div>
+    </dl>
 
     <h2>Cartographie</h2>
     <p>Fonds de carte vectoriels <a href="https://github.com/protomaps/basemaps" rel="noopener" target="_blank">Protomaps</a>, servis au format PMTiles depuis notre propre hébergement, construits à partir des données <a href="https://www.openstreetmap.org/copyright" rel="noopener" target="_blank">OpenStreetMap</a> sous licence ODbL. Rendu <a href="https://maplibre.org/" rel="noopener" target="_blank">MapLibre GL JS</a>. Le projet n'utilise pas les serveurs de tuiles publics d'OpenStreetMap, qui ne sont pas une infrastructure destinée à supporter un trafic applicatif.</p>

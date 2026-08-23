@@ -9,12 +9,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <h1>Tout est réutilisable</h1>
     <p class="lead">Le corpus éditorial est publié en JSON et GeoJSON, validé à chaque construction par un schéma JSON Schema 2020-12. Les notations internes de sélection ne sont pas exposées.</p>
 
-    <div class="factgrid" style="margin:2rem 0">
+    <dl class="factgrid" style="margin:2rem 0">
       <div class="fact"><dt>Lieux publiés</dt><dd>{places.length}</dd></div>
       <div class="fact"><dt>Réservistes</dt><dd>{reserve.length}</dd></div>
       <div class="fact"><dt>Types de paysage</dt><dd>{taxonomies.landscapes.length}</dd></div>
       <div class="fact"><dt>Version du vocabulaire</dt><dd>{taxonomies.version}</dd></div>
-    </div>
+    </dl>
 
     <table class="data">
       <tbody>

@@ -27,9 +27,9 @@ const colors = Object.fromEntries(taxonomies.families.map(f => [f.id, f.color]))
     <h1>Quels joyaux sont extraordinaires ce mois-ci ?</h1>
     <p class="lead">La Terre ne se visite pas au hasard du calendrier. Mousson, fonte des neiges, remplissage des lagunes, débit maximal des cascades, couleurs automnales, floraisons, nuit polaire : chaque paysage a ses fenêtres.</p>
 
-    <div class="calendar" id="monthbar" style="margin:2rem 0 1.6rem" role="tablist" aria-label="Choisir un mois">
+    <div class="calendar" id="monthbar" style="margin:2rem 0 1.6rem" aria-label="Choisir un mois">
       {months.map(m => (
-        <button type="button" role="tab" data-month={m.n} aria-pressed="false">{m.name.slice(0, 4)}</button>
+        <button type="button" data-month={m.n} aria-pressed="false">{m.name.slice(0, 4)}</button>
       ))}
     </div>
 
@@ -56,7 +56,7 @@ const colors = Object.fromEntries(taxonomies.families.map(f => [f.id, f.color]))
       const cards = m.items.map(p => `
         <a class="card" href="${base}/lieux/${p.id}">
           <div class="media">${p.hero ? `<img src="${p.hero.startsWith("data:") ? "" : base}${p.hero}" alt="${esc(p.alt)}" loading="lazy">` : `<div style="width:100%;height:100%;background:linear-gradient(135deg, ${colors[p.family] || '#333'}22, #0e1c1b)"></div>`}</div>
-          <div class="body"><h3>${esc(p.name)}</h3><p>${esc(p.country)}</p></div>
+          <div class="body"><h2>${esc(p.name)}</h2><p>${esc(p.country)}</p></div>
         </a>`).join('');
       const events = m.events.length ? `
         <h2 style="margin-top:2.6rem">Ce qui se passe en ${m.name}</h2>

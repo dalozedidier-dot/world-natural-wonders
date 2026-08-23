@@ -228,7 +228,7 @@ async function init(root: HTMLElement) {
       <button class="result" data-open="${p.id}" type="button">
         <span class="thumb">${p.hero ? `<img src="${src(p.hero, BASE)}" alt="" loading="lazy" decoding="async"${p.hasPhoto ? '' : ` data-illustrate="${esc(p.q || p.name)}"`}>` : ''}<span class="fam" style="background:${colors[p.family] || '#888'}"></span></span>
         <span>
-          <h3>${esc(p.name)}${p.essential ? ' <span aria-label="incontournable">✦</span>' : ''}</h3>
+          <h2>${esc(p.name)}${p.essential ? ' <span aria-label="incontournable">✦</span>' : ''}</h2>
           <p>${esc(p.country)}</p>
         </span>
       </button>`).join('');

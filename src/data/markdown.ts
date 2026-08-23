@@ -14,7 +14,7 @@ function inline(s: string): string {
     .replace(/(^|\s)(https?:\/\/[^\s<]+)/g, '$1<a href="$2" rel="noopener" target="_blank">$2</a>');
 }
 
-export function renderMarkdown(src: string): string {
+export function renderMarkdown(src: string, shift = 1): string {
   const lines = src.replace(/\r\n/g, '\n').split('\n');
   const out: string[] = [];
   let i = 0;
@@ -28,7 +28,13 @@ export function renderMarkdown(src: string): string {
     if (!line.trim()) { i++; continue; }
 
     const h = /^(#{1,6})\s+(.*)$/.exec(line);
-    if (h) { out.push(`<h${h[1].length}>${inline(h[2])}</h${h[1].length}>`); i++; continue; }
+    if (h) {
+      // La page porte déjà un h1 : les titres du document descendent d'un niveau
+      // pour ne pas créer de second h1 ni de saut de niveau.
+      const lvl = Math.min(6, h[1].length + shift);
+      out.push(`<h${lvl}>${inline(h[2])}</h${lvl}>`);
+      i++; continue;
+    }
 
     if (/^\s*[-*]{3,}\s*$/.test(line)) { out.push('<hr />'); i++; continue; }
 

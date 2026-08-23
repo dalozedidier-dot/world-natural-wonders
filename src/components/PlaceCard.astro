@@ -15,7 +15,7 @@ const hero = heroFor(place);
       style="width:100%;height:100%;object-fit:cover" />
   </div>
   <div class="body">
-    <h3>{place.identity.name_fr}{place.editorial.essential ? ' ✦' : ''}</h3>
+    <h2>{place.identity.name_fr}{place.editorial.essential ? ' ✦' : ''}</h2>
     <p>{place.location.country_labels.join(' et ')} · {label.family(place.landscape.family)}</p>
     <p style="margin-top:.5rem;color:var(--paper-dim)">{place.editorial.lede}</p>
   </div>

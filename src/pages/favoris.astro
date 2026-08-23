@@ -39,7 +39,7 @@ const index = places.map(p => ({
           ${items.length ? `<div class="cardgrid" style="margin-top:1.2rem">${items.map(p => `
             <a class="card" href="${base}/lieux/${p.id}">
               <div class="media">${p.hero ? `<img src="${p.hero.startsWith("data:") ? "" : base}${p.hero}" alt="${esc(p.alt)}" loading="lazy">` : ''}</div>
-              <div class="body"><h3>${esc(p.name)}</h3><p>${esc(p.country)}</p></div>
+              <div class="body"><h2>${esc(p.name)}</h2><p>${esc(p.country)}</p></div>
             </a>`).join('')}</div>` : '<p class="muted">Liste vide pour l\'instant.</p>'}
         </section>`;
       }).join('');
