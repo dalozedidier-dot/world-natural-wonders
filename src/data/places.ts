@@ -20,6 +20,7 @@ try {
 export const media: MediaItem[] = mediaItems;
 
 export const mediaById = new Map(media.map(m => [m.id, m]));
+const heroByPlace = new Map(media.filter(m => m.role === 'hero').map(m => [m.place, m]));
 export const placeById = new Map(allPlaces.map(p => [p.id, p]));
 
 export const label = {
@@ -38,7 +39,8 @@ export const label = {
 };
 
 export { placeholder };
-export const heroFor = (p: Place) => (p.media?.hero ? mediaById.get(p.media.hero) : undefined);
+export const heroFor = (p: Place) =>
+  (p.media?.hero ? mediaById.get(p.media.hero) : undefined) ?? heroByPlace.get(p.id);
 export const galleryFor = (p: Place) => (p.media?.gallery ?? []).map(id => mediaById.get(id)).filter(Boolean) as MediaItem[];
 
 /** Charge utile compacte envoyée au client pour la carte et les filtres. */

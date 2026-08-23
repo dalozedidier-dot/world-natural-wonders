@@ -5,6 +5,8 @@
  */
 const API = 'https://commons.wikimedia.org/w/api.php';
 const UA = 'world-natural-wonders/2.0 (projet éditorial; contact via le dépôt GitHub)';
+const MIN_INTERVAL_MS = 700;
+let lastRequestAt = 0;
 
 const ACCEPTED = [
   { test: /^cc0/i, license: 'CC0', version: '1.0', url: 'https://creativecommons.org/publicdomain/zero/1.0/' },
@@ -16,9 +18,17 @@ const REJECTED = /(\bnc\b|noncommercial|\bnd\b|noderiv|fair\s*use|copyright)/i;
 
 async function api(params) {
   const url = `${API}?${new URLSearchParams({ format: 'json', formatversion: '2', origin: '*', ...params })}`;
-  const res = await fetch(url, { headers: { 'user-agent': UA, accept: 'application/json' } });
-  if (!res.ok) throw new Error(`Commons ${res.status} sur ${url}`);
-  return res.json();
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const wait = Math.max(0, MIN_INTERVAL_MS - (Date.now() - lastRequestAt));
+    if (wait) await new Promise(resolve => setTimeout(resolve, wait));
+    lastRequestAt = Date.now();
+    const res = await fetch(url, { headers: { 'user-agent': UA, accept: 'application/json' } });
+    if (res.ok) return res.json();
+    if (res.status !== 429 && res.status < 500) throw new Error(`Commons ${res.status} sur ${url}`);
+    const retryAfter = Number(res.headers.get('retry-after')) || 2 ** attempt;
+    await new Promise(resolve => setTimeout(resolve, Math.min(30, retryAfter) * 1000));
+  }
+  throw new Error(`Commons temporairement indisponible sur ${url}`);
 }
 
 export async function search(query, limit = 12) {

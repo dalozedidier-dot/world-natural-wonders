@@ -17,7 +17,9 @@ const MANIFEST = path.join(ROOT, 'data/media/manifest.json');
 const manifest = JSON.parse(fs.readFileSync(MANIFEST, 'utf8'));
 const have = new Set(manifest.items.map(i => i.place));
 
-const BAD = /(map|karte|carte|mapa|diagram|chart|graph|logo|flag|drapeau|sign|panneau|plaque|stamp|timbre|coin|poster|portrait|statue|museum|musee|book|cover|screenshot|satellite image|topograph)/i;
+const BAD = /(map|karte|carte|mapa|diagram|chart|graph|logo|flag|drapeau|sign|panneau|plaque|stamp|timbre|coin|poster|portrait|statue|museum|musee|book|cover|screenshot|satellite image|topograph|laborator|aquaculture|specimen|herbarium|microscop|official visit|president|vice president)/i;
+const SCENIC = /(aerial|panoram|landscape|overview|view|vista|coast|beach|lagoon|reef|island|forest|waterfall|falls|lake|river|mountain|valley|canyon|glacier|dunes?|bay|fjord|volcano|wetland|sunset|national park)/i;
+const DISTRACTION = /(tourists?|people|couple|building|station|hotel|resort|airport|road|vehicle|ship|ferry|cruise|boat|leaf|flower|snake|bird|fish|portrait|close.?up)/i;
 
 const dir = path.join(ROOT, 'data/places');
 const only = process.argv.slice(2).filter(a => !a.startsWith('--'));
@@ -43,7 +45,10 @@ for (const f of files) {
       const ratio = c.width / c.height;
       if (ratio < 1.15 || ratio > 2.4) continue;
       if (c.width < 1400) continue;
-      const score = Math.min(c.width, 5000) / 1000 - Math.abs(ratio - 1.5) * 4;
+      const semantic = `${c.commons_file} ${c.description ?? ''}`;
+      const score = Math.min(c.width, 5000) / 1000 - Math.abs(ratio - 1.5) * 4
+        + (SCENIC.test(semantic) ? 2.2 : 0)
+        - (DISTRACTION.test(semantic) ? 3.5 : 0);
       if (!best || score > best.score) best = { ...c, score };
     }
     if (best && best.score > 3.2) break;
@@ -65,7 +70,7 @@ for (const f of files) {
     license_url: best.license_url,
     modifications: 'recadrage centré au ratio 3:2, redimensionnement, conversion AVIF et WebP',
     verified_on: '2026-08-22',
-    verified_by: 'auto',
+    verified_by: 'auto-scenic-v2',
     width: 1280,
     height: 853,
     alt: `${p.identity.name_fr}, ${p.location.country_labels.join(' et ')}, ${p.landscape.types.map(t => t.replace(/-/g, ' ')).slice(0, 2).join(' et ')}`,
@@ -76,6 +81,6 @@ for (const f of files) {
   console.log(`+ ${p.id} : ${best.commons_file} (${best.license} ${best.license_version}, ${best.width}x${best.height})`);
 }
 
-manifest.updated = '2026-08-22';
+manifest.updated = new Date().toISOString().slice(0, 10);
 fs.writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2) + '\n');
 console.log(`\n${manifest.items.length} média(s) au manifeste. Contrôle humain des licences encore à faire.`);
