@@ -51,12 +51,6 @@ const orbPoints = lite.map(p => {
 <Base title="100 joyaux naturels de la Terre" image={null}>
   <section class="hero">
     <div class="scene" aria-hidden="true">
-      <div class="scene-sky"></div>
-      <div class="scene-aurora"></div>
-      <svg class="scene-stars" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
-        {stars.map(st => <circle cx={st.x} cy={st.y} r={st.r} fill="#f2efe8" opacity={st.o} />)}
-      </svg>
-
       <div class="scene-slides" data-slides>
         {slides.map((sl, i) => (
           <figure class="slide" data-slide={String(i)} data-active={i === 0 ? 'true' : 'false'}>
@@ -64,49 +58,8 @@ const orbPoints = lite.map(p => {
           </figure>
         ))}
       </div>
-
-      <div class="scene-orb">
-        <svg class="orb" viewBox="0 0 200 200" data-orb>
-          <defs>
-            <radialGradient id="orbLight" cx=".33" cy=".28" r=".9">
-              <stop offset="0" stop-color="#31584f" /><stop offset=".5" stop-color="#14302e" /><stop offset="1" stop-color="#050d0e" />
-            </radialGradient>
-            <radialGradient id="orbGlow" cx=".5" cy=".5" r=".5">
-              <stop offset=".72" stop-color="#7fd0c4" stop-opacity="0" /><stop offset="1" stop-color="#7fd0c4" stop-opacity=".3" />
-            </radialGradient>
-          </defs>
-          <circle cx="100" cy="100" r="92" fill="url(#orbLight)" />
-          <g fill="none" stroke="#c98a3f" stroke-width=".6">
-            <circle cx="100" cy="100" r="92" opacity=".42" />
-            <ellipse cx="100" cy="100" rx="92" ry="31" opacity=".2" />
-            <ellipse cx="100" cy="100" rx="92" ry="62" opacity=".2" />
-            <line x1="8" y1="100" x2="192" y2="100" opacity=".22" />
-            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
-            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
-            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
-            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
-            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
-            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
-          </g>
-          <g data-pts></g>
-          <circle cx="100" cy="100" r="97" fill="url(#orbGlow)" />
-        </svg>
-      </div>
-
-      <svg class="scene-ridge ridge-3" viewBox="0 0 1600 380" preserveAspectRatio="none">
-        <path d="M0,380 L0,236 L118,196 L214,244 L342,164 L470,232 L598,150 L742,226 L880,172 L1020,240 L1160,178 L1300,238 L1440,190 L1600,232 L1600,380 Z" fill="#0d1f21" />
-      </svg>
-      <svg class="scene-ridge ridge-2" viewBox="0 0 1600 340" preserveAspectRatio="none">
-        <path d="M0,340 L0,254 L96,214 L206,266 L318,190 L448,262 L560,208 L700,278 L836,214 L980,282 L1124,220 L1268,284 L1420,226 L1600,272 L1600,340 Z" fill="#0a1718" />
-      </svg>
-      <svg class="scene-ridge ridge-1" viewBox="0 0 1600 260" preserveAspectRatio="none">
-        <path d="M0,260 L0,206 L140,168 L268,220 L400,150 L536,214 L672,166 L820,226 L964,172 L1112,228 L1264,180 L1420,232 L1600,196 L1600,260 Z" fill="#050d0d" />
-      </svg>
-      <div class="scene-grain"></div>
       <div class="scene-veil"></div>
     </div>
-
-    <script type="application/json" id="globe-points" set:html={JSON.stringify(globePoints)} />
 
     <div class="hero-copy">
       <p class="eyebrow">Les grands paysages naturels de la planète</p>
@@ -117,13 +70,9 @@ const orbPoints = lite.map(p => {
         <a class="btn" href={`${base}/explorer`}>Deviner un lieu</a>
         <a class="btn btn--ghost" href={`${base}/calendrier`}>Où partir ce mois-ci</a>
       </div>
-      <div class="hero-stats">
-        <div><strong>{places.length}</strong><span>joyaux naturels</span></div>
-        <div><strong>{countries}</strong><span>pays et territoires</span></div>
-        <div><strong>{typeCount}</strong><span>types de paysage</span></div>
-      </div>
     </div>
-    <div class="hero-foot shell">
+
+    <div class="hero-foot">
       <div class="slide-caption" data-caption aria-live="polite">
         <span class="slide-dots" data-dots>
           {slides.map((sl, i) => (
@@ -132,9 +81,14 @@ const orbPoints = lite.map(p => {
         </span>
         <span data-caption-text></span>
       </div>
-      <span>Survolez le globe pour l'arrêter</span>
+      <div class="hero-stats">
+        <div><strong>{places.length}</strong><span>joyaux</span></div>
+        <div><strong>{countries}</strong><span>pays</span></div>
+        <div><strong>{typeCount}</strong><span>paysages</span></div>
+      </div>
     </div>
     <script type="application/json" id="slides-data" set:html={JSON.stringify(slides)} />
+    <script type="application/json" id="globe-points" set:html={JSON.stringify(globePoints)} />
   </section>
 
   <section class="explorer shell" id="carte" data-base={base}>
@@ -260,7 +214,6 @@ const orbPoints = lite.map(p => {
   </section>
 
   <script>
-    import '../scripts/orb';
     import '../scripts/slideshow';
     import '../scripts/explorer';
   </script>
