@@ -2,9 +2,9 @@
 
 Mis à jour le 2026-08-23.
 
-## 1. Les 39 fiches restantes
+## 1. Les 23 fiches restantes
 
-La sélection des 100 est arrêtée et équilibrée. 61 fiches sont rédigées. Voici les 39 restantes, avec leur identifiant, leur cadrage et le mécanisme naturel à expliquer. Ce tableau est fait pour être repris directement comme brief de rédaction, sans refaire le travail de sélection.
+La sélection des 100 est arrêtée et équilibrée. 77 fiches sont rédigées. Voici les 23 restantes, avec leur identifiant, leur cadrage et le mécanisme naturel à expliquer. Ce tableau est fait pour être repris directement comme brief de rédaction, sans refaire le travail de sélection.
 
 Procédure pour chacune : suivre `docs/BRIEF-REDACTION.md`, imiter `data/places/geirangerfjord.json`, écrire dans `data/places/<id>.json`, puis `npm run validate`.
 
@@ -20,33 +20,16 @@ Complète : zhangjiajie, jiuzhaigou, huangshan, guilin-li, danxia-zhangye, halon
 
 Complète : victoria-falls, okavango, namib-sossusvlei, serengeti, ngorongoro, nyiragongo-virunga, bwindi, rwenzori, kilimandjaro, simien, tsingy-bemaraha, banc-arguin, tassili-najjer, region-florale-cap, danakil-erta-ale.
 
-### Amérique du Nord et centrale, 5 restantes sur 15
+### Amérique du Nord et centrale, 0 restante sur 15
 
-Faites : grand-canyon, yellowstone, yosemite, redwood, denali, everglades, rocheuses-canadiennes, nahanni, gros-morne, baie-de-fundy.
+Complète : grand-canyon, yellowstone, yosemite, redwood, denali, everglades, rocheuses-canadiennes, nahanni, gros-morne, baie-de-fundy, barranca-del-cobre, sac-actun, morne-trois-pitons, belize-blue-hole, corcovado.
 
-| id | Lieu | Pays | Famille | Mécanisme à expliquer |
-| --- | --- | --- | --- | --- |
-| `barranca-del-cobre` | Barranca del Cobre | Mexique | relief | Six canyons dans les ignimbrites de la Sierra Madre, peuple rarámuri |
-| `sac-actun` | Sistema Sac Actun | Mexique | souterrain | Plus long réseau noyé connu, halocline, bas niveaux marins glaciaires, cénotes |
-| `morne-trois-pitons` | Morne Trois Pitons | Dominique | feu | Arc des Petites Antilles, Boiling Lake, forêt pluviale, ouragan Maria |
-| `belize-blue-hole` | Barrière du Belize et Grand Trou Bleu | Belize | marin | Deuxième système récifal, doline karstique noyée et stalactites témoins |
-| `corcovado` | Corcovado | Costa Rica | foret | Densité de biodiversité record, dernière grande forêt du Pacifique centraméricain |
+### Amérique du Sud, 4 restantes sur 15
 
-### Amérique du Sud, 15 restantes sur 15
+Faites : iguazu, torres-del-paine, perito-moreno, salar-uyuni, valle-de-la-luna, lencois-maranhenses, chapada-diamantina, pantanal, canaima-salto-angel, galapagos, cano-cristales.
 
 | id | Lieu | Pays | Famille | Mécanisme à expliquer |
 | --- | --- | --- | --- | --- |
-| `iguazu` | Chutes d'Iguazú | AR, BR | eau | Basaltes du Paraná, 275 sauts, recul de la ligne de chute, forêt atlantique. essential |
-| `torres-del-paine` | Torres del Paine | Chili | relief | Laccolite granitique coiffé de sédiments sombres, sculpture glaciaire, vent. essential |
-| `perito-moreno` | Perito Moreno et Los Glaciares | Argentine | glace | Champ de glace Sud, front stable, cycle de barrage et rupture |
-| `salar-uyuni` | Salar d'Uyuni | Bolivie | desert | Paléolacs Minchin et Tauca, planéité extrême, effet miroir, saumures et lithium |
-| `valle-de-la-luna` | Valle de la Luna, Atacama | Chili | desert | Aridité extrême, cordillère de sel, double ombre pluviométrique, analogues martiens |
-| `lencois-maranhenses` | Lençóis Maranhenses | Brésil | desert | Dunes alimentées par les fleuves, lagunes de nappe affleurante, poissons annuels |
-| `chapada-diamantina` | Chapada Diamantina | Brésil | relief | Quartzites protérozoïques, lagunes bleues, campos rupestres |
-| `pantanal` | Pantanal | Brésil | eau | Plus grande zone humide continue, bassin subsident, cycle crue et décrue, incendies |
-| `canaima-salto-angel` | Canaima et Salto Ángel | Venezuela | relief | Tepuys du bouclier guyanais, grès Roraima, îles écologiques sommitales |
-| `galapagos` | Galápagos | Équateur | cote | Point chaud, courants froids, radiation adaptative, invasives. essential |
-| `cano-cristales` | Caño Cristales | Colombie | eau | Macarenia clavigera, coloration saisonnière, quartzite, marmites de géant |
 | `huascaran` | Huascarán et cordillère Blanche | Pérou | relief | Batholite pliocène, glaciers tropicaux, alud de 1970, vidange de lacs glaciaires |
 | `colca` | Canyon de Colca | Pérou | relief | Profondeur, volcanisme de la zone centrale, terrasses collagua, condor |
 | `manu` | Parc national de Manú | Pérou | foret | Gradient 300 à 4 000 m, records d'espèces, collpas, isolement volontaire |
