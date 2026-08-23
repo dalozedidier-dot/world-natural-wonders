@@ -7,23 +7,46 @@
     "name_fr": "Vallée de Jiuzhaigou",
     "name_official": "Région d'intérêt panoramique et historique de la vallée de Jiuzhaigou",
     "name_local": [
-      { "lang": "zh", "value": "九寨沟" },
-      { "lang": "zh-Latn", "value": "Jiuzhaigou", "note": "Littéralement la vallée des neuf villages." }
+      {
+        "lang": "zh",
+        "value": "九寨沟"
+      },
+      {
+        "lang": "zh-Latn",
+        "value": "Jiuzhaigou",
+        "note": "Littéralement la vallée des neuf villages."
+      }
     ],
     "name_indigenous": [
-      { "people": "Tibétains de l'Amdo oriental", "value": "Sicudêgu", "meaning": "Vallée bordée de villages tibétains, dont Shuzheng, Heye et Zechawa, encore habités." }
+      {
+        "people": "Tibétains de l'Amdo oriental",
+        "value": "Sicudêgu",
+        "meaning": "Vallée bordée de villages tibétains, dont Shuzheng, Heye et Zechawa, encore habités."
+      }
     ],
-    "aka": ["Vallée des neuf villages", "Jiuzhai Valley"]
+    "aka": [
+      "Vallée des neuf villages",
+      "Jiuzhai Valley"
+    ]
   },
   "location": {
-    "countries": ["CN"],
-    "country_labels": ["Chine"],
+    "countries": [
+      "CN"
+    ],
+    "country_labels": [
+      "Chine"
+    ],
     "subdivision": "Sichuan, préfecture autonome tibétaine et qiang d'Aba",
     "region": "asie",
     "lat": 33.15,
     "lng": 103.9,
     "coordinate_precision": "site",
-    "bbox": [103.6, 32.9, 104.3, 33.35],
+    "bbox": [
+      103.6,
+      32.9,
+      104.3,
+      33.35
+    ],
     "area_km2": 720,
     "elevation_min_m": 1990,
     "elevation_max_m": 4700,
@@ -32,31 +55,68 @@
   },
   "landscape": {
     "primary": "lac",
-    "types": ["lac", "cascade", "karst", "foret-temperee"],
+    "types": [
+      "lac",
+      "cascade",
+      "karst",
+      "foret-temperee"
+    ],
     "family": "eau",
-    "iucn_ecosystem": ["F2.2 Lacs d'eau douce permanents", "T2.4 Forêts tempérées de montagne", "F1.3 Cours d'eau de montagne"],
+    "iucn_ecosystem": [
+      "F2.2 Lacs d'eau douce permanents",
+      "T2.4 Forêts tempérées de montagne",
+      "F1.3 Cours d'eau de montagne"
+    ],
     "biome": "Forêts mixtes et conifères tempérées des montagnes du Sichuan",
     "climate": "Cwb à Dwb de montagne, mousson d'été atténuée",
-    "collections": ["royaumes-eau", "autre-planete", "forets-primordiales"]
+    "collections": [
+      "royaumes-eau",
+      "autre-planete",
+      "forets-primordiales"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-whs", "name": "Région d'intérêt panoramique et historique de la vallée de Jiuzhaigou", "ref": "637", "since": 1992, "criteria": ["vii"], "url": "https://whc.unesco.org/fr/list/637/" },
-      { "type": "unesco-mab", "name": "Réserve de biosphère de Jiuzhaigou", "since": 1997, "url": null },
-      { "type": "nature-reserve", "name": "Réserve naturelle nationale de Jiuzhaigou", "since": 1978, "url": null }
+      {
+        "type": "unesco-whs",
+        "name": "Région d'intérêt panoramique et historique de la vallée de Jiuzhaigou",
+        "ref": "637",
+        "since": 1992,
+        "criteria": [
+          "vii"
+        ],
+        "url": "https://whc.unesco.org/fr/list/637/"
+      },
+      {
+        "type": "unesco-mab",
+        "name": "Réserve de biosphère de Jiuzhaigou",
+        "since": 1997,
+        "url": null
+      },
+      {
+        "type": "nature-reserve",
+        "name": "Réserve naturelle nationale de Jiuzhaigou",
+        "since": 1978,
+        "url": null
+      }
     ],
-    "managing_body": { "name": "Bureau d'administration de la région panoramique de Jiuzhaigou, province du Sichuan", "url": null }
+    "managing_body": {
+      "name": "Bureau d'administration de la région panoramique de Jiuzhaigou, province du Sichuan",
+      "url": null
+    }
   },
   "editorial": {
-    "badges": ["exceptionnel", "geologie-remarquable", "ecosysteme-majeur"],
+    "badges": [
+      "exceptionnel",
+      "geologie-remarquable",
+      "ecosysteme-majeur"
+    ],
     "essential": false,
     "lede": "Un escalier de lacs turquoise retenus par des barrages de calcaire vivant, étagé entre deux mille et trois mille cent mètres d'altitude, au pied de sommets qui dépassent quatre mille cinq cents.",
     "why_here": "Jiuzhaigou est le plus haut système de lacs de barrage travertineux de la planète, et c'est cette altitude qui fait toute la différence. La chimie de l'eau, la vitesse de dégazage du gaz carbonique, la faiblesse de la matière organique en suspension et la qualité de la lumière à trois mille mètres y produisent des couleurs et des formes que les systèmes travertineux de basse altitude n'atteignent pas. Le site apporte aussi à la sélection un exemple rare de paysage remanié sous nos yeux par un séisme majeur, celui d'août 2017, qui a détruit un lac et modifié plusieurs barrages. Il s'inscrit enfin dans le dernier grand refuge du panda géant, ce qui superpose une valeur biologique de premier plan à la valeur géomorphologique.",
     "presentation": "La vallée s'ouvre sur le versant oriental du plateau tibétain, dans les monts Min, au nord du Sichuan. Trois branches en forme de Y, Rize, Zechawa et Shuzheng, drainent 720 km² de forêts et de crêtes calcaires jusqu'à un fond de vallée qui descend de 3 100 m à moins de 2 000.\n\nCe fond n'est pas une pente régulière mais une succession de plus de cent plans d'eau, séparés par des seuils de roche blanche que l'eau franchit en nappes. Les plus connus, le lac aux Cinq Couleurs, le lac Long, le lac Miroir, la cascade de Nuorilang large de plus de deux cents mètres, la cascade des Perles, se lisent comme les marches d'un même escalier hydraulique.\n\nLa transparence est totale : on distingue au fond des lacs des troncs d'arbres tombés il y a des siècles, entièrement enrobés de calcaire et devenus partie du barrage. Cette croissance minérale est ce qui distingue Jiuzhaigou d'un simple chapelet de lacs de montagne.\n\nNeuf villages tibétains ont donné son nom à la vallée. Plusieurs sont toujours occupés, et la gestion du site associe leurs habitants, dont les activités agricoles et pastorales ont été fortement réorientées vers l'accueil des visiteurs depuis les années 1990.\n\nLe 8 août 2017, un séisme de magnitude 7,0 selon le service sismologique chinois, 6,5 selon l'USGS, a frappé le district. Vingt-cinq personnes ont perdu la vie. Le lac Huohua, dit lac Étincelant, s'est vidé par la rupture de son barrage, la cascade de Nuorilang a été fissurée et plusieurs seuils ont été déplacés. La vallée a rouvert par étapes à partir de mars 2018, sous un régime de quotas quotidiens beaucoup plus serré qu'avant la catastrophe, avant un retour à une ouverture complète en septembre 2019.",
-    "geology": "Le substrat est un empilement de carbonates marins du Paléozoïque et du Trias, calcaires et dolomies déposés sur la marge du bloc du Yangzi, puis plissés et soulevés lors de la construction du plateau tibétain, en réponse à la collision entre l'Inde et l'Asie. La vallée est entaillée dans cette pile, sur la bordure de la faille active de Huya, celle-là même qui a rompu en 2017.\n\nLe Quaternaire a fourni les obstacles initiaux. Glaciers de vallée, moraines, cônes d'éboulis et grands glissements de terrain ont barré le drainage à plusieurs reprises, créant des cuvettes lacustres provisoires. Un lac de moraine seul aurait été éphémère : la vidange progressive du seuil l'aurait effacé en quelques milliers d'années.\n\nCe qui a pérennisé le système, c'est la chimie. L'eau qui alimente la vallée circule dans un karst carbonaté d'altitude et en ressort chargée en bicarbonate de calcium, à des concentrations élevées et à une température basse, qui augmente la quantité de gaz carbonique que l'eau peut transporter en solution. Quand cette eau arrive à l'air libre, sur un seuil, dans un rapide, au contact des mousses et des algues, la pression partielle de gaz carbonique chute brutalement. Le calcium précipite alors sous forme de calcite, et le seuil grandit.\n\nLe barrage se construit donc là où l'eau s'agite. Il enrobe tout ce qu'il touche, mousses, herbes, troncs, et gagne en hauteur année après année, ce qui relève le plan d'eau amont. Le résultat est un système auto entretenu : chaque lac fabrique la digue qui le retient.\n\nCes travertins sont fragiles. Un seuil fissuré fuit, se vide et cesse de croître, ce qui explique que le séisme de 2017 ait effacé un lac en quelques minutes alors que sa construction avait demandé des millénaires."
-    ,
-    "dynamics": "L'alimentation est double : fonte des neiges au printemps et mousson d'été, atténuée par la position d'abri au bord du plateau, avec environ 700 mm de précipitations annuelles. L'eau transite largement par le karst, ce qui lisse les débits et maintient une exceptionnelle limpidité, très peu de matière en suspension arrivant dans les lacs. Le dépôt de calcite est saisonnier, maximal quand l'activité biologique et la température de surface favorisent le dégazage. La comparaison avec Plitvice éclaire le mécanisme : le site croate travaille vers 400 à 700 m d'altitude, dans une vallée boisée où les barrages sont d'abord des tapis de mousses incrustés, une tufa poreuse et végétale ; Jiuzhaigou construit à 2 000 à 3 100 m un travertin plus dense et plus minéral, dans une eau plus froide et plus concentrée, sous une atmosphère raréfiée où la lumière, riche en bleu et peu diffusée, se réfléchit sur un fond de calcite blanche. D'où des turquoise et des bleus profonds que Plitvice n'atteint jamais."
-    ,
+    "geology": "Le substrat est un empilement de carbonates marins du Paléozoïque et du Trias, calcaires et dolomies déposés sur la marge du bloc du Yangzi, puis plissés et soulevés lors de la construction du plateau tibétain, en réponse à la collision entre l'Inde et l'Asie. La vallée est entaillée dans cette pile, sur la bordure de la faille active de Huya, celle-là même qui a rompu en 2017.\n\nLe Quaternaire a fourni les obstacles initiaux. Glaciers de vallée, moraines, cônes d'éboulis et grands glissements de terrain ont barré le drainage à plusieurs reprises, créant des cuvettes lacustres provisoires. Un lac de moraine seul aurait été éphémère : la vidange progressive du seuil l'aurait effacé en quelques milliers d'années.\n\nCe qui a pérennisé le système, c'est la chimie. L'eau qui alimente la vallée circule dans un karst carbonaté d'altitude et en ressort chargée en bicarbonate de calcium, à des concentrations élevées et à une température basse, qui augmente la quantité de gaz carbonique que l'eau peut transporter en solution. Quand cette eau arrive à l'air libre, sur un seuil, dans un rapide, au contact des mousses et des algues, la pression partielle de gaz carbonique chute brutalement. Le calcium précipite alors sous forme de calcite, et le seuil grandit.\n\nLe barrage se construit donc là où l'eau s'agite. Il enrobe tout ce qu'il touche, mousses, herbes, troncs, et gagne en hauteur année après année, ce qui relève le plan d'eau amont. Le résultat est un système auto entretenu : chaque lac fabrique la digue qui le retient.\n\nCes travertins sont fragiles. Un seuil fissuré fuit, se vide et cesse de croître, ce qui explique que le séisme de 2017 ait effacé un lac en quelques minutes alors que sa construction avait demandé des millénaires.",
+    "dynamics": "L'alimentation est double : fonte des neiges au printemps et mousson d'été, atténuée par la position d'abri au bord du plateau, avec environ 700 mm de précipitations annuelles. L'eau transite largement par le karst, ce qui lisse les débits et maintient une exceptionnelle limpidité, très peu de matière en suspension arrivant dans les lacs. Le dépôt de calcite est saisonnier, maximal quand l'activité biologique et la température de surface favorisent le dégazage. La comparaison avec Plitvice éclaire le mécanisme : le site croate travaille vers 400 à 700 m d'altitude, dans une vallée boisée où les barrages sont d'abord des tapis de mousses incrustés, une tufa poreuse et végétale ; Jiuzhaigou construit à 2 000 à 3 100 m un travertin plus dense et plus minéral, dans une eau plus froide et plus concentrée, sous une atmosphère raréfiée où la lumière, riche en bleu et peu diffusée, se réfléchit sur un fond de calcite blanche. D'où des turquoise et des bleus profonds que Plitvice n'atteint jamais.",
     "biodiversity_text": "La vallée appartient au massif refuge des monts Min, l'un des noyaux de survie du panda géant, présent dans les bambouseraies d'altitude du bien mais en effectifs faibles et rarement observé. Le takin du Sichuan, grand bovidé de montagne, fréquente les pentes forestières, aux côtés du singe doré de Chine, du léopard et de plusieurs faisans endémiques de la région, dont le lophophore resplendissant. Les inventaires font état d'environ cent quarante espèces d'oiseaux. L'étagement de la végétation est particulièrement lisible, des forêts mixtes de feuillus et de conifères du fond de vallée aux fourrés de rhododendrons puis aux pelouses alpines au-dessus de trois mille cinq cents mètres. Dans les lacs eux mêmes, la vie est dominée par les diatomées et les algues encroûtantes qui participent directement à la construction des barrages.",
     "in_motion": "Le séisme de 2017 a rappelé qu'un paysage travertineux se défait plus vite qu'il ne se construit. Certains seuils fissurés se sont recolmatés naturellement en quelques années par reprise du dépôt de calcite, d'autres restent perméables, et le lac Huohua ne s'est pas reconstitué. La gestion post séisme a durci les quotas de visiteurs, imposé des circuits en navette et refermé plusieurs accès de bord de lac. À plus long terme, la réduction de l'enneigement hivernal et le réchauffement des eaux de surface modifient le calendrier du dépôt de calcite, et la question posée est celle du maintien du bilan positif des barrages.",
     "guess_hints": [
@@ -67,40 +127,138 @@
     ]
   },
   "figures": [
-    { "label": "Bien inscrit", "value": "720 km²" },
-    { "label": "Zone tampon", "value": "600 km²" },
-    { "label": "Altitude des lacs", "value": "de 2 000 à 3 100 m" },
-    { "label": "Point culminant", "value": "environ 4 700 m" },
-    { "label": "Plans d'eau", "value": "plus de 100" },
-    { "label": "Cascade de Nuorilang", "value": "plus de 200 m de large" },
-    { "label": "Séisme", "value": "8 août 2017, magnitude 7,0" },
-    { "label": "Inscription UNESCO", "value": "1992, critère vii" }
+    {
+      "label": "Bien inscrit",
+      "value": "720 km²"
+    },
+    {
+      "label": "Zone tampon",
+      "value": "600 km²"
+    },
+    {
+      "label": "Altitude des lacs",
+      "value": "de 2 000 à 3 100 m"
+    },
+    {
+      "label": "Point culminant",
+      "value": "environ 4 700 m"
+    },
+    {
+      "label": "Plans d'eau",
+      "value": "plus de 100"
+    },
+    {
+      "label": "Cascade de Nuorilang",
+      "value": "plus de 200 m de large"
+    },
+    {
+      "label": "Séisme",
+      "value": "8 août 2017, magnitude 7,0"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "1992, critère vii"
+    }
   ],
   "geology": {
     "age": "Carbonates paléozoïques et triasiques, soulèvement cénozoïque, barrages travertineux d'âge holocène",
-    "processes": ["precipitation de calcite", "degazage du dioxyde de carbone", "barrage morainique et de glissement", "karstification", "activite sismique"],
-    "rock_types": ["calcaire", "dolomie", "travertin", "moraine"],
+    "processes": [
+      "precipitation de calcite",
+      "degazage du dioxyde de carbone",
+      "barrage morainique et de glissement",
+      "karstification",
+      "activite sismique"
+    ],
+    "rock_types": [
+      "calcaire",
+      "dolomie",
+      "travertin",
+      "moraine"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Panda géant", "name_sci": "Ailuropoda melanoleuca", "group": "mammifère", "iucn_status": "VU" },
-      { "name_fr": "Takin du Sichuan", "name_sci": "Budorcas tibetanus", "group": "mammifère", "iucn_status": "VU", "note": "Longtemps traité comme une sous espèce de Budorcas taxicolor." },
-      { "name_fr": "Rhinopithèque de Roxellane", "name_sci": "Rhinopithecus roxellana", "group": "mammifère", "iucn_status": "EN" },
-      { "name_fr": "Lophophore resplendissant", "name_sci": "Lophophorus lhuysii", "group": "oiseau", "iucn_status": "VU" }
+      {
+        "name_fr": "Panda géant",
+        "name_sci": "Ailuropoda melanoleuca",
+        "group": "mammifère",
+        "iucn_status": "VU"
+      },
+      {
+        "name_fr": "Takin du Sichuan",
+        "name_sci": "Budorcas tibetanus",
+        "group": "mammifère",
+        "iucn_status": "VU",
+        "note": "Longtemps traité comme une sous espèce de Budorcas taxicolor."
+      },
+      {
+        "name_fr": "Rhinopithèque de Roxellane",
+        "name_sci": "Rhinopithecus roxellana",
+        "group": "mammifère",
+        "iucn_status": "EN"
+      },
+      {
+        "name_fr": "Lophophore resplendissant",
+        "name_sci": "Lophophorus lhuysii",
+        "group": "oiseau",
+        "iucn_status": "VU"
+      }
     ],
     "endemism_level": "eleve",
     "endemism_note": "Les monts Min appartiennent au foyer d'endémisme des montagnes du Sichuan, refuge de la flore tertiaire chinoise et aire de répartition exclusive de plusieurs vertébrés.",
-    "species_counts": { "birds": 140, "note": "Ordre de grandeur des oiseaux recensés dans la réserve." }
+    "species_counts": {
+      "birds": 140,
+      "note": "Ordre de grandeur des oiseaux recensés dans la réserve."
+    }
   },
   "seasonality": {
-    "best_months": [5, 6, 9, 10],
-    "avoid_months": [7, 8],
+    "best_months": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "avoid_months": [
+      7,
+      8
+    ],
     "phenomena": [
-      { "label": "Fonte des neiges, débits élevés et cascades pleines", "kind": "fonte", "months": [4, 5, 6] },
-      { "label": "Mousson d'été, pluies et affluence maximale", "kind": "mousson", "months": [7, 8] },
-      { "label": "Couleurs des forêts mixtes reflétées dans les lacs", "kind": "couleurs", "months": [10, 11], "note": "Période la plus recherchée, quotas atteints très tôt." },
-      { "label": "Lacs et cascades partiellement gelés", "kind": "glace", "months": [12, 1, 2] }
+      {
+        "label": "Fonte des neiges, débits élevés et cascades pleines",
+        "kind": "fonte",
+        "months": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Mousson d'été, pluies et affluence maximale",
+        "kind": "mousson",
+        "months": [
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Couleurs des forêts mixtes reflétées dans les lacs",
+        "kind": "couleurs",
+        "months": [
+          10,
+          11
+        ],
+        "note": "Période la plus recherchée, quotas atteints très tôt."
+      },
+      {
+        "label": "Lacs et cascades partiellement gelés",
+        "kind": "glace",
+        "months": [
+          12,
+          1,
+          2
+        ]
+      }
     ],
     "notes": "L'accès est réglementé par un quota quotidien de visiteurs et une réservation nominative préalable. Les vacances nationales de début octobre saturent le système."
   },
@@ -108,7 +266,11 @@
     "accessibility": "modere",
     "suggested_duration": "2 jours",
     "difficulty": "Circulation en navette obligatoire, passerelles en bois le long des lacs, altitude de 2 000 à 3 100 m pouvant provoquer un essoufflement.",
-    "extreme_conditions": ["altitude", "froid vif hors saison", "route d'accès sujette aux glissements de terrain"],
+    "extreme_conditions": [
+      "altitude",
+      "froid vif hors saison",
+      "route d'accès sujette aux glissements de terrain"
+    ],
     "permits": "Réservation nominative en ligne et quota quotidien de visiteurs.",
     "rules": [
       "Ne jamais marcher sur les barrages de travertin ni entrer dans l'eau : la croûte de calcite se brise et ne se reforme pas à l'échelle humaine.",
@@ -125,21 +287,88 @@
     "state": "L'état général est jugé satisfaisant, avec une gestion technique solide et un suivi hydrochimique continu. La reconstruction post séisme a été l'occasion de réduire la capacité d'accueil et de reconcentrer les flux sur des passerelles fermées. Les points de vigilance restent le traitement des eaux usées en amont des lacs, la fréquentation de pointe et la fragilité mécanique des seuils de travertin, qui ne tolèrent aucun piétinement.",
     "trend": "stable",
     "threats": [
-      { "type": "tourisme", "level": "eleve", "note": "Millions de visiteurs annuels concentrés sur un unique fond de vallée." },
-      { "type": "pollution", "level": "modere", "note": "Eaux usées et apports organiques susceptibles d'inhiber la précipitation de calcite." },
-      { "type": "climat", "level": "modere", "note": "Enneigement en recul, régime hydrique et calendrier du dépôt modifiés." },
-      { "type": "urbanisation", "level": "modere", "note": "Infrastructures d'accueil et routes dans un fond de vallée étroit et sismique." }
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Millions de visiteurs annuels concentrés sur un unique fond de vallée."
+      },
+      {
+        "type": "pollution",
+        "level": "modere",
+        "note": "Eaux usées et apports organiques susceptibles d'inhiber la précipitation de calcite."
+      },
+      {
+        "type": "climat",
+        "level": "modere",
+        "note": "Enneigement en recul, régime hydrique et calendrier du dépôt modifiés."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Infrastructures d'accueil et routes dans un fond de vallée étroit et sismique."
+      }
     ],
     "understand_without_going": false,
     "message": "Le vrai spectacle n'est pas la couleur mais le mécanisme : chaque seuil blanc que l'on franchit est un barrage en train de pousser, et il suffit d'un pas dessus pour l'entamer."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Jiuzhaigou valley lakes travertine China"
+  },
   "sources": [
-    { "title": "Région d'intérêt panoramique et historique de la vallée de Jiuzhaigou", "publisher": "UNESCO Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/637/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Jiuzhaigou Valley Scenic and Historic Interest Area, World Heritage Outlook", "publisher": "UICN", "url": "https://worldheritageoutlook.iucn.org/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Catalogue sismique, séisme du 8 août 2017 dans le district de Jiuzhaigou", "publisher": "United States Geological Survey", "url": "https://earthquake.usgs.gov/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Jiuzhaigou Valley", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Ailuropoda melanoleuca, Liste rouge des espèces menacées", "publisher": "UICN", "url": "https://www.iucnredlist.org/species/712/121745669", "type": "jeu-de-donnees", "accessed": "2026-08-22" }
+    {
+      "title": "Région d'intérêt panoramique et historique de la vallée de Jiuzhaigou",
+      "publisher": "UNESCO Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/637/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Jiuzhaigou Valley Scenic and Historic Interest Area, World Heritage Outlook",
+      "publisher": "UICN",
+      "url": "https://worldheritageoutlook.iucn.org/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Catalogue sismique, séisme du 8 août 2017 dans le district de Jiuzhaigou",
+      "publisher": "United States Geological Survey",
+      "url": "https://earthquake.usgs.gov/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Jiuzhaigou Valley",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Ailuropoda melanoleuca, Liste rouge des espèces menacées",
+      "publisher": "UICN",
+      "url": "https://www.iucnredlist.org/species/712/121745669",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 5, "singularite": 4, "rarete": 4, "diversite": 4, "integrite": 3, "monumentalite": 3, "actif": 3, "biologique": 4, "photogenie": 5, "pedagogie": 5, "conservation": 3, "complementarite": 4 }, "total": 108, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 4,
+      "rarete": 4,
+      "diversite": 4,
+      "integrite": 3,
+      "monumentalite": 3,
+      "actif": 3,
+      "biologique": 4,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 3,
+      "complementarite": 4
+    },
+    "total": 108,
+    "scored_on": "2026-08-22"
+  }
 }

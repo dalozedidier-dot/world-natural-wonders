@@ -10,6 +10,7 @@ const hero = heroFor(place);
     <img
       src={hero ? `${base}${hero.local.replace(/^public\//, '/')}` : placeholder(place)}
       alt={hero ? hero.alt : ''}
+      data-illustrate={hero ? undefined : (place.media?.query ?? `${place.identity.name_official ?? place.identity.name_fr} ${place.location.country_labels[0]}`)}
       loading="lazy" decoding="async"
       style="width:100%;height:100%;object-fit:cover" />
   </div>

@@ -7,21 +7,41 @@
     "name_fr": "Canyon de la Tara et massif du Durmitor",
     "name_official": "Parc national de Durmitor",
     "name_local": [
-      { "lang": "sr", "value": "Национални парк Дурмитор", "note": "Nacionalni park Durmitor" },
-      { "lang": "sr", "value": "Кањон Таре", "note": "Kanjon Tare" }
+      {
+        "lang": "sr",
+        "value": "Национални парк Дурмитор",
+        "note": "Nacionalni park Durmitor"
+      },
+      {
+        "lang": "sr",
+        "value": "Кањон Таре",
+        "note": "Kanjon Tare"
+      }
     ],
     "name_indigenous": null,
-    "aka": ["Durmitor", "Tara River Canyon"]
+    "aka": [
+      "Durmitor",
+      "Tara River Canyon"
+    ]
   },
   "location": {
-    "countries": ["ME"],
-    "country_labels": ["Monténégro"],
+    "countries": [
+      "ME"
+    ],
+    "country_labels": [
+      "Monténégro"
+    ],
     "subdivision": "Nord du Monténégro, communes de Žabljak, Šavnik, Plužine, Mojkovac et Pljevlja",
     "region": "europe",
     "lat": 43.15,
     "lng": 19.05,
     "coordinate_precision": "site",
-    "bbox": [18.8, 42.95, 19.5, 43.35],
+    "bbox": [
+      18.8,
+      42.95,
+      19.5,
+      43.35
+    ],
     "area_km2": 321,
     "elevation_min_m": 450,
     "elevation_max_m": 2523,
@@ -30,31 +50,66 @@
   },
   "landscape": {
     "primary": "canyon",
-    "types": ["canyon", "montagne", "lac", "foret-temperee"],
+    "types": [
+      "canyon",
+      "montagne",
+      "lac",
+      "foret-temperee"
+    ],
     "family": "relief",
-    "iucn_ecosystem": ["T3.1 Landes et prairies d'altitude", "T2.4 Forêts de conifères tempérées", "F1.1 Rivières permanentes de montagne"],
+    "iucn_ecosystem": [
+      "T3.1 Landes et prairies d'altitude",
+      "T2.4 Forêts de conifères tempérées",
+      "F1.1 Rivières permanentes de montagne"
+    ],
     "biome": "Forêts mixtes de montagne des Balkans dinariques",
     "climate": "Dfb de montagne, Dfc au dessus de 2 000 m",
-    "collections": ["vertiges", "royaumes-eau"]
+    "collections": [
+      "vertiges",
+      "royaumes-eau"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-whs", "name": "Parc national de Durmitor", "ref": "100", "since": 1980, "criteria": ["vii", "viii", "x"], "url": "https://whc.unesco.org/fr/list/100/" },
-      { "type": "national-park", "name": "Nacionalni park Durmitor", "since": 1952 },
-      { "type": "unesco-mab", "name": "Réserve de biosphère du bassin de la Tara", "since": 1976 }
+      {
+        "type": "unesco-whs",
+        "name": "Parc national de Durmitor",
+        "ref": "100",
+        "since": 1980,
+        "criteria": [
+          "vii",
+          "viii",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/100/"
+      },
+      {
+        "type": "national-park",
+        "name": "Nacionalni park Durmitor",
+        "since": 1952
+      },
+      {
+        "type": "unesco-mab",
+        "name": "Réserve de biosphère du bassin de la Tara",
+        "since": 1976
+      }
     ],
-    "managing_body": { "name": "Javno preduzeće za nacionalne parkove Crne Gore, entreprise publique des parcs nationaux du Monténégro", "url": "https://www.nparkovi.me/" }
+    "managing_body": {
+      "name": "Javno preduzeće za nacionalne parkove Crne Gore, entreprise publique des parcs nationaux du Monténégro",
+      "url": "https://www.nparkovi.me/"
+    }
   },
   "editorial": {
-    "badges": ["geologie-remarquable", "grande-nature", "exceptionnel"],
+    "badges": [
+      "geologie-remarquable",
+      "grande-nature",
+      "exceptionnel"
+    ],
     "essential": false,
     "lede": "Une rivière verte a scié le calcaire sur plus de mille trois cents mètres de haut, pendant que la glace taillait au dessus d'elle un plateau de cirques et de petits lacs ronds.",
-    "why_here": "Le site réunit deux histoires distinctes que la plupart des paysages présentent séparément : l'incision d'une rivière dans une pile de calcaires soulevés, et le façonnement glaciaire d'un haut massif. On peut y lire l'une depuis le fond de la gorge et l'autre depuis les crêtes, à quelques kilomètres de distance. Le canyon de la Tara est le plus profond d'Europe et son échelle reste lisible parce que les versants sont boisés jusqu'en haut, ce qui donne la mesure. Le massif ajoute un karst d'altitude, des cirques, des lacs de surcreusement et l'une des dernières pinèdes de pins noirs vraiment âgées du continent. C'est aussi un cas rare où une mobilisation publique a fait renoncer un État à un barrage."
-    ,
-    "presentation": "Le Durmitor est un massif calcaire massif et compact, culminant au Bobotov Kuk à 2 523 mètres, entouré de plateaux d'alpage et bordé au nord par la coupure de la Tara. L'ensemble inscrit couvre environ 32 100 hectares, avec une amplitude d'altitude proche de deux mille mètres entre le lit de la rivière et les sommets.\n\nLa Tara traverse le nord du parc dans une gorge d'environ quatre vingt kilomètres, dont la profondeur atteint près de mille trois cents mètres au droit des versants les plus élevés. On la présente souvent comme le deuxième ou troisième canyon du monde, derrière le Colca et le Grand Canyon. Ce classement dépend entièrement de la méthode de mesure retenue, entre dénivelé maximal ponctuel et profondeur moyenne, et il vaut mieux s'en tenir à ce qui est solide : c'est le canyon le plus profond d'Europe, et l'un des plus longs.\n\nAu dessus, le plateau porte une série de cirques hérités de la dernière glaciation, occupés par de petits lacs que la langue locale appelle les yeux de la montagne, gorske oči. Le plus connu, le Crno jezero ou lac Noir, se trouve à courte distance de Žabljak, à environ 1 416 mètres, et se compose en réalité de deux cuvettes reliées selon le niveau de l'eau.\n\nLes versants abrupts du canyon ont protégé des peuplements forestiers que le pastoralisme n'a jamais atteints. La réserve de Crna Poda conserve des pins noirs de plus de quatre cents ans, dont certains dépassent quarante mètres, un ensemble sans équivalent en Europe pour cette essence.\n\nEn 2004, un projet de barrage sur la Drina, à Buk Bijela, menaçait de noyer la partie aval du canyon. La contestation, scientifique, associative et internationale, a conduit le Parlement monténégrin à adopter en décembre 2004 une déclaration de protection de la Tara. Le projet a été abandonné dans sa forme d'alors, mais des versions ultérieures ont ressurgi côté bosnien, ce qui maintient le dossier ouvert."
-    ,
-    "geology": "Le socle du paysage est une pile de roches carbonatées mésozoïques appartenant à la zone dinarique interne, déposées entre le Trias moyen et le Crétacé sur une marge de la Téthys. Calcaires de plateforme, dolomies, calcaires pélagiques à radiolarites et, par endroits, formations volcano sédimentaires triasiques s'y superposent sur plus de deux mille mètres. Ces roches enregistrent l'ouverture puis la fermeture d'un domaine océanique aujourd'hui disparu.\n\nÀ partir du Crétacé supérieur et surtout au Paléogène, la convergence entre la plaque adriatique et l'Europe a plissé et surtout empilé cette pile en écailles chevauchantes, orientées nord ouest sud est comme toute la chaîne dinarique. Le Durmitor est porté par l'une de ces nappes. La géologie locale a même donné son nom à un style de déformation, dit durmitorien, caractérisé par des bancs redressés à fort pendage qui dessinent sur les parois de longues barres obliques.\n\nLe soulèvement néogène a ensuite fait toute la différence. Le massif s'élève pendant que la Tara continue de couler dans son tracé, et la rivière compense le soulèvement en s'enfonçant sur place. Cette incision antécédente explique pourquoi une gorge aussi profonde traverse un relief aussi haut au lieu de le contourner. Le calcaire, résistant mais fracturé, se débite en parois quasi verticales séparées par des gradins, et le canyon reste étroit sur toute sa hauteur.\n\nParallèlement, l'eau dissout la roche. Le plateau est un karst complet, avec lapiez, dolines, gouffres profonds et circulations souterraines qui restituent une part importante du débit par des sources de versant. Beaucoup de surfaces d'apparence sèche drainent en profondeur.\n\nEnfin, le Pléistocène a posé sur le massif une calotte locale, l'une des plus étendues des Balkans, dont il subsiste des cirques bien dessinés, des seuils, des verrous et des moraines. Une quinzaine à une vingtaine de dépressions glaciaires retiennent aujourd'hui de petits lacs, tantôt sur roche imperméable, tantôt colmatés par des dépôts fins. Le contact entre modelé glaciaire au sommet et incision fluviale au pied est la clé de lecture du site."
-    ,
+    "why_here": "Le site réunit deux histoires distinctes que la plupart des paysages présentent séparément : l'incision d'une rivière dans une pile de calcaires soulevés, et le façonnement glaciaire d'un haut massif. On peut y lire l'une depuis le fond de la gorge et l'autre depuis les crêtes, à quelques kilomètres de distance. Le canyon de la Tara est le plus profond d'Europe et son échelle reste lisible parce que les versants sont boisés jusqu'en haut, ce qui donne la mesure. Le massif ajoute un karst d'altitude, des cirques, des lacs de surcreusement et l'une des dernières pinèdes de pins noirs vraiment âgées du continent. C'est aussi un cas rare où une mobilisation publique a fait renoncer un État à un barrage.",
+    "presentation": "Le Durmitor est un massif calcaire massif et compact, culminant au Bobotov Kuk à 2 523 mètres, entouré de plateaux d'alpage et bordé au nord par la coupure de la Tara. L'ensemble inscrit couvre environ 32 100 hectares, avec une amplitude d'altitude proche de deux mille mètres entre le lit de la rivière et les sommets.\n\nLa Tara traverse le nord du parc dans une gorge d'environ quatre vingt kilomètres, dont la profondeur atteint près de mille trois cents mètres au droit des versants les plus élevés. On la présente souvent comme le deuxième ou troisième canyon du monde, derrière le Colca et le Grand Canyon. Ce classement dépend entièrement de la méthode de mesure retenue, entre dénivelé maximal ponctuel et profondeur moyenne, et il vaut mieux s'en tenir à ce qui est solide : c'est le canyon le plus profond d'Europe, et l'un des plus longs.\n\nAu dessus, le plateau porte une série de cirques hérités de la dernière glaciation, occupés par de petits lacs que la langue locale appelle les yeux de la montagne, gorske oči. Le plus connu, le Crno jezero ou lac Noir, se trouve à courte distance de Žabljak, à environ 1 416 mètres, et se compose en réalité de deux cuvettes reliées selon le niveau de l'eau.\n\nLes versants abrupts du canyon ont protégé des peuplements forestiers que le pastoralisme n'a jamais atteints. La réserve de Crna Poda conserve des pins noirs de plus de quatre cents ans, dont certains dépassent quarante mètres, un ensemble sans équivalent en Europe pour cette essence.\n\nEn 2004, un projet de barrage sur la Drina, à Buk Bijela, menaçait de noyer la partie aval du canyon. La contestation, scientifique, associative et internationale, a conduit le Parlement monténégrin à adopter en décembre 2004 une déclaration de protection de la Tara. Le projet a été abandonné dans sa forme d'alors, mais des versions ultérieures ont ressurgi côté bosnien, ce qui maintient le dossier ouvert.",
+    "geology": "Le socle du paysage est une pile de roches carbonatées mésozoïques appartenant à la zone dinarique interne, déposées entre le Trias moyen et le Crétacé sur une marge de la Téthys. Calcaires de plateforme, dolomies, calcaires pélagiques à radiolarites et, par endroits, formations volcano sédimentaires triasiques s'y superposent sur plus de deux mille mètres. Ces roches enregistrent l'ouverture puis la fermeture d'un domaine océanique aujourd'hui disparu.\n\nÀ partir du Crétacé supérieur et surtout au Paléogène, la convergence entre la plaque adriatique et l'Europe a plissé et surtout empilé cette pile en écailles chevauchantes, orientées nord ouest sud est comme toute la chaîne dinarique. Le Durmitor est porté par l'une de ces nappes. La géologie locale a même donné son nom à un style de déformation, dit durmitorien, caractérisé par des bancs redressés à fort pendage qui dessinent sur les parois de longues barres obliques.\n\nLe soulèvement néogène a ensuite fait toute la différence. Le massif s'élève pendant que la Tara continue de couler dans son tracé, et la rivière compense le soulèvement en s'enfonçant sur place. Cette incision antécédente explique pourquoi une gorge aussi profonde traverse un relief aussi haut au lieu de le contourner. Le calcaire, résistant mais fracturé, se débite en parois quasi verticales séparées par des gradins, et le canyon reste étroit sur toute sa hauteur.\n\nParallèlement, l'eau dissout la roche. Le plateau est un karst complet, avec lapiez, dolines, gouffres profonds et circulations souterraines qui restituent une part importante du débit par des sources de versant. Beaucoup de surfaces d'apparence sèche drainent en profondeur.\n\nEnfin, le Pléistocène a posé sur le massif une calotte locale, l'une des plus étendues des Balkans, dont il subsiste des cirques bien dessinés, des seuils, des verrous et des moraines. Une quinzaine à une vingtaine de dépressions glaciaires retiennent aujourd'hui de petits lacs, tantôt sur roche imperméable, tantôt colmatés par des dépôts fins. Le contact entre modelé glaciaire au sommet et incision fluviale au pied est la clé de lecture du site.",
     "dynamics": "La Tara reçoit ses eaux de la fonte des neiges du Durmitor et des Bjelasica voisines, et son régime est nivo pluvial : crue marquée d'avril à juin, étiage en fin d'été, gel partiel des marges en hiver. La couleur verte de l'eau tient à sa charge en carbonates dissous et à sa faible turbidité, le calcaire libérant peu de particules fines. Une part notable du débit d'étiage vient de sources karstiques de versant, plus froides et plus régulières que le ruissellement de surface. Sur le plateau, l'enneigement dure de novembre à mai, avec des cumuls parmi les plus élevés des Balkans, et alimente à la fois les lacs et les nappes karstiques. Le lac Noir voit son niveau baisser nettement en fin d'été, quand la fonte cesse et que les pertes souterraines l'emportent. Les avalanches et les écroulements de paroi entretiennent les cônes d'éboulis qui bordent le canyon.",
     "biodiversity_text": "Le parc compte plus de mille six cents espèces de plantes vasculaires, une richesse qui tient à l'amplitude altitudinale et au refuge que les Balkans ont offert pendant les glaciations. Les endémiques dinariques y sont nombreuses, notamment dans les rochers et les pelouses d'altitude. La forêt va des hêtraies et sapinières de versant aux pinèdes de pins noirs des corniches, dont la réserve de Crna Poda conserve les sujets les plus âgés. Environ cent trente espèces d'oiseaux y sont notées, avec aigle royal, faucon pèlerin et vautour fauve sur les parois du canyon. Les grands mammifères, ours brun, loup gris et chamois des Balkans, s'y maintiennent en effectifs modestes mais fonctionnels. La Tara héberge encore le huchon, grand salmonidé du bassin du Danube devenu rare partout ailleurs.",
     "in_motion": "Le manteau neigeux se réduit et la fonte se déplace vers le début du printemps, ce qui accentue le contraste entre crue précoce et étiage estival, avec des conséquences directes sur la température de l'eau et sur le huchon. Les infrastructures pèsent aussi : le chantier de l'autoroute Bar Boljare, dans la haute vallée, a modifié le lit de la Tara et provoqué des rejets de matériaux qui ont donné lieu à des mises en demeure. Le tourisme de rafting, concentré sur quelques mois et quelques kilomètres, a fait apparaître campements et accès sauvages sur les berges. Le dossier hydroélectrique du secteur, jamais définitivement clos, reste la variable qui déciderait de l'avenir du canyon.",
@@ -66,41 +121,153 @@
     ]
   },
   "figures": [
-    { "label": "Bien inscrit", "value": "32 100 ha" },
-    { "label": "Profondeur du canyon de la Tara", "value": "jusqu'à environ 1 300 m" },
-    { "label": "Longueur du canyon", "value": "environ 80 km" },
-    { "label": "Point culminant, Bobotov Kuk", "value": "2 523 m" },
-    { "label": "Amplitude altitudinale du parc", "value": "de 450 m à plus de 2 500 m" },
-    { "label": "Plantes vasculaires", "value": "plus de 1 600 espèces" },
-    { "label": "Pins noirs de Crna Poda", "value": "plus de 400 ans" },
-    { "label": "Inscription UNESCO", "value": "1980, critères vii, viii et x, limites étendues en 2005" }
+    {
+      "label": "Bien inscrit",
+      "value": "32 100 ha"
+    },
+    {
+      "label": "Profondeur du canyon de la Tara",
+      "value": "jusqu'à environ 1 300 m"
+    },
+    {
+      "label": "Longueur du canyon",
+      "value": "environ 80 km"
+    },
+    {
+      "label": "Point culminant, Bobotov Kuk",
+      "value": "2 523 m"
+    },
+    {
+      "label": "Amplitude altitudinale du parc",
+      "value": "de 450 m à plus de 2 500 m"
+    },
+    {
+      "label": "Plantes vasculaires",
+      "value": "plus de 1 600 espèces"
+    },
+    {
+      "label": "Pins noirs de Crna Poda",
+      "value": "plus de 400 ans"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "1980, critères vii, viii et x, limites étendues en 2005"
+    }
   ],
   "geology": {
     "age": "Carbonates du Trias moyen au Crétacé, structuration alpine dinarique au Paléogène, soulèvement néogène, glaciation pléistocène",
-    "processes": ["chevauchement et empilement de nappes", "incision fluviale antécédente", "karstification", "surcreusement glaciaire", "éboulement de paroi"],
-    "rock_types": ["calcaire", "dolomie", "calcaire pélagique et radiolarite", "formations volcano sédimentaires triasiques"],
+    "processes": [
+      "chevauchement et empilement de nappes",
+      "incision fluviale antécédente",
+      "karstification",
+      "surcreusement glaciaire",
+      "éboulement de paroi"
+    ],
+    "rock_types": [
+      "calcaire",
+      "dolomie",
+      "calcaire pélagique et radiolarite",
+      "formations volcano sédimentaires triasiques"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Huchon", "name_sci": "Hucho hucho", "group": "poisson", "iucn_status": "EN", "note": "Grand salmonidé danubien, indicateur de rivières froides et libres." },
-      { "name_fr": "Ours brun", "name_sci": "Ursus arctos", "group": "mammifère", "iucn_status": "LC" },
-      { "name_fr": "Chamois", "name_sci": "Rupicapra rupicapra", "group": "mammifère", "iucn_status": "LC", "note": "Sous espèce balkanique sur les corniches du massif." },
-      { "name_fr": "Aigle royal", "name_sci": "Aquila chrysaetos", "group": "oiseau", "iucn_status": "LC" },
-      { "name_fr": "Pin noir", "name_sci": "Pinus nigra", "group": "flore", "iucn_status": "LC", "note": "Peuplements anciens de la réserve de Crna Poda." }
+      {
+        "name_fr": "Huchon",
+        "name_sci": "Hucho hucho",
+        "group": "poisson",
+        "iucn_status": "EN",
+        "note": "Grand salmonidé danubien, indicateur de rivières froides et libres."
+      },
+      {
+        "name_fr": "Ours brun",
+        "name_sci": "Ursus arctos",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Chamois",
+        "name_sci": "Rupicapra rupicapra",
+        "group": "mammifère",
+        "iucn_status": "LC",
+        "note": "Sous espèce balkanique sur les corniches du massif."
+      },
+      {
+        "name_fr": "Aigle royal",
+        "name_sci": "Aquila chrysaetos",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Pin noir",
+        "name_sci": "Pinus nigra",
+        "group": "flore",
+        "iucn_status": "LC",
+        "note": "Peuplements anciens de la réserve de Crna Poda."
+      }
     ],
     "endemism_level": "modere",
     "endemism_note": "Refuge glaciaire dinarique : plusieurs dizaines d'endémiques balkaniques et dinariques, surtout dans les rochers et les pelouses sommitales.",
-    "species_counts": { "plants": 1600, "birds": 130, "mammals": null, "fish": null, "corals": null, "note": "Chiffres de la fiche UNESCO, inventaires floristiques encore actifs." }
+    "species_counts": {
+      "plants": 1600,
+      "birds": 130,
+      "mammals": null,
+      "fish": null,
+      "corals": null,
+      "note": "Chiffres de la fiche UNESCO, inventaires floristiques encore actifs."
+    }
   },
   "seasonality": {
-    "best_months": [6, 7, 8, 9],
-    "avoid_months": [11, 12, 3],
+    "best_months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "avoid_months": [
+      11,
+      12,
+      3
+    ],
     "phenomena": [
-      { "label": "Crue nivale de la Tara, débits maximaux", "kind": "crue", "months": [4, 5], "note": "Rafting réservé aux niveaux confirmés à cette période." },
-      { "label": "Floraison des pelouses d'altitude", "kind": "floraison", "months": [6, 7] },
-      { "label": "Étiage, eau la plus claire et la plus verte", "kind": "etiage", "months": [8, 9] },
-      { "label": "Enneigement du plateau et fermeture des accès d'altitude", "kind": "glace", "months": [11, 12, 1, 2, 3, 4] }
+      {
+        "label": "Crue nivale de la Tara, débits maximaux",
+        "kind": "crue",
+        "months": [
+          4,
+          5
+        ],
+        "note": "Rafting réservé aux niveaux confirmés à cette période."
+      },
+      {
+        "label": "Floraison des pelouses d'altitude",
+        "kind": "floraison",
+        "months": [
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Étiage, eau la plus claire et la plus verte",
+        "kind": "etiage",
+        "months": [
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Enneigement du plateau et fermeture des accès d'altitude",
+        "kind": "glace",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
     ],
     "notes": "Les sentiers d'altitude sont praticables de fin juin à début octobre. Juillet et août concentrent la fréquentation autour du lac Noir et des bases de rafting."
   },
@@ -108,7 +275,11 @@
     "accessibility": "modere",
     "suggested_duration": "3 à 4 jours",
     "difficulty": "Randonnées d'altitude sur karst, terrain coupant et sans eau de surface, descentes vers le canyon longues et raides.",
-    "extreme_conditions": ["orages d'après midi en été", "névés tardifs", "absence de sources sur le plateau karstique"],
+    "extreme_conditions": [
+      "orages d'après midi en été",
+      "névés tardifs",
+      "absence de sources sur le plateau karstique"
+    ],
     "permits": "Droit d'entrée du parc national, opérateurs agréés obligatoires pour la descente en rafting.",
     "rules": [
       "Emporter toute son eau sur le plateau karstique, le calcaire n'offre pas de source de surface.",
@@ -125,20 +296,81 @@
     "state": "L'intégrité du canyon reste élevée : les versants sont trop raides pour être exploités et la vallée n'est pas urbanisée. Les pressions viennent de l'amont et des marges. Le projet hydroélectrique de Buk Bijela, sur la Drina, aurait relevé le plan d'eau jusque dans la partie aval du canyon ; la mobilisation de 2004 a conduit le Parlement monténégrin à adopter une déclaration de protection de la Tara, et le projet a été abandonné dans sa forme d'alors, mais des variantes portées côté bosnien ont réactivé le débat depuis. Le chantier de l'autoroute Bar Boljare a causé des atteintes documentées au lit de la rivière en amont du bien. Localement, le développement de Žabljak, la fréquentation du lac Noir et l'exploitation forestière en périphérie appellent une vigilance continue.",
     "trend": "stable",
     "threats": [
-      { "type": "hydro", "level": "modere", "note": "Projets de barrage récurrents sur la Drina et ses affluents, dossier jamais définitivement clos." },
-      { "type": "urbanisation", "level": "modere", "note": "Autoroute en amont, extension du bâti et des remontées mécaniques autour de Žabljak." },
-      { "type": "tourisme", "level": "modere", "note": "Concentration estivale sur le lac Noir et sur quelques kilomètres de rivière." },
-      { "type": "extraction", "level": "faible", "note": "Coupes forestières en zone périphérique du bien." }
+      {
+        "type": "hydro",
+        "level": "modere",
+        "note": "Projets de barrage récurrents sur la Drina et ses affluents, dossier jamais définitivement clos."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Autoroute en amont, extension du bâti et des remontées mécaniques autour de Žabljak."
+      },
+      {
+        "type": "tourisme",
+        "level": "modere",
+        "note": "Concentration estivale sur le lac Noir et sur quelques kilomètres de rivière."
+      },
+      {
+        "type": "extraction",
+        "level": "faible",
+        "note": "Coupes forestières en zone périphérique du bien."
+      }
     ],
     "understand_without_going": false,
     "message": "Le canyon se comprend depuis ses deux extrémités : le belvédère de rive, qui donne l'échelle, et le fond de gorge, qui donne le mécanisme. Descendre à pied ou en radeau vaut mieux que multiplier les points de vue routiers."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Tara River Canyon Durmitor Montenegro"
+  },
   "sources": [
-    { "title": "Parc national de Durmitor", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/100/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Parcs nationaux du Monténégro, site officiel", "publisher": "Javno preduzeće za nacionalne parkove Crne Gore", "url": "https://www.nparkovi.me/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Base mondiale des aires protégées", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Liste rouge des espèces menacées", "publisher": "UICN", "url": "https://www.iucnredlist.org/", "type": "jeu-de-donnees", "accessed": "2026-08-22" }
+    {
+      "title": "Parc national de Durmitor",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/100/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Parcs nationaux du Monténégro, site officiel",
+      "publisher": "Javno preduzeće za nacionalne parkove Crne Gore",
+      "url": "https://www.nparkovi.me/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Base mondiale des aires protégées",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Liste rouge des espèces menacées",
+      "publisher": "UICN",
+      "url": "https://www.iucnredlist.org/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 4, "singularite": 4, "rarete": 4, "diversite": 4, "integrite": 4, "monumentalite": 4, "actif": 2, "biologique": 3, "photogenie": 4, "pedagogie": 4, "conservation": 3, "complementarite": 4 }, "total": 101, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 4,
+      "singularite": 4,
+      "rarete": 4,
+      "diversite": 4,
+      "integrite": 4,
+      "monumentalite": 4,
+      "actif": 2,
+      "biologique": 3,
+      "photogenie": 4,
+      "pedagogie": 4,
+      "conservation": 3,
+      "complementarite": 4
+    },
+    "total": 101,
+    "scored_on": "2026-08-22"
+  }
 }

@@ -7,23 +7,48 @@
     "name_fr": "Karst de Guilin et rivière Li",
     "name_official": "Karst de Chine du Sud, composante de Guilin",
     "name_local": [
-      { "lang": "zh", "value": "桂林喀斯特" },
-      { "lang": "zh", "value": "漓江", "note": "Lijiang, la rivière Li." }
+      {
+        "lang": "zh",
+        "value": "桂林喀斯特"
+      },
+      {
+        "lang": "zh",
+        "value": "漓江",
+        "note": "Lijiang, la rivière Li."
+      }
     ],
     "name_indigenous": [
-      { "people": "Zhuang", "value": "Gveilinz", "meaning": "Le Guangxi est la région autonome zhuang, premier peuple minoritaire de Chine, dont la toponymie couvre les vallées karstiques." }
+      {
+        "people": "Zhuang",
+        "value": "Gveilinz",
+        "meaning": "Le Guangxi est la région autonome zhuang, premier peuple minoritaire de Chine, dont la toponymie couvre les vallées karstiques."
+      }
     ],
-    "aka": ["Lijiang", "Rivière Li", "Yangshuo", "Guilin karst"]
+    "aka": [
+      "Lijiang",
+      "Rivière Li",
+      "Yangshuo",
+      "Guilin karst"
+    ]
   },
   "location": {
-    "countries": ["CN"],
-    "country_labels": ["Chine"],
+    "countries": [
+      "CN"
+    ],
+    "country_labels": [
+      "Chine"
+    ],
     "subdivision": "Région autonome zhuang du Guangxi",
     "region": "asie",
     "lat": 24.98,
     "lng": 110.45,
     "coordinate_precision": "site",
-    "bbox": [110.15, 24.7, 110.75, 25.4],
+    "bbox": [
+      110.15,
+      24.7,
+      110.75,
+      25.4
+    ],
     "area_km2": null,
     "elevation_min_m": 100,
     "elevation_max_m": 900,
@@ -32,31 +57,62 @@
   },
   "landscape": {
     "primary": "karst",
-    "types": ["karst", "fleuve", "grotte"],
+    "types": [
+      "karst",
+      "fleuve",
+      "grotte"
+    ],
     "family": "relief",
-    "iucn_ecosystem": ["S1.1 Systèmes souterrains karstiques", "F1.2 Cours d'eau permanents de plaine", "T1.2 Forêts subtropicales humides"],
+    "iucn_ecosystem": [
+      "S1.1 Systèmes souterrains karstiques",
+      "F1.2 Cours d'eau permanents de plaine",
+      "T1.2 Forêts subtropicales humides"
+    ],
     "biome": "Forêts subtropicales humides du sud de la Chine",
     "climate": "Cfa subtropical humide de mousson",
-    "collections": ["autre-planete", "sous-la-surface", "royaumes-eau"]
+    "collections": [
+      "autre-planete",
+      "sous-la-surface",
+      "royaumes-eau"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-whs", "name": "Karst de Chine du Sud, deuxième phase, composante de Guilin", "ref": "1248", "since": 2014, "criteria": ["vii", "viii"], "url": "https://whc.unesco.org/fr/list/1248/" },
-      { "type": "national-park", "name": "Zone panoramique nationale de la rivière Li", "since": 1982, "url": null }
+      {
+        "type": "unesco-whs",
+        "name": "Karst de Chine du Sud, deuxième phase, composante de Guilin",
+        "ref": "1248",
+        "since": 2014,
+        "criteria": [
+          "vii",
+          "viii"
+        ],
+        "url": "https://whc.unesco.org/fr/list/1248/"
+      },
+      {
+        "type": "national-park",
+        "name": "Zone panoramique nationale de la rivière Li",
+        "since": 1982,
+        "url": null
+      }
     ],
-    "managing_body": { "name": "Administration de la zone panoramique de la rivière Li, région autonome zhuang du Guangxi", "url": null }
+    "managing_body": {
+      "name": "Administration de la zone panoramique de la rivière Li, région autonome zhuang du Guangxi",
+      "url": null
+    }
   },
   "editorial": {
-    "badges": ["exceptionnel", "geologie-remarquable", "unique-au-monde"],
+    "badges": [
+      "exceptionnel",
+      "geologie-remarquable",
+      "unique-au-monde"
+    ],
     "essential": false,
     "lede": "Des centaines de tours calcaires isolées se dressent sur une plaine plate, contournées par une rivière verte qui coule presque sans pente, dans une brume qui efface les arrière plans.",
     "why_here": "Guilin est la référence mondiale du karst tropical humide arrivé à son stade final : le fenglin, une plaine d'où n'émergent plus que des tours résiduelles. Le site a une valeur démonstrative unique parce qu'il montre au même endroit, et sur quelques kilomètres, le passage du fenglong, buttes coniques soudées séparées par des dépressions fermées, au fenglin, tours isolées sur plancher alluvial. Ce passage n'est pas dû au temps seul mais au niveau de base de la rivière, ce qui en fait une leçon de géomorphologie plutôt qu'une simple curiosité. La sélection y gagne le karst de plaine, complémentaire des karsts de montagne et des grands réseaux souterrains.",
-    "presentation": "La rivière Li descend des monts Yuecheng, au nord du Guangxi, et traverse sur environ 83 km, entre Guilin et Yangshuo, la plaine karstique qui a fait sa réputation. Là, le paysage se réduit à trois éléments : une surface alluviale presque horizontale, des tours calcaires aux flancs raides qui montent de cent à deux cents mètres au dessus d'elle, et une eau lente qui les contourne sans jamais les entamer frontalement.\n\nLes tours sont couvertes d'une végétation subtropicale accrochée à la roche nue, et leur base est souvent creusée d'encoches, de porches et de galeries. Le sous sol est perforé : la grotte de la Flûte de roseau et la grotte de la Couronne ne sont que les plus visitées d'un ensemble de cavités et de rivières souterraines qui assurent l'essentiel de la circulation de l'eau dans le massif.\n\nEntre les tours, la plaine est cultivée depuis des millénaires. Rizières, bambous, vergers d'orangers et villages occupent le moindre replat, et la limite entre la roche et le champ est souvent nette au mètre près : là où la tour commence, la culture s'arrête. Ce paysage est celui du peuple zhuang, majoritaire dans la région autonome du Guangxi.\n\nLa réputation esthétique du site est ancienne et documentée depuis les Tang et les Song. Elle a fixé un canon de la peinture chinoise de paysage, et fait aujourd'hui de Guilin et de Yangshuo l'une des destinations intérieures les plus fréquentées du pays, avec une flottille de bateaux de croisière et de radeaux à moteur sur la rivière.\n\nLa composante de Guilin a rejoint en 2014 le bien en série du karst de Chine du Sud, inscrit en 2007 et étendu depuis à sept ensembles répartis sur quatre provinces."
-    ,
-    "geology": "La roche est un calcaire marin épais de plusieurs centaines de mètres, déposé du Dévonien au Carbonifère, il y a environ 380 à 320 millions d'années, sur une plate forme carbonatée peu profonde installée au bord du bloc du Yangzi. Ces calcaires sont massifs, très purs et faiblement lités, trois conditions qui autorisent des parois verticales stables sur de grandes hauteurs.\n\nLe soulèvement de la Chine du Sud au Cénozoïque a porté cette plate forme au dessus du niveau marin et l'a exposée à un climat chaud et très arrosé. L'eau de pluie, chargée en gaz carbonique du sol, dissout le calcaire le long des fractures. Le massif se creuse alors du haut et de l'intérieur à la fois : dépressions fermées en surface, galeries et rivières souterraines en profondeur.\n\nLe premier stade est le fenglong, littéralement pics et dolines. Les buttes coniques restent soudées à leur base et sont séparées par des dépressions fermées, sans drainage de surface organisé. Toute l'eau part vers le bas.\n\nLe second stade est le fenglin, pics et forêt. Il apparaît là où une rivière allogène, venue d'un bassin non calcaire, impose un niveau de base bas et stable. La rivière Li joue ce rôle. Autour de ce niveau, la nappe affleure, la dissolution devient latérale et travaille le pied des reliefs plutôt que leur sommet. Les buttes sont sapées à leur base, les dépressions se remplissent d'alluvions, et le paysage se convertit en une plaine plane hérissée de tours isolées.\n\nCe basculement dépend donc du niveau de base et de la disponibilité d'un apport d'eau extérieur, pas seulement de l'âge du massif. C'est pourquoi Guilin présente les deux stades côte à côte : fenglin dans la vallée de la Li, fenglong sur les blocs surélevés qui la bordent."
-    ,
-    "dynamics": "Le climat est subtropical de mousson, avec de 1 800 à 1 900 mm de pluie par an concentrés d'avril à août. La rivière Li connaît un contraste de débit très marqué : crues rapides en saison humide, étiage sévère en hiver, au point que la navigation touristique dépend de lâchers depuis des retenues situées en amont. Le fonctionnement hydrologique est double, une part du débit circulant en surface, une autre transitant par les réseaux souterrains avec des temps de réponse de quelques heures seulement après un orage. Cette rapidité rend l'aquifère très vulnérable : ce qui tombe sur le sol arrive presque intact à la source. La dissolution reste active, le sapement de la base des tours se poursuit, et les effondrements de porches ou de voûtes font partie du fonctionnement normal du système. La brume de vallée, fréquente en saison fraîche, tient à l'humidité et à la stabilité de l'air dans une plaine encaissée."
-    ,
+    "presentation": "La rivière Li descend des monts Yuecheng, au nord du Guangxi, et traverse sur environ 83 km, entre Guilin et Yangshuo, la plaine karstique qui a fait sa réputation. Là, le paysage se réduit à trois éléments : une surface alluviale presque horizontale, des tours calcaires aux flancs raides qui montent de cent à deux cents mètres au dessus d'elle, et une eau lente qui les contourne sans jamais les entamer frontalement.\n\nLes tours sont couvertes d'une végétation subtropicale accrochée à la roche nue, et leur base est souvent creusée d'encoches, de porches et de galeries. Le sous sol est perforé : la grotte de la Flûte de roseau et la grotte de la Couronne ne sont que les plus visitées d'un ensemble de cavités et de rivières souterraines qui assurent l'essentiel de la circulation de l'eau dans le massif.\n\nEntre les tours, la plaine est cultivée depuis des millénaires. Rizières, bambous, vergers d'orangers et villages occupent le moindre replat, et la limite entre la roche et le champ est souvent nette au mètre près : là où la tour commence, la culture s'arrête. Ce paysage est celui du peuple zhuang, majoritaire dans la région autonome du Guangxi.\n\nLa réputation esthétique du site est ancienne et documentée depuis les Tang et les Song. Elle a fixé un canon de la peinture chinoise de paysage, et fait aujourd'hui de Guilin et de Yangshuo l'une des destinations intérieures les plus fréquentées du pays, avec une flottille de bateaux de croisière et de radeaux à moteur sur la rivière.\n\nLa composante de Guilin a rejoint en 2014 le bien en série du karst de Chine du Sud, inscrit en 2007 et étendu depuis à sept ensembles répartis sur quatre provinces.",
+    "geology": "La roche est un calcaire marin épais de plusieurs centaines de mètres, déposé du Dévonien au Carbonifère, il y a environ 380 à 320 millions d'années, sur une plate forme carbonatée peu profonde installée au bord du bloc du Yangzi. Ces calcaires sont massifs, très purs et faiblement lités, trois conditions qui autorisent des parois verticales stables sur de grandes hauteurs.\n\nLe soulèvement de la Chine du Sud au Cénozoïque a porté cette plate forme au dessus du niveau marin et l'a exposée à un climat chaud et très arrosé. L'eau de pluie, chargée en gaz carbonique du sol, dissout le calcaire le long des fractures. Le massif se creuse alors du haut et de l'intérieur à la fois : dépressions fermées en surface, galeries et rivières souterraines en profondeur.\n\nLe premier stade est le fenglong, littéralement pics et dolines. Les buttes coniques restent soudées à leur base et sont séparées par des dépressions fermées, sans drainage de surface organisé. Toute l'eau part vers le bas.\n\nLe second stade est le fenglin, pics et forêt. Il apparaît là où une rivière allogène, venue d'un bassin non calcaire, impose un niveau de base bas et stable. La rivière Li joue ce rôle. Autour de ce niveau, la nappe affleure, la dissolution devient latérale et travaille le pied des reliefs plutôt que leur sommet. Les buttes sont sapées à leur base, les dépressions se remplissent d'alluvions, et le paysage se convertit en une plaine plane hérissée de tours isolées.\n\nCe basculement dépend donc du niveau de base et de la disponibilité d'un apport d'eau extérieur, pas seulement de l'âge du massif. C'est pourquoi Guilin présente les deux stades côte à côte : fenglin dans la vallée de la Li, fenglong sur les blocs surélevés qui la bordent.",
+    "dynamics": "Le climat est subtropical de mousson, avec de 1 800 à 1 900 mm de pluie par an concentrés d'avril à août. La rivière Li connaît un contraste de débit très marqué : crues rapides en saison humide, étiage sévère en hiver, au point que la navigation touristique dépend de lâchers depuis des retenues situées en amont. Le fonctionnement hydrologique est double, une part du débit circulant en surface, une autre transitant par les réseaux souterrains avec des temps de réponse de quelques heures seulement après un orage. Cette rapidité rend l'aquifère très vulnérable : ce qui tombe sur le sol arrive presque intact à la source. La dissolution reste active, le sapement de la base des tours se poursuit, et les effondrements de porches ou de voûtes font partie du fonctionnement normal du système. La brume de vallée, fréquente en saison fraîche, tient à l'humidité et à la stabilité de l'air dans une plaine encaissée.",
     "biodiversity_text": "Les tours calcaires, isolées les unes des autres et impropres à la culture, fonctionnent comme des îlots refuges dans une plaine entièrement mise en valeur. Elles portent une flore calcicole spécialisée, riche en bégonias, en primulacées et en fougères, avec un taux d'endémisme local élevé : plusieurs espèces ne sont connues que d'un ou deux sommets. Le monde souterrain abrite une faune troglobie encore mal inventoriée, poissons cavernicoles dépigmentés et invertébrés aveugles, dont la répartition est souvent limitée à un seul réseau. La rivière héberge une ichtyofaune de cyprinidés et fut longtemps l'un des lieux emblématiques de la pêche au cormoran, aujourd'hui pratiquée à titre démonstratif. Les macaques, les civettes et les rapaces forestiers subsistent sur les buttes les moins accessibles.",
     "in_motion": "La pression touristique s'est intensifiée sur un couloir étroit : croisières quotidiennes en nombre, radeaux à moteur, hébergements et voies d'accès concentrés entre Guilin et Yangshuo. La qualité de l'eau de la Li est le point sensible, avec des apports d'eaux usées urbaines, de nutriments agricoles et de carburants, dans un système karstique où l'autoépuration est faible. Les autorités ont fermé des carrières de calcaire, démantelé des embarcadères sauvages et limité le nombre de bateaux. L'étiage hivernal, aggravé par les prélèvements et par des hivers plus secs, oblige à soutenir artificiellement le débit, ce qui modifie le régime naturel de la rivière.",
     "guess_hints": [
@@ -67,39 +123,137 @@
     ]
   },
   "figures": [
-    { "label": "Bien en série du karst de Chine du Sud", "value": "971 km² répartis en sept composantes" },
-    { "label": "Section classique de la rivière Li", "value": "environ 83 km entre Guilin et Yangshuo" },
-    { "label": "Hauteur des tours", "value": "de 100 à 200 m au dessus de la plaine" },
-    { "label": "Âge des calcaires", "value": "environ 380 à 320 millions d'années, Dévonien et Carbonifère" },
-    { "label": "Épaisseur de la série carbonatée", "value": "plusieurs centaines de mètres" },
-    { "label": "Précipitations", "value": "de 1 800 à 1 900 mm par an" },
-    { "label": "Inscription UNESCO", "value": "2014, deuxième phase, critères vii et viii" }
+    {
+      "label": "Bien en série du karst de Chine du Sud",
+      "value": "971 km² répartis en sept composantes"
+    },
+    {
+      "label": "Section classique de la rivière Li",
+      "value": "environ 83 km entre Guilin et Yangshuo"
+    },
+    {
+      "label": "Hauteur des tours",
+      "value": "de 100 à 200 m au dessus de la plaine"
+    },
+    {
+      "label": "Âge des calcaires",
+      "value": "environ 380 à 320 millions d'années, Dévonien et Carbonifère"
+    },
+    {
+      "label": "Épaisseur de la série carbonatée",
+      "value": "plusieurs centaines de mètres"
+    },
+    {
+      "label": "Précipitations",
+      "value": "de 1 800 à 1 900 mm par an"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "2014, deuxième phase, critères vii et viii"
+    }
   ],
   "geology": {
     "age": "Calcaires dévoniens et carbonifères, environ 380 à 320 Ma, karstification depuis le soulèvement cénozoïque",
-    "processes": ["dissolution karstique", "controle par le niveau de base", "sapement lateral au pied des tours", "alluvionnement des depressions", "effondrement de cavites", "transition fenglong vers fenglin"],
-    "rock_types": ["calcaire massif", "dolomie", "alluvions fluviatiles"],
+    "processes": [
+      "dissolution karstique",
+      "controle par le niveau de base",
+      "sapement lateral au pied des tours",
+      "alluvionnement des depressions",
+      "effondrement de cavites",
+      "transition fenglong vers fenglin"
+    ],
+    "rock_types": [
+      "calcaire massif",
+      "dolomie",
+      "alluvions fluviatiles"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Bégonias calcicoles du Guangxi", "name_sci": "Begonia spp.", "group": "plante", "note": "Genre très diversifié sur les parois calcaires, avec de nombreuses espèces à aire minuscule." },
-      { "name_fr": "Poissons cavernicoles du karst chinois", "name_sci": "Sinocyclocheilus spp.", "group": "poisson", "note": "Genre riche en espèces troglobies dépigmentées, souvent limitées à un seul réseau souterrain." },
-      { "name_fr": "Macaque rhésus", "name_sci": "Macaca mulatta", "group": "mammifère", "iucn_status": "LC" },
-      { "name_fr": "Grand cormoran", "name_sci": "Phalacrocorax carbo", "group": "oiseau", "iucn_status": "LC", "note": "Utilisé pour la pêche traditionnelle sur la rivière Li." }
+      {
+        "name_fr": "Bégonias calcicoles du Guangxi",
+        "name_sci": "Begonia spp.",
+        "group": "plante",
+        "note": "Genre très diversifié sur les parois calcaires, avec de nombreuses espèces à aire minuscule."
+      },
+      {
+        "name_fr": "Poissons cavernicoles du karst chinois",
+        "name_sci": "Sinocyclocheilus spp.",
+        "group": "poisson",
+        "note": "Genre riche en espèces troglobies dépigmentées, souvent limitées à un seul réseau souterrain."
+      },
+      {
+        "name_fr": "Macaque rhésus",
+        "name_sci": "Macaca mulatta",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Grand cormoran",
+        "name_sci": "Phalacrocorax carbo",
+        "group": "oiseau",
+        "iucn_status": "LC",
+        "note": "Utilisé pour la pêche traditionnelle sur la rivière Li."
+      }
     ],
     "endemism_level": "eleve",
     "endemism_note": "Le karst du sud de la Chine est un foyer mondial de micro endémisme : chaque tour et chaque réseau souterrain isolé peut abriter des taxons propres.",
     "species_counts": null
   },
   "seasonality": {
-    "best_months": [4, 5, 9, 10],
-    "avoid_months": [7, 8],
+    "best_months": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "avoid_months": [
+      7,
+      8
+    ],
     "phenomena": [
-      { "label": "Mousson d'été, crues de la rivière et navigation perturbée", "kind": "crue", "months": [5, 6, 7, 8] },
-      { "label": "Étiage hivernal, débit soutenu par des lâchers de barrage", "kind": "etiage", "months": [12, 1, 2, 3] },
-      { "label": "Brumes de vallée entre les tours", "kind": "autre", "months": [2, 3, 4, 11], "note": "Air stable et humide en saison fraîche." },
-      { "label": "Rizières en eau puis moisson dans la plaine", "kind": "autre", "months": [5, 6, 9, 10] }
+      {
+        "label": "Mousson d'été, crues de la rivière et navigation perturbée",
+        "kind": "crue",
+        "months": [
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "label": "Étiage hivernal, débit soutenu par des lâchers de barrage",
+        "kind": "etiage",
+        "months": [
+          12,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Brumes de vallée entre les tours",
+        "kind": "autre",
+        "months": [
+          2,
+          3,
+          4,
+          11
+        ],
+        "note": "Air stable et humide en saison fraîche."
+      },
+      {
+        "label": "Rizières en eau puis moisson dans la plaine",
+        "kind": "autre",
+        "months": [
+          5,
+          6,
+          9,
+          10
+        ]
+      }
     ],
     "notes": "Les vacances nationales de début mai et du début octobre saturent la rivière et les grottes. Le printemps donne les meilleures brumes, l'automne les meilleurs débits avec une fréquentation plus supportable."
   },
@@ -107,7 +261,10 @@
     "accessibility": "facile",
     "suggested_duration": "2 à 3 jours",
     "difficulty": "Navigation fluviale aménagée, routes et pistes cyclables dans la plaine, grottes équipées ; aucune difficulté physique particulière.",
-    "extreme_conditions": ["crues rapides en saison de mousson", "chaleur humide en été"],
+    "extreme_conditions": [
+      "crues rapides en saison de mousson",
+      "chaleur humide en été"
+    ],
     "permits": null,
     "rules": [
       "Ne rien rejeter dans la rivière ni dans les dolines : en terrain karstique, tout ce qui est déversé rejoint la nappe en quelques heures.",
@@ -124,21 +281,86 @@
     "state": "La composante de Guilin est protégée depuis longtemps au titre national et sa forme d'ensemble reste intacte : les tours ne sont plus exploitées et les carrières les plus visibles ont été fermées. La difficulté porte sur la ressource en eau et sur l'intensité de la fréquentation. Le karst n'a presque aucune capacité d'autoépuration, et les rejets urbains, agricoles et fluviaux se retrouvent rapidement dans la nappe et dans les rivières souterraines. Le soutien artificiel de l'étiage par des retenues amont, nécessaire à la navigation, découple le régime de la rivière de son fonctionnement naturel.",
     "trend": "stable",
     "threats": [
-      { "type": "tourisme", "level": "eleve", "note": "Concentration des flux sur un couloir fluvial de quelques dizaines de kilomètres." },
-      { "type": "pollution", "level": "eleve", "note": "Eaux usées, nutriments agricoles et hydrocarbures dans un aquifère à transit rapide." },
-      { "type": "hydro", "level": "modere", "note": "Lâchers de soutien d'étiage modifiant le régime hydrologique de la rivière Li." },
-      { "type": "urbanisation", "level": "modere", "note": "Croissance urbaine et infrastructures d'accueil dans la plaine karstique." },
-      { "type": "extraction", "level": "faible", "note": "Extraction de calcaire et de granulats, très réduite dans le bien mais active dans la région." }
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Concentration des flux sur un couloir fluvial de quelques dizaines de kilomètres."
+      },
+      {
+        "type": "pollution",
+        "level": "eleve",
+        "note": "Eaux usées, nutriments agricoles et hydrocarbures dans un aquifère à transit rapide."
+      },
+      {
+        "type": "hydro",
+        "level": "modere",
+        "note": "Lâchers de soutien d'étiage modifiant le régime hydrologique de la rivière Li."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Croissance urbaine et infrastructures d'accueil dans la plaine karstique."
+      },
+      {
+        "type": "extraction",
+        "level": "faible",
+        "note": "Extraction de calcaire et de granulats, très réduite dans le bien mais active dans la région."
+      }
     ],
     "understand_without_going": false,
     "message": "La leçon du site n'est pas dans les tours mais dans le sol qui les sépare : c'est la rivière, en imposant un niveau de base bas et stable, qui a transformé un relief de buttes soudées en une plaine à tours isolées."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Li River Guilin karst peaks China"
+  },
   "sources": [
-    { "title": "Karst de Chine du Sud", "publisher": "UNESCO Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/1248/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "South China Karst, World Heritage Outlook", "publisher": "UICN", "url": "https://worldheritageoutlook.iucn.org/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "South China Karst", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Guilin", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Guilin", "type": "encyclopedique", "accessed": "2026-08-22" }
+    {
+      "title": "Karst de Chine du Sud",
+      "publisher": "UNESCO Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1248/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "South China Karst, World Heritage Outlook",
+      "publisher": "UICN",
+      "url": "https://worldheritageoutlook.iucn.org/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "South China Karst",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Guilin",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Guilin",
+      "type": "encyclopedique",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 5, "singularite": 4, "rarete": 4, "diversite": 3, "integrite": 2, "monumentalite": 4, "actif": 3, "biologique": 2, "photogenie": 5, "pedagogie": 5, "conservation": 2, "complementarite": 4 }, "total": 101, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 4,
+      "rarete": 4,
+      "diversite": 3,
+      "integrite": 2,
+      "monumentalite": 4,
+      "actif": 3,
+      "biologique": 2,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 2,
+      "complementarite": 4
+    },
+    "total": 101,
+    "scored_on": "2026-08-22"
+  }
 }

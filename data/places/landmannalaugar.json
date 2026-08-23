@@ -7,21 +7,42 @@
     "name_fr": "Landmannalaugar et Fjallabak",
     "name_official": "Friðland að Fjallabaki",
     "name_local": [
-      { "lang": "is", "value": "Landmannalaugar", "note": "Les bains des gens du Land, du nom des éleveurs qui y menaient leurs troupeaux." },
-      { "lang": "is", "value": "Torfajökull", "note": "Nom du système volcanique et de la calotte qui le coiffe." }
+      {
+        "lang": "is",
+        "value": "Landmannalaugar",
+        "note": "Les bains des gens du Land, du nom des éleveurs qui y menaient leurs troupeaux."
+      },
+      {
+        "lang": "is",
+        "value": "Torfajökull",
+        "note": "Nom du système volcanique et de la calotte qui le coiffe."
+      }
     ],
     "name_indigenous": null,
-    "aka": ["Réserve naturelle du Fjallabak", "Torfajökull", "Laugahraun"]
+    "aka": [
+      "Réserve naturelle du Fjallabak",
+      "Torfajökull",
+      "Laugahraun"
+    ]
   },
   "location": {
-    "countries": ["IS"],
-    "country_labels": ["Islande"],
+    "countries": [
+      "IS"
+    ],
+    "country_labels": [
+      "Islande"
+    ],
     "subdivision": "Suðurland, hautes terres du sud",
     "region": "europe",
     "lat": 63.99,
     "lng": -19.06,
     "coordinate_precision": "site",
-    "bbox": [-19.5, 63.85, -18.6, 64.15],
+    "bbox": [
+      -19.5,
+      63.85,
+      -18.6,
+      64.15
+    ],
     "area_km2": 470,
     "elevation_min_m": 500,
     "elevation_max_m": 1259,
@@ -30,21 +51,43 @@
   },
   "landscape": {
     "primary": "volcan",
-    "types": ["volcan", "geothermal", "montagne"],
+    "types": [
+      "volcan",
+      "geothermal",
+      "montagne"
+    ],
     "family": "feu",
-    "iucn_ecosystem": ["T6.1 Déserts et semi-déserts froids", "T7.5 Milieux géothermiques terrestres"],
+    "iucn_ecosystem": [
+      "T6.1 Déserts et semi-déserts froids",
+      "T7.5 Milieux géothermiques terrestres"
+    ],
     "biome": "Désert volcanique subarctique de haute terre",
     "climate": "ET de haute terre, saison libre de neige très courte",
-    "collections": ["autre-planete", "terre-de-feu"]
+    "collections": [
+      "autre-planete",
+      "terre-de-feu"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "nature-reserve", "name": "Friðland að Fjallabaki, réserve naturelle du Fjallabak", "since": 1979, "url": null }
+      {
+        "type": "nature-reserve",
+        "name": "Friðland að Fjallabaki, réserve naturelle du Fjallabak",
+        "since": 1979,
+        "url": null
+      }
     ],
-    "managing_body": { "name": "Agence islandaise de protection de la nature, en charge des réserves naturelles des hautes terres", "url": null }
+    "managing_body": {
+      "name": "Agence islandaise de protection de la nature, en charge des réserves naturelles des hautes terres",
+      "url": null
+    }
   },
   "editorial": {
-    "badges": ["geologie-remarquable", "exceptionnel", "tres-sauvage"],
+    "badges": [
+      "geologie-remarquable",
+      "exceptionnel",
+      "tres-sauvage"
+    ],
     "essential": false,
     "lede": "Un massif de rhyolite jaune, ocre et rose au milieu d'une île faite de basalte noir, où des coulées d'obsidienne encore aiguës bordent des sources chaudes fumantes.",
     "why_here": "La rhyolite est une roche de croûte continentale : elle ne devrait pratiquement pas exister au milieu de l'Atlantique, où le magma normal produit du basalte. Le Torfajökull en concentre pourtant le plus grand volume d'Islande, et cette anomalie chimique se lit directement dans le paysage, puisque c'est elle qui donne aux montagnes leurs couleurs claires. Le site montre en outre, sur quelques kilomètres carrés, l'ensemble de la chaîne qui va du magma acide à la couleur : mise en place de dômes, altération hydrothermale des roches, oxydation du fer, formation d'argiles. Enfin, l'éruption de 1477 y a laissé côte à côte une coulée d'obsidienne et une fissure basaltique, deux produits opposés du même événement. La sélection y gagne un contre-exemple pédagogique au volcanisme océanique ordinaire.",
@@ -61,18 +104,51 @@
     ]
   },
   "figures": [
-    { "label": "Réserve naturelle du Fjallabak", "value": "environ 470 km², créée en 1979" },
-    { "label": "Caldeira du Torfajökull", "value": "environ 12 km sur 18 km" },
-    { "label": "Champ géothermique", "value": "le plus étendu d'Islande" },
-    { "label": "Dernière éruption", "value": "1477, laves de Laugahraun et de Námshraun" },
-    { "label": "Altitude du site des bains", "value": "environ 600 m" },
-    { "label": "Brennisteinsalda", "value": "855 m" },
-    { "label": "Sentier du Laugavegur", "value": "environ 55 km jusqu'à Þórsmörk" }
+    {
+      "label": "Réserve naturelle du Fjallabak",
+      "value": "environ 470 km², créée en 1979"
+    },
+    {
+      "label": "Caldeira du Torfajökull",
+      "value": "environ 12 km sur 18 km"
+    },
+    {
+      "label": "Champ géothermique",
+      "value": "le plus étendu d'Islande"
+    },
+    {
+      "label": "Dernière éruption",
+      "value": "1477, laves de Laugahraun et de Námshraun"
+    },
+    {
+      "label": "Altitude du site des bains",
+      "value": "environ 600 m"
+    },
+    {
+      "label": "Brennisteinsalda",
+      "value": "855 m"
+    },
+    {
+      "label": "Sentier du Laugavegur",
+      "value": "environ 55 km jusqu'à Þórsmörk"
+    }
   ],
   "geology": {
     "age": "Système volcanique actif au Quaternaire, dômes rhyolitiques sous-glaciaires pléistocènes, coulées historiques de 1477",
-    "processes": ["fusion partielle de croûte basaltique hydratée", "cristallisation fractionnée", "volcanisme sous-glaciaire confiné", "altération hydrothermale acide", "volcanisme fissural phréatomagmatique"],
-    "rock_types": ["rhyolite", "obsidienne", "perlite", "tuf et hyaloclastite", "basalte tholéiitique"],
+    "processes": [
+      "fusion partielle de croûte basaltique hydratée",
+      "cristallisation fractionnée",
+      "volcanisme sous-glaciaire confiné",
+      "altération hydrothermale acide",
+      "volcanisme fissural phréatomagmatique"
+    ],
+    "rock_types": [
+      "rhyolite",
+      "obsidienne",
+      "perlite",
+      "tuf et hyaloclastite",
+      "basalte tholéiitique"
+    ],
     "volcanic": {
       "gvp_number": "372050",
       "type": "Caldeira à dômes rhyolitiques, système central Torfajökull",
@@ -82,24 +158,91 @@
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Mousse volcanique", "name_sci": "Racomitrium lanuginosum", "group": "bryophyte", "note": "Tapis pionnier sur laves, détruit par un simple piétinement répété." },
-      { "name_fr": "Silène acaule", "name_sci": "Silene acaulis", "group": "plante", "note": "Coussinets sur les sols minéraux instables." },
-      { "name_fr": "Pluvier doré", "name_sci": "Pluvialis apricaria", "group": "oiseau", "iucn_status": "LC" },
-      { "name_fr": "Renard polaire", "name_sci": "Vulpes lagopus", "group": "mammifère", "iucn_status": "LC" },
-      { "name_fr": "Communautés microbiennes thermophiles", "name_sci": null, "group": "microorganisme", "note": "Tapis bactériens et archéens des sources acides chaudes." }
+      {
+        "name_fr": "Mousse volcanique",
+        "name_sci": "Racomitrium lanuginosum",
+        "group": "bryophyte",
+        "note": "Tapis pionnier sur laves, détruit par un simple piétinement répété."
+      },
+      {
+        "name_fr": "Silène acaule",
+        "name_sci": "Silene acaulis",
+        "group": "plante",
+        "note": "Coussinets sur les sols minéraux instables."
+      },
+      {
+        "name_fr": "Pluvier doré",
+        "name_sci": "Pluvialis apricaria",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Renard polaire",
+        "name_sci": "Vulpes lagopus",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Communautés microbiennes thermophiles",
+        "name_sci": null,
+        "group": "microorganisme",
+        "note": "Tapis bactériens et archéens des sources acides chaudes."
+      }
     ],
     "endemism_level": "faible",
     "endemism_note": "Flore et faune postglaciaires très récentes, mais les milieux géothermiques abritent des lignées microbiennes localement différenciées et encore mal inventoriées.",
     "species_counts": null
   },
   "seasonality": {
-    "best_months": [7, 8],
-    "avoid_months": [10, 11, 12, 1, 2, 3, 4, 5],
+    "best_months": [
+      7,
+      8
+    ],
+    "avoid_months": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
     "phenomena": [
-      { "label": "Ouverture des pistes de haute terre et des gués", "kind": "autre", "months": [6, 7], "note": "Date variable chaque année selon la fonte, décidée par l'administration des routes." },
-      { "label": "Fonte des névés, torrents en crue", "kind": "fonte", "months": [6, 7] },
-      { "label": "Refuges gardés et sentier du Laugavegur praticable", "kind": "autre", "months": [7, 8, 9] },
-      { "label": "Premières neiges et fermeture progressive", "kind": "autre", "months": [9, 10] }
+      {
+        "label": "Ouverture des pistes de haute terre et des gués",
+        "kind": "autre",
+        "months": [
+          6,
+          7
+        ],
+        "note": "Date variable chaque année selon la fonte, décidée par l'administration des routes."
+      },
+      {
+        "label": "Fonte des névés, torrents en crue",
+        "kind": "fonte",
+        "months": [
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Refuges gardés et sentier du Laugavegur praticable",
+        "kind": "autre",
+        "months": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Premières neiges et fermeture progressive",
+        "kind": "autre",
+        "months": [
+          9,
+          10
+        ]
+      }
     ],
     "notes": "La fenêtre utile se limite le plus souvent à juillet, août et le début septembre. Hors de cette période, la région est enneigée et les pistes fermées."
   },
@@ -107,7 +250,12 @@
     "accessibility": "difficile",
     "suggested_duration": "2 à 4 jours, davantage pour le Laugavegur",
     "difficulty": "Pistes de haute terre avec gués obligatoires, absence de couverture réseau, météo pouvant changer en quelques heures même en août.",
-    "extreme_conditions": ["gués de rivières glaciaires", "tempêtes de vent et de sable", "neige possible en plein été", "sols brûlants près des évents"],
+    "extreme_conditions": [
+      "gués de rivières glaciaires",
+      "tempêtes de vent et de sable",
+      "neige possible en plein été",
+      "sols brûlants près des évents"
+    ],
     "permits": "Aucun permis, mais le bivouac est limité aux emplacements désignés et l'accès aux pistes dépend de leur ouverture officielle.",
     "rules": [
       "Camper uniquement sur les aires prévues, le bivouac libre est interdit dans la réserve.",
@@ -125,20 +273,81 @@
     "state": "La réserve bénéficie d'un statut ancien et d'un accès naturellement limité par la neige, ce qui a longtemps suffi à la protéger. La croissance du tourisme islandais depuis les années 2010 a changé l'équilibre : le site est devenu la porte d'entrée d'un des sentiers de randonnée les plus fréquentés d'Europe du Nord, avec un afflux concentré sur huit à dix semaines. Les sols d'argile issue de l'altération hydrothermale sont parmi les plus vulnérables au piétinement que l'on connaisse, et les tapis de mousse ne se reconstituent pas à l'échelle d'une vie humaine. La question récurrente de la construction d'une route revêtue ou d'infrastructures permanentes dans les hautes terres reste ouverte, de même que celle des projets hydroélectriques et géothermiques en périphérie.",
     "trend": "degradation",
     "threats": [
-      { "type": "tourisme", "level": "eleve", "note": "Concentration sur une saison très courte et sur un site unique, érosion des sentiers et des sols d'altération." },
-      { "type": "urbanisation", "level": "modere", "note": "Pression pour améliorer les pistes, agrandir les aires de stationnement et les hébergements." },
-      { "type": "climat", "level": "modere", "note": "Recul de la calotte du Torfajökull et allongement de la saison d'accès." },
-      { "type": "extraction", "level": "faible", "note": "Projets géothermiques et hydroélectriques envisagés en marge de la réserve." }
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Concentration sur une saison très courte et sur un site unique, érosion des sentiers et des sols d'altération."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Pression pour améliorer les pistes, agrandir les aires de stationnement et les hébergements."
+      },
+      {
+        "type": "climat",
+        "level": "modere",
+        "note": "Recul de la calotte du Torfajökull et allongement de la saison d'accès."
+      },
+      {
+        "type": "extraction",
+        "level": "faible",
+        "note": "Projets géothermiques et hydroélectriques envisagés en marge de la réserve."
+      }
     ],
     "understand_without_going": false,
     "message": "Le sol y est le patrimoine le plus fragile, davantage que le paysage. Sortir du sentier de quelques mètres pour une photographie laisse une cicatrice visible pendant des décennies sur les versants d'argile."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Landmannalaugar rhyolite mountains Iceland"
+  },
   "sources": [
-    { "title": "Torfajökull, fiche du volcan", "publisher": "Global Volcanism Program, Smithsonian Institution", "url": "https://volcano.si.edu/volcano.cfm?vn=372050", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Torfajökull, catalogue des volcans islandais", "publisher": "Icelandic Volcanoes, Veðurstofa Íslands et Université d'Islande", "url": "https://icelandicvolcanoes.is/?vnum=372050", "type": "scientifique", "accessed": "2026-08-22" },
-    { "title": "Fjallabak Nature Reserve", "publisher": "Visit South Iceland", "url": "https://www.south.is/en/place/fridland-ad-fjallabaki-nature-reserve", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Subglacial rhyolite volcanism at Torfajökull, Iceland", "publisher": "Open Research Online, Open University", "url": "https://oro.open.ac.uk/54438", "type": "scientifique", "accessed": "2026-08-22" }
+    {
+      "title": "Torfajökull, fiche du volcan",
+      "publisher": "Global Volcanism Program, Smithsonian Institution",
+      "url": "https://volcano.si.edu/volcano.cfm?vn=372050",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Torfajökull, catalogue des volcans islandais",
+      "publisher": "Icelandic Volcanoes, Veðurstofa Íslands et Université d'Islande",
+      "url": "https://icelandicvolcanoes.is/?vnum=372050",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Fjallabak Nature Reserve",
+      "publisher": "Visit South Iceland",
+      "url": "https://www.south.is/en/place/fridland-ad-fjallabaki-nature-reserve",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Subglacial rhyolite volcanism at Torfajökull, Iceland",
+      "publisher": "Open Research Online, Open University",
+      "url": "https://oro.open.ac.uk/54438",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 5, "singularite": 5, "rarete": 5, "diversite": 3, "integrite": 4, "monumentalite": 3, "actif": 4, "biologique": 2, "photogenie": 5, "pedagogie": 5, "conservation": 3, "complementarite": 5 }, "total": 118, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 5,
+      "rarete": 5,
+      "diversite": 3,
+      "integrite": 4,
+      "monumentalite": 3,
+      "actif": 4,
+      "biologique": 2,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 3,
+      "complementarite": 5
+    },
+    "total": 118,
+    "scored_on": "2026-08-22"
+  }
 }

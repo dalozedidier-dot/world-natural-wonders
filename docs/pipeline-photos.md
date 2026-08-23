@@ -2,6 +2,14 @@
 
 Version 1.0 · 2026-08-22
 
+## Deux régimes
+
+**Aujourd'hui, chargement à l'exécution.** Le navigateur du visiteur interroge l'API Wikimedia Commons et affiche la première image acceptable pour chaque lieu. Le module `src/scripts/photos.ts` rejette toute licence portant NC ou ND, ne retient que CC0, domaine public, CC BY et CC BY-SA, écarte les cartes, schémas et logos par leur titre, exige au moins 1 200 pixels de large et un rapport compris entre 1,2 et 2,6, puis affiche l'auteur et la licence sous l'image. Les résultats sont mis en cache dans la session. La requête employée par lieu est le champ `media.query` de sa fiche, ce qui permet de la corriger au cas par cas.
+
+Avantage : le site est illustré immédiatement, sans un octet d'image dans le dépôt. Limite : dépendance à la disponibilité de Commons, et vérification des licences automatique et non humaine.
+
+**Cible, téléchargement au build.** Dès qu'une entrée existe au manifeste pour un lieu, elle l'emporte sur le chargement à l'exécution, et aucun appel réseau n'est fait pour ce lieu. C'est le régime décrit ci-dessous.
+
 ## Choix retenu
 
 Téléchargement au moment de la construction, manifeste de licences versionné. Le dépôt ne dépend d'aucun appel réseau à l'affichage, ce qui garantit la stabilité, la performance et surtout la traçabilité juridique.

@@ -3,6 +3,7 @@ import 'maplibre-gl/dist/maplibre-gl.css';
 import { darkStyle, addTerrain } from './basemap';
 import { readState, writeState, asArray } from './urlstate';
 import { read as readLists, toggle as toggleList } from './store';
+import { illustrateOnScroll } from './photos';
 
 interface Lite {
   id: string; name: string; country: string; region: string; family: string;
@@ -225,7 +226,7 @@ async function init(root: HTMLElement) {
     }
     listEl.innerHTML = items.map(p => `
       <button class="result" data-open="${p.id}" type="button">
-        <span class="thumb">${p.hero ? `<img src="${src(p.hero, BASE)}" alt="" loading="lazy" decoding="async">` : ''}<span class="fam" style="background:${colors[p.family] || '#888'}"></span></span>
+        <span class="thumb">${p.hero ? `<img src="${src(p.hero, BASE)}" alt="" loading="lazy" decoding="async"${p.hasPhoto ? '' : ` data-illustrate="${esc(p.q || p.name)}"`}>` : ''}<span class="fam" style="background:${colors[p.family] || '#888'}"></span></span>
         <span>
           <h3>${esc(p.name)}${p.essential ? ' <span aria-label="incontournable">✦</span>' : ''}</h3>
           <p>${esc(p.country)}</p>
@@ -233,6 +234,7 @@ async function init(root: HTMLElement) {
       </button>`).join('');
     listEl.querySelectorAll<HTMLButtonElement>('[data-open]').forEach(b =>
       b.addEventListener('click', () => select(b.dataset.open!, true)));
+    illustrateOnScroll(listEl);
   }
 
   // ---- panneau ----
@@ -256,6 +258,7 @@ async function init(root: HTMLElement) {
       const res = await fetch(`${BASE}/donnees/lieux/${id}.json`);
       panelBody.innerHTML = renderSheet(await res.json(), BASE);
       wireSheet(panelBody, id);
+      illustrateOnScroll(panelBody);
       panelBody.scrollTop = 0;
     } catch {
       panelBody.innerHTML = `<div style="padding:2rem" class="muted">Fiche indisponible. <a href="${BASE}/lieux/${id}">Ouvrir la page complète</a>.</div>`;
@@ -312,8 +315,9 @@ function renderSheet(p: any, BASE: string): string {
     `<li><a href="${s.url}" target="_blank" rel="noopener">${esc(s.title)}</a>${s.publisher ? ` <span class="muted">${esc(s.publisher)}</span>` : ''}</li>`).join('');
 
   return `
-  <div class="sheet-hero">
-    ${hero ? `<img src="${src(hero.src, BASE)}" alt="${esc(hero.alt || '')}">` : ''}
+  <div class="sheet-hero" data-credit-holder>
+    ${hero ? `<img src="${src(hero.src, BASE)}" alt="${esc(hero.alt || '')}"${hero.generated ? ` data-illustrate="${esc(p.media?.query || p.identity.name_fr)}"` : ''}>` : ''}
+    ${hero && hero.generated ? `<p class="credit" data-credit></p>` : ''}
     ${hero && !hero.generated ? `<p class="credit">${esc(hero.author)} · <a href="${hero.source_page}" target="_blank" rel="noopener">${esc(hero.license)} ${esc(hero.license_version)}</a></p>` : ''}
   </div>
   <div class="sheet-inner">

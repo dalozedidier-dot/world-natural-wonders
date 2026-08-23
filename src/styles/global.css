@@ -180,18 +180,15 @@ button { cursor: pointer; }
   width: clamp(26rem, 46vw, 52rem); aspect-ratio: 1; border-radius: 50%;
   filter: drop-shadow(0 0 90px rgba(120, 190, 200, .16));
 }
-.scene-orb > * { position: absolute; inset: 0; border-radius: 50%; }
-#globe { background: transparent; z-index: 2; }
-#globe:empty { display: none; }
-.orb-fallback { z-index: 1; width: 100%; height: 100%; }
-.maplibregl-map { background: transparent !important; }
+.scene-orb > * { position: absolute; inset: 0; }
+.orb { width: 100%; height: 100%; }
 
 /* crêtes superposées, du plus lointain au plus proche */
 .scene-ridge { position: absolute; left: 0; width: 100%; display: block; }
 .scene-ridge { z-index: 3; }
-.ridge-3 { bottom: 18%; height: 32%; opacity: .55; }
-.ridge-2 { bottom: 8%;  height: 32%; opacity: .8; }
-.ridge-1 { bottom: 0;   height: 27%; opacity: .97; }
+.ridge-3 { bottom: 18%; height: 32%; opacity: .38; }
+.ridge-2 { bottom: 8%;  height: 32%; opacity: .6; }
+.ridge-1 { bottom: 0;   height: 27%; opacity: .88; }
 
 .scene-grain {
   position: absolute; inset: 0; z-index: 4; pointer-events: none; opacity: .045; mix-blend-mode: overlay;
@@ -202,7 +199,7 @@ button { cursor: pointer; }
 .scene-veil {
   position: absolute; inset: 0; z-index: 5; pointer-events: none;
   background:
-    linear-gradient(102deg, rgba(3, 9, 9, .96) 0%, rgba(3, 9, 9, .88) 26%, rgba(3, 9, 9, .48) 52%, rgba(3, 9, 9, .12) 74%, transparent 92%),
+    linear-gradient(102deg, rgba(3, 9, 9, .97) 0%, rgba(3, 9, 9, .92) 28%, rgba(3, 9, 9, .6) 50%, rgba(3, 9, 9, .22) 72%, rgba(3, 9, 9, .05) 92%),
     linear-gradient(to bottom, rgba(3, 9, 9, .7) 0 10%, rgba(3, 9, 9, .18) 28%, rgba(3, 9, 9, .35) 62%, var(--ink-900) 100%);
 }
 @media (max-width: 860px) {
@@ -529,7 +526,7 @@ details.refine > summary:hover { color: var(--paper); }
 .slide img {
   width: 100%; height: 100%; object-fit: cover; display: block;
   transform: scale(1.06); transform-origin: 58% 45%;
-  filter: saturate(.88) contrast(1.06) brightness(.62);
+  filter: saturate(.96) contrast(1.04) brightness(.86);
 }
 .slide[data-active="true"] { opacity: 1; }
 .slide[data-active="true"] img { animation: kenburns 22s ease-out forwards; }

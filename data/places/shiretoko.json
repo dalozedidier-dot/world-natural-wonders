@@ -7,22 +7,42 @@
     "name_fr": "Péninsule de Shiretoko",
     "name_official": "Shiretoko",
     "name_local": [
-      { "lang": "ja", "value": "知床半島", "note": "Shiretoko-hantō, la péninsule de Shiretoko." }
+      {
+        "lang": "ja",
+        "value": "知床半島",
+        "note": "Shiretoko-hantō, la péninsule de Shiretoko."
+      }
     ],
     "name_indigenous": [
-      { "people": "Aïnous", "value": "sir etok", "meaning": "L'extrémité de la terre, origine du toponyme japonais." }
+      {
+        "people": "Aïnous",
+        "value": "sir etok",
+        "meaning": "L'extrémité de la terre, origine du toponyme japonais."
+      }
     ],
-    "aka": ["Shiretoko-hantō", "Parc national de Shiretoko"]
+    "aka": [
+      "Shiretoko-hantō",
+      "Parc national de Shiretoko"
+    ]
   },
   "location": {
-    "countries": ["JP"],
-    "country_labels": ["Japon"],
+    "countries": [
+      "JP"
+    ],
+    "country_labels": [
+      "Japon"
+    ],
     "subdivision": "Hokkaidō, sous-préfectures d'Okhotsk et de Nemuro",
     "region": "asie",
     "lat": 44.15,
     "lng": 145.15,
     "coordinate_precision": "site",
-    "bbox": [144.85, 43.85, 145.4, 44.35],
+    "bbox": [
+      144.85,
+      43.85,
+      145.4,
+      44.35
+    ],
     "area_km2": 711,
     "elevation_min_m": 0,
     "elevation_max_m": 1661,
@@ -31,24 +51,69 @@
   },
   "landscape": {
     "primary": "falaise",
-    "types": ["falaise", "foret-temperee", "volcan", "ocean"],
+    "types": [
+      "falaise",
+      "foret-temperee",
+      "volcan",
+      "ocean"
+    ],
     "family": "cote",
-    "iucn_ecosystem": ["T2.3 Forêts boréales et subalpines", "M1.1 Plateaux continentaux", "M2.1 Banquises et glaces de mer saisonnières"],
+    "iucn_ecosystem": [
+      "T2.3 Forêts boréales et subalpines",
+      "M1.1 Plateaux continentaux",
+      "M2.1 Banquises et glaces de mer saisonnières"
+    ],
     "biome": "Forêts mixtes et de conifères d'Asie du Nord-Est, marge de banquise saisonnière",
     "climate": "Dfb à Dfc, influence de la mer d'Okhotsk",
-    "collections": ["mondes-de-glace", "bouts-du-monde", "grands-rassemblements"]
+    "collections": [
+      "mondes-de-glace",
+      "bouts-du-monde",
+      "grands-rassemblements"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-whs", "name": "Shiretoko", "ref": "1193", "since": 2005, "criteria": ["ix", "x"], "url": "https://whc.unesco.org/fr/list/1193/" },
-      { "type": "national-park", "name": "Parc national de Shiretoko", "ref": null, "since": 1964 },
-      { "type": "ramsar", "name": "Shiretoko", "ref": null, "since": 2005 },
-      { "type": "marine-protected", "name": "Composante marine du bien, jusqu'à 3 km au large", "ref": null, "since": 2005 }
+      {
+        "type": "unesco-whs",
+        "name": "Shiretoko",
+        "ref": "1193",
+        "since": 2005,
+        "criteria": [
+          "ix",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/1193/"
+      },
+      {
+        "type": "national-park",
+        "name": "Parc national de Shiretoko",
+        "ref": null,
+        "since": 1964
+      },
+      {
+        "type": "ramsar",
+        "name": "Shiretoko",
+        "ref": null,
+        "since": 2005
+      },
+      {
+        "type": "marine-protected",
+        "name": "Composante marine du bien, jusqu'à 3 km au large",
+        "ref": null,
+        "since": 2005
+      }
     ],
-    "managing_body": { "name": "Ministère de l'Environnement du Japon, avec l'Agence des forêts et les administrations de Hokkaidō, Shari et Rausu", "url": "https://www.env.go.jp/en/" }
+    "managing_body": {
+      "name": "Ministère de l'Environnement du Japon, avec l'Agence des forêts et les administrations de Hokkaidō, Shari et Rausu",
+      "url": "https://www.env.go.jp/en/"
+    }
   },
   "editorial": {
-    "badges": ["ecosysteme-majeur", "unique-au-monde", "tres-sauvage"],
+    "badges": [
+      "ecosysteme-majeur",
+      "unique-au-monde",
+      "tres-sauvage"
+    ],
     "essential": false,
     "lede": "Une lame de volcans plongeant dans la mer d'Okhotsk, où la banquise la plus méridionale de l'hémisphère nord vient chaque hiver déposer la nourriture qui finira dans l'estomac des ours.",
     "why_here": "Shiretoko démontre une chose difficile à voir ailleurs : le lien direct et mesurable entre un phénomène physique, la formation de glace de mer, et la structure d'une chaîne alimentaire complète. La glace dérivante arrive ici vers 44 degrés de latitude nord, anomalie qui tient au dessalement de la mer d'Okhotsk par un très grand fleuve. Elle transporte des nutriments, déclenche au printemps une floraison de phytoplancton, et cette production remonte par le zooplancton, les poissons et les saumons jusqu'aux ours bruns et aux pygargues. Le site apporte à la sélection un cas rare de continuité explicite entre océanographie et écologie terrestre, sur une péninsule dont le cœur reste sans route.",
@@ -65,19 +130,53 @@
     ]
   },
   "figures": [
-    { "label": "Bien inscrit au patrimoine mondial", "value": "71 100 ha, 2005, critères ix et x" },
-    { "label": "Composante marine", "value": "jusqu'à 3 km au large" },
-    { "label": "Longueur de la péninsule", "value": "environ 70 km" },
-    { "label": "Point culminant", "value": "Rausu-dake, 1 661 m" },
-    { "label": "Latitude", "value": "environ 44° nord" },
-    { "label": "Glace dérivante à la côte", "value": "généralement de janvier à mars" },
-    { "label": "Parc national", "value": "créé en 1964" },
-    { "label": "Hauteur des falaises d'Okhotsk", "value": "de 100 à 200 m" }
+    {
+      "label": "Bien inscrit au patrimoine mondial",
+      "value": "71 100 ha, 2005, critères ix et x"
+    },
+    {
+      "label": "Composante marine",
+      "value": "jusqu'à 3 km au large"
+    },
+    {
+      "label": "Longueur de la péninsule",
+      "value": "environ 70 km"
+    },
+    {
+      "label": "Point culminant",
+      "value": "Rausu-dake, 1 661 m"
+    },
+    {
+      "label": "Latitude",
+      "value": "environ 44° nord"
+    },
+    {
+      "label": "Glace dérivante à la côte",
+      "value": "généralement de janvier à mars"
+    },
+    {
+      "label": "Parc national",
+      "value": "créé en 1964"
+    },
+    {
+      "label": "Hauteur des falaises d'Okhotsk",
+      "value": "de 100 à 200 m"
+    }
   ],
   "geology": {
     "age": "Soubassement volcano-sédimentaire miocène et pliocène, édifices volcaniques quaternaires encore actifs",
-    "processes": ["subduction et volcanisme d'arc", "erosion marine des plateaux de lave", "gelifraction et avalanches", "soulevement et terrasses marines"],
-    "rock_types": ["andésite", "dacite", "tufs et brèches volcaniques", "dépôts volcano-sédimentaires marins"],
+    "processes": [
+      "subduction et volcanisme d'arc",
+      "erosion marine des plateaux de lave",
+      "gelifraction et avalanches",
+      "soulevement et terrasses marines"
+    ],
+    "rock_types": [
+      "andésite",
+      "dacite",
+      "tufs et brèches volcaniques",
+      "dépôts volcano-sédimentaires marins"
+    ],
     "volcanic": {
       "gvp_number": null,
       "type": "Stratovolcans et dômes d'arc insulaire, alignement Rausu-dake, Shiretoko-dake, Io-zan",
@@ -87,26 +186,107 @@
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Ours brun", "name_sci": "Ursus arctos yesoensis", "group": "mammifère", "iucn_status": "LC", "note": "Densité parmi les plus élevées au monde, liée à la ressource en saumons." },
-      { "name_fr": "Pygargue empereur", "name_sci": "Haliaeetus pelagicus", "group": "oiseau", "iucn_status": "VU", "note": "Également appelé aigle de mer de Steller, hivernant sur la lisière de glace." },
-      { "name_fr": "Pygargue à queue blanche", "name_sci": "Haliaeetus albicilla", "group": "oiseau", "iucn_status": "LC" },
-      { "name_fr": "Kétoupa de Blakiston", "name_sci": "Ketupa blakistoni", "group": "oiseau", "iucn_status": "EN", "note": "Chouette pêcheuse des forêts riveraines, population japonaise très réduite." },
-      { "name_fr": "Saumon kéta", "name_sci": "Oncorhynchus keta", "group": "poisson", "note": "Vecteur du transfert de nutriments marins vers la forêt." },
-      { "name_fr": "Otarie de Steller", "name_sci": "Eumetopias jubatus", "group": "mammifère", "iucn_status": "NT" }
+      {
+        "name_fr": "Ours brun",
+        "name_sci": "Ursus arctos yesoensis",
+        "group": "mammifère",
+        "iucn_status": "LC",
+        "note": "Densité parmi les plus élevées au monde, liée à la ressource en saumons."
+      },
+      {
+        "name_fr": "Pygargue empereur",
+        "name_sci": "Haliaeetus pelagicus",
+        "group": "oiseau",
+        "iucn_status": "VU",
+        "note": "Également appelé aigle de mer de Steller, hivernant sur la lisière de glace."
+      },
+      {
+        "name_fr": "Pygargue à queue blanche",
+        "name_sci": "Haliaeetus albicilla",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Kétoupa de Blakiston",
+        "name_sci": "Ketupa blakistoni",
+        "group": "oiseau",
+        "iucn_status": "EN",
+        "note": "Chouette pêcheuse des forêts riveraines, population japonaise très réduite."
+      },
+      {
+        "name_fr": "Saumon kéta",
+        "name_sci": "Oncorhynchus keta",
+        "group": "poisson",
+        "note": "Vecteur du transfert de nutriments marins vers la forêt."
+      },
+      {
+        "name_fr": "Otarie de Steller",
+        "name_sci": "Eumetopias jubatus",
+        "group": "mammifère",
+        "iucn_status": "NT"
+      }
     ],
     "endemism_level": "faible",
     "endemism_note": "Faune et flore d'affinité nord-asiatique, avec des sous-espèces propres à Hokkaidō plutôt qu'un endémisme strict. La valeur du site tient à la productivité et à l'intégrité des chaînes trophiques, non à la singularité taxonomique.",
     "species_counts": null
   },
   "seasonality": {
-    "best_months": [2, 6, 7, 9, 10],
-    "avoid_months": [4, 11],
+    "best_months": [
+      2,
+      6,
+      7,
+      9,
+      10
+    ],
+    "avoid_months": [
+      4,
+      11
+    ],
     "phenomena": [
-      { "label": "Glace dérivante à la côte", "kind": "glace", "months": [1, 2, 3], "note": "Arrivée et durée variables d'une année à l'autre, avec une tendance au raccourcissement." },
-      { "label": "Floraison planctonique après la débâcle", "kind": "fonte", "months": [4, 5] },
-      { "label": "Remontée des saumons et concentration des ours en rivière", "kind": "migration", "months": [8, 9, 10] },
-      { "label": "Concentration hivernale des pygargues sur la lisière de glace", "kind": "migration", "months": [1, 2, 3] },
-      { "label": "Couleurs d'automne sur les versants forestiers", "kind": "couleurs", "months": [9, 10] }
+      {
+        "label": "Glace dérivante à la côte",
+        "kind": "glace",
+        "months": [
+          1,
+          2,
+          3
+        ],
+        "note": "Arrivée et durée variables d'une année à l'autre, avec une tendance au raccourcissement."
+      },
+      {
+        "label": "Floraison planctonique après la débâcle",
+        "kind": "fonte",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Remontée des saumons et concentration des ours en rivière",
+        "kind": "migration",
+        "months": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Concentration hivernale des pygargues sur la lisière de glace",
+        "kind": "migration",
+        "months": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Couleurs d'automne sur les versants forestiers",
+        "kind": "couleurs",
+        "months": [
+          9,
+          10
+        ]
+      }
     ],
     "notes": "Février est la fenêtre de la glace dérivante, l'été et le début de l'automne celle des sentiers et de la navigation côtière. Le col routier de la péninsule est fermé une grande partie de l'hiver et du printemps."
   },
@@ -114,7 +294,11 @@
     "accessibility": "modere",
     "suggested_duration": "3 à 4 jours",
     "difficulty": "Accès routier et maritime aisé sur les deux versants, mais partie terminale de la péninsule sans route, réservée à la navigation ou à une marche engagée en terrain à ours.",
-    "extreme_conditions": ["froid et vent violents en hiver", "présence dense d'ours bruns", "houle et glace bloquant la navigation"],
+    "extreme_conditions": [
+      "froid et vent violents en hiver",
+      "présence dense d'ours bruns",
+      "houle et glace bloquant la navigation"
+    ],
     "permits": "Enregistrement et règles d'accompagnement obligatoires sur certains secteurs, notamment le plateau des cinq lacs pendant la période d'activité des ours.",
     "rules": [
       "Suivre le système d'accès encadré du plateau des cinq lacs, imposé selon la période et la présence d'ours.",
@@ -131,22 +315,93 @@
     "state": "L'intégrité écologique est remarquable pour une péninsule située dans un pays densément peuplé : la partie terminale n'est pas desservie par la route, les chaînes trophiques sont complètes et les grands prédateurs sont présents en effectifs naturels. Les points de vigilance sont identifiés et suivis : surabondance du cerf sika, ouvrages de rivière entravant la montaison des saumons, interactions entre ours et visiteurs le long de la route côtière, articulation entre la pêche côtière et la protection marine. La réduction de la banquise constitue la menace de fond, car elle attaque la base même du fonctionnement du site.",
     "trend": "stable",
     "threats": [
-      { "type": "climat", "level": "eleve", "note": "Diminution de l'étendue et de la durée de la glace de mer en mer d'Okhotsk, avec effet en cascade sur la productivité." },
-      { "type": "tourisme", "level": "modere", "note": "Concentration sur quelques sites et sur la route côtière, avec risque d'accoutumance des ours." },
-      { "type": "hydro", "level": "modere", "note": "Barrages et seuils de rivière limitant la montaison des saumons, plusieurs ouvrages modifiés depuis l'inscription." },
-      { "type": "peche", "level": "modere", "note": "Conciliation entre pêche côtière traditionnelle et objectifs de la composante marine du bien." },
-      { "type": "surpaturage", "level": "modere", "note": "Pression du cerf sika sur la strate herbacée et la régénération forestière." }
+      {
+        "type": "climat",
+        "level": "eleve",
+        "note": "Diminution de l'étendue et de la durée de la glace de mer en mer d'Okhotsk, avec effet en cascade sur la productivité."
+      },
+      {
+        "type": "tourisme",
+        "level": "modere",
+        "note": "Concentration sur quelques sites et sur la route côtière, avec risque d'accoutumance des ours."
+      },
+      {
+        "type": "hydro",
+        "level": "modere",
+        "note": "Barrages et seuils de rivière limitant la montaison des saumons, plusieurs ouvrages modifiés depuis l'inscription."
+      },
+      {
+        "type": "peche",
+        "level": "modere",
+        "note": "Conciliation entre pêche côtière traditionnelle et objectifs de la composante marine du bien."
+      },
+      {
+        "type": "surpaturage",
+        "level": "modere",
+        "note": "Pression du cerf sika sur la strate herbacée et la régénération forestière."
+      }
     ],
     "understand_without_going": false,
     "message": "Shiretoko se lit d'abord depuis la mer, là où la glace, le plancton et les saumons rendent visible la chaîne qui aboutit à l'ours. Février et septembre racontent deux moitiés du même mécanisme."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Shiretoko Peninsula drift ice Hokkaido"
+  },
   "sources": [
-    { "title": "Shiretoko", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/1193/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Shiretoko, World Heritage Datasheet", "publisher": "UNEP-WCMC", "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/shiretoko/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Shiretoko, World Heritage Outlook", "publisher": "UICN", "url": "https://worldheritageoutlook.iucn.org/node/1138", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Shiretoko, patrimoine mondial", "publisher": "Japan National Tourism Organization", "url": "https://www.japan.travel/en/world-heritage/shiretoko/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Shiretoko National Park", "publisher": "Wikipédia en anglais", "url": "https://en.wikipedia.org/wiki/Shiretoko_National_Park", "type": "encyclopedique", "accessed": "2026-08-22" }
+    {
+      "title": "Shiretoko",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1193/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Shiretoko, World Heritage Datasheet",
+      "publisher": "UNEP-WCMC",
+      "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/shiretoko/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Shiretoko, World Heritage Outlook",
+      "publisher": "UICN",
+      "url": "https://worldheritageoutlook.iucn.org/node/1138",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Shiretoko, patrimoine mondial",
+      "publisher": "Japan National Tourism Organization",
+      "url": "https://www.japan.travel/en/world-heritage/shiretoko/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Shiretoko National Park",
+      "publisher": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Shiretoko_National_Park",
+      "type": "encyclopedique",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 4, "singularite": 5, "rarete": 4, "diversite": 4, "integrite": 4, "monumentalite": 3, "actif": 3, "biologique": 5, "photogenie": 4, "pedagogie": 5, "conservation": 4, "complementarite": 5 }, "total": 115, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 4,
+      "singularite": 5,
+      "rarete": 4,
+      "diversite": 4,
+      "integrite": 4,
+      "monumentalite": 3,
+      "actif": 3,
+      "biologique": 5,
+      "photogenie": 4,
+      "pedagogie": 5,
+      "conservation": 4,
+      "complementarite": 5
+    },
+    "total": 115,
+    "scored_on": "2026-08-22"
+  }
 }

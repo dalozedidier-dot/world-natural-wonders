@@ -7,21 +7,41 @@
     "name_fr": "Mont Huangshan",
     "name_official": "Mont Huangshan",
     "name_local": [
-      { "lang": "zh", "value": "黄山" },
-      { "lang": "zh-Latn", "value": "Huangshan", "note": "La montagne Jaune, nom donné en 747 sous les Tang." }
+      {
+        "lang": "zh",
+        "value": "黄山"
+      },
+      {
+        "lang": "zh-Latn",
+        "value": "Huangshan",
+        "note": "La montagne Jaune, nom donné en 747 sous les Tang."
+      }
     ],
     "name_indigenous": null,
-    "aka": ["Montagne Jaune", "Yellow Mountain", "Yishan"]
+    "aka": [
+      "Montagne Jaune",
+      "Yellow Mountain",
+      "Yishan"
+    ]
   },
   "location": {
-    "countries": ["CN"],
-    "country_labels": ["Chine"],
+    "countries": [
+      "CN"
+    ],
+    "country_labels": [
+      "Chine"
+    ],
     "subdivision": "Anhui, municipalité de Huangshan",
     "region": "asie",
     "lat": 30.13,
     "lng": 118.17,
     "coordinate_precision": "site",
-    "bbox": [118.0, 30.0, 118.35, 30.25],
+    "bbox": [
+      118.0,
+      30.0,
+      118.35,
+      30.25
+    ],
     "area_km2": 160.6,
     "elevation_min_m": 500,
     "elevation_max_m": 1864,
@@ -30,31 +50,68 @@
   },
   "landscape": {
     "primary": "montagne",
-    "types": ["montagne", "formation-rocheuse", "foret-temperee"],
+    "types": [
+      "montagne",
+      "formation-rocheuse",
+      "foret-temperee"
+    ],
     "family": "relief",
-    "iucn_ecosystem": ["T2.4 Forêts tempérées de montagne", "T1.2 Forêts subtropicales humides à feuilles persistantes"],
+    "iucn_ecosystem": [
+      "T2.4 Forêts tempérées de montagne",
+      "T1.2 Forêts subtropicales humides à feuilles persistantes"
+    ],
     "biome": "Forêts subtropicales à feuilles persistantes de Chine orientale",
     "climate": "Cfa subtropical humide en bas, Cfb frais et très humide au sommet",
-    "collections": ["vertiges", "forets-primordiales", "autre-planete"]
+    "collections": [
+      "vertiges",
+      "forets-primordiales",
+      "autre-planete"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-mixte", "name": "Mont Huangshan", "ref": "547", "since": 1990, "criteria": ["ii", "vii", "x"], "url": "https://whc.unesco.org/fr/list/547/" },
-      { "type": "unesco-geopark", "name": "Géoparc mondial UNESCO du Huangshan", "since": 2004, "url": null },
-      { "type": "unesco-mab", "name": "Réserve de biosphère du Huangshan", "since": 2018, "url": null }
+      {
+        "type": "unesco-mixte",
+        "name": "Mont Huangshan",
+        "ref": "547",
+        "since": 1990,
+        "criteria": [
+          "ii",
+          "vii",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/547/"
+      },
+      {
+        "type": "unesco-geopark",
+        "name": "Géoparc mondial UNESCO du Huangshan",
+        "since": 2004,
+        "url": null
+      },
+      {
+        "type": "unesco-mab",
+        "name": "Réserve de biosphère du Huangshan",
+        "since": 2018,
+        "url": null
+      }
     ],
-    "managing_body": { "name": "Comité d'administration de la zone panoramique du Huangshan, province de l'Anhui", "url": null }
+    "managing_body": {
+      "name": "Comité d'administration de la zone panoramique du Huangshan, province de l'Anhui",
+      "url": null
+    }
   },
   "editorial": {
-    "badges": ["exceptionnel", "geologie-remarquable", "grande-nature"],
+    "badges": [
+      "exceptionnel",
+      "geologie-remarquable",
+      "grande-nature"
+    ],
     "essential": false,
     "lede": "Des dômes de granite fendus en aiguilles émergent d'une mer de nuages, avec des pins accrochés dans les fissures là où il n'y a ni sol ni terre.",
     "why_here": "Le Huangshan est le meilleur exemple mondial d'un batholite granitique mis à nu, puis débité selon deux mécanismes qui se contredisent visuellement : l'exfoliation en écailles, qui arrondit, et la fracturation verticale, qui découpe en lames et en pointes. La montagne montre les deux à quelques centaines de mètres d'écart. S'y ajoute une dynamique atmosphérique remarquablement régulière, les inversions thermiques qui remplissent les vallées de nuages plus de deux cents jours par an. Enfin, le paysage est indissociable d'une histoire culturelle qui a fondé la peinture chinoise de montagne, ce qui lui vaut une inscription mixte plutôt que purement naturelle.",
     "presentation": "Le Huangshan se dresse dans le sud de l'Anhui, à moins de trois cents kilomètres du delta du Yangzi. Le bien inscrit couvre 160,6 km², entouré d'une zone tampon de 490 km², et compte soixante douze sommets nommés, dont trois dépassent 1 800 m : le pic de la Fleur de Lotus, 1 864 m, le pic de la Clarté Céleste et le pic de la Capitale Céleste.\n\nLa montagne est faite d'une seule roche, le granite, mais elle en tire deux paysages. En bas, des dômes lisses et bombés que l'eau polit. En haut, des lames et des aiguilles séparées par des couloirs verticaux, où chaque arête isolée porte un nom depuis plus de mille ans.\n\nLes pins de Huangshan, une espèce propre aux montagnes de Chine orientale, poussent directement dans les diaclases du granite, sans horizon de sol. Leur silhouette étalée et asymétrique, façonnée par le vent et la contrainte racinaire, est devenue un motif fondateur de la peinture de paysage chinoise, du dixième siècle jusqu'à l'école du Xin'an au dix septième.\n\nLe phénomène le plus attendu reste la mer de nuages. Par temps stable, une inversion thermique plaque une couche de stratus entre 800 et 1 500 m d'altitude, et les sommets émergent d'un plancher blanc continu. Le sommet reçoit environ 2 400 mm de pluie par an et compte plus de deux cents jours de brouillard, ce qui rend le phénomène banal plutôt qu'exceptionnel.\n\nAu pied de la montagne, des sources chaudes autour de 42 °C sortent le long des fractures profondes, exploitées depuis l'époque des Tang. Escaliers de pierre, sentiers taillés et téléphériques desservent aujourd'hui l'ensemble des crêtes, avec un flux de visiteurs qui dépasse plusieurs millions par an.",
-    "geology": "Le massif est un batholite, c'est à dire un volume de magma granitique cristallisé en profondeur, mis en place au Mésozoïque lors de l'orogenèse yanshanienne. Les datations situent l'essentiel de l'intrusion autour de 130 millions d'années, avec plusieurs pulsations successives qui expliquent les variations de texture, du granite à gros feldspaths aux faciès plus fins de bordure.\n\nCe magma s'est refroidi sous plusieurs kilomètres de couverture. Le paysage actuel n'existe donc que parce que cette couverture a disparu. La surrection de la Chine du Sud au Cénozoïque, relayée par une érosion active sous climat humide, a décapé le toit du batholite et exposé le granite en surface.\n\nLa décompression qui accompagne ce déchargement produit le premier mécanisme visible : l'exfoliation. Le granite, libéré de la pression qui le comprimait, se dilate légèrement et se fend en écailles parallèles à la surface topographique. Il en résulte des dômes bombés, des voûtes et des dalles courbes, particulièrement lisibles dans les parties basses du massif.\n\nLe second mécanisme est le réseau de diaclases verticales, hérité du refroidissement du pluton et rejoué par la tectonique. Ces fractures se recoupent selon des directions préférentielles et découpent les dômes en blocs allongés. L'eau, le gel et les racines élargissent les couloirs, dégagent les blocs les uns après les autres, et transforment la voûte en un peuplement d'aiguilles et de lames. Certaines colonnes isolées, comme le rocher de la Fleur qui écrit, ne sont plus que le résidu d'un compartiment entre deux fractures.\n\nDes traces d'érosion glaciaire quaternaire ont été décrites dans le massif, sujet longuement débattu en Chine ; l'essentiel du modelé reste attribuable à la fracturation et à l'altération sous climat humide."
-    ,
-    "dynamics": "Le fonctionnement actuel est d'abord atmosphérique. La position du massif, isolé et abrupt à l'arrière du delta du Yangzi, force le soulèvement des masses d'air humides venues de l'est et entretient une nébulosité quasi permanente : environ 2 400 mm de précipitations au sommet et plus de deux cents jours de brouillard. Par nuit claire et vent faible, l'air froid s'accumule dans les vallées, une inversion thermique se met en place et retient l'humidité sous un couvercle stable, ce qui produit la mer de nuages au lever du jour. En hiver, le givre et le rime blanchissent les pins et les parois, et l'alternance gel dégel dans les diaclases reste le moteur principal de la fragmentation du granite. L'eau ruisselle vite sur une roche imperméable, ce qui explique la vigueur des torrents et la brutalité des crues sur les versants après les orages d'été."
-    ,
+    "geology": "Le massif est un batholite, c'est à dire un volume de magma granitique cristallisé en profondeur, mis en place au Mésozoïque lors de l'orogenèse yanshanienne. Les datations situent l'essentiel de l'intrusion autour de 130 millions d'années, avec plusieurs pulsations successives qui expliquent les variations de texture, du granite à gros feldspaths aux faciès plus fins de bordure.\n\nCe magma s'est refroidi sous plusieurs kilomètres de couverture. Le paysage actuel n'existe donc que parce que cette couverture a disparu. La surrection de la Chine du Sud au Cénozoïque, relayée par une érosion active sous climat humide, a décapé le toit du batholite et exposé le granite en surface.\n\nLa décompression qui accompagne ce déchargement produit le premier mécanisme visible : l'exfoliation. Le granite, libéré de la pression qui le comprimait, se dilate légèrement et se fend en écailles parallèles à la surface topographique. Il en résulte des dômes bombés, des voûtes et des dalles courbes, particulièrement lisibles dans les parties basses du massif.\n\nLe second mécanisme est le réseau de diaclases verticales, hérité du refroidissement du pluton et rejoué par la tectonique. Ces fractures se recoupent selon des directions préférentielles et découpent les dômes en blocs allongés. L'eau, le gel et les racines élargissent les couloirs, dégagent les blocs les uns après les autres, et transforment la voûte en un peuplement d'aiguilles et de lames. Certaines colonnes isolées, comme le rocher de la Fleur qui écrit, ne sont plus que le résidu d'un compartiment entre deux fractures.\n\nDes traces d'érosion glaciaire quaternaire ont été décrites dans le massif, sujet longuement débattu en Chine ; l'essentiel du modelé reste attribuable à la fracturation et à l'altération sous climat humide.",
+    "dynamics": "Le fonctionnement actuel est d'abord atmosphérique. La position du massif, isolé et abrupt à l'arrière du delta du Yangzi, force le soulèvement des masses d'air humides venues de l'est et entretient une nébulosité quasi permanente : environ 2 400 mm de précipitations au sommet et plus de deux cents jours de brouillard. Par nuit claire et vent faible, l'air froid s'accumule dans les vallées, une inversion thermique se met en place et retient l'humidité sous un couvercle stable, ce qui produit la mer de nuages au lever du jour. En hiver, le givre et le rime blanchissent les pins et les parois, et l'alternance gel dégel dans les diaclases reste le moteur principal de la fragmentation du granite. L'eau ruisselle vite sur une roche imperméable, ce qui explique la vigueur des torrents et la brutalité des crues sur les versants après les orages d'été.",
     "biodiversity_text": "La montagne conserve un étagement complet, des forêts subtropicales à feuilles persistantes du pied aux formations de conifères et aux fourrés d'altitude, avec plus de mille cinq cents espèces végétales recensées. Le pin de Huangshan, Pinus hwangshanensis, en est l'emblème : il colonise les fissures du granite et forme des peuplements ouverts au dessus de 800 m. Le massif abrite plus de trois cents espèces de vertébrés, dont le macaque du Tibet, le muntjac, la civette masquée et le pangolin de Chine, ainsi que des oiseaux de forêt de montagne comme le garrulaxe. Les gorges humides accueillent une flore de fougères et de mousses très riche, favorisée par le brouillard permanent. L'isolement altitudinal du massif dans une région de basses collines lui confère un rôle d'île écologique.",
     "in_motion": "La fréquentation est le premier facteur de changement : plusieurs millions de visites annuelles sur un réseau d'escaliers taillés, avec une usure mesurable des marches et un piétinement des sols de crête. Le pin Ying Ke, arbre emblématique du site, fait l'objet d'une surveillance individuelle permanente. Les gestionnaires ont mis en place une rotation de mise en repos de certaines zones, fermées plusieurs années pour laisser la végétation se reconstituer. Le réchauffement et la pollution atmosphérique régionale affectent la santé des pins, et les épisodes de pluies acides ont été suivis de près à partir des années 1990.",
     "guess_hints": [
@@ -65,40 +122,139 @@
     ]
   },
   "figures": [
-    { "label": "Bien inscrit", "value": "160,6 km²" },
-    { "label": "Zone tampon", "value": "490 km²" },
-    { "label": "Pic de la Fleur de Lotus", "value": "1 864 m" },
-    { "label": "Sommets nommés", "value": "72" },
-    { "label": "Âge du granite", "value": "environ 130 millions d'années" },
-    { "label": "Précipitations au sommet", "value": "environ 2 400 mm par an" },
-    { "label": "Sources chaudes", "value": "environ 42 °C" },
-    { "label": "Inscription UNESCO", "value": "1990, bien mixte, critères ii, vii et x" }
+    {
+      "label": "Bien inscrit",
+      "value": "160,6 km²"
+    },
+    {
+      "label": "Zone tampon",
+      "value": "490 km²"
+    },
+    {
+      "label": "Pic de la Fleur de Lotus",
+      "value": "1 864 m"
+    },
+    {
+      "label": "Sommets nommés",
+      "value": "72"
+    },
+    {
+      "label": "Âge du granite",
+      "value": "environ 130 millions d'années"
+    },
+    {
+      "label": "Précipitations au sommet",
+      "value": "environ 2 400 mm par an"
+    },
+    {
+      "label": "Sources chaudes",
+      "value": "environ 42 °C"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "1990, bien mixte, critères ii, vii et x"
+    }
   ],
   "geology": {
     "age": "Batholite granitique yanshanien, mise en place vers 130 Ma, exhumation et découpe au Cénozoïque",
-    "processes": ["intrusion granitique", "exhumation par erosion", "exfoliation par decompression", "fracturation verticale", "gelifraction", "alteration en milieu humide"],
-    "rock_types": ["granite", "monzogranite porphyroïde", "granite à grain fin de bordure"],
+    "processes": [
+      "intrusion granitique",
+      "exhumation par erosion",
+      "exfoliation par decompression",
+      "fracturation verticale",
+      "gelifraction",
+      "alteration en milieu humide"
+    ],
+    "rock_types": [
+      "granite",
+      "monzogranite porphyroïde",
+      "granite à grain fin de bordure"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Pin de Huangshan", "name_sci": "Pinus hwangshanensis", "group": "plante", "note": "Espèce des montagnes de Chine orientale, enracinée directement dans les diaclases du granite." },
-      { "name_fr": "Macaque du Tibet", "name_sci": "Macaca thibetana", "group": "mammifère", "iucn_status": "NT" },
-      { "name_fr": "Pangolin de Chine", "name_sci": "Manis pentadactyla", "group": "mammifère", "iucn_status": "CR" },
-      { "name_fr": "Muntjac de Reeves", "name_sci": "Muntiacus reevesi", "group": "mammifère", "iucn_status": "LC" }
+      {
+        "name_fr": "Pin de Huangshan",
+        "name_sci": "Pinus hwangshanensis",
+        "group": "plante",
+        "note": "Espèce des montagnes de Chine orientale, enracinée directement dans les diaclases du granite."
+      },
+      {
+        "name_fr": "Macaque du Tibet",
+        "name_sci": "Macaca thibetana",
+        "group": "mammifère",
+        "iucn_status": "NT"
+      },
+      {
+        "name_fr": "Pangolin de Chine",
+        "name_sci": "Manis pentadactyla",
+        "group": "mammifère",
+        "iucn_status": "CR"
+      },
+      {
+        "name_fr": "Muntjac de Reeves",
+        "name_sci": "Muntiacus reevesi",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      }
     ],
     "endemism_level": "modere",
     "endemism_note": "Massif isolé au dessus d'une région de collines basses, avec plusieurs taxons végétaux propres aux montagnes de Chine orientale.",
-    "species_counts": { "plants": 1500, "note": "Ordre de grandeur des plantes vasculaires ; plus de 300 vertébrés recensés." }
+    "species_counts": {
+      "plants": 1500,
+      "note": "Ordre de grandeur des plantes vasculaires ; plus de 300 vertébrés recensés."
+    }
   },
   "seasonality": {
-    "best_months": [4, 5, 10, 11],
-    "avoid_months": [7, 8],
+    "best_months": [
+      4,
+      5,
+      10,
+      11
+    ],
+    "avoid_months": [
+      7,
+      8
+    ],
     "phenomena": [
-      { "label": "Mer de nuages fréquente au lever du jour", "kind": "autre", "months": [11, 12, 1, 2, 3], "note": "Maximale en saison froide, quand les inversions thermiques sont les plus marquées." },
-      { "label": "Floraison des rhododendrons et des azalées d'altitude", "kind": "floraison", "months": [4, 5] },
-      { "label": "Mousson d'été, pluies intenses et orages", "kind": "mousson", "months": [6, 7] },
-      { "label": "Givre et rime sur les pins et les parois", "kind": "glace", "months": [12, 1, 2] }
+      {
+        "label": "Mer de nuages fréquente au lever du jour",
+        "kind": "autre",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "note": "Maximale en saison froide, quand les inversions thermiques sont les plus marquées."
+      },
+      {
+        "label": "Floraison des rhododendrons et des azalées d'altitude",
+        "kind": "floraison",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Mousson d'été, pluies intenses et orages",
+        "kind": "mousson",
+        "months": [
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Givre et rime sur les pins et les parois",
+        "kind": "glace",
+        "months": [
+          12,
+          1,
+          2
+        ]
+      }
     ],
     "notes": "Les vacances nationales de début mai et du début octobre saturent les escaliers et les téléphériques. La saison froide offre les meilleures conditions pour la mer de nuages, au prix du verglas."
   },
@@ -106,7 +262,11 @@
     "accessibility": "modere",
     "suggested_duration": "2 jours",
     "difficulty": "Ascension par escaliers de pierre continus, plusieurs milliers de marches, ou téléphérique ; passages de corniche exposés et étroits.",
-    "extreme_conditions": ["verglas et neige en hiver", "brouillard permanent", "vent fort sur les crêtes"],
+    "extreme_conditions": [
+      "verglas et neige en hiver",
+      "brouillard permanent",
+      "vent fort sur les crêtes"
+    ],
     "permits": null,
     "rules": [
       "Rester sur les escaliers et les sentiers pavés, les sols de crête entre les pins sont très minces et se reconstituent lentement.",
@@ -123,20 +283,81 @@
     "state": "Le bien est bien géré et son intégrité géologique n'est pas menacée. La gestion a mis en place des mesures reconnues, notamment la fermeture par rotation de secteurs mis en repos et un suivi individuel des pins remarquables. Les pressions réelles portent sur les sols de crête, la ressource en eau au sommet, le traitement des effluents des hébergements d'altitude et la qualité de l'air régionale, dont dépend la santé des peuplements de pins.",
     "trend": "stable",
     "threats": [
-      { "type": "tourisme", "level": "eleve", "note": "Plusieurs millions de visites annuelles sur un réseau d'escaliers étroit." },
-      { "type": "pollution", "level": "modere", "note": "Pollution atmosphérique régionale et épisodes de pluies acides affectant les conifères." },
-      { "type": "urbanisation", "level": "modere", "note": "Hôtels et téléphériques implantés en altitude, dans le bien ou à sa limite." },
-      { "type": "climat", "level": "modere", "note": "Stress hydrique estival et modification des conditions favorables aux pins." }
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Plusieurs millions de visites annuelles sur un réseau d'escaliers étroit."
+      },
+      {
+        "type": "pollution",
+        "level": "modere",
+        "note": "Pollution atmosphérique régionale et épisodes de pluies acides affectant les conifères."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Hôtels et téléphériques implantés en altitude, dans le bien ou à sa limite."
+      },
+      {
+        "type": "climat",
+        "level": "modere",
+        "note": "Stress hydrique estival et modification des conditions favorables aux pins."
+      }
     ],
     "understand_without_going": false,
     "message": "Une montée à pied par les escaliers apprend davantage qu'un aller retour en téléphérique : on traverse successivement les dômes d'exfoliation puis la zone découpée par les diaclases, et le changement de forme du granite se lit marche après marche."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Huangshan sea of clouds granite peaks"
+  },
   "sources": [
-    { "title": "Mont Huangshan", "publisher": "UNESCO Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/547/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Mount Huangshan, World Heritage Outlook", "publisher": "UICN", "url": "https://worldheritageoutlook.iucn.org/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Mount Huangshan", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Huang Mountains", "publisher": "Encyclopaedia Britannica", "url": "https://www.britannica.com/place/Huang-Mountains", "type": "encyclopedique", "accessed": "2026-08-22" }
+    {
+      "title": "Mont Huangshan",
+      "publisher": "UNESCO Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/547/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Mount Huangshan, World Heritage Outlook",
+      "publisher": "UICN",
+      "url": "https://worldheritageoutlook.iucn.org/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Mount Huangshan",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Huang Mountains",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/place/Huang-Mountains",
+      "type": "encyclopedique",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 5, "singularite": 3, "rarete": 3, "diversite": 3, "integrite": 3, "monumentalite": 4, "actif": 2, "biologique": 3, "photogenie": 5, "pedagogie": 4, "conservation": 3, "complementarite": 3 }, "total": 92, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 3,
+      "rarete": 3,
+      "diversite": 3,
+      "integrite": 3,
+      "monumentalite": 4,
+      "actif": 2,
+      "biologique": 3,
+      "photogenie": 5,
+      "pedagogie": 4,
+      "conservation": 3,
+      "complementarite": 3
+    },
+    "total": 92,
+    "scored_on": "2026-08-22"
+  }
 }

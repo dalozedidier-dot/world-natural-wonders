@@ -7,21 +7,41 @@
     "name_fr": "Vatnajökull et Jökulsárlón",
     "name_official": "Parc national du Vatnajökull, la nature dynamique du feu et de la glace",
     "name_local": [
-      { "lang": "is", "value": "Vatnajökulsþjóðgarður" },
-      { "lang": "is", "value": "Jökulsárlón", "note": "La lagune du fleuve glaciaire, au front du Breiðamerkurjökull." }
+      {
+        "lang": "is",
+        "value": "Vatnajökulsþjóðgarður"
+      },
+      {
+        "lang": "is",
+        "value": "Jökulsárlón",
+        "note": "La lagune du fleuve glaciaire, au front du Breiðamerkurjökull."
+      }
     ],
     "name_indigenous": null,
-    "aka": ["Vatnajökull", "Lagune glaciaire de Jökulsárlón", "Breiðamerkurjökull"]
+    "aka": [
+      "Vatnajökull",
+      "Lagune glaciaire de Jökulsárlón",
+      "Breiðamerkurjökull"
+    ]
   },
   "location": {
-    "countries": ["IS"],
-    "country_labels": ["Islande"],
+    "countries": [
+      "IS"
+    ],
+    "country_labels": [
+      "Islande"
+    ],
     "subdivision": "Austurland et Suðurland",
     "region": "europe",
     "lat": 64.35,
     "lng": -16.8,
     "coordinate_precision": "region",
-    "bbox": [-19.2, 63.9, -15.5, 65.2],
+    "bbox": [
+      -19.2,
+      63.9,
+      -15.5,
+      65.2
+    ],
     "area_km2": 14820,
     "elevation_min_m": 0,
     "elevation_max_m": 2110,
@@ -30,22 +50,57 @@
   },
   "landscape": {
     "primary": "glacier",
-    "types": ["glacier", "inlandsis", "volcan", "lac"],
+    "types": [
+      "glacier",
+      "inlandsis",
+      "volcan",
+      "lac"
+    ],
     "family": "glace",
-    "iucn_ecosystem": ["T6.1 Déserts et semi-déserts froids", "F1.1 Lacs et mares permanents d'eau douce", "M1.4 Rivages"],
+    "iucn_ecosystem": [
+      "T6.1 Déserts et semi-déserts froids",
+      "F1.1 Lacs et mares permanents d'eau douce",
+      "M1.4 Rivages"
+    ],
     "biome": "Désert glaciaire et périglaciaire subarctique",
     "climate": "ET sur la calotte, Cfc sur les marges côtières",
-    "collections": ["mondes-de-glace", "terre-de-feu", "paysages-en-transformation"]
+    "collections": [
+      "mondes-de-glace",
+      "terre-de-feu",
+      "paysages-en-transformation"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-whs", "name": "Parc national du Vatnajökull, la nature dynamique du feu et de la glace", "ref": "1604", "since": 2019, "criteria": ["viii"], "url": "https://whc.unesco.org/fr/list/1604/" },
-      { "type": "national-park", "name": "Vatnajökulsþjóðgarður", "since": 2008, "url": "https://www.vatnajokulsthjodgardur.is/en" }
+      {
+        "type": "unesco-whs",
+        "name": "Parc national du Vatnajökull, la nature dynamique du feu et de la glace",
+        "ref": "1604",
+        "since": 2019,
+        "criteria": [
+          "viii"
+        ],
+        "url": "https://whc.unesco.org/fr/list/1604/"
+      },
+      {
+        "type": "national-park",
+        "name": "Vatnajökulsþjóðgarður",
+        "since": 2008,
+        "url": "https://www.vatnajokulsthjodgardur.is/en"
+      }
     ],
-    "managing_body": { "name": "Vatnajökulsþjóðgarður, administration du parc national du Vatnajökull", "url": "https://www.vatnajokulsthjodgardur.is/en" }
+    "managing_body": {
+      "name": "Vatnajökulsþjóðgarður, administration du parc national du Vatnajökull",
+      "url": "https://www.vatnajokulsthjodgardur.is/en"
+    }
   },
   "editorial": {
-    "badges": ["exceptionnel", "geologie-remarquable", "grande-nature", "unique-au-monde"],
+    "badges": [
+      "exceptionnel",
+      "geologie-remarquable",
+      "grande-nature",
+      "unique-au-monde"
+    ],
     "essential": true,
     "lede": "Une calotte de glace de près de huit mille kilomètres carrés posée sur des volcans en activité, et à son pied une lagune née il y a moins d'un siècle, remplie des icebergs que le glacier abandonne en reculant.",
     "why_here": "Il n'existe pas d'autre endroit sur la planète où une calotte glaciaire recouvre directement une dorsale océanique émergée et un point chaud actif. Le contact entre ces deux systèmes produit un phénomène que l'on ne peut observer qu'ici à cette échelle : le jökulhlaup, vidange brutale d'un lac sous-glaciaire chauffé par une éruption, capable de libérer en quelques jours des débits comparables à ceux des plus grands fleuves du monde. Le site apporte aussi à la sélection une leçon de temps court : la lagune de Jökulsárlón n'existait pas avant les années 1930, elle est entièrement le produit du recul d'un glacier observé et mesuré. L'inscription de 2019 au titre du seul critère viii, celui des processus géologiques, dit exactement ce qui est en jeu.",
@@ -62,19 +117,55 @@
     ]
   },
   "figures": [
-    { "label": "Bien inscrit au patrimoine mondial", "value": "1 482 000 ha, soit 14 820 km²" },
-    { "label": "Surface de la calotte", "value": "environ 7 800 km²" },
-    { "label": "Épaisseur maximale de la glace", "value": "environ 900 m" },
-    { "label": "Volcans centraux sous le parc", "value": "10, dont 8 sous-glaciaires" },
-    { "label": "Point culminant", "value": "2 110 m, Hvannadalshnúkur" },
-    { "label": "Profondeur de Jökulsárlón", "value": "environ 248 m, le plus profond lac d'Islande" },
-    { "label": "Naissance de la lagune", "value": "années 1930" },
-    { "label": "Inscription UNESCO", "value": "2019, critère viii" }
+    {
+      "label": "Bien inscrit au patrimoine mondial",
+      "value": "1 482 000 ha, soit 14 820 km²"
+    },
+    {
+      "label": "Surface de la calotte",
+      "value": "environ 7 800 km²"
+    },
+    {
+      "label": "Épaisseur maximale de la glace",
+      "value": "environ 900 m"
+    },
+    {
+      "label": "Volcans centraux sous le parc",
+      "value": "10, dont 8 sous-glaciaires"
+    },
+    {
+      "label": "Point culminant",
+      "value": "2 110 m, Hvannadalshnúkur"
+    },
+    {
+      "label": "Profondeur de Jökulsárlón",
+      "value": "environ 248 m, le plus profond lac d'Islande"
+    },
+    {
+      "label": "Naissance de la lagune",
+      "value": "années 1930"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "2019, critère viii"
+    }
   ],
   "geology": {
     "age": "Substrat volcanique quaternaire et actuel, calotte reformée durant le Petit Âge glaciaire, lagune postérieure à 1930",
-    "processes": ["volcanisme sous-glaciaire", "jökulhlaup et vidange de lac sous-glaciaire", "surcreusement glaciaire sous le niveau marin", "vêlage proglaciaire", "construction de sandur", "rebond isostatique"],
-    "rock_types": ["basalte tholéiitique", "hyaloclastite", "palagonite", "moraine et sédiments fluvioglaciaires"],
+    "processes": [
+      "volcanisme sous-glaciaire",
+      "jökulhlaup et vidange de lac sous-glaciaire",
+      "surcreusement glaciaire sous le niveau marin",
+      "vêlage proglaciaire",
+      "construction de sandur",
+      "rebond isostatique"
+    ],
+    "rock_types": [
+      "basalte tholéiitique",
+      "hyaloclastite",
+      "palagonite",
+      "moraine et sédiments fluvioglaciaires"
+    ],
     "volcanic": {
       "gvp_number": "373010",
       "type": "Caldeira sous-glaciaire, système fissural",
@@ -84,24 +175,100 @@
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Phoque veau marin", "name_sci": "Phoca vitulina", "group": "mammifère", "iucn_status": "LC", "note": "Mise bas et repos sur les glaces flottantes de la lagune." },
-      { "name_fr": "Renard polaire", "name_sci": "Vulpes lagopus", "group": "mammifère", "iucn_status": "LC", "note": "Seul mammifère terrestre présent avant la colonisation humaine." },
-      { "name_fr": "Sterne arctique", "name_sci": "Sterna paradisaea", "group": "oiseau", "iucn_status": "LC" },
-      { "name_fr": "Grand labbe", "name_sci": "Stercorarius skua", "group": "oiseau", "iucn_status": "LC", "note": "Colonies sur le Skeiðarársandur." },
-      { "name_fr": "Silène acaule", "name_sci": "Silene acaulis", "group": "plante", "note": "Pionnière des moraines et sandurs récemment libérés." }
+      {
+        "name_fr": "Phoque veau marin",
+        "name_sci": "Phoca vitulina",
+        "group": "mammifère",
+        "iucn_status": "LC",
+        "note": "Mise bas et repos sur les glaces flottantes de la lagune."
+      },
+      {
+        "name_fr": "Renard polaire",
+        "name_sci": "Vulpes lagopus",
+        "group": "mammifère",
+        "iucn_status": "LC",
+        "note": "Seul mammifère terrestre présent avant la colonisation humaine."
+      },
+      {
+        "name_fr": "Sterne arctique",
+        "name_sci": "Sterna paradisaea",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Grand labbe",
+        "name_sci": "Stercorarius skua",
+        "group": "oiseau",
+        "iucn_status": "LC",
+        "note": "Colonies sur le Skeiðarársandur."
+      },
+      {
+        "name_fr": "Silène acaule",
+        "name_sci": "Silene acaulis",
+        "group": "plante",
+        "note": "Pionnière des moraines et sandurs récemment libérés."
+      }
     ],
     "endemism_level": "faible",
     "endemism_note": "Peu d'endémisme apparent en surface, mais la faune souterraine des eaux froides comprend des crustacés relictuels considérés comme ayant survécu sur place aux glaciations.",
     "species_counts": null
   },
   "seasonality": {
-    "best_months": [6, 7, 8, 9],
-    "avoid_months": [12, 1],
+    "best_months": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "avoid_months": [
+      12,
+      1
+    ],
     "phenomena": [
-      { "label": "Fonte estivale, vêlage maximal dans la lagune", "kind": "fonte", "months": [6, 7, 8], "note": "La densité d'icebergs varie fortement selon les vents et la marée." },
-      { "label": "Accès aux pistes du haut plateau et à Askja", "kind": "autre", "months": [7, 8], "note": "Ouverture tardive et fermeture précoce selon l'enneigement." },
-      { "label": "Grottes de glace accessibles sous encadrement", "kind": "glace", "months": [11, 12, 1, 2, 3], "note": "Cavités instables, formées et détruites chaque année." },
-      { "label": "Aurores boréales", "kind": "autre", "months": [9, 10, 11, 12, 1, 2, 3] }
+      {
+        "label": "Fonte estivale, vêlage maximal dans la lagune",
+        "kind": "fonte",
+        "months": [
+          6,
+          7,
+          8
+        ],
+        "note": "La densité d'icebergs varie fortement selon les vents et la marée."
+      },
+      {
+        "label": "Accès aux pistes du haut plateau et à Askja",
+        "kind": "autre",
+        "months": [
+          7,
+          8
+        ],
+        "note": "Ouverture tardive et fermeture précoce selon l'enneigement."
+      },
+      {
+        "label": "Grottes de glace accessibles sous encadrement",
+        "kind": "glace",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ],
+        "note": "Cavités instables, formées et détruites chaque année."
+      },
+      {
+        "label": "Aurores boréales",
+        "kind": "autre",
+        "months": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ]
+      }
     ],
     "notes": "La lagune est accessible toute l'année depuis la route circulaire. Le haut plateau et l'intérieur du parc ne s'ouvrent que quelques semaines en été."
   },
@@ -109,7 +276,12 @@
     "accessibility": "modere",
     "suggested_duration": "4 à 6 jours",
     "difficulty": "Bords de lagune et Skaftafell accessibles à tous, intérieur du parc réservé aux véhicules adaptés et aux sorties encadrées sur glacier.",
-    "extreme_conditions": ["crevasses", "vidanges glaciaires soudaines", "tempêtes de vent catabatique", "gués de rivières glaciaires"],
+    "extreme_conditions": [
+      "crevasses",
+      "vidanges glaciaires soudaines",
+      "tempêtes de vent catabatique",
+      "gués de rivières glaciaires"
+    ],
     "permits": "Aucun permis individuel, mais les sorties sur la calotte et dans les grottes de glace exigent un guide agréé.",
     "rules": [
       "Ne jamais monter sur les icebergs ni sur la glace flottante de la lagune, ils se retournent sans avertissement.",
@@ -126,21 +298,88 @@
     "state": "La protection réglementaire est solide et la gestion du parc dispose d'une longue expérience et d'un suivi scientifique continu. La menace n'est pas locale mais globale : la calotte perd de la masse année après année et rien dans la gestion du site ne peut inverser cette tendance. À l'échelle locale, la fréquentation s'est concentrée sur quelques points d'accès faciles depuis la route circulaire, en particulier Jökulsárlón et Skaftafell, avec les effets attendus sur les sols, le stationnement et la sécurité. Les terrains riverains de la lagune ont été acquis par l'État islandais en 2017 puis rattachés au parc, ce qui a clarifié la gestion.",
     "trend": "degradation",
     "threats": [
-      { "type": "climat", "level": "critique", "note": "Bilan de masse négatif continu depuis les années 1990." },
-      { "type": "fonte-glaciaire", "level": "critique", "note": "Recul des langues émissaires de plusieurs dizaines de mètres par an." },
-      { "type": "tourisme", "level": "eleve", "note": "Concentration extrême sur les sites accessibles depuis la route circulaire." },
-      { "type": "urbanisation", "level": "modere", "note": "Pression pour de nouvelles infrastructures d'accueil et de stationnement." }
+      {
+        "type": "climat",
+        "level": "critique",
+        "note": "Bilan de masse négatif continu depuis les années 1990."
+      },
+      {
+        "type": "fonte-glaciaire",
+        "level": "critique",
+        "note": "Recul des langues émissaires de plusieurs dizaines de mètres par an."
+      },
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Concentration extrême sur les sites accessibles depuis la route circulaire."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Pression pour de nouvelles infrastructures d'accueil et de stationnement."
+      }
     ],
     "understand_without_going": false,
     "message": "La lagune est le lieu le plus fréquenté du parc et le moins représentatif de ce qu'il contient. Skaftafell, le Skeiðarársandur et, pour qui en a les moyens, l'intérieur du plateau, montrent le mécanisme entier plutôt que sa vitrine."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Jokulsarlon glacier lagoon icebergs Iceland"
+  },
   "sources": [
-    { "title": "Parc national du Vatnajökull, la nature dynamique du feu et de la glace", "publisher": "UNESCO", "url": "https://whc.unesco.org/fr/list/1604/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Vatnajökull National Park, présentation et gestion", "publisher": "Vatnajökulsþjóðgarður", "url": "https://www.vatnajokulsthjodgardur.is/en", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Grímsvötn", "publisher": "Global Volcanism Program, Smithsonian Institution", "url": "https://volcano.si.edu/volcano.cfm?vn=373010", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Bárðarbunga", "publisher": "Global Volcanism Program, Smithsonian Institution", "url": "https://volcano.si.edu/volcano.cfm?vn=373030", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Catalogue des volcans islandais", "publisher": "Icelandic Volcanoes, Veðurstofa Íslands et Université d'Islande", "url": "https://icelandicvolcanoes.is/", "type": "scientifique", "accessed": "2026-08-22" }
+    {
+      "title": "Parc national du Vatnajökull, la nature dynamique du feu et de la glace",
+      "publisher": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/1604/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Vatnajökull National Park, présentation et gestion",
+      "publisher": "Vatnajökulsþjóðgarður",
+      "url": "https://www.vatnajokulsthjodgardur.is/en",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Grímsvötn",
+      "publisher": "Global Volcanism Program, Smithsonian Institution",
+      "url": "https://volcano.si.edu/volcano.cfm?vn=373010",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Bárðarbunga",
+      "publisher": "Global Volcanism Program, Smithsonian Institution",
+      "url": "https://volcano.si.edu/volcano.cfm?vn=373030",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Catalogue des volcans islandais",
+      "publisher": "Icelandic Volcanoes, Veðurstofa Íslands et Université d'Islande",
+      "url": "https://icelandicvolcanoes.is/",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 5, "singularite": 5, "rarete": 5, "diversite": 4, "integrite": 5, "monumentalite": 5, "actif": 5, "biologique": 2, "photogenie": 5, "pedagogie": 5, "conservation": 4, "complementarite": 5 }, "total": 128, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 5,
+      "rarete": 5,
+      "diversite": 4,
+      "integrite": 5,
+      "monumentalite": 5,
+      "actif": 5,
+      "biologique": 2,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 4,
+      "complementarite": 5
+    },
+    "total": 128,
+    "scored_on": "2026-08-22"
+  }
 }

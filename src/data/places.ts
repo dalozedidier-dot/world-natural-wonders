@@ -47,7 +47,7 @@ export interface PlaceLite {
   family: string; types: string[]; badges: string[]; essential: boolean;
   lat: number; lng: number; bbox?: [number, number, number, number] | null;
   months: number[]; access: string; fragility: string; collections: string[];
-  lede: string; hints: string[]; hero?: string | null; hasPhoto: boolean; alt?: string | null;
+  lede: string; hints: string[]; hero?: string | null; hasPhoto: boolean; alt?: string | null; q?: string | null;
   elevation?: number | null; search: string;
 }
 
@@ -73,6 +73,7 @@ export const toLite = (p: Place): PlaceLite => {
     hints: p.editorial.guess_hints ?? [],
     hero: hero ? hero.local.replace(/^public\//, '/') : placeholder(p),
     hasPhoto: Boolean(hero),
+    q: p.media?.query ?? `${p.identity.name_official ?? p.identity.name_fr} ${p.location.country_labels[0]}`,
     alt: hero?.alt ?? `${p.identity.name_fr}, visuel généré en attendant une photographie sous licence libre`,
     elevation: p.location.elevation_max_m ?? null,
     search: [

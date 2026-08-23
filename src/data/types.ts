@@ -140,7 +140,7 @@ export interface Place {
   seasonality: Seasonality;
   visit: Visit;
   conservation: Conservation;
-  media?: { hero?: string | null; gallery?: string[] };
+  media?: { hero?: string | null; gallery?: string[]; query?: string | null };
   sources: Source[];
   score?: Record<string, unknown> | null;
 }

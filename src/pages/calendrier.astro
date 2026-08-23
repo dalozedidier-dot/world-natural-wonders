@@ -14,7 +14,9 @@ const months = taxonomies.months.map((m, i) => {
 });
 const payload = months.map(m => ({
   n: m.n, name: m.name,
-  items: m.items.map(p => ({ id: p.id, name: p.identity.name_fr, country: p.location.country_labels.join(' et '), family: p.landscape.family, hero: heroFor(p)?.local.replace(/^public\//, '/') ?? placeholder(p), alt: heroFor(p)?.alt ?? '' })),
+  items: m.items.map(p => ({ id: p.id, name: p.identity.name_fr, country: p.location.country_labels.join(' et '), family: p.landscape.family, hero: heroFor(p)?.local.replace(/^public\//, '/') ?? placeholder(p),
+    hasPhoto: Boolean(heroFor(p)),
+    q: p.media?.query ?? `${p.identity.name_official ?? p.identity.name_fr} ${p.location.country_labels[0]}`, alt: heroFor(p)?.alt ?? '' })),
   events: m.events.map(e => ({ id: e.place.id, place: e.place.identity.name_fr, label: e.ph.label, kind: e.ph.kind ?? 'autre', note: e.ph.note ?? '' }))
 }));
 const colors = Object.fromEntries(taxonomies.families.map(f => [f.id, f.color]));
@@ -35,6 +37,11 @@ const colors = Object.fromEntries(taxonomies.families.map(f => [f.id, f.color]))
     <script type="application/json" id="calendar-data" set:html={JSON.stringify(payload)} />
     <script type="application/json" id="calendar-colors" set:html={JSON.stringify(colors)} />
   </section>
+
+  <script>
+    import { illustrateOnScroll } from '../scripts/photos';
+    (window as any).__illustrate = illustrateOnScroll;
+  </script>
 
   <script define:vars={{ base }}>
     const data = JSON.parse(document.getElementById('calendar-data').textContent);

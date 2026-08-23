@@ -6,19 +6,36 @@
   "identity": {
     "name_fr": "Fjords de l'Ouest norvégien",
     "name_official": "Vestnorsk fjordlandskap",
-    "name_local": [{ "lang": "no", "value": "Geirangerfjorden og Nærøyfjorden" }],
+    "name_local": [
+      {
+        "lang": "no",
+        "value": "Geirangerfjorden og Nærøyfjorden"
+      }
+    ],
     "name_indigenous": null,
-    "aka": ["Geirangerfjord", "Nærøyfjord"]
+    "aka": [
+      "Geirangerfjord",
+      "Nærøyfjord"
+    ]
   },
   "location": {
-    "countries": ["NO"],
-    "country_labels": ["Norvège"],
+    "countries": [
+      "NO"
+    ],
+    "country_labels": [
+      "Norvège"
+    ],
     "subdivision": "Møre og Romsdal et Vestland",
     "region": "europe",
     "lat": 62.1049,
     "lng": 7.0052,
     "coordinate_precision": "site",
-    "bbox": [6.75, 61.95, 7.35, 62.2],
+    "bbox": [
+      6.75,
+      61.95,
+      7.35,
+      62.2
+    ],
     "area_km2": 1227,
     "elevation_min_m": -500,
     "elevation_max_m": 1700,
@@ -27,29 +44,60 @@
   },
   "landscape": {
     "primary": "fjord",
-    "types": ["fjord", "cascade", "falaise", "montagne"],
+    "types": [
+      "fjord",
+      "cascade",
+      "falaise",
+      "montagne"
+    ],
     "family": "cote",
-    "iucn_ecosystem": ["M1.5 Systèmes marins semi-fermés", "T2.3 Forêts boréales et subalpines"],
+    "iucn_ecosystem": [
+      "M1.5 Systèmes marins semi-fermés",
+      "T2.3 Forêts boréales et subalpines"
+    ],
     "biome": "Forêts de conifères boréales",
     "climate": "Cfb côtier, Dfc en altitude",
-    "collections": ["royaumes-eau", "vertiges", "mondes-de-glace"]
+    "collections": [
+      "royaumes-eau",
+      "vertiges",
+      "mondes-de-glace"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-whs", "name": "Fjords de l'Ouest norvégien, Geirangerfjord et Nærøyfjord", "ref": "1195", "since": 2005, "criteria": ["vii", "viii"], "url": "https://whc.unesco.org/fr/list/1195/" },
-      { "type": "nature-reserve", "name": "Paysage protégé du Geiranger et de l'Herdalen", "since": 2004 }
+      {
+        "type": "unesco-whs",
+        "name": "Fjords de l'Ouest norvégien, Geirangerfjord et Nærøyfjord",
+        "ref": "1195",
+        "since": 2005,
+        "criteria": [
+          "vii",
+          "viii"
+        ],
+        "url": "https://whc.unesco.org/fr/list/1195/"
+      },
+      {
+        "type": "nature-reserve",
+        "name": "Paysage protégé du Geiranger et de l'Herdalen",
+        "since": 2004
+      }
     ],
-    "managing_body": { "name": "Miljødirektoratet, direction norvégienne de l'environnement", "url": "https://www.miljodirektoratet.no/" }
+    "managing_body": {
+      "name": "Miljødirektoratet, direction norvégienne de l'environnement",
+      "url": "https://www.miljodirektoratet.no/"
+    }
   },
   "editorial": {
-    "badges": ["exceptionnel", "geologie-remarquable", "grande-nature"],
+    "badges": [
+      "exceptionnel",
+      "geologie-remarquable",
+      "grande-nature"
+    ],
     "essential": false,
     "lede": "Des vallées glaciaires si profondes que la mer y est entrée, laissant des parois d'un kilomètre plonger sans transition dans une eau noire de cinq cents mètres de fond.",
     "why_here": "Un fjord n'est pas une baie étroite : c'est une auge creusée par un glacier jusque sous le niveau de la mer, puis envahie par l'océan. Geiranger et Nærøy en offrent la forme la plus pure et la plus démonstrative de la planète, avec des parois presque verticales, un seuil rocheux à l'entrée et des cascades qui tombent directement dans l'eau salée. Le site apporte à la sélection un mécanisme que rien d'autre ne remplace : le surcreusement glaciaire sous le niveau marin.",
-    "presentation": "Les deux bras retenus, séparés de cent vingt kilomètres, appartiennent au même ensemble : le Geirangerfjord, court et resserré, et le Nærøyfjord, le plus étroit d'Europe avec des passages de deux cent cinquante mètres seulement entre des murs qui montent à mille sept cents.\n\nOn y navigue entre des parois où l'eau tombe en filets permanents. Les Sept Sœurs, le Voile de la Mariée, le Prétendant : ces chutes ne viennent pas d'une rivière puissante mais du ruissellement direct des plateaux d'altitude, ce qui explique leur allure filiforme et leur variation brutale selon la fonte.\n\nAccrochées aux corniches, des fermes abandonnées rappellent que ces parois ont été habitées et cultivées jusqu'au début du vingtième siècle. On y accédait par échelle. Ce n'est pas un paysage sans hommes, c'est un paysage que les hommes ont fini par quitter.\n\nLe fond du fjord descend à cinq cents mètres alors que le seuil d'entrée, moraine terminale du glacier, remonte à moins de deux cents. Cette forme en cuvette piège les eaux profondes et crée des conditions particulières pour la vie marine."
-    ,
-    "geology": "Le socle est constitué de gneiss du Précambrien et de roches métamorphiques de l'orogenèse calédonienne, la collision qui a soudé Baltica et Laurentia il y a environ quatre cents millions d'années. Cette chaîne, jadis himalayenne, a été rabotée puis relevée par des mouvements plus récents, laissant un haut plateau incliné vers l'ouest.\n\nLes vallées ont d'abord été creusées par des rivières, selon un réseau qui suit les fractures du socle : c'est pourquoi les fjords norvégiens forment des angles nets plutôt que des méandres. Puis les glaciations quaternaires, une quarantaine de cycles en deux millions et demi d'années, ont transformé ces vallées en V en auges en U.\n\nLe point décisif est que la glace, contrairement à l'eau, peut creuser sous le niveau de la mer. Une langue glaciaire épaisse de mille mètres exerce une pression telle qu'elle continue d'abraser bien en dessous du zéro marin, jusqu'à ce que la poussée d'Archimède la fasse flotter. Le fond du fjord marque donc le point où la glace a cessé de porter sur la roche. À l'embouchure, là où la langue se mettait à flotter, elle a déposé sa charge : c'est le seuil.\n\nDepuis la fonte, la Scandinavie se relève d'un rebond isostatique de plusieurs millimètres par an, la croûte se redressant lentement après la disparition d'une calotte qui l'avait enfoncée."
-    ,
+    "presentation": "Les deux bras retenus, séparés de cent vingt kilomètres, appartiennent au même ensemble : le Geirangerfjord, court et resserré, et le Nærøyfjord, le plus étroit d'Europe avec des passages de deux cent cinquante mètres seulement entre des murs qui montent à mille sept cents.\n\nOn y navigue entre des parois où l'eau tombe en filets permanents. Les Sept Sœurs, le Voile de la Mariée, le Prétendant : ces chutes ne viennent pas d'une rivière puissante mais du ruissellement direct des plateaux d'altitude, ce qui explique leur allure filiforme et leur variation brutale selon la fonte.\n\nAccrochées aux corniches, des fermes abandonnées rappellent que ces parois ont été habitées et cultivées jusqu'au début du vingtième siècle. On y accédait par échelle. Ce n'est pas un paysage sans hommes, c'est un paysage que les hommes ont fini par quitter.\n\nLe fond du fjord descend à cinq cents mètres alors que le seuil d'entrée, moraine terminale du glacier, remonte à moins de deux cents. Cette forme en cuvette piège les eaux profondes et crée des conditions particulières pour la vie marine.",
+    "geology": "Le socle est constitué de gneiss du Précambrien et de roches métamorphiques de l'orogenèse calédonienne, la collision qui a soudé Baltica et Laurentia il y a environ quatre cents millions d'années. Cette chaîne, jadis himalayenne, a été rabotée puis relevée par des mouvements plus récents, laissant un haut plateau incliné vers l'ouest.\n\nLes vallées ont d'abord été creusées par des rivières, selon un réseau qui suit les fractures du socle : c'est pourquoi les fjords norvégiens forment des angles nets plutôt que des méandres. Puis les glaciations quaternaires, une quarantaine de cycles en deux millions et demi d'années, ont transformé ces vallées en V en auges en U.\n\nLe point décisif est que la glace, contrairement à l'eau, peut creuser sous le niveau de la mer. Une langue glaciaire épaisse de mille mètres exerce une pression telle qu'elle continue d'abraser bien en dessous du zéro marin, jusqu'à ce que la poussée d'Archimède la fasse flotter. Le fond du fjord marque donc le point où la glace a cessé de porter sur la roche. À l'embouchure, là où la langue se mettait à flotter, elle a déposé sa charge : c'est le seuil.\n\nDepuis la fonte, la Scandinavie se relève d'un rebond isostatique de plusieurs millimètres par an, la croûte se redressant lentement après la disparition d'une calotte qui l'avait enfoncée.",
     "dynamics": "Le fjord fonctionne comme un estuaire inversé et stratifié. L'eau douce des cascades et de la fonte forme une lentille de surface qui glisse vers le large ; l'eau salée dense entre en profondeur mais bute sur le seuil, ce qui limite le renouvellement des couches basses. Le débit des cascades suit la fonte nivale et culmine en mai et juin, puis chute nettement en fin d'été. Les parois posent un risque bien réel : l'instabilité du massif d'Åkerneset, surveillée en continu, pourrait provoquer un glissement dans le fjord et un tsunami local, scénario pour lequel les villages du Geiranger disposent d'un système d'alerte et d'évacuation.",
     "biodiversity_text": "Le paysage abrite le gypaète non, mais bien le pygargue à queue blanche, revenu en force sur la côte norvégienne, ainsi que le faucon pèlerin sur les parois. Les hauteurs accueillent le renne, sauvage dans certains massifs voisins, semi-domestique ailleurs. Les eaux profondes du fjord hébergent des communautés de coraux d'eau froide, notamment Lophelia pertusa, qui forment des récifs à plusieurs centaines de mètres sous la surface, dans le noir et à quelques degrés. Les parois suintantes portent une flore de mousses et de plantes de rochers humides adaptée à l'aspersion permanente, et les corniches non pâturées conservent des reliques de prairies de fauche.",
     "in_motion": "Le rebond isostatique se poursuit : la Norvège centrale s'élève encore, ce qui modifie lentement le niveau relatif de la mer. Les glaciers d'altitude qui alimentent les cascades reculent, et plusieurs bassins ont déjà vu leur régime hydrologique se déplacer vers un pic de fonte plus précoce. Le suivi d'Åkerneset rappelle qu'un versant de fjord n'est jamais stable : les parois se déchargent depuis la fonte, et les glissements font partie du fonctionnement normal du paysage.",
@@ -61,38 +109,128 @@
     ]
   },
   "figures": [
-    { "label": "Bien inscrit", "value": "1 227 km²" },
-    { "label": "Profondeur du fjord", "value": "jusqu'à environ 500 m" },
-    { "label": "Hauteur des parois", "value": "jusqu'à 1 400 m au-dessus de l'eau" },
-    { "label": "Largeur minimale du Nærøyfjord", "value": "environ 250 m" },
-    { "label": "Inscription UNESCO", "value": "2005, critères vii et viii" },
-    { "label": "Rebond isostatique", "value": "quelques mm par an" }
+    {
+      "label": "Bien inscrit",
+      "value": "1 227 km²"
+    },
+    {
+      "label": "Profondeur du fjord",
+      "value": "jusqu'à environ 500 m"
+    },
+    {
+      "label": "Hauteur des parois",
+      "value": "jusqu'à 1 400 m au-dessus de l'eau"
+    },
+    {
+      "label": "Largeur minimale du Nærøyfjord",
+      "value": "environ 250 m"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "2005, critères vii et viii"
+    },
+    {
+      "label": "Rebond isostatique",
+      "value": "quelques mm par an"
+    }
   ],
   "geology": {
     "age": "Socle gneissique précambrien, structuration calédonienne vers 400 Ma, creusement glaciaire quaternaire",
-    "processes": ["surcreusement glaciaire", "controle structural par fractures", "rebond isostatique", "sedimentation morainique"],
-    "rock_types": ["gneiss", "migmatite", "roches métamorphiques calédoniennes"],
+    "processes": [
+      "surcreusement glaciaire",
+      "controle structural par fractures",
+      "rebond isostatique",
+      "sedimentation morainique"
+    ],
+    "rock_types": [
+      "gneiss",
+      "migmatite",
+      "roches métamorphiques calédoniennes"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Pygargue à queue blanche", "name_sci": "Haliaeetus albicilla", "group": "oiseau", "iucn_status": "LC" },
-      { "name_fr": "Corail d'eau froide", "name_sci": "Desmophyllum pertusum", "group": "cnidaire", "note": "Récifs profonds dans les fjords norvégiens." },
-      { "name_fr": "Renne", "name_sci": "Rangifer tarandus", "group": "mammifère", "iucn_status": "VU" },
-      { "name_fr": "Marsouin commun", "name_sci": "Phocoena phocoena", "group": "mammifère", "iucn_status": "LC" }
+      {
+        "name_fr": "Pygargue à queue blanche",
+        "name_sci": "Haliaeetus albicilla",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Corail d'eau froide",
+        "name_sci": "Desmophyllum pertusum",
+        "group": "cnidaire",
+        "note": "Récifs profonds dans les fjords norvégiens."
+      },
+      {
+        "name_fr": "Renne",
+        "name_sci": "Rangifer tarandus",
+        "group": "mammifère",
+        "iucn_status": "VU"
+      },
+      {
+        "name_fr": "Marsouin commun",
+        "name_sci": "Phocoena phocoena",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      }
     ],
     "endemism_level": "faible",
     "endemism_note": "Faune postglaciaire récente, recolonisation depuis moins de dix mille ans, ce qui laisse peu de place à l'endémisme.",
     "species_counts": null
   },
   "seasonality": {
-    "best_months": [5, 6, 7, 8, 9],
-    "avoid_months": [11, 12, 1],
+    "best_months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "avoid_months": [
+      11,
+      12,
+      1
+    ],
     "phenomena": [
-      { "label": "Cascades à leur maximum, fonte nivale", "kind": "fonte", "months": [5, 6], "note": "Les Sept Sœurs sont alors à pleine puissance." },
-      { "label": "Nuits très courtes, lumière rasante prolongée", "kind": "soleil-de-minuit", "months": [6, 7] },
-      { "label": "Couleurs des bouleaux sur les versants", "kind": "couleurs", "months": [9, 10] },
-      { "label": "Routes de montagne fermées, dont la route des Aigles et Trollstigen", "kind": "autre", "months": [11, 12, 1, 2, 3, 4] }
+      {
+        "label": "Cascades à leur maximum, fonte nivale",
+        "kind": "fonte",
+        "months": [
+          5,
+          6
+        ],
+        "note": "Les Sept Sœurs sont alors à pleine puissance."
+      },
+      {
+        "label": "Nuits très courtes, lumière rasante prolongée",
+        "kind": "soleil-de-minuit",
+        "months": [
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Couleurs des bouleaux sur les versants",
+        "kind": "couleurs",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Routes de montagne fermées, dont la route des Aigles et Trollstigen",
+        "kind": "autre",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3,
+          4
+        ]
+      }
     ],
     "notes": "Juillet et août concentrent la fréquentation et les escales de croisière. Mai, début juin et septembre offrent des débits corrects et un fjord plus calme."
   },
@@ -100,7 +238,10 @@
     "accessibility": "facile",
     "suggested_duration": "2 à 3 jours",
     "difficulty": "Navigation et routes aménagées, sentiers de corniche exposés pour les fermes abandonnées.",
-    "extreme_conditions": ["météo changeante", "risque d'éboulement sur certaines parois"],
+    "extreme_conditions": [
+      "météo changeante",
+      "risque d'éboulement sur certaines parois"
+    ],
     "permits": null,
     "rules": [
       "Respecter les zones d'exclusion et les consignes du système d'alerte d'Åkerneset.",
@@ -116,20 +257,81 @@
     "state": "L'intégrité paysagère reste excellente et la gestion est solide. La pression principale vient du tourisme de croisière : la concentration de très grands navires dans un fjord fermé a posé un problème de qualité de l'air et de saturation. La Norvège a adopté une trajectoire d'exigence croissante sur les émissions des navires dans les fjords du patrimoine mondial, avec un objectif de navigation sans émission.",
     "trend": "amelioration",
     "threats": [
-      { "type": "tourisme", "level": "eleve", "note": "Escales de croisière concentrées sur quelques semaines et sur un village de moins de trois cents habitants." },
-      { "type": "pollution", "level": "modere", "note": "Émissions des navires piégées par le relief encaissé." },
-      { "type": "climat", "level": "modere", "note": "Recul des glaciers d'alimentation et décalage du pic de fonte." },
-      { "type": "urbanisation", "level": "faible", "note": "Infrastructures d'accueil et parkings en fond de fjord." }
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Escales de croisière concentrées sur quelques semaines et sur un village de moins de trois cents habitants."
+      },
+      {
+        "type": "pollution",
+        "level": "modere",
+        "note": "Émissions des navires piégées par le relief encaissé."
+      },
+      {
+        "type": "climat",
+        "level": "modere",
+        "note": "Recul des glaciers d'alimentation et décalage du pic de fonte."
+      },
+      {
+        "type": "urbanisation",
+        "level": "faible",
+        "note": "Infrastructures d'accueil et parkings en fond de fjord."
+      }
     ],
     "understand_without_going": false,
     "message": "Un fjord se comprend mieux depuis l'eau que depuis un pont supérieur de paquebot. Le ferry public entre Geiranger et Hellesylt donne la même leçon de géologie pour une fraction de l'empreinte."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Geirangerfjord Seven Sisters waterfall Norway"
+  },
   "sources": [
-    { "title": "Fjords de l'Ouest norvégien, Geirangerfjord et Nærøyfjord", "publisher": "UNESCO", "url": "https://whc.unesco.org/fr/list/1195/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Verdensarvfjord, gestion du bien du patrimoine mondial", "publisher": "Verdensarvfjord", "url": "https://www.verdensarvfjord.no/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Norwegian fjords, protected areas", "publisher": "Miljødirektoratet", "url": "https://www.miljodirektoratet.no/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "West Norwegian Fjords", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" }
+    {
+      "title": "Fjords de l'Ouest norvégien, Geirangerfjord et Nærøyfjord",
+      "publisher": "UNESCO",
+      "url": "https://whc.unesco.org/fr/list/1195/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Verdensarvfjord, gestion du bien du patrimoine mondial",
+      "publisher": "Verdensarvfjord",
+      "url": "https://www.verdensarvfjord.no/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Norwegian fjords, protected areas",
+      "publisher": "Miljødirektoratet",
+      "url": "https://www.miljodirektoratet.no/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "West Norwegian Fjords",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 5, "singularite": 4, "rarete": 4, "diversite": 3, "integrite": 4, "monumentalite": 5, "actif": 3, "biologique": 3, "photogenie": 5, "pedagogie": 5, "conservation": 4, "complementarite": 4 }, "total": 108, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 4,
+      "rarete": 4,
+      "diversite": 3,
+      "integrite": 4,
+      "monumentalite": 5,
+      "actif": 3,
+      "biologique": 3,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 4,
+      "complementarite": 4
+    },
+    "total": 108,
+    "scored_on": "2026-08-22"
+  }
 }

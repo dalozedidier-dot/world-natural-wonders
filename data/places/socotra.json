@@ -6,19 +6,42 @@
   "identity": {
     "name_fr": "Archipel de Socotra",
     "name_official": "أرخبيل سقطرى",
-    "name_local": [{ "lang": "ar", "value": "أرخبيل سقطرى" }],
-    "name_indigenous": [{ "people": "Socotris, locuteurs du soqotri", "value": "Saqaṭri", "meaning": "nom de l'île dans la langue sudarabique moderne parlée sur place" }],
-    "aka": ["Soqotra", "Suqutra"]
+    "name_local": [
+      {
+        "lang": "ar",
+        "value": "أرخبيل سقطرى"
+      }
+    ],
+    "name_indigenous": [
+      {
+        "people": "Socotris, locuteurs du soqotri",
+        "value": "Saqaṭri",
+        "meaning": "nom de l'île dans la langue sudarabique moderne parlée sur place"
+      }
+    ],
+    "aka": [
+      "Soqotra",
+      "Suqutra"
+    ]
   },
   "location": {
-    "countries": ["YE"],
-    "country_labels": ["Yémen"],
+    "countries": [
+      "YE"
+    ],
+    "country_labels": [
+      "Yémen"
+    ],
     "subdivision": "Gouvernorat de Socotra",
     "region": "asie",
     "lat": 12.5,
     "lng": 53.9,
     "coordinate_precision": "generalized",
-    "bbox": [52.0, 12.0, 54.6, 12.8],
+    "bbox": [
+      52.0,
+      12.0,
+      54.6,
+      12.8
+    ],
     "area_km2": 4105,
     "elevation_min_m": 0,
     "elevation_max_m": null,
@@ -27,23 +50,60 @@
   },
   "landscape": {
     "primary": "ile",
-    "types": ["ile", "desert-pierre", "montagne", "falaise"],
+    "types": [
+      "ile",
+      "desert-pierre",
+      "montagne",
+      "falaise"
+    ],
     "family": "cote",
-    "iucn_ecosystem": ["T3.2 Fourrés et forêts sèches tropicales", "T5.2 Déserts et semi-déserts chauds", "MT1.3 Côtes rocheuses"],
+    "iucn_ecosystem": [
+      "T3.2 Fourrés et forêts sèches tropicales",
+      "T5.2 Déserts et semi-déserts chauds",
+      "MT1.3 Côtes rocheuses"
+    ],
     "biome": "Fourrés et forêts sèches tropicales insulaires",
     "climate": "BWh aride chaud, tempéré en altitude par les brumes d'orographie",
-    "collections": ["autre-planete", "bouts-du-monde"]
+    "collections": [
+      "autre-planete",
+      "bouts-du-monde"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-whs", "name": "Archipel de Socotra", "ref": "1263", "since": 2008, "criteria": ["x"], "url": "https://whc.unesco.org/fr/list/1263/" },
-      { "type": "unesco-mab", "name": "Réserve de biosphère de Socotra", "since": 2003 },
-      { "type": "ramsar", "name": "Lagune de Detwah" }
+      {
+        "type": "unesco-whs",
+        "name": "Archipel de Socotra",
+        "ref": "1263",
+        "since": 2008,
+        "criteria": [
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/1263/"
+      },
+      {
+        "type": "unesco-mab",
+        "name": "Réserve de biosphère de Socotra",
+        "since": 2003
+      },
+      {
+        "type": "ramsar",
+        "name": "Lagune de Detwah"
+      }
     ],
-    "managing_body": { "name": "Autorité de protection de l'environnement du Yémen, appuyée par des programmes internationaux", "url": null, "note": "La gestion effective est fortement contrainte par le contexte du conflit yéménite." }
+    "managing_body": {
+      "name": "Autorité de protection de l'environnement du Yémen, appuyée par des programmes internationaux",
+      "url": null,
+      "note": "La gestion effective est fortement contrainte par le contexte du conflit yéménite."
+    }
   },
   "editorial": {
-    "badges": ["unique-au-monde", "ecosysteme-majeur", "exceptionnel", "geologie-remarquable"],
+    "badges": [
+      "unique-au-monde",
+      "ecosysteme-majeur",
+      "exceptionnel",
+      "geologie-remarquable"
+    ],
     "essential": false,
     "lede": "Un morceau de continent détaché de l'Afrique et de l'Arabie, dérivé au large depuis des millions d'années, où la flore a pris des formes que l'on ne rencontre sur aucune autre terre émergée.",
     "why_here": "Socotra n'est pas une île volcanique née de l'océan mais un fragment continental, ce qui change tout : le socle y est ancien, la lignée végétale y est ancienne aussi, et l'isolement a travaillé sur un stock d'espèces déjà installé plutôt que sur des colonisateurs venus par la mer. Le résultat est une des plus fortes concentrations d'endémisme végétal de la planète pour une surface aussi réduite, avec plus de trois cents plantes propres à l'archipel. Le site donne à la sélection une démonstration de biogéographie insulaire que ne remplacent ni les archipels volcaniques ni les massifs continentaux isolés. Il pose aussi, de façon frontale, la question d'un patrimoine mondial dont la gestion est suspendue par la guerre.",
@@ -60,41 +120,157 @@
     ]
   },
   "figures": [
-    { "label": "Bien inscrit UNESCO", "value": "410 460 ha, zone tampon de 1 740 958 ha" },
-    { "label": "Inscription UNESCO", "value": "2008, critère x" },
-    { "label": "Plantes vasculaires", "value": "environ 825 espèces" },
-    { "label": "Plantes endémiques", "value": "environ 307 espèces, soit près de 37 %" },
-    { "label": "Escargots terrestres endémiques", "value": "environ 95 % des espèces" },
-    { "label": "Reptiles endémiques", "value": "34 espèces sur 38" },
-    { "label": "Poissons côtiers recensés", "value": "environ 730 espèces" },
-    { "label": "Cyclones majeurs récents", "value": "Chapala et Megh en 2015, Mekunu en 2018" }
+    {
+      "label": "Bien inscrit UNESCO",
+      "value": "410 460 ha, zone tampon de 1 740 958 ha"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "2008, critère x"
+    },
+    {
+      "label": "Plantes vasculaires",
+      "value": "environ 825 espèces"
+    },
+    {
+      "label": "Plantes endémiques",
+      "value": "environ 307 espèces, soit près de 37 %"
+    },
+    {
+      "label": "Escargots terrestres endémiques",
+      "value": "environ 95 % des espèces"
+    },
+    {
+      "label": "Reptiles endémiques",
+      "value": "34 espèces sur 38"
+    },
+    {
+      "label": "Poissons côtiers recensés",
+      "value": "environ 730 espèces"
+    },
+    {
+      "label": "Cyclones majeurs récents",
+      "value": "Chapala et Megh en 2015, Mekunu en 2018"
+    }
   ],
   "geology": {
     "age": "Socle granitique et métamorphique précambrien, couverture calcaire crétacée et paléogène, séparation du continent au Miocène",
-    "processes": ["rifting du golfe d'Aden", "soulevement de marge", "karstification du plateau calcaire", "exhumation du socle granitique", "erosion en boules des granites"],
-    "rock_types": ["granite", "roches métamorphiques précambriennes", "calcaire marin", "dépôts côtiers et éoliens"],
+    "processes": [
+      "rifting du golfe d'Aden",
+      "soulevement de marge",
+      "karstification du plateau calcaire",
+      "exhumation du socle granitique",
+      "erosion en boules des granites"
+    ],
+    "rock_types": [
+      "granite",
+      "roches métamorphiques précambriennes",
+      "calcaire marin",
+      "dépôts côtiers et éoliens"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Dragonnier de Socotra", "name_sci": "Dracaena cinnabari", "group": "plante", "iucn_status": "VU", "note": "Résine rouge dite sang-dragon, régénération naturelle très déficiente." },
-      { "name_fr": "Concombre arbre", "name_sci": "Dendrosicyos socotranus", "group": "plante", "iucn_status": "VU", "note": "Seule cucurbitacée arborescente connue au monde." },
-      { "name_fr": "Arbre à encens de Socotra", "name_sci": "Boswellia socotrana", "group": "plante", "note": "Plusieurs espèces du genre sont endémiques et en effectifs très réduits." },
-      { "name_fr": "Bruant de Socotra", "name_sci": "Emberiza socotrana", "group": "oiseau", "iucn_status": "VU" },
-      { "name_fr": "Étourneau de Socotra", "name_sci": "Onychognathus frater", "group": "oiseau", "iucn_status": "LC" }
+      {
+        "name_fr": "Dragonnier de Socotra",
+        "name_sci": "Dracaena cinnabari",
+        "group": "plante",
+        "iucn_status": "VU",
+        "note": "Résine rouge dite sang-dragon, régénération naturelle très déficiente."
+      },
+      {
+        "name_fr": "Concombre arbre",
+        "name_sci": "Dendrosicyos socotranus",
+        "group": "plante",
+        "iucn_status": "VU",
+        "note": "Seule cucurbitacée arborescente connue au monde."
+      },
+      {
+        "name_fr": "Arbre à encens de Socotra",
+        "name_sci": "Boswellia socotrana",
+        "group": "plante",
+        "note": "Plusieurs espèces du genre sont endémiques et en effectifs très réduits."
+      },
+      {
+        "name_fr": "Bruant de Socotra",
+        "name_sci": "Emberiza socotrana",
+        "group": "oiseau",
+        "iucn_status": "VU"
+      },
+      {
+        "name_fr": "Étourneau de Socotra",
+        "name_sci": "Onychognathus frater",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      }
     ],
     "endemism_level": "exceptionnel",
     "endemism_note": "L'isolement depuis le Miocène, sans reconnexion continentale lors des bas niveaux marins glaciaires, a permis la survie de lignées anciennes et une diversification locale, particulièrement chez les plantes, les reptiles et les gastéropodes terrestres.",
-    "species_counts": { "plants": 825, "birds": 192, "fish": 730, "corals": 253, "note": "Environ 307 plantes endémiques, 34 reptiles endémiques sur 38 espèces, 96 escargots terrestres endémiques sur 101." }
+    "species_counts": {
+      "plants": 825,
+      "birds": 192,
+      "fish": 730,
+      "corals": 253,
+      "note": "Environ 307 plantes endémiques, 34 reptiles endémiques sur 38 espèces, 96 escargots terrestres endémiques sur 101."
+    }
   },
   "seasonality": {
-    "best_months": [10, 11, 12, 1, 2, 3, 4],
-    "avoid_months": [6, 7, 8, 9],
+    "best_months": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "avoid_months": [
+      6,
+      7,
+      8,
+      9
+    ],
     "phenomena": [
-      { "label": "Mousson de sud-ouest, vents violents et mer démontée", "kind": "mousson", "months": [6, 7, 8, 9], "note": "L'archipel devient largement inaccessible." },
-      { "label": "Pluies d'hiver, végétation reverdie", "kind": "saison-humide", "months": [11, 12, 1] },
-      { "label": "Brumes d'altitude sur les monts Haggier et le rebord du plateau", "kind": "autre", "months": [12, 1, 2, 3] },
-      { "label": "Saison cyclonique de l'océan Indien nord-ouest", "kind": "autre", "months": [5, 10, 11] }
+      {
+        "label": "Mousson de sud-ouest, vents violents et mer démontée",
+        "kind": "mousson",
+        "months": [
+          6,
+          7,
+          8,
+          9
+        ],
+        "note": "L'archipel devient largement inaccessible."
+      },
+      {
+        "label": "Pluies d'hiver, végétation reverdie",
+        "kind": "saison-humide",
+        "months": [
+          11,
+          12,
+          1
+        ]
+      },
+      {
+        "label": "Brumes d'altitude sur les monts Haggier et le rebord du plateau",
+        "kind": "autre",
+        "months": [
+          12,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Saison cyclonique de l'océan Indien nord-ouest",
+        "kind": "autre",
+        "months": [
+          5,
+          10,
+          11
+        ]
+      }
     ],
     "notes": "La mousson d'été ferme l'archipel plusieurs mois. Le reste de l'année, l'accès dépend de liaisons aériennes irrégulières et du contexte sécuritaire."
   },
@@ -102,7 +278,12 @@
     "accessibility": "expedition",
     "suggested_duration": "8 à 12 jours",
     "difficulty": "Contexte de conflit, liaisons aériennes irrégulières, pistes difficiles, infrastructures sanitaires très limitées.",
-    "extreme_conditions": ["chaleur et aridité", "vents de mousson", "risque cyclonique", "instabilité politique"],
+    "extreme_conditions": [
+      "chaleur et aridité",
+      "vents de mousson",
+      "risque cyclonique",
+      "instabilité politique"
+    ],
     "permits": "Autorisations et accompagnement local requis, conditions variables selon la situation politique.",
     "rules": [
       "Ne prélever aucune plante, graine, résine ni fragment de bois : plusieurs espèces emblématiques comptent des populations extrêmement réduites.",
@@ -119,22 +300,91 @@
     "state": "Le bien conserve sa valeur biologique, mais sa gestion est très affaiblie. Le conflit yéménite a désorganisé les institutions environnementales, interrompu une partie des programmes de suivi et rendu les contrôles difficiles. Sur le terrain, la pression du cheptel caprin bloque la régénération des ligneux endémiques : les peuplements de dragonniers vieillissent sans se renouveler, et plusieurs espèces de Boswellia comptent des effectifs résiduels. Les cyclones Chapala et Megh en 2015, puis Mekunu en 2018, ont détruit des milliers d'arbres et endommagé les infrastructures. S'y ajoutent des projets d'aménagement mal encadrés, l'introduction d'espèces exotiques et une pression croissante sur les ressources côtières.",
     "trend": "degradation",
     "threats": [
-      { "type": "conflit", "level": "critique", "note": "Effondrement des capacités de gestion et de suivi." },
-      { "type": "surpaturage", "level": "critique", "note": "Le broutage des jeunes pousses par les chèvres empêche le renouvellement des dragonniers et des Boswellia." },
-      { "type": "climat", "level": "eleve", "note": "Raréfaction des brumes d'altitude et cyclones tropicaux plus fréquents à cette latitude." },
-      { "type": "invasives", "level": "modere", "note": "Plantes et animaux introduits sur une flore et une faune sans défenses coévoluées." },
-      { "type": "urbanisation", "level": "modere", "note": "Routes et aménagements réalisés sans évaluation environnementale." },
-      { "type": "peche", "level": "modere", "note": "Pression accrue sur les ressources côtières." }
+      {
+        "type": "conflit",
+        "level": "critique",
+        "note": "Effondrement des capacités de gestion et de suivi."
+      },
+      {
+        "type": "surpaturage",
+        "level": "critique",
+        "note": "Le broutage des jeunes pousses par les chèvres empêche le renouvellement des dragonniers et des Boswellia."
+      },
+      {
+        "type": "climat",
+        "level": "eleve",
+        "note": "Raréfaction des brumes d'altitude et cyclones tropicaux plus fréquents à cette latitude."
+      },
+      {
+        "type": "invasives",
+        "level": "modere",
+        "note": "Plantes et animaux introduits sur une flore et une faune sans défenses coévoluées."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Routes et aménagements réalisés sans évaluation environnementale."
+      },
+      {
+        "type": "peche",
+        "level": "modere",
+        "note": "Pression accrue sur les ressources côtières."
+      }
     ],
     "understand_without_going": true,
     "message": "Socotra se comprend mieux qu'elle ne se visite. L'archipel cumule un conflit armé, des infrastructures d'accueil minimales et des milieux dont la moindre pression supplémentaire compromet le renouvellement. Cette fiche n'indique volontairement aucun itinéraire : les efforts utiles passent par le soutien aux programmes de mise en défens et de pépinière conduits avec les communautés socotries."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Socotra dragon blood tree Dracaena cinnabari"
+  },
   "sources": [
-    { "title": "Archipel de Socotra, fiche du bien inscrit", "publisher": "UNESCO Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/1263/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Socotra Archipelago, aires protégées et limites", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Statuts de conservation des espèces citées", "publisher": "UICN Liste rouge", "url": "https://www.iucnredlist.org/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Socotra", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Socotra", "type": "encyclopedique", "accessed": "2026-08-22" }
+    {
+      "title": "Archipel de Socotra, fiche du bien inscrit",
+      "publisher": "UNESCO Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1263/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Socotra Archipelago, aires protégées et limites",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Statuts de conservation des espèces citées",
+      "publisher": "UICN Liste rouge",
+      "url": "https://www.iucnredlist.org/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Socotra",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Socotra",
+      "type": "encyclopedique",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 5, "singularite": 5, "rarete": 5, "diversite": 4, "integrite": 3, "monumentalite": 3, "actif": 2, "biologique": 5, "photogenie": 5, "pedagogie": 5, "conservation": 2, "complementarite": 5 }, "total": 116, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 5,
+      "rarete": 5,
+      "diversite": 4,
+      "integrite": 3,
+      "monumentalite": 3,
+      "actif": 2,
+      "biologique": 5,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 2,
+      "complementarite": 5
+    },
+    "total": 116,
+    "scored_on": "2026-08-22"
+  }
 }

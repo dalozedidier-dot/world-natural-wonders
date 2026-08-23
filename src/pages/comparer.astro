@@ -11,7 +11,9 @@ const options = places.map(p => ({
   months: p.seasonality.best_months, lede: p.editorial.lede,
   climate: p.landscape.climate, biome: p.landscape.biome,
   designations: p.protection.designations.map(d => d.name).join(' · '),
-  hero: heroFor(p)?.local.replace(/^public\//, '/') ?? placeholder(p), alt: heroFor(p)?.alt ?? ''
+  hero: heroFor(p)?.local.replace(/^public\//, '/') ?? placeholder(p),
+    hasPhoto: Boolean(heroFor(p)),
+    q: p.media?.query ?? `${p.identity.name_official ?? p.identity.name_fr} ${p.location.country_labels[0]}`, alt: heroFor(p)?.alt ?? ''
 })).sort((a, b) => a.name.localeCompare(b.name, 'fr'));
 ---
 <Base title="Comparer deux lieux · 100 joyaux naturels">
@@ -27,6 +29,11 @@ const options = places.map(p => ({
     <div class="compare" id="compare-out" style="margin-top:1.6rem"></div>
     <script type="application/json" id="compare-data" set:html={JSON.stringify(options)} />
   </section>
+
+  <script>
+    import { illustrateOnScroll } from '../scripts/photos';
+    (window as any).__illustrate = illustrateOnScroll;
+  </script>
 
   <script define:vars={{ base }}>
     const data = JSON.parse(document.getElementById('compare-data').textContent);
@@ -82,5 +89,6 @@ const options = places.map(p => ({
       history.replaceState(null, '', `?${p}`);
     }
     render();
+    window.__illustrate?.(document);
   </script>
 </Base>

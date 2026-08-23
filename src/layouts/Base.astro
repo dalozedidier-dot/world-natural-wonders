@@ -82,6 +82,11 @@ const here = Astro.url.pathname.replace(/\/$/, '');
   </footer>
 
   <script>
+    import { illustrateOnScroll } from '../scripts/photos';
+    illustrateOnScroll();
+  </script>
+
+  <script>
     const KEY = 'wnw:lists:v1';
     try {
       const raw = localStorage.getItem(KEY);

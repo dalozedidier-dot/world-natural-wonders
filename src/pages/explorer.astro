@@ -13,6 +13,8 @@ const pool = places
     hints: p.editorial.guess_hints,
     lede: p.editorial.lede,
     hero: heroFor(p)?.local.replace(/^public\//, '/') ?? placeholder(p),
+    hasPhoto: Boolean(heroFor(p)),
+    q: p.media?.query ?? `${p.identity.name_official ?? p.identity.name_fr} ${p.location.country_labels[0]}`,
     alt: heroFor(p)?.alt ?? '',
     author: heroFor(p)?.author ?? null,
     license: heroFor(p) ? `${heroFor(p)!.license} ${heroFor(p)!.license_version}` : null,
@@ -41,6 +43,11 @@ const pool = places
 
     <script type="application/json" id="guess-pool" set:html={JSON.stringify(pool)} />
   </section>
+
+  <script>
+    import { illustrateOnScroll } from '../scripts/photos';
+    (window as any).__illustrate = illustrateOnScroll;
+  </script>
 
   <script define:vars={{ base }}>
     const pool = JSON.parse(document.getElementById('guess-pool').textContent);
@@ -79,5 +86,6 @@ const pool = places
     document.querySelector('[data-reveal]').addEventListener('click', reveal);
     document.querySelector('[data-next]').addEventListener('click', pick);
     pick();
+    window.__illustrate?.(document);
   </script>
 </Base>

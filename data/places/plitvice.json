@@ -6,19 +6,35 @@
   "identity": {
     "name_fr": "Lacs de Plitvice",
     "name_official": "Nacionalni park Plitvička jezera",
-    "name_local": [{ "lang": "hr", "value": "Plitvička jezera" }],
+    "name_local": [
+      {
+        "lang": "hr",
+        "value": "Plitvička jezera"
+      }
+    ],
     "name_indigenous": null,
-    "aka": ["Plitvice"]
+    "aka": [
+      "Plitvice"
+    ]
   },
   "location": {
-    "countries": ["HR"],
-    "country_labels": ["Croatie"],
+    "countries": [
+      "HR"
+    ],
+    "country_labels": [
+      "Croatie"
+    ],
     "subdivision": "Lika-Senj et Karlovac",
     "region": "europe",
     "lat": 44.8654,
     "lng": 15.582,
     "coordinate_precision": "site",
-    "bbox": [15.4855, 44.7855, 15.7205, 44.9455],
+    "bbox": [
+      15.4855,
+      44.7855,
+      15.7205,
+      44.9455
+    ],
     "area_km2": 296.85,
     "elevation_min_m": 367,
     "elevation_max_m": 1279,
@@ -27,18 +43,53 @@
   },
   "landscape": {
     "primary": "lac",
-    "types": ["lac", "cascade", "karst", "foret-temperee", "grotte"],
+    "types": [
+      "lac",
+      "cascade",
+      "karst",
+      "foret-temperee",
+      "grotte"
+    ],
     "family": "eau",
-    "iucn_ecosystem": ["F2.2 Lacs permanents", "F1.2 Rivières et ruisseaux permanents des zones tempérées", "T2.4 Forêts tempérées de feuillus"],
+    "iucn_ecosystem": [
+      "F2.2 Lacs permanents",
+      "F1.2 Rivières et ruisseaux permanents des zones tempérées",
+      "T2.4 Forêts tempérées de feuillus"
+    ],
     "biome": "Forêts tempérées de feuillus et forêts mixtes",
     "climate": "Cfb, nuance montagnarde",
-    "collections": ["royaumes-eau", "forets-primordiales", "paysages-en-transformation"]
+    "collections": [
+      "royaumes-eau",
+      "forets-primordiales",
+      "paysages-en-transformation"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "national-park", "name": "Parc national des lacs de Plitvice", "since": 1949, "iucn_category": "II", "url": "https://np-plitvicka-jezera.hr/" },
-      { "type": "unesco-whs", "name": "Plitvice Lakes National Park", "ref": "98", "since": 1979, "criteria": ["vii", "viii", "ix"], "url": "https://whc.unesco.org/en/list/98/" },
-      { "type": "kba", "name": "Plitvička jezera", "ref": "HR" }
+      {
+        "type": "national-park",
+        "name": "Parc national des lacs de Plitvice",
+        "since": 1949,
+        "iucn_category": "II",
+        "url": "https://np-plitvicka-jezera.hr/"
+      },
+      {
+        "type": "unesco-whs",
+        "name": "Plitvice Lakes National Park",
+        "ref": "98",
+        "since": 1979,
+        "criteria": [
+          "vii",
+          "viii",
+          "ix"
+        ],
+        "url": "https://whc.unesco.org/en/list/98/"
+      },
+      {
+        "type": "kba",
+        "name": "Plitvička jezera",
+        "ref": "HR"
+      }
     ],
     "managing_body": {
       "name": "Javna ustanova Nacionalni park Plitvička jezera",
@@ -47,7 +98,11 @@
     }
   },
   "editorial": {
-    "badges": ["exceptionnel", "geologie-remarquable", "ecosysteme-majeur"],
+    "badges": [
+      "exceptionnel",
+      "geologie-remarquable",
+      "ecosysteme-majeur"
+    ],
     "essential": true,
     "lede": "Seize lacs suspendus les uns au-dessus des autres, retenus non par de la roche ancienne mais par des barrages de calcaire que l'eau et les mousses continuent de fabriquer aujourd'hui.",
     "why_here": "Plitvice est le cas d'école du joyau naturel tel que ce projet le définit : un paysage entièrement produit par un processus physique et biologique observable, encore actif, et dont la beauté est la conséquence directe du mécanisme. On y voit littéralement le paysage se construire. Aucun aménagement humain n'explique la forme du lieu, seulement le carbonate, l'eau et le vivant.",
@@ -64,42 +119,154 @@
     ]
   },
   "figures": [
-    { "label": "Superficie du parc", "value": "296,85 km²", "source": "Parc national des lacs de Plitvice" },
-    { "label": "Lacs principaux", "value": "16" },
-    { "label": "Dénivelée entre premier et dernier lac", "value": "environ 133 m" },
-    { "label": "Chute du Veliki slap", "value": "78 m" },
-    { "label": "Profondeur maximale (Kozjak)", "value": "environ 46 m" },
-    { "label": "Croissance des barrages", "value": "de l'ordre de 1 cm par an" },
-    { "label": "Âge des barrages actuels", "value": "6 000 à 7 000 ans" },
-    { "label": "Inscription UNESCO", "value": "1979, extension en 2000" }
+    {
+      "label": "Superficie du parc",
+      "value": "296,85 km²",
+      "source": "Parc national des lacs de Plitvice"
+    },
+    {
+      "label": "Lacs principaux",
+      "value": "16"
+    },
+    {
+      "label": "Dénivelée entre premier et dernier lac",
+      "value": "environ 133 m"
+    },
+    {
+      "label": "Chute du Veliki slap",
+      "value": "78 m"
+    },
+    {
+      "label": "Profondeur maximale (Kozjak)",
+      "value": "environ 46 m"
+    },
+    {
+      "label": "Croissance des barrages",
+      "value": "de l'ordre de 1 cm par an"
+    },
+    {
+      "label": "Âge des barrages actuels",
+      "value": "6 000 à 7 000 ans"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "1979, extension en 2000"
+    }
   ],
   "geology": {
     "age": "Substrat carbonaté du Trias au Crétacé ; barrages de travertin holocènes, 6 000 à 7 000 ans",
-    "processes": ["karstification", "precipitation-carbonatee", "biominéralisation", "erosion-fluviale"],
-    "rock_types": ["dolomie du Trias supérieur", "calcaire du Crétacé", "travertin holocène"],
+    "processes": [
+      "karstification",
+      "precipitation-carbonatee",
+      "biominéralisation",
+      "erosion-fluviale"
+    ],
+    "rock_types": [
+      "dolomie du Trias supérieur",
+      "calcaire du Crétacé",
+      "travertin holocène"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Ours brun", "name_sci": "Ursus arctos", "group": "mammifère", "iucn_status": "LC", "note": "Population dinarique, présente sur l'ensemble du parc." },
-      { "name_fr": "Loup gris", "name_sci": "Canis lupus", "group": "mammifère", "iucn_status": "LC" },
-      { "name_fr": "Lynx boréal", "name_sci": "Lynx lynx", "group": "mammifère", "iucn_status": "LC", "note": "Issu de la réintroduction dinarique de 1973, population localement menacée par la consanguinité." },
-      { "name_fr": "Grand tétras", "name_sci": "Tetrao urogallus", "group": "oiseau", "iucn_status": "LC" },
-      { "name_fr": "Sabot de Vénus", "name_sci": "Cypripedium calceolus", "group": "plante", "iucn_status": "LC" },
-      { "name_fr": "Mousse constructrice de tuf", "name_sci": "Cratoneuron commutatum", "group": "bryophyte", "note": "Support biologique de la précipitation du carbonate." }
+      {
+        "name_fr": "Ours brun",
+        "name_sci": "Ursus arctos",
+        "group": "mammifère",
+        "iucn_status": "LC",
+        "note": "Population dinarique, présente sur l'ensemble du parc."
+      },
+      {
+        "name_fr": "Loup gris",
+        "name_sci": "Canis lupus",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Lynx boréal",
+        "name_sci": "Lynx lynx",
+        "group": "mammifère",
+        "iucn_status": "LC",
+        "note": "Issu de la réintroduction dinarique de 1973, population localement menacée par la consanguinité."
+      },
+      {
+        "name_fr": "Grand tétras",
+        "name_sci": "Tetrao urogallus",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Sabot de Vénus",
+        "name_sci": "Cypripedium calceolus",
+        "group": "plante",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Mousse constructrice de tuf",
+        "name_sci": "Cratoneuron commutatum",
+        "group": "bryophyte",
+        "note": "Support biologique de la précipitation du carbonate."
+      }
     ],
     "endemism_level": "modere",
     "endemism_note": "L'endémisme de surface est limité, mais le karst dinarique auquel appartient le site est le premier point chaud mondial de faune souterraine, avec de nombreux invertébrés troglobies à aire réduite.",
-    "species_counts": { "plants": 1400, "birds": 157, "mammals": 50, "note": "Ordres de grandeur publiés par le parc, à revérifier lors de chaque révision." }
+    "species_counts": {
+      "plants": 1400,
+      "birds": 157,
+      "mammals": 50,
+      "note": "Ordres de grandeur publiés par le parc, à revérifier lors de chaque révision."
+    }
   },
   "seasonality": {
-    "best_months": [4, 5, 6, 9, 10],
-    "avoid_months": [7, 8],
+    "best_months": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "avoid_months": [
+      7,
+      8
+    ],
     "phenomena": [
-      { "label": "Débit maximal, cascades à pleine puissance", "kind": "fonte", "months": [3, 4, 5], "note": "Fonte des neiges et pluies de printemps." },
-      { "label": "Couleurs automnales des hêtraies", "kind": "couleurs", "months": [10, 11] },
-      { "label": "Étiage estival, débits réduits", "kind": "etiage", "months": [7, 8], "note": "Affluence maximale et cascades les plus faibles se superposent." },
-      { "label": "Cascades gelées et lacs partiellement pris", "kind": "glace", "months": [1, 2], "note": "Certains sentiers sont alors fermés." }
+      {
+        "label": "Débit maximal, cascades à pleine puissance",
+        "kind": "fonte",
+        "months": [
+          3,
+          4,
+          5
+        ],
+        "note": "Fonte des neiges et pluies de printemps."
+      },
+      {
+        "label": "Couleurs automnales des hêtraies",
+        "kind": "couleurs",
+        "months": [
+          10,
+          11
+        ]
+      },
+      {
+        "label": "Étiage estival, débits réduits",
+        "kind": "etiage",
+        "months": [
+          7,
+          8
+        ],
+        "note": "Affluence maximale et cascades les plus faibles se superposent."
+      },
+      {
+        "label": "Cascades gelées et lacs partiellement pris",
+        "kind": "glace",
+        "months": [
+          1,
+          2
+        ],
+        "note": "Certains sentiers sont alors fermés."
+      }
     ],
     "notes": "Le meilleur compromis se situe fin avril à début juin, puis fin septembre à mi-octobre : débits soutenus, feuillage et fréquentation supportable."
   },
@@ -124,24 +291,85 @@
     "state": "Le site est bien géré et son intégrité paysagère reste forte, mais la pression touristique constitue une menace structurelle reconnue. Une mission de suivi réactif UNESCO et UICN a conduit le parc à instaurer des quotas d'entrée et à revoir sa capacité de charge. La qualité chimique de l'eau, dont dépend directement la construction des barrages, reste le paramètre critique à surveiller.",
     "trend": "stable",
     "threats": [
-      { "type": "tourisme", "level": "eleve", "note": "Concentration de la fréquentation sur un linéaire de passerelles très réduit, érosion et perturbation des zones de tuf." },
-      { "type": "urbanisation", "level": "modere", "note": "Développement hôtelier et prélèvements d'eau dans le bassin versant." },
-      { "type": "pollution", "level": "modere", "note": "Eaux usées et apports en nutriments, qui favorisent les algues au détriment des mousses constructrices." },
-      { "type": "climat", "level": "modere", "note": "Réduction de l'enneigement et allongement des étiages." },
-      { "type": "invasives", "level": "faible", "note": "Salmonidés introduits dans les lacs." }
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Concentration de la fréquentation sur un linéaire de passerelles très réduit, érosion et perturbation des zones de tuf."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Développement hôtelier et prélèvements d'eau dans le bassin versant."
+      },
+      {
+        "type": "pollution",
+        "level": "modere",
+        "note": "Eaux usées et apports en nutriments, qui favorisent les algues au détriment des mousses constructrices."
+      },
+      {
+        "type": "climat",
+        "level": "modere",
+        "note": "Réduction de l'enneigement et allongement des étiages."
+      },
+      {
+        "type": "invasives",
+        "level": "faible",
+        "note": "Salmonidés introduits dans les lacs."
+      }
     ],
     "understand_without_going": false,
     "message": "Le travertin est une roche que l'on peut tuer en marchant dessus. Ici, respecter le balisage n'est pas une formalité administrative : c'est ce qui permet au paysage de continuer d'exister."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Plitvice Lakes National Park waterfalls travertine"
+  },
   "sources": [
-    { "title": "Plitvice Lakes National Park", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/98/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Nacionalni park Plitvička jezera, site officiel", "publisher": "Javna ustanova NP Plitvička jezera", "url": "https://np-plitvicka-jezera.hr/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Plitvice Lakes National Park", "publisher": "Protected Planet, WDPA", "url": "https://www.protectedplanet.net/1240", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "State of Conservation, Plitvice Lakes National Park", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/soc/", "type": "officiel", "accessed": "2026-08-22" }
+    {
+      "title": "Plitvice Lakes National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/98/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Nacionalni park Plitvička jezera, site officiel",
+      "publisher": "Javna ustanova NP Plitvička jezera",
+      "url": "https://np-plitvicka-jezera.hr/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Plitvice Lakes National Park",
+      "publisher": "Protected Planet, WDPA",
+      "url": "https://www.protectedplanet.net/1240",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "State of Conservation, Plitvice Lakes National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    }
   ],
   "score": {
-    "criteria": { "visuel": 5, "singularite": 5, "rarete": 5, "diversite": 4, "integrite": 4, "monumentalite": 3, "actif": 5, "biologique": 4, "photogenie": 5, "pedagogie": 5, "conservation": 4, "complementarite": 5 },
+    "criteria": {
+      "visuel": 5,
+      "singularite": 5,
+      "rarete": 5,
+      "diversite": 4,
+      "integrite": 4,
+      "monumentalite": 3,
+      "actif": 5,
+      "biologique": 4,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 4,
+      "complementarite": 5
+    },
     "total": 119,
     "scored_on": "2026-08-22"
   }

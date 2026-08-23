@@ -7,21 +7,42 @@
     "name_fr": "Forêt de Białowieża",
     "name_official": "Białowieża Forest",
     "name_local": [
-      { "lang": "pl", "value": "Puszcza Białowieska" },
-      { "lang": "be", "value": "Белавежская пушча", "note": "Bielavieskaja pušča" }
+      {
+        "lang": "pl",
+        "value": "Puszcza Białowieska"
+      },
+      {
+        "lang": "be",
+        "value": "Белавежская пушча",
+        "note": "Bielavieskaja pušča"
+      }
     ],
     "name_indigenous": null,
-    "aka": ["Belovezhskaya Pushcha", "Puszcza Białowieska"]
+    "aka": [
+      "Belovezhskaya Pushcha",
+      "Puszcza Białowieska"
+    ]
   },
   "location": {
-    "countries": ["PL", "BY"],
-    "country_labels": ["Pologne", "Biélorussie"],
+    "countries": [
+      "PL",
+      "BY"
+    ],
+    "country_labels": [
+      "Pologne",
+      "Biélorussie"
+    ],
     "subdivision": "Voïvodie de Podlachie et voblast de Brest",
     "region": "europe",
     "lat": 52.73,
     "lng": 23.85,
     "coordinate_precision": "site",
-    "bbox": [23.2, 52.5, 24.35, 53.0],
+    "bbox": [
+      23.2,
+      52.5,
+      24.35,
+      53.0
+    ],
     "area_km2": 1418.85,
     "elevation_min_m": 135,
     "elevation_max_m": 200,
@@ -30,30 +51,68 @@
   },
   "landscape": {
     "primary": "foret-temperee",
-    "types": ["foret-temperee", "zone-humide"],
+    "types": [
+      "foret-temperee",
+      "zone-humide"
+    ],
     "family": "foret",
-    "iucn_ecosystem": ["T2.2 Forêts tempérées décidues", "TF1.2 Forêts marécageuses d'eau douce"],
+    "iucn_ecosystem": [
+      "T2.2 Forêts tempérées décidues",
+      "TF1.2 Forêts marécageuses d'eau douce"
+    ],
     "biome": "Forêts mixtes tempérées d'Europe centrale",
     "climate": "Dfb continental de transition",
-    "collections": ["forets-primordiales"]
+    "collections": [
+      "forets-primordiales"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-whs", "name": "Forêt Bialowieza", "ref": "33", "since": 1979, "criteria": ["ix", "x"], "url": "https://whc.unesco.org/fr/list/33/" },
-      { "type": "national-park", "name": "Białowieski Park Narodowy", "since": 1932, "url": "https://bpn.gov.pl/" },
-      { "type": "national-park", "name": "Belovezhskaya Pushcha", "since": 1991 },
-      { "type": "unesco-mab", "name": "Réserve de biosphère de la forêt de Białowieża", "since": 1976 }
+      {
+        "type": "unesco-whs",
+        "name": "Forêt Bialowieza",
+        "ref": "33",
+        "since": 1979,
+        "criteria": [
+          "ix",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/33/"
+      },
+      {
+        "type": "national-park",
+        "name": "Białowieski Park Narodowy",
+        "since": 1932,
+        "url": "https://bpn.gov.pl/"
+      },
+      {
+        "type": "national-park",
+        "name": "Belovezhskaya Pushcha",
+        "since": 1991
+      },
+      {
+        "type": "unesco-mab",
+        "name": "Réserve de biosphère de la forêt de Białowieża",
+        "since": 1976
+      }
     ],
-    "managing_body": { "name": "Białowieski Park Narodowy, côté polonais, et parc national de Belovezhskaya Pushcha, côté biélorusse", "url": "https://bpn.gov.pl/", "note": "Gestion transfrontalière coordonnée par un comité de pilotage commun." }
+    "managing_body": {
+      "name": "Białowieski Park Narodowy, côté polonais, et parc national de Belovezhskaya Pushcha, côté biélorusse",
+      "url": "https://bpn.gov.pl/",
+      "note": "Gestion transfrontalière coordonnée par un comité de pilotage commun."
+    }
   },
   "editorial": {
-    "badges": ["ecosysteme-majeur", "tres-sauvage", "geologie-remarquable"],
+    "badges": [
+      "ecosysteme-majeur",
+      "tres-sauvage",
+      "geologie-remarquable"
+    ],
     "essential": false,
     "lede": "Une plaine boisée où les arbres tombent là où ils meurent, où le bois mort s'accumule depuis des siècles, et où marche encore le plus lourd animal terrestre d'Europe.",
     "why_here": "Presque toutes les forêts de plaine européennes ont été coupées, replantées, drainées et alignées. Białowieża est la seule qui conserve, sur une surface suffisante, un cycle complet de vie et de mort des arbres, avec des volumes de bois mort que l'on ne trouve plus ailleurs à cette latitude. Ce n'est pas la beauté qui la place ici, c'est un processus : la sylvigenèse spontanée, le vieillissement, la chute, la décomposition, et le cortège d'espèces qui en dépend. Elle apporte à la sélection ce qu'aucun massif montagnard ne peut fournir, la mémoire écologique d'un continent de plaine. Elle apporte aussi un cas d'école de conflit entre gestion forestière et protection, tranché par une juridiction internationale.",
     "presentation": "La forêt s'étend de part et d'autre de la frontière entre la Pologne et la Biélorussie, sur près de 1 500 km² de plaine à peine ondulée, entre 135 et 200 mètres d'altitude. Rien dans le relief n'attire l'œil. Tout se joue à l'intérieur du couvert, dans la structure verticale du peuplement et dans l'épaisseur du sol.\n\nOn y trouve côte à côte des chênaies charmaies sur les sols les mieux drainés, des pinèdes sur les sables, des pessières sur les terrains frais et, dans les dépressions, des aulnaies marécageuses inondées une partie de l'année. Cette mosaïque tient à des variations de quelques dizaines de centimètres du niveau de la nappe. Des chênes pédonculés dépassent les cinq cents ans, des épicéas atteignent cinquante mètres, et le sol est encombré de troncs à tous les stades de décomposition.\n\nLe massif doit sa survie à un privilège féodal puis royal : il fut réserve de chasse des grands ducs de Lituanie, puis des rois de Pologne, puis des tsars de Russie. Trois siècles de protection par le pouvoir, pour de mauvaises raisons, ont produit un résultat que la protection scientifique n'a obtenu nulle part ailleurs sur ce type de milieu.\n\nLe bison d'Europe, Bison bonasus, y a été exterminé en 1919. L'espèce n'a survécu qu'en captivité, à partir d'une poignée de fondateurs. Sa restitution commence à Białowieża en 1929, avec des animaux ramenés de parcs zoologiques, et les premiers lâchers en liberté ont lieu au début des années 1950. La population libre du massif transfrontalier compte aujourd'hui de l'ordre de neuf cents individus, soit une part très importante de l'effectif mondial.\n\nLe statut de protection est inégal. Une fraction seulement du massif est en réserve stricte, le reste relevant de forêts domaniales exploitées, ce qui est à l'origine du conflit majeur des dernières décennies.",
-    "geology": "Le socle est un fragment du craton est européen, formé de gneiss et de granites précambriens, mais il est ici enfoui sous plusieurs centaines de mètres de sédiments et ne joue aucun rôle dans le paysage visible. Au dessus viennent des marnes et des craies du Crétacé, puis des sables et des argiles marins du Paléogène et du Néogène, déposés dans des mers épicontinentales peu profondes.\n\nCe qui donne au terrain sa forme actuelle est beaucoup plus récent et beaucoup plus mince : cent à deux cents mètres de dépôts quaternaires laissés par les calottes scandinaves. La dernière glaciation à avoir effectivement recouvert ce secteur est la glaciation médio polonaise, il y a de l'ordre de cent cinquante mille ans. Elle a laissé une moraine de fond argilo sableuse, des placages de sables fluvioglaciaires et quelques ondulations de moraine frontale, le tout formant la plaine que l'on parcourt aujourd'hui.\n\nPendant la dernière glaciation, celle du Vistulien, l'inlandsis s'est arrêté plus au nord. Białowieża est alors resté en domaine périglaciaire, sans glace mais avec un pergélisol saisonnier, des coulées de solifluxion et un remaniement éolien qui ont adouci les formes et déposé des sables de couverture. C'est cette histoire à deux temps, glaciaire puis périglaciaire, qui explique un relief presque plat, très mal drainé.\n\nLe résultat pédologique est décisif pour la forêt. Les argiles morainiques retiennent l'eau, la nappe affleure dans les dépressions, et les sols vont des podzols secs sur sables aux gleys et aux tourbières dans les cuvettes, parfois sur quelques mètres seulement de distance horizontale. La forêt lit ce micro relief invisible : chaque type de sol porte un cortège d'arbres différent.\n\nEnfin, le massif se tient sur une ligne de partage des eaux très basse, entre le bassin de la Narew au nord et celui de la Lesna et du Bug au sud. Les cours d'eau y sont lents, sinueux et sans énergie, ce qui a favorisé l'accumulation de matière organique et la permanence des milieux humides intraforestiers depuis la fin de la dernière glaciation, soit environ dix mille ans de continuité forestière."
-    ,
+    "geology": "Le socle est un fragment du craton est européen, formé de gneiss et de granites précambriens, mais il est ici enfoui sous plusieurs centaines de mètres de sédiments et ne joue aucun rôle dans le paysage visible. Au dessus viennent des marnes et des craies du Crétacé, puis des sables et des argiles marins du Paléogène et du Néogène, déposés dans des mers épicontinentales peu profondes.\n\nCe qui donne au terrain sa forme actuelle est beaucoup plus récent et beaucoup plus mince : cent à deux cents mètres de dépôts quaternaires laissés par les calottes scandinaves. La dernière glaciation à avoir effectivement recouvert ce secteur est la glaciation médio polonaise, il y a de l'ordre de cent cinquante mille ans. Elle a laissé une moraine de fond argilo sableuse, des placages de sables fluvioglaciaires et quelques ondulations de moraine frontale, le tout formant la plaine que l'on parcourt aujourd'hui.\n\nPendant la dernière glaciation, celle du Vistulien, l'inlandsis s'est arrêté plus au nord. Białowieża est alors resté en domaine périglaciaire, sans glace mais avec un pergélisol saisonnier, des coulées de solifluxion et un remaniement éolien qui ont adouci les formes et déposé des sables de couverture. C'est cette histoire à deux temps, glaciaire puis périglaciaire, qui explique un relief presque plat, très mal drainé.\n\nLe résultat pédologique est décisif pour la forêt. Les argiles morainiques retiennent l'eau, la nappe affleure dans les dépressions, et les sols vont des podzols secs sur sables aux gleys et aux tourbières dans les cuvettes, parfois sur quelques mètres seulement de distance horizontale. La forêt lit ce micro relief invisible : chaque type de sol porte un cortège d'arbres différent.\n\nEnfin, le massif se tient sur une ligne de partage des eaux très basse, entre le bassin de la Narew au nord et celui de la Lesna et du Bug au sud. Les cours d'eau y sont lents, sinueux et sans énergie, ce qui a favorisé l'accumulation de matière organique et la permanence des milieux humides intraforestiers depuis la fin de la dernière glaciation, soit environ dix mille ans de continuité forestière.",
     "dynamics": "Le moteur du système n'est ni le feu ni l'inondation, mais la mort des arbres et les trouées qu'elle ouvre. Chutes de vieux sujets, chablis de tempête, épidémies de scolyte typographe sur l'épicéa : chaque perturbation crée une clairière où la régénération repart, ce qui entretient une mosaïque permanente d'âges et de structures. Le volume de bois mort atteint dans les parcelles les mieux conservées plusieurs dizaines de mètres cubes par hectare, valeur sans commune mesure avec celle d'une forêt exploitée. Le climat, continental de transition, impose des hivers longs et un enneigement irrégulier, et l'essentiel de la croissance se concentre d'avril à septembre. Le niveau de la nappe commande tout le reste : il monte à la fonte, décroît en été, et son abaissement progressif, lié au drainage historique et aux étés plus secs, affaiblit les aulnaies et les pessières. Le brame du cerf en septembre et le regroupement hivernal des bisons autour des points de nourrissage marquent la saisonnalité animale.",
     "biodiversity_text": "Le massif abrite cinquante neuf espèces de mammifères, plus de deux cent cinquante d'oiseaux et plus de douze mille espèces d'invertébrés recensées, chiffre encore incomplet. Le bison d'Europe en est l'emblème, aux côtés du loup, du lynx boréal, de l'élan et du castor. Les oiseaux liés au bois mort et aux vieux peuplements sont ici en effectifs remarquables : pic à dos blanc, pic tridactyle, chouette de l'Oural, chevêchette d'Europe, gobemouche nain. La singularité tient surtout au cortège saproxylique, ces milliers d'espèces de coléoptères, de diptères et de champignons qui dépendent du bois mort à un stade précis de décomposition et qui disparaissent des forêts gérées. Plus de mille espèces de champignons ont été identifiées, dont beaucoup n'ont plus d'habitat ailleurs dans la plaine européenne.",
     "in_motion": "Deux évolutions changent rapidement la forêt. La première est climatique : des étés plus chauds et plus secs, un abaissement de la nappe et un stress hydrique qui fragilise l'épicéa et favorise les pullulations de scolyte, au point que d'anciennes pessières se transforment en peuplements feuillus. La seconde est politique et matérielle : la barrière métallique construite en 2022 le long de la frontière traverse le massif sur des dizaines de kilomètres et coupe les déplacements des grands mammifères, bison, loup, lynx et élan, ce qui menace la cohérence écologique d'un ensemble jusque là fonctionnellement unique. Les scientifiques des deux côtés documentent déjà des effets de fragmentation.",
@@ -65,41 +124,145 @@
     ]
   },
   "figures": [
-    { "label": "Bien inscrit", "value": "141 885 ha, zone tampon de 166 708 ha" },
-    { "label": "Bisons d'Europe dans le massif", "value": "de l'ordre de 900 individus" },
-    { "label": "Mammifères", "value": "59 espèces" },
-    { "label": "Oiseaux", "value": "plus de 250 espèces" },
-    { "label": "Invertébrés recensés", "value": "plus de 12 000 espèces" },
-    { "label": "Altitude", "value": "environ 135 à 200 m" },
-    { "label": "Inscription UNESCO", "value": "1979, étendue en 1992 puis en 2014, critères ix et x" },
-    { "label": "Arrêt de la Cour de justice de l'Union européenne", "value": "17 avril 2018, affaire C-441/17" }
+    {
+      "label": "Bien inscrit",
+      "value": "141 885 ha, zone tampon de 166 708 ha"
+    },
+    {
+      "label": "Bisons d'Europe dans le massif",
+      "value": "de l'ordre de 900 individus"
+    },
+    {
+      "label": "Mammifères",
+      "value": "59 espèces"
+    },
+    {
+      "label": "Oiseaux",
+      "value": "plus de 250 espèces"
+    },
+    {
+      "label": "Invertébrés recensés",
+      "value": "plus de 12 000 espèces"
+    },
+    {
+      "label": "Altitude",
+      "value": "environ 135 à 200 m"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "1979, étendue en 1992 puis en 2014, critères ix et x"
+    },
+    {
+      "label": "Arrêt de la Cour de justice de l'Union européenne",
+      "value": "17 avril 2018, affaire C-441/17"
+    }
   ],
   "geology": {
     "age": "Socle précambrien enfoui, couverture crétacée et cénozoïque, modelé glaciaire médio polonais puis remaniement périglaciaire vistulien",
-    "processes": ["dépôt morainique", "épandage fluvioglaciaire", "solifluxion périglaciaire", "couverture éolienne", "engorgement et tourbification"],
-    "rock_types": ["argiles et sables morainiques", "sables fluvioglaciaires", "craie et marnes crétacées", "tourbe"],
+    "processes": [
+      "dépôt morainique",
+      "épandage fluvioglaciaire",
+      "solifluxion périglaciaire",
+      "couverture éolienne",
+      "engorgement et tourbification"
+    ],
+    "rock_types": [
+      "argiles et sables morainiques",
+      "sables fluvioglaciaires",
+      "craie et marnes crétacées",
+      "tourbe"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Bison d'Europe", "name_sci": "Bison bonasus", "group": "mammifère", "iucn_status": "NT", "note": "Éteint à l'état sauvage en 1927, restitution engagée à Białowieża à partir de 1929." },
-      { "name_fr": "Lynx boréal", "name_sci": "Lynx lynx", "group": "mammifère", "iucn_status": "LC" },
-      { "name_fr": "Loup gris", "name_sci": "Canis lupus", "group": "mammifère", "iucn_status": "LC" },
-      { "name_fr": "Pic à dos blanc", "name_sci": "Dendrocopos leucotos", "group": "oiseau", "iucn_status": "LC", "note": "Indicateur des forêts riches en bois mort de feuillus." },
-      { "name_fr": "Chouette de l'Oural", "name_sci": "Strix uralensis", "group": "oiseau", "iucn_status": "LC" }
+      {
+        "name_fr": "Bison d'Europe",
+        "name_sci": "Bison bonasus",
+        "group": "mammifère",
+        "iucn_status": "NT",
+        "note": "Éteint à l'état sauvage en 1927, restitution engagée à Białowieża à partir de 1929."
+      },
+      {
+        "name_fr": "Lynx boréal",
+        "name_sci": "Lynx lynx",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Loup gris",
+        "name_sci": "Canis lupus",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Pic à dos blanc",
+        "name_sci": "Dendrocopos leucotos",
+        "group": "oiseau",
+        "iucn_status": "LC",
+        "note": "Indicateur des forêts riches en bois mort de feuillus."
+      },
+      {
+        "name_fr": "Chouette de l'Oural",
+        "name_sci": "Strix uralensis",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      }
     ],
     "endemism_level": "faible",
     "endemism_note": "Recolonisation postglaciaire récente, donc peu d'endémisme, mais une concentration exceptionnelle d'espèces reliques et exigeantes disparues du reste de la plaine européenne.",
-    "species_counts": { "plants": null, "birds": 250, "mammals": 59, "fish": null, "corals": null, "note": "Plus de 12 000 invertébrés recensés et plus de 1 000 champignons identifiés, inventaires toujours en cours." }
+    "species_counts": {
+      "plants": null,
+      "birds": 250,
+      "mammals": 59,
+      "fish": null,
+      "corals": null,
+      "note": "Plus de 12 000 invertébrés recensés et plus de 1 000 champignons identifiés, inventaires toujours en cours."
+    }
   },
   "seasonality": {
-    "best_months": [5, 6, 9, 10],
+    "best_months": [
+      5,
+      6,
+      9,
+      10
+    ],
     "avoid_months": [],
     "phenomena": [
-      { "label": "Feuillaison et chant des passereaux forestiers", "kind": "autre", "months": [4, 5], "note": "Meilleure période pour les pics et les gobemouches." },
-      { "label": "Brame du cerf élaphe", "kind": "autre", "months": [9, 10] },
-      { "label": "Couleurs des charmes, chênes et érables", "kind": "couleurs", "months": [10] },
-      { "label": "Regroupement hivernal des bisons et pistage sur neige", "kind": "autre", "months": [12, 1, 2], "note": "Observation encadrée, l'approche libre des troupeaux est proscrite." }
+      {
+        "label": "Feuillaison et chant des passereaux forestiers",
+        "kind": "autre",
+        "months": [
+          4,
+          5
+        ],
+        "note": "Meilleure période pour les pics et les gobemouches."
+      },
+      {
+        "label": "Brame du cerf élaphe",
+        "kind": "autre",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Couleurs des charmes, chênes et érables",
+        "kind": "couleurs",
+        "months": [
+          10
+        ]
+      },
+      {
+        "label": "Regroupement hivernal des bisons et pistage sur neige",
+        "kind": "autre",
+        "months": [
+          12,
+          1,
+          2
+        ],
+        "note": "Observation encadrée, l'approche libre des troupeaux est proscrite."
+      }
     ],
     "notes": "Les moustiques et les taons rendent l'intérieur des aulnaies difficile de juin à août. Le printemps et l'automne offrent une meilleure visibilité sous couvert."
   },
@@ -107,7 +270,10 @@
     "accessibility": "facile",
     "suggested_duration": "2 à 3 jours",
     "difficulty": "Terrain plat, sentiers courts, mais milieux humides et zones réglementées nombreuses.",
-    "extreme_conditions": ["insectes piqueurs en été", "sols engorgés au printemps"],
+    "extreme_conditions": [
+      "insectes piqueurs en été",
+      "sols engorgés au printemps"
+    ],
     "permits": "L'accès à la zone de protection stricte du parc national polonais n'est possible qu'accompagné d'un guide agréé, avec billet.",
     "rules": [
       "Ne pénétrer dans la réserve stricte qu'avec un guide agréé et rester sur l'itinéraire balisé.",
@@ -124,20 +290,81 @@
     "state": "L'état des noyaux strictement protégés reste excellent, mais l'ensemble du massif est fragmenté par des statuts inégaux. En 2016, le ministère polonais de l'Environnement a fortement relevé les volumes de coupe dans le district forestier de Białowieża, au motif de lutter contre une pullulation du scolyte typographe, et a engagé des abattages y compris dans de vieux peuplements. La Commission européenne a saisi la Cour de justice de l'Union européenne, qui a ordonné la suspension des travaux en 2017 puis jugé, le 17 avril 2018 dans l'affaire C-441/17, que la Pologne avait manqué à ses obligations au titre des directives Habitats et Oiseaux. La lecture forestière classique, selon laquelle il faut retirer les épicéas atteints pour protéger le peuplement, se heurte ici à la lecture écologique : dans une forêt à dynamique naturelle, l'épidémie de scolyte est un moteur de renouvellement et le bois mort qu'elle produit est un habitat, pas un déchet. Les coupes ont cessé, mais l'extension du statut de parc national à l'ensemble du massif polonais reste un débat ouvert, et la barrière frontalière érigée en 2022 a ajouté une atteinte durable à la continuité écologique.",
     "trend": "degradation",
     "threats": [
-      { "type": "extraction", "level": "modere", "note": "Exploitation forestière dans les districts non classés en parc national, sujet toujours conflictuel." },
-      { "type": "urbanisation", "level": "eleve", "note": "Barrière frontalière métallique construite en 2022, fragmentation des populations de grands mammifères." },
-      { "type": "climat", "level": "eleve", "note": "Baisse de la nappe, dépérissement de l'épicéa, pullulations de scolyte amplifiées." },
-      { "type": "tourisme", "level": "faible", "note": "Fréquentation concentrée sur quelques sentiers et sur l'enclos de bisons." }
+      {
+        "type": "extraction",
+        "level": "modere",
+        "note": "Exploitation forestière dans les districts non classés en parc national, sujet toujours conflictuel."
+      },
+      {
+        "type": "urbanisation",
+        "level": "eleve",
+        "note": "Barrière frontalière métallique construite en 2022, fragmentation des populations de grands mammifères."
+      },
+      {
+        "type": "climat",
+        "level": "eleve",
+        "note": "Baisse de la nappe, dépérissement de l'épicéa, pullulations de scolyte amplifiées."
+      },
+      {
+        "type": "tourisme",
+        "level": "faible",
+        "note": "Fréquentation concentrée sur quelques sentiers et sur l'enclos de bisons."
+      }
     ],
     "understand_without_going": false,
     "message": "Le message de Białowieża tient en une phrase : le bois mort n'est pas une forêt malade, c'est une forêt complète. Une visite guidée dans la réserve stricte l'enseigne mieux que n'importe quelle image."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Bialowieza Forest primeval Poland bison"
+  },
   "sources": [
-    { "title": "Forêt Bialowieza", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/33/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Białowieski Park Narodowy, site officiel", "publisher": "Białowieski Park Narodowy", "url": "https://bpn.gov.pl/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Bison bonasus, fiche de la Liste rouge", "publisher": "UICN", "url": "https://www.iucnredlist.org/species/2814/9484454", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Base mondiale des aires protégées", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" }
+    {
+      "title": "Forêt Bialowieza",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/33/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Białowieski Park Narodowy, site officiel",
+      "publisher": "Białowieski Park Narodowy",
+      "url": "https://bpn.gov.pl/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Bison bonasus, fiche de la Liste rouge",
+      "publisher": "UICN",
+      "url": "https://www.iucnredlist.org/species/2814/9484454",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Base mondiale des aires protégées",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 3, "singularite": 4, "rarete": 5, "diversite": 4, "integrite": 4, "monumentalite": 2, "actif": 2, "biologique": 5, "photogenie": 3, "pedagogie": 5, "conservation": 3, "complementarite": 5 }, "total": 106, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 3,
+      "singularite": 4,
+      "rarete": 5,
+      "diversite": 4,
+      "integrite": 4,
+      "monumentalite": 2,
+      "actif": 2,
+      "biologique": 5,
+      "photogenie": 3,
+      "pedagogie": 5,
+      "conservation": 3,
+      "complementarite": 5
+    },
+    "total": 106,
+    "scored_on": "2026-08-22"
+  }
 }

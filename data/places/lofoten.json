@@ -6,19 +6,43 @@
   "identity": {
     "name_fr": "Îles Lofoten",
     "name_official": "Lofoten",
-    "name_local": [{ "lang": "no", "value": "Lofoten", "note": "Lofotveggen, le mur des Lofoten, désigne la ligne de sommets vue depuis le large." }],
-    "name_indigenous": [{ "people": "Samis", "value": "Lofuohta", "meaning": "Forme same du toponyme, la région appartient à l'aire culturelle sami côtière." }],
-    "aka": ["Lofotveggen", "Mur des Lofoten"]
+    "name_local": [
+      {
+        "lang": "no",
+        "value": "Lofoten",
+        "note": "Lofotveggen, le mur des Lofoten, désigne la ligne de sommets vue depuis le large."
+      }
+    ],
+    "name_indigenous": [
+      {
+        "people": "Samis",
+        "value": "Lofuohta",
+        "meaning": "Forme same du toponyme, la région appartient à l'aire culturelle sami côtière."
+      }
+    ],
+    "aka": [
+      "Lofotveggen",
+      "Mur des Lofoten"
+    ]
   },
   "location": {
-    "countries": ["NO"],
-    "country_labels": ["Norvège"],
+    "countries": [
+      "NO"
+    ],
+    "country_labels": [
+      "Norvège"
+    ],
     "subdivision": "Nordland",
     "region": "europe",
     "lat": 68.2,
     "lng": 13.6,
     "coordinate_precision": "region",
-    "bbox": [11.9, 67.4, 16.2, 68.5],
+    "bbox": [
+      11.9,
+      67.4,
+      16.2,
+      68.5
+    ],
     "area_km2": 1230,
     "elevation_min_m": 0,
     "elevation_max_m": 1146,
@@ -27,23 +51,57 @@
   },
   "landscape": {
     "primary": "ile",
-    "types": ["ile", "montagne", "falaise"],
+    "types": [
+      "ile",
+      "montagne",
+      "falaise"
+    ],
     "family": "cote",
-    "iucn_ecosystem": ["M1.4 Rivages rocheux", "T6.5 Toundras et landes arctiques", "M1.5 Systèmes marins semi-fermés"],
+    "iucn_ecosystem": [
+      "M1.4 Rivages rocheux",
+      "T6.5 Toundras et landes arctiques",
+      "M1.5 Systèmes marins semi-fermés"
+    ],
     "biome": "Toundra et landes côtières subarctiques",
     "climate": "Cfc subpolaire océanique, exceptionnellement doux pour la latitude",
-    "collections": ["vertiges", "grands-rassemblements"]
+    "collections": [
+      "vertiges",
+      "grands-rassemblements"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "national-park", "name": "Parc national de Lofotodden", "since": 2018, "iucn_category": "II", "url": "https://www.lofotoddennp.com/" },
-      { "type": "nature-reserve", "name": "Réserves ornithologiques de Værøy et Røst", "since": 1935, "url": null },
-      { "type": "marine-protected", "name": "Zone de protection des récifs coralliens profonds du plateau de Røst", "since": 2003, "url": null }
+      {
+        "type": "national-park",
+        "name": "Parc national de Lofotodden",
+        "since": 2018,
+        "iucn_category": "II",
+        "url": "https://www.lofotoddennp.com/"
+      },
+      {
+        "type": "nature-reserve",
+        "name": "Réserves ornithologiques de Værøy et Røst",
+        "since": 1935,
+        "url": null
+      },
+      {
+        "type": "marine-protected",
+        "name": "Zone de protection des récifs coralliens profonds du plateau de Røst",
+        "since": 2003,
+        "url": null
+      }
     ],
-    "managing_body": { "name": "Miljødirektoratet, direction norvégienne de l'environnement, avec le conseil du parc national de Lofotodden", "url": "https://www.miljodirektoratet.no/" }
+    "managing_body": {
+      "name": "Miljødirektoratet, direction norvégienne de l'environnement, avec le conseil du parc national de Lofotodden",
+      "url": "https://www.miljodirektoratet.no/"
+    }
   },
   "editorial": {
-    "badges": ["exceptionnel", "geologie-remarquable", "ecosysteme-majeur"],
+    "badges": [
+      "exceptionnel",
+      "geologie-remarquable",
+      "ecosysteme-majeur"
+    ],
     "essential": false,
     "lede": "Une chaîne de sommets aigus posée en travers de l'océan à plus de 68 degrés nord, où la mer ouverte vient buter contre des parois de roche vieille de deux milliards d'années.",
     "why_here": "Les Lofoten réunissent trois anomalies que l'on rencontre rarement ensemble. Le socle y compte parmi les plus anciens d'Europe, exhumé et taillé en arêtes par les glaciers quaternaires, ce qui donne un relief alpin qui plonge directement dans l'eau salée sans piémont. Le plateau continental s'y réduit à une bande très étroite, si bien que la haute mer commence à quelques kilomètres du rivage et que l'archipel se comporte comme une digue au milieu de l'Atlantique. Enfin, l'apport de chaleur de la dérive nord-atlantique y produit l'écart le plus marqué de la planète entre la température réelle et celle attendue à cette latitude. La sélection y gagne un cas d'école : une côte arctique par la position, tempérée par la circulation océanique, et adossée à un socle archéen.",
@@ -60,41 +118,158 @@
     ]
   },
   "figures": [
-    { "label": "Longueur de l'archipel", "value": "environ 160 km" },
-    { "label": "Point culminant", "value": "1 146 m, Higravstinden" },
-    { "label": "Âge du socle", "value": "protolithes paléoprotérozoïques à archéens, plus de 2 500 Ma" },
-    { "label": "Suite intrusive anorthosite et mangérite", "value": "environ 1 800 Ma" },
-    { "label": "Latitude", "value": "68° nord" },
-    { "label": "Soleil de minuit", "value": "environ du 25 mai au 17 juillet" },
-    { "label": "Parc national de Lofotodden", "value": "créé en 2018" }
+    {
+      "label": "Longueur de l'archipel",
+      "value": "environ 160 km"
+    },
+    {
+      "label": "Point culminant",
+      "value": "1 146 m, Higravstinden"
+    },
+    {
+      "label": "Âge du socle",
+      "value": "protolithes paléoprotérozoïques à archéens, plus de 2 500 Ma"
+    },
+    {
+      "label": "Suite intrusive anorthosite et mangérite",
+      "value": "environ 1 800 Ma"
+    },
+    {
+      "label": "Latitude",
+      "value": "68° nord"
+    },
+    {
+      "label": "Soleil de minuit",
+      "value": "environ du 25 mai au 17 juillet"
+    },
+    {
+      "label": "Parc national de Lofotodden",
+      "value": "créé en 2018"
+    }
   ],
   "geology": {
     "age": "Socle gneissique paléoprotérozoïque à archéen, suite intrusive vers 1 800 Ma, blocs basculés mésozoïques, sculpture glaciaire quaternaire",
-    "processes": ["exhumation d'un socle ancien", "extension et blocs basculés de marge passive", "surcreusement glaciaire", "érosion de cirques et formation d'arêtes"],
-    "rock_types": ["gneiss migmatitique", "anorthosite", "mangérite", "charnockite", "granite"],
+    "processes": [
+      "exhumation d'un socle ancien",
+      "extension et blocs basculés de marge passive",
+      "surcreusement glaciaire",
+      "érosion de cirques et formation d'arêtes"
+    ],
+    "rock_types": [
+      "gneiss migmatitique",
+      "anorthosite",
+      "mangérite",
+      "charnockite",
+      "granite"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Morue de l'Arctique norvégien", "name_sci": "Gadus morhua", "group": "poisson", "iucn_status": "VU", "note": "Le skrei, migrateur venu de la mer de Barents, fraye dans le Vestfjord de janvier à avril." },
-      { "name_fr": "Macareux moine", "name_sci": "Fratercula arctica", "group": "oiseau", "iucn_status": "VU", "note": "Colonies de Røst en fort déclin depuis les années 1980." },
-      { "name_fr": "Pygargue à queue blanche", "name_sci": "Haliaeetus albicilla", "group": "oiseau", "iucn_status": "LC" },
-      { "name_fr": "Orque", "name_sci": "Orcinus orca", "group": "mammifère", "iucn_status": "DD", "note": "Présence hivernale liée aux concentrations de hareng." },
-      { "name_fr": "Corail d'eau froide", "name_sci": "Desmophyllum pertusum", "group": "cnidaire", "note": "Récifs profonds du rebord de plateau au large de Røst." }
+      {
+        "name_fr": "Morue de l'Arctique norvégien",
+        "name_sci": "Gadus morhua",
+        "group": "poisson",
+        "iucn_status": "VU",
+        "note": "Le skrei, migrateur venu de la mer de Barents, fraye dans le Vestfjord de janvier à avril."
+      },
+      {
+        "name_fr": "Macareux moine",
+        "name_sci": "Fratercula arctica",
+        "group": "oiseau",
+        "iucn_status": "VU",
+        "note": "Colonies de Røst en fort déclin depuis les années 1980."
+      },
+      {
+        "name_fr": "Pygargue à queue blanche",
+        "name_sci": "Haliaeetus albicilla",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Orque",
+        "name_sci": "Orcinus orca",
+        "group": "mammifère",
+        "iucn_status": "DD",
+        "note": "Présence hivernale liée aux concentrations de hareng."
+      },
+      {
+        "name_fr": "Corail d'eau froide",
+        "name_sci": "Desmophyllum pertusum",
+        "group": "cnidaire",
+        "note": "Récifs profonds du rebord de plateau au large de Røst."
+      }
     ],
     "endemism_level": "faible",
     "endemism_note": "Milieux recolonisés après la déglaciation, il y a moins de quinze mille ans, ce qui laisse peu de temps à la différenciation d'espèces propres.",
     "species_counts": null
   },
   "seasonality": {
-    "best_months": [2, 3, 6, 7, 8, 9],
-    "avoid_months": [11, 12],
+    "best_months": [
+      2,
+      3,
+      6,
+      7,
+      8,
+      9
+    ],
+    "avoid_months": [
+      11,
+      12
+    ],
     "phenomena": [
-      { "label": "Pêche du skrei et séchoirs en activité", "kind": "migration", "months": [1, 2, 3, 4], "note": "Le stockfisch reste sur les claies jusqu'en mai." },
-      { "label": "Nuit polaire", "kind": "nuit-polaire", "months": [12, 1], "note": "Le soleil reste sous l'horizon environ un mois autour du solstice." },
-      { "label": "Aurores boréales sous l'ovale auroral", "kind": "autre", "months": [9, 10, 11, 12, 1, 2, 3] },
-      { "label": "Soleil de minuit", "kind": "soleil-de-minuit", "months": [5, 6, 7] },
-      { "label": "Nidification des colonies d'alcidés", "kind": "autre", "months": [5, 6, 7], "note": "Approche des falaises à proscrire pendant cette période." }
+      {
+        "label": "Pêche du skrei et séchoirs en activité",
+        "kind": "migration",
+        "months": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "note": "Le stockfisch reste sur les claies jusqu'en mai."
+      },
+      {
+        "label": "Nuit polaire",
+        "kind": "nuit-polaire",
+        "months": [
+          12,
+          1
+        ],
+        "note": "Le soleil reste sous l'horizon environ un mois autour du solstice."
+      },
+      {
+        "label": "Aurores boréales sous l'ovale auroral",
+        "kind": "autre",
+        "months": [
+          9,
+          10,
+          11,
+          12,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Soleil de minuit",
+        "kind": "soleil-de-minuit",
+        "months": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Nidification des colonies d'alcidés",
+        "kind": "autre",
+        "months": [
+          5,
+          6,
+          7
+        ],
+        "note": "Approche des falaises à proscrire pendant cette période."
+      }
     ],
     "notes": "Février et mars combinent lumière rasante, aurores et activité de pêche. Juillet et août offrent la marche en montagne mais concentrent la fréquentation sur un réseau routier unique et étroit."
   },
@@ -102,7 +277,11 @@
     "accessibility": "modere",
     "suggested_duration": "5 à 7 jours",
     "difficulty": "Route côtière continue et ferries réguliers, mais sentiers de montagne raides, glissants et sans balisage constant.",
-    "extreme_conditions": ["vents de tempête hivernaux", "verglas et avalanches sur les versants", "nuit polaire"],
+    "extreme_conditions": [
+      "vents de tempête hivernaux",
+      "verglas et avalanches sur les versants",
+      "nuit polaire"
+    ],
     "permits": null,
     "rules": [
       "Ne pas approcher les falaises à oiseaux de Værøy et Røst pendant la nidification, y compris en bateau ou en drone.",
@@ -119,20 +298,81 @@
     "state": "Le socle et le relief ne sont pas menacés, mais les systèmes vivants qui font la valeur de l'archipel le sont. Le déclin des colonies d'oiseaux marins est documenté et sévère, et il tient à la disponibilité de la nourriture en mer plus qu'à des pressions locales. La question de l'ouverture à l'exploration pétrolière des zones de Lofoten, Vesterålen et Senja a été tranchée en faveur d'un maintien de l'interdiction, décision politique reconduite mais jamais définitivement gravée. La croissance rapide de la fréquentation depuis les années 2010 pèse sur des infrastructures dimensionnées pour vingt-quatre mille habitants.",
     "trend": "stable",
     "threats": [
-      { "type": "tourisme", "level": "eleve", "note": "Concentration estivale sur quelques sentiers et villages, érosion et stationnement sauvage." },
-      { "type": "climat", "level": "eleve", "note": "Déplacement vers le nord des ressources planctoniques et des poissons pélagiques." },
-      { "type": "peche", "level": "modere", "note": "Dépendance de l'économie locale à un stock unique et pression du chalutage sur les fonds." },
-      { "type": "extraction", "level": "faible", "note": "Exploration pétrolière offshore écartée mais régulièrement remise en débat." }
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Concentration estivale sur quelques sentiers et villages, érosion et stationnement sauvage."
+      },
+      {
+        "type": "climat",
+        "level": "eleve",
+        "note": "Déplacement vers le nord des ressources planctoniques et des poissons pélagiques."
+      },
+      {
+        "type": "peche",
+        "level": "modere",
+        "note": "Dépendance de l'économie locale à un stock unique et pression du chalutage sur les fonds."
+      },
+      {
+        "type": "extraction",
+        "level": "faible",
+        "note": "Exploration pétrolière offshore écartée mais régulièrement remise en débat."
+      }
     ],
     "understand_without_going": false,
     "message": "Les Lofoten se lisent depuis la mer et depuis la route, pas seulement depuis les trois belvédères devenus des images de carte postale. Venir en février pour la pêche du skrei apprend davantage sur ce que sont ces îles qu'une semaine de juillet dans la file du sentier de Reinebringen."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Lofoten Reine Norway mountains sea"
+  },
   "sources": [
-    { "title": "The geology of Lofoten", "publisher": "Lofotodden Nasjonalpark", "url": "https://www.lofotoddennp.com/en/the-geology-of-lofoten/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "U-Pb Age, Setting and Tectonic Significance of the Anorthosite-Mangerite-Charnockite-Granite Suite, Lofoten-Vesterålen, Norway", "publisher": "Journal of Petrology", "url": "https://academic.oup.com/petrology/article/45/9/1799/1503508", "type": "scientifique", "accessed": "2026-08-22" },
-    { "title": "Post-Caledonian structural evolution of the Lofoten and Vesterålen offshore and onshore areas", "publisher": "Norsk Geologisk Tidsskrift", "url": "https://njg.geologi.no/images/NJG_articles/NGT_76_4_215-229.pdf", "type": "scientifique", "accessed": "2026-08-22" },
-    { "title": "Aires protégées et gestion de la nature en Norvège", "publisher": "Miljødirektoratet", "url": "https://www.miljodirektoratet.no/", "type": "officiel", "accessed": "2026-08-22" }
+    {
+      "title": "The geology of Lofoten",
+      "publisher": "Lofotodden Nasjonalpark",
+      "url": "https://www.lofotoddennp.com/en/the-geology-of-lofoten/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "U-Pb Age, Setting and Tectonic Significance of the Anorthosite-Mangerite-Charnockite-Granite Suite, Lofoten-Vesterålen, Norway",
+      "publisher": "Journal of Petrology",
+      "url": "https://academic.oup.com/petrology/article/45/9/1799/1503508",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Post-Caledonian structural evolution of the Lofoten and Vesterålen offshore and onshore areas",
+      "publisher": "Norsk Geologisk Tidsskrift",
+      "url": "https://njg.geologi.no/images/NJG_articles/NGT_76_4_215-229.pdf",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Aires protégées et gestion de la nature en Norvège",
+      "publisher": "Miljødirektoratet",
+      "url": "https://www.miljodirektoratet.no/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 5, "singularite": 4, "rarete": 4, "diversite": 4, "integrite": 3, "monumentalite": 4, "actif": 3, "biologique": 4, "photogenie": 5, "pedagogie": 4, "conservation": 3, "complementarite": 4 }, "total": 105, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 4,
+      "rarete": 4,
+      "diversite": 4,
+      "integrite": 3,
+      "monumentalite": 4,
+      "actif": 3,
+      "biologique": 4,
+      "photogenie": 5,
+      "pedagogie": 4,
+      "conservation": 3,
+      "complementarite": 4
+    },
+    "total": 105,
+    "scored_on": "2026-08-22"
+  }
 }

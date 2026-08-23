@@ -34,6 +34,7 @@ const slides = [...places]
       src: h ? `${base}${h.local.replace(/^public\//, '/')}` : placeholder(p),
       name: p.identity.name_fr,
       country: p.location.country_labels.join(' et '),
+      q: p.media?.query ?? `${p.identity.name_official ?? p.identity.name_fr} ${p.location.country_labels[0]}`,
       credit: h ? `${h.author} · ${h.license} ${h.license_version}` : null,
       creditUrl: h ? h.source_page : null,
       photo: Boolean(h)
@@ -59,27 +60,36 @@ const orbPoints = lite.map(p => {
       <div class="scene-slides" data-slides>
         {slides.map((sl, i) => (
           <figure class="slide" data-slide={String(i)} data-active={i === 0 ? 'true' : 'false'}>
-            <img src={sl.src} alt="" loading={i === 0 ? 'eager' : 'lazy'} decoding="async" />
+            <img src={sl.src} data-illustrate={sl.photo ? undefined : sl.q} alt="" loading={i === 0 ? 'eager' : 'lazy'} decoding="async" />
           </figure>
         ))}
       </div>
 
       <div class="scene-orb">
-        <div id="globe" data-base={base}></div>
-        <svg class="orb-fallback" viewBox="0 0 200 200">
+        <svg class="orb" viewBox="0 0 200 200" data-orb>
           <defs>
-            <radialGradient id="orbLight" cx=".34" cy=".3" r=".85">
-              <stop offset="0" stop-color="#2c4f4a" /><stop offset=".55" stop-color="#122b2a" /><stop offset="1" stop-color="#060f0f" />
+            <radialGradient id="orbLight" cx=".33" cy=".28" r=".9">
+              <stop offset="0" stop-color="#31584f" /><stop offset=".5" stop-color="#14302e" /><stop offset="1" stop-color="#050d0e" />
+            </radialGradient>
+            <radialGradient id="orbGlow" cx=".5" cy=".5" r=".5">
+              <stop offset=".72" stop-color="#7fd0c4" stop-opacity="0" /><stop offset="1" stop-color="#7fd0c4" stop-opacity=".3" />
             </radialGradient>
           </defs>
           <circle cx="100" cy="100" r="92" fill="url(#orbLight)" />
-          <g fill="none" stroke="#c98a3f" stroke-width=".7" opacity=".38">
-            <circle cx="100" cy="100" r="92" />
-            <ellipse cx="100" cy="100" rx="92" ry="30" /><ellipse cx="100" cy="100" rx="92" ry="62" />
-            <ellipse cx="100" cy="100" rx="30" ry="92" /><ellipse cx="100" cy="100" rx="62" ry="92" />
-            <line x1="8" y1="100" x2="192" y2="100" />
+          <g fill="none" stroke="#c98a3f" stroke-width=".6">
+            <circle cx="100" cy="100" r="92" opacity=".42" />
+            <ellipse cx="100" cy="100" rx="92" ry="31" opacity=".2" />
+            <ellipse cx="100" cy="100" rx="92" ry="62" opacity=".2" />
+            <line x1="8" y1="100" x2="192" y2="100" opacity=".22" />
+            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
+            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
+            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
+            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
+            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
+            <ellipse data-mer cx="100" cy="100" rx="0" ry="92" />
           </g>
-          {orbPoints.map(p => <circle cx={p.x} cy={p.y} r={p.r} fill={p.c} opacity=".92" />)}
+          <g data-pts></g>
+          <circle cx="100" cy="100" r="97" fill="url(#orbGlow)" />
         </svg>
       </div>
 
@@ -122,7 +132,7 @@ const orbPoints = lite.map(p => {
         </span>
         <span data-caption-text></span>
       </div>
-      <span>Faites tourner le globe</span>
+      <span>Survolez le globe pour l'arrêter</span>
     </div>
     <script type="application/json" id="slides-data" set:html={JSON.stringify(slides)} />
   </section>
@@ -250,8 +260,8 @@ const orbPoints = lite.map(p => {
   </section>
 
   <script>
+    import '../scripts/orb';
     import '../scripts/slideshow';
-    import '../scripts/globe';
     import '../scripts/explorer';
   </script>
 </Base>

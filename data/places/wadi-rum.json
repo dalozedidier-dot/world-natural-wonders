@@ -6,19 +6,36 @@
   "identity": {
     "name_fr": "Aire protégée de Wadi Rum",
     "name_official": "منطقة وادي رم المحمية",
-    "name_local": [{ "lang": "ar", "value": "وادي رم" }],
+    "name_local": [
+      {
+        "lang": "ar",
+        "value": "وادي رم"
+      }
+    ],
     "name_indigenous": null,
-    "aka": ["Wadi Rum", "Vallée de la Lune"]
+    "aka": [
+      "Wadi Rum",
+      "Vallée de la Lune"
+    ]
   },
   "location": {
-    "countries": ["JO"],
-    "country_labels": ["Jordanie"],
+    "countries": [
+      "JO"
+    ],
+    "country_labels": [
+      "Jordanie"
+    ],
     "subdivision": "Gouvernorat d'Aqaba",
     "region": "asie",
     "lat": 29.64,
     "lng": 35.43,
     "coordinate_precision": "site",
-    "bbox": [35.2, 29.3, 35.75, 29.95],
+    "bbox": [
+      35.2,
+      29.3,
+      35.75,
+      29.95
+    ],
     "area_km2": 742,
     "elevation_min_m": 800,
     "elevation_max_m": 1734,
@@ -27,22 +44,56 @@
   },
   "landscape": {
     "primary": "desert-pierre",
-    "types": ["desert-pierre", "formation-rocheuse", "desert-sable", "falaise"],
+    "types": [
+      "desert-pierre",
+      "formation-rocheuse",
+      "desert-sable",
+      "falaise"
+    ],
     "family": "desert",
-    "iucn_ecosystem": ["T5.2 Déserts et semi-déserts chauds", "T5.1 Déserts rocheux et hamadas"],
+    "iucn_ecosystem": [
+      "T5.2 Déserts et semi-déserts chauds",
+      "T5.1 Déserts rocheux et hamadas"
+    ],
     "biome": "Désert et semi-désert chaud",
     "climate": "BWh aride chaud, amplitude thermique journalière forte",
-    "collections": ["autre-planete", "vertiges"]
+    "collections": [
+      "autre-planete",
+      "vertiges"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-mixte", "name": "Zone protégée du Wadi Rum", "ref": "1377", "since": 2011, "criteria": ["iii", "v", "vii"], "url": "https://whc.unesco.org/fr/list/1377/" },
-      { "type": "nature-reserve", "name": "Aire protégée de Wadi Rum", "since": 1998 }
+      {
+        "type": "unesco-mixte",
+        "name": "Zone protégée du Wadi Rum",
+        "ref": "1377",
+        "since": 2011,
+        "criteria": [
+          "iii",
+          "v",
+          "vii"
+        ],
+        "url": "https://whc.unesco.org/fr/list/1377/"
+      },
+      {
+        "type": "nature-reserve",
+        "name": "Aire protégée de Wadi Rum",
+        "since": 1998
+      }
     ],
-    "managing_body": { "name": "Autorité de la zone économique spéciale d'Aqaba, gestionnaire de l'aire protégée", "url": null, "note": "La gestion quotidienne associe l'autorité publique et les coopératives bédouines locales." }
+    "managing_body": {
+      "name": "Autorité de la zone économique spéciale d'Aqaba, gestionnaire de l'aire protégée",
+      "url": null,
+      "note": "La gestion quotidienne associe l'autorité publique et les coopératives bédouines locales."
+    }
   },
   "editorial": {
-    "badges": ["exceptionnel", "geologie-remarquable", "grande-nature"],
+    "badges": [
+      "exceptionnel",
+      "geologie-remarquable",
+      "grande-nature"
+    ],
     "essential": false,
     "lede": "Des montagnes de grès aux flancs verticaux, posées sur un socle de granite sombre et séparées par des couloirs de sable rouge, dessinent un désert à l'architecture presque délibérée.",
     "why_here": "Wadi Rum n'est pas un désert de dunes mais un désert de pierre, et c'est un cas d'école de la manière dont la structure d'un massif dicte la forme d'un paysage. Le contact net entre un socle granitique précambrien et une pile de grès paléozoïques y est visible depuis le sol, sur des centaines de kilomètres carrés, ce qu'aucun autre site de la sélection ne montre aussi lisiblement. La géométrie des jebels, isolés les uns des autres par des couloirs rectilignes, découle directement du réseau de fractures qui découpe la pile gréseuse. S'y ajoute une continuité d'occupation humaine sur une douzaine de millénaires, lisible dans des dizaines de milliers de pétroglyphes et d'inscriptions, qui a valu au site une inscription mixte.",
@@ -59,41 +110,153 @@
     ]
   },
   "figures": [
-    { "label": "Bien inscrit UNESCO", "value": "74 180 ha, zone tampon de 59 177 ha" },
-    { "label": "Inscription UNESCO", "value": "2011, bien mixte, critères iii, v et vii" },
-    { "label": "Hauteur des parois", "value": "de 300 à 500 m au-dessus des couloirs" },
-    { "label": "Point culminant du massif de Rum", "value": "environ 1 734 m" },
-    { "label": "Pétroglyphes recensés", "value": "environ 25 000" },
-    { "label": "Inscriptions recensées", "value": "environ 20 000" },
-    { "label": "Occupation humaine documentée", "value": "environ 12 000 ans" }
+    {
+      "label": "Bien inscrit UNESCO",
+      "value": "74 180 ha, zone tampon de 59 177 ha"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "2011, bien mixte, critères iii, v et vii"
+    },
+    {
+      "label": "Hauteur des parois",
+      "value": "de 300 à 500 m au-dessus des couloirs"
+    },
+    {
+      "label": "Point culminant du massif de Rum",
+      "value": "environ 1 734 m"
+    },
+    {
+      "label": "Pétroglyphes recensés",
+      "value": "environ 25 000"
+    },
+    {
+      "label": "Inscriptions recensées",
+      "value": "environ 20 000"
+    },
+    {
+      "label": "Occupation humaine documentée",
+      "value": "environ 12 000 ans"
+    }
   ],
   "geology": {
     "age": "Socle granitique et métamorphique précambrien, vers 800 à 600 Ma, couverture gréseuse cambro-ordovicienne, soulèvement et fracturation néogènes",
-    "processes": ["discordance socle et couverture", "controle structural par fractures orthogonales", "erosion differentielle sur niveaux argileux", "recul de paroi par ecroulement gravitaire", "formation de ponts naturels", "accumulation eolienne dans les couloirs"],
-    "rock_types": ["granite", "roches métamorphiques précambriennes", "grès cambro-ordoviciens", "niveaux argileux intercalés", "sables quartzeux éoliens"],
+    "processes": [
+      "discordance socle et couverture",
+      "controle structural par fractures orthogonales",
+      "erosion differentielle sur niveaux argileux",
+      "recul de paroi par ecroulement gravitaire",
+      "formation de ponts naturels",
+      "accumulation eolienne dans les couloirs"
+    ],
+    "rock_types": [
+      "granite",
+      "roches métamorphiques précambriennes",
+      "grès cambro-ordoviciens",
+      "niveaux argileux intercalés",
+      "sables quartzeux éoliens"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Bouquetin de Nubie", "name_sci": "Capra nubiana", "group": "mammifère", "iucn_status": "VU", "note": "Fréquente les vires et les hauts de massifs." },
-      { "name_fr": "Loup d'Arabie", "name_sci": "Canis lupus arabs", "group": "mammifère", "note": "Présent à très faible densité dans la région." },
-      { "name_fr": "Caracal", "name_sci": "Caracal caracal", "group": "mammifère", "iucn_status": "LC" },
-      { "name_fr": "Acacia", "name_sci": "Vachellia tortilis", "group": "plante", "note": "Arbre structurant des couloirs sableux." },
-      { "name_fr": "Genévrier de Phénicie", "name_sci": "Juniperus phoenicea", "group": "plante", "note": "Relicte des hauteurs les plus fraîches." }
+      {
+        "name_fr": "Bouquetin de Nubie",
+        "name_sci": "Capra nubiana",
+        "group": "mammifère",
+        "iucn_status": "VU",
+        "note": "Fréquente les vires et les hauts de massifs."
+      },
+      {
+        "name_fr": "Loup d'Arabie",
+        "name_sci": "Canis lupus arabs",
+        "group": "mammifère",
+        "note": "Présent à très faible densité dans la région."
+      },
+      {
+        "name_fr": "Caracal",
+        "name_sci": "Caracal caracal",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Acacia",
+        "name_sci": "Vachellia tortilis",
+        "group": "plante",
+        "note": "Arbre structurant des couloirs sableux."
+      },
+      {
+        "name_fr": "Genévrier de Phénicie",
+        "name_sci": "Juniperus phoenicea",
+        "group": "plante",
+        "note": "Relicte des hauteurs les plus fraîches."
+      }
     ],
     "endemism_level": "faible",
     "endemism_note": "La faune et la flore appartiennent à des cortèges sahélo-sahariens et irano-touraniens largement répandus ; la valeur du site est paysagère, géologique et culturelle plutôt que fondée sur l'endémisme.",
     "species_counts": null
   },
   "seasonality": {
-    "best_months": [3, 4, 10, 11],
-    "avoid_months": [6, 7, 8],
+    "best_months": [
+      3,
+      4,
+      10,
+      11
+    ],
+    "avoid_months": [
+      6,
+      7,
+      8
+    ],
     "phenomena": [
-      { "label": "Chaleur extrême en milieu de journée", "kind": "saison-seche", "months": [6, 7, 8], "note": "Les températures rendent la marche déconseillée hors des premières heures." },
-      { "label": "Pluies d'hiver et crues éclair dans les couloirs", "kind": "crue", "months": [11, 12, 1, 2, 3] },
-      { "label": "Floraison éphémère des annuelles après les pluies", "kind": "floraison", "months": [3, 4] },
-      { "label": "Passage migratoire de rapaces sur l'axe du Rift", "kind": "migration", "months": [3, 4, 9, 10] },
-      { "label": "Nuits froides et gelées possibles", "kind": "autre", "months": [12, 1, 2] }
+      {
+        "label": "Chaleur extrême en milieu de journée",
+        "kind": "saison-seche",
+        "months": [
+          6,
+          7,
+          8
+        ],
+        "note": "Les températures rendent la marche déconseillée hors des premières heures."
+      },
+      {
+        "label": "Pluies d'hiver et crues éclair dans les couloirs",
+        "kind": "crue",
+        "months": [
+          11,
+          12,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "label": "Floraison éphémère des annuelles après les pluies",
+        "kind": "floraison",
+        "months": [
+          3,
+          4
+        ]
+      },
+      {
+        "label": "Passage migratoire de rapaces sur l'axe du Rift",
+        "kind": "migration",
+        "months": [
+          3,
+          4,
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Nuits froides et gelées possibles",
+        "kind": "autre",
+        "months": [
+          12,
+          1,
+          2
+        ]
+      }
     ],
     "notes": "Le printemps et l'automne offrent des températures praticables et une lumière rasante longue. L'été concentre la chaleur et la fréquentation de mi-journée sur quelques points fixes."
   },
@@ -101,7 +264,12 @@
     "accessibility": "modere",
     "suggested_duration": "2 à 4 jours",
     "difficulty": "Accès routier jusqu'au village de Rum, puis déplacements en véhicule tout terrain sur sable ; les ascensions de jebels et les traversées de siqs exigent un guide et de l'escalade facile.",
-    "extreme_conditions": ["chaleur estivale sévère", "crues éclair en hiver", "amplitude thermique nocturne", "absence d'eau en dehors des points connus"],
+    "extreme_conditions": [
+      "chaleur estivale sévère",
+      "crues éclair en hiver",
+      "amplitude thermique nocturne",
+      "absence d'eau en dehors des points connus"
+    ],
     "permits": "Entrée soumise à un droit d'accès à l'aire protégée, accompagnement local requis pour les circuits en véhicule et les ascensions.",
     "rules": [
       "Circuler uniquement sur les traces existantes : les croûtes de surface et les sols cryptogamiques mettent des décennies à se reconstituer.",
@@ -119,21 +287,86 @@
     "state": "Le paysage rocheux lui-même est robuste, mais son cadre se dégrade. La principale préoccupation est la prolifération des campements dans les couloirs, souvent bâtis en dur ou semi-dur, qui fragmente le paysage, multiplie les sources lumineuses nocturnes et pose des problèmes de gestion des déchets et des eaux usées. Le réseau de traces de véhicules s'étend en dehors des circuits établis et endommage durablement les sols. Les gravures et inscriptions subissent des dommages ponctuels par contact et par graffiti. La gestion associe l'autorité publique et les coopératives bédouines, ce qui donne au site une capacité réelle de régulation, encore inégalement appliquée.",
     "trend": "degradation",
     "threats": [
-      { "type": "tourisme", "level": "eleve", "note": "Multiplication des campements et des circuits en véhicule, y compris hors des zones prévues." },
-      { "type": "urbanisation", "level": "modere", "note": "Constructions fixes et infrastructures dans les couloirs de l'aire protégée." },
-      { "type": "pollution", "level": "modere", "note": "Déchets, eaux usées et pollution lumineuse nocturne." },
-      { "type": "secheresse", "level": "modere", "note": "Prélèvements sur l'aquifère gréseux régional et aridification." },
-      { "type": "surpaturage", "level": "faible", "note": "Pression du cheptel sur les acacias et les annuelles." }
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Multiplication des campements et des circuits en véhicule, y compris hors des zones prévues."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Constructions fixes et infrastructures dans les couloirs de l'aire protégée."
+      },
+      {
+        "type": "pollution",
+        "level": "modere",
+        "note": "Déchets, eaux usées et pollution lumineuse nocturne."
+      },
+      {
+        "type": "secheresse",
+        "level": "modere",
+        "note": "Prélèvements sur l'aquifère gréseux régional et aridification."
+      },
+      {
+        "type": "surpaturage",
+        "level": "faible",
+        "note": "Pression du cheptel sur les acacias et les annuelles."
+      }
     ],
     "understand_without_going": false,
     "message": "Le paysage de Wadi Rum se lit d'autant mieux qu'on y passe une nuit loin des groupes électrogènes. Choisir un campement raccordé et discret, et limiter les kilomètres en véhicule au profit de la marche, réduit l'essentiel de l'empreinte."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Wadi Rum desert sandstone Jordan"
+  },
   "sources": [
-    { "title": "Zone protégée du Wadi Rum, fiche du bien inscrit", "publisher": "UNESCO Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/1377/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Wadi Rum Protected Area, aires protégées et limites", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Statuts de conservation des espèces citées", "publisher": "UICN Liste rouge", "url": "https://www.iucnredlist.org/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Wadi Rum", "publisher": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Wadi_Rum", "type": "encyclopedique", "accessed": "2026-08-22" }
+    {
+      "title": "Zone protégée du Wadi Rum, fiche du bien inscrit",
+      "publisher": "UNESCO Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/1377/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Wadi Rum Protected Area, aires protégées et limites",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Statuts de conservation des espèces citées",
+      "publisher": "UICN Liste rouge",
+      "url": "https://www.iucnredlist.org/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Wadi Rum",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wadi_Rum",
+      "type": "encyclopedique",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 5, "singularite": 4, "rarete": 3, "diversite": 3, "integrite": 3, "monumentalite": 4, "actif": 1, "biologique": 2, "photogenie": 5, "pedagogie": 4, "conservation": 3, "complementarite": 4 }, "total": 94, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 5,
+      "singularite": 4,
+      "rarete": 3,
+      "diversite": 3,
+      "integrite": 3,
+      "monumentalite": 4,
+      "actif": 1,
+      "biologique": 2,
+      "photogenie": 5,
+      "pedagogie": 4,
+      "conservation": 3,
+      "complementarite": 4
+    },
+    "total": 94,
+    "scored_on": "2026-08-22"
+  }
 }

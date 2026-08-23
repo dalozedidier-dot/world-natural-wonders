@@ -7,23 +7,49 @@
     "name_fr": "Dolomites",
     "name_official": "The Dolomites",
     "name_local": [
-      { "lang": "it", "value": "Dolomiti" },
-      { "lang": "de", "value": "Dolomiten" },
-      { "lang": "lld", "value": "Dolomites", "note": "ladin des vallées de Badia, Gherdëina, Fascia, Fodom et Anpezo" },
-      { "lang": "fur", "value": "Dolomitis", "note": "frioulan" }
+      {
+        "lang": "it",
+        "value": "Dolomiti"
+      },
+      {
+        "lang": "de",
+        "value": "Dolomiten"
+      },
+      {
+        "lang": "lld",
+        "value": "Dolomites",
+        "note": "ladin des vallées de Badia, Gherdëina, Fascia, Fodom et Anpezo"
+      },
+      {
+        "lang": "fur",
+        "value": "Dolomitis",
+        "note": "frioulan"
+      }
     ],
     "name_indigenous": null,
-    "aka": ["Alpes dolomitiques", "Monti Pallidi"]
+    "aka": [
+      "Alpes dolomitiques",
+      "Monti Pallidi"
+    ]
   },
   "location": {
-    "countries": ["IT"],
-    "country_labels": ["Italie"],
+    "countries": [
+      "IT"
+    ],
+    "country_labels": [
+      "Italie"
+    ],
     "subdivision": "Vénétie, Trentin-Haut-Adige et Frioul-Vénétie Julienne",
     "region": "europe",
     "lat": 46.45,
     "lng": 11.85,
     "coordinate_precision": "region",
-    "bbox": [10.85, 45.95, 12.75, 46.75],
+    "bbox": [
+      10.85,
+      45.95,
+      12.75,
+      46.75
+    ],
     "area_km2": 1419.03,
     "elevation_min_m": null,
     "elevation_max_m": 3343,
@@ -32,18 +58,50 @@
   },
   "landscape": {
     "primary": "montagne",
-    "types": ["montagne", "formation-rocheuse", "karst"],
+    "types": [
+      "montagne",
+      "formation-rocheuse",
+      "karst"
+    ],
     "family": "relief",
-    "iucn_ecosystem": ["T3.1 Landes et fourrés arctiques et alpins", "T6.4 Écosystèmes cryogéniques et de haute altitude", "T2.4 Forêts tempérées de conifères"],
+    "iucn_ecosystem": [
+      "T3.1 Landes et fourrés arctiques et alpins",
+      "T6.4 Écosystèmes cryogéniques et de haute altitude",
+      "T2.4 Forêts tempérées de conifères"
+    ],
     "biome": "Forêts de conifères et prairies alpines des Alpes",
     "climate": "Dfc en altitude, Cfb dans les fonds de vallée",
-    "collections": ["vertiges", "autre-planete"]
+    "collections": [
+      "vertiges",
+      "autre-planete"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-whs", "name": "The Dolomites", "ref": "1237", "since": 2009, "criteria": ["vii", "viii"], "url": "https://whc.unesco.org/en/list/1237/" },
-      { "type": "national-park", "name": "Parco Nazionale delle Dolomiti Bellunesi", "since": 1990, "iucn_category": "II", "url": "https://www.dolomitipark.it/" },
-      { "type": "nature-reserve", "name": "Parc naturel Puez-Odle, Parc naturel Sciliar-Catinaccio, Parc naturel Fanes-Sennes-Braies et autres parcs naturels provinciaux", "ref": null, "iucn_category": "V" }
+      {
+        "type": "unesco-whs",
+        "name": "The Dolomites",
+        "ref": "1237",
+        "since": 2009,
+        "criteria": [
+          "vii",
+          "viii"
+        ],
+        "url": "https://whc.unesco.org/en/list/1237/"
+      },
+      {
+        "type": "national-park",
+        "name": "Parco Nazionale delle Dolomiti Bellunesi",
+        "since": 1990,
+        "iucn_category": "II",
+        "url": "https://www.dolomitipark.it/"
+      },
+      {
+        "type": "nature-reserve",
+        "name": "Parc naturel Puez-Odle, Parc naturel Sciliar-Catinaccio, Parc naturel Fanes-Sennes-Braies et autres parcs naturels provinciaux",
+        "ref": null,
+        "iucn_category": "V"
+      }
     ],
     "managing_body": {
       "name": "Fondazione Dolomiti Dolomiten Dolomites Dolomitis UNESCO",
@@ -52,7 +110,11 @@
     }
   },
   "editorial": {
-    "badges": ["exceptionnel", "geologie-remarquable", "grande-nature"],
+    "badges": [
+      "exceptionnel",
+      "geologie-remarquable",
+      "grande-nature"
+    ],
     "essential": true,
     "lede": "Des récifs tropicaux de la Téthys, coraux et éponges compris, portés à plus de trois mille mètres et taillés en tours verticales que le soleil rasant fait virer au rose, puis au violet.",
     "why_here": "Les Dolomites ne sont pas simplement une belle chaîne de montagnes : elles constituent la coupe géologique la plus lisible au monde d'un système récifal ancien. Les plateformes carbonatées du Trias y ont été soulevées presque sans être écrasées, si bien que la géométrie originelle des récifs, de leurs talus et des bassins qui les séparaient reste visible à l'œil nu, à l'échelle du kilomètre, depuis un sentier. Aucune autre région ne permet de lire aussi directement le passage d'une mer chaude peu profonde à un massif alpin. S'y ajoute une singularité de forme, due à la dolomie elle-même, qui produit des parois verticales et des couronnes de tours que le calcaire ordinaire ne donne jamais.",
@@ -69,42 +131,168 @@
     ]
   },
   "figures": [
-    { "label": "Superficie du bien inscrit", "value": "1 419 km²", "source": "UNESCO, 141 902,8 ha" },
-    { "label": "Zone tampon", "value": "893 km²", "source": "UNESCO, 89 266,7 ha" },
-    { "label": "Ensembles composant la série", "value": "9" },
-    { "label": "Point culminant, Punta Penia de la Marmolada", "value": "3 343 m" },
-    { "label": "Sommets au-dessus de 3 000 m", "value": "18", "source": "UNESCO" },
-    { "label": "Âge des plateformes récifales principales", "value": "environ 242 à 237 millions d'années" },
-    { "label": "Inscription au patrimoine mondial", "value": "2009, critères vii et viii" },
-    { "label": "Hauteur typique des murailles sommitales", "value": "600 à 900 m" }
+    {
+      "label": "Superficie du bien inscrit",
+      "value": "1 419 km²",
+      "source": "UNESCO, 141 902,8 ha"
+    },
+    {
+      "label": "Zone tampon",
+      "value": "893 km²",
+      "source": "UNESCO, 89 266,7 ha"
+    },
+    {
+      "label": "Ensembles composant la série",
+      "value": "9"
+    },
+    {
+      "label": "Point culminant, Punta Penia de la Marmolada",
+      "value": "3 343 m"
+    },
+    {
+      "label": "Sommets au-dessus de 3 000 m",
+      "value": "18",
+      "source": "UNESCO"
+    },
+    {
+      "label": "Âge des plateformes récifales principales",
+      "value": "environ 242 à 237 millions d'années"
+    },
+    {
+      "label": "Inscription au patrimoine mondial",
+      "value": "2009, critères vii et viii"
+    },
+    {
+      "label": "Hauteur typique des murailles sommitales",
+      "value": "600 à 900 m"
+    }
   ],
   "geology": {
     "age": "Permien supérieur au Trias supérieur pour la pile sédimentaire, environ 260 à 200 millions d'années ; soulèvement alpin du Crétacé au Néogène ; modelé quaternaire",
-    "processes": ["bioconstruction-recifale", "dolomitisation", "volcanisme-ladinien", "orogenese-alpine", "erosion-glaciaire", "gelifraction"],
-    "rock_types": ["dolomie de Sciliar", "dolomie de Cassian", "Dolomia Principale", "grès de Val Gardena", "marnes et calcaires de Werfen", "volcanoclastites ladiniennes"],
+    "processes": [
+      "bioconstruction-recifale",
+      "dolomitisation",
+      "volcanisme-ladinien",
+      "orogenese-alpine",
+      "erosion-glaciaire",
+      "gelifraction"
+    ],
+    "rock_types": [
+      "dolomie de Sciliar",
+      "dolomie de Cassian",
+      "Dolomia Principale",
+      "grès de Val Gardena",
+      "marnes et calcaires de Werfen",
+      "volcanoclastites ladiniennes"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Chamois", "name_sci": "Rupicapra rupicapra", "group": "mammifère", "iucn_status": "LC" },
-      { "name_fr": "Bouquetin des Alpes", "name_sci": "Capra ibex", "group": "mammifère", "iucn_status": "LC", "note": "Réintroduit dans plusieurs massifs dolomitiques au cours du XXe siècle." },
-      { "name_fr": "Gypaète barbu", "name_sci": "Gypaetus barbatus", "group": "oiseau", "iucn_status": "NT", "note": "Issu du programme de réintroduction alpin engagé en 1986." },
-      { "name_fr": "Tétras-lyre", "name_sci": "Lyrurus tetrix", "group": "oiseau", "iucn_status": "LC" },
-      { "name_fr": "Lagopède alpin", "name_sci": "Lagopus muta", "group": "oiseau", "iucn_status": "LC", "note": "Populations alpines en repli, très sensibles au réchauffement." },
-      { "name_fr": "Sabot de Vénus", "name_sci": "Cypripedium calceolus", "group": "plante", "iucn_status": "LC" }
+      {
+        "name_fr": "Chamois",
+        "name_sci": "Rupicapra rupicapra",
+        "group": "mammifère",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Bouquetin des Alpes",
+        "name_sci": "Capra ibex",
+        "group": "mammifère",
+        "iucn_status": "LC",
+        "note": "Réintroduit dans plusieurs massifs dolomitiques au cours du XXe siècle."
+      },
+      {
+        "name_fr": "Gypaète barbu",
+        "name_sci": "Gypaetus barbatus",
+        "group": "oiseau",
+        "iucn_status": "NT",
+        "note": "Issu du programme de réintroduction alpin engagé en 1986."
+      },
+      {
+        "name_fr": "Tétras-lyre",
+        "name_sci": "Lyrurus tetrix",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Lagopède alpin",
+        "name_sci": "Lagopus muta",
+        "group": "oiseau",
+        "iucn_status": "LC",
+        "note": "Populations alpines en repli, très sensibles au réchauffement."
+      },
+      {
+        "name_fr": "Sabot de Vénus",
+        "name_sci": "Cypripedium calceolus",
+        "group": "plante",
+        "iucn_status": "LC"
+      }
     ],
     "endemism_level": "modere",
     "endemism_note": "Endémisme alpin classique, concentré sur la flore rupicole des substrats dolomitiques et sur quelques arthropodes des éboulis.",
-    "species_counts": { "plants": null, "birds": null, "mammals": null, "note": "Aucun comptage consolidé à l'échelle de la série des neuf ensembles ; les inventaires existent par parc et ne sont pas additionnables." }
+    "species_counts": {
+      "plants": null,
+      "birds": null,
+      "mammals": null,
+      "note": "Aucun comptage consolidé à l'échelle de la série des neuf ensembles ; les inventaires existent par parc et ne sont pas additionnables."
+    }
   },
   "seasonality": {
-    "best_months": [6, 7, 9, 10],
-    "avoid_months": [4, 11],
+    "best_months": [
+      6,
+      7,
+      9,
+      10
+    ],
+    "avoid_months": [
+      4,
+      11
+    ],
     "phenomena": [
-      { "label": "Enrosadira, embrasement rose et violet des parois", "kind": "autre", "months": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], "note": "Visible toute l'année par ciel dégagé, aux vingt minutes qui suivent le lever et précèdent le coucher du soleil." },
-      { "label": "Floraison des prairies et pelouses alpines", "kind": "floraison", "months": [6, 7] },
-      { "label": "Couleurs des mélèzes", "kind": "couleurs", "months": [10] },
-      { "label": "Chutes de blocs accrues lors des vagues de chaleur", "kind": "autre", "months": [7, 8], "note": "Dégel du permafrost de paroi et instabilité des couloirs." }
+      {
+        "label": "Enrosadira, embrasement rose et violet des parois",
+        "kind": "autre",
+        "months": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "note": "Visible toute l'année par ciel dégagé, aux vingt minutes qui suivent le lever et précèdent le coucher du soleil."
+      },
+      {
+        "label": "Floraison des prairies et pelouses alpines",
+        "kind": "floraison",
+        "months": [
+          6,
+          7
+        ]
+      },
+      {
+        "label": "Couleurs des mélèzes",
+        "kind": "couleurs",
+        "months": [
+          10
+        ]
+      },
+      {
+        "label": "Chutes de blocs accrues lors des vagues de chaleur",
+        "kind": "autre",
+        "months": [
+          7,
+          8
+        ],
+        "note": "Dégel du permafrost de paroi et instabilité des couloirs."
+      }
     ],
     "notes": "Les refuges d'altitude ouvrent en général de la mi-juin à la mi-septembre. Fin septembre et début octobre offrent des parois dégagées, une fréquentation réduite et la lumière la plus basse."
   },
@@ -112,7 +300,11 @@
     "accessibility": "facile",
     "suggested_duration": "4 à 7 jours",
     "difficulty": "Du sentier de fond de vallée à la haute montagne. Les vie ferrate et les traversées d'altitude exigent équipement, expérience et bulletin météo.",
-    "extreme_conditions": ["orages de fin d'après-midi", "chutes de pierres", "neige possible en toute saison au-dessus de 2 500 m"],
+    "extreme_conditions": [
+      "orages de fin d'après-midi",
+      "chutes de pierres",
+      "neige possible en toute saison au-dessus de 2 500 m"
+    ],
     "permits": "Aucun permis général. Réservation obligatoire dans les refuges et quotas d'accès routier sur plusieurs cols en été.",
     "rules": [
       "Ne pas prélever de fossiles ni de fragments de roche : les affleurements récifaux sont le support même de la valeur scientifique du site.",
@@ -129,24 +321,86 @@
     "state": "Le bien conserve une intégrité géologique excellente : la valeur inscrite tient aux affleurements et à la géométrie du relief, que rien n'a effacés. La pression porte ailleurs, sur les fonds de vallée et les cols, où l'équipement touristique est très dense, et sur les milieux d'altitude soumis à la fréquentation et au réchauffement. La gouvernance reste fragmentée entre cinq administrations, ce que la fondation de coordination tente de compenser sans détenir de pouvoir réglementaire propre.",
     "trend": "stable",
     "threats": [
-      { "type": "tourisme", "level": "eleve", "note": "Concentration extrême sur quelques sites, remontées mécaniques, circulation automobile sur les cols en été." },
-      { "type": "climat", "level": "eleve", "note": "Dégel du permafrost de paroi, augmentation des écroulements, disparition programmée des glaciers résiduels." },
-      { "type": "urbanisation", "level": "modere", "note": "Extension de l'urbanisation et des domaines skiables dans les vallées et sur les plateaux d'altitude." },
-      { "type": "invasives", "level": "faible" }
+      {
+        "type": "tourisme",
+        "level": "eleve",
+        "note": "Concentration extrême sur quelques sites, remontées mécaniques, circulation automobile sur les cols en été."
+      },
+      {
+        "type": "climat",
+        "level": "eleve",
+        "note": "Dégel du permafrost de paroi, augmentation des écroulements, disparition programmée des glaciers résiduels."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Extension de l'urbanisation et des domaines skiables dans les vallées et sur les plateaux d'altitude."
+      },
+      {
+        "type": "invasives",
+        "level": "faible"
+      }
     ],
     "understand_without_going": false,
     "message": "Ce massif se lit mieux qu'il ne se photographie. Prendre le temps d'identifier, depuis un même point de vue, le talus, le récif et le bassin donne une compréhension du lieu qu'aucune image ne remplace."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Dolomites Tre Cime di Lavaredo alpenglow"
+  },
   "sources": [
-    { "title": "The Dolomites", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1237/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "The nine Systems of the Dolomites", "publisher": "Fondazione Dolomiti UNESCO", "url": "https://www.dolomitiunesco.info/en/the-dolomites-unesco-world-heritage-site/the-nine-systems-of-the-dolomites", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "The Dolomites", "publisher": "IUCN World Heritage Outlook", "url": "https://worldheritageoutlook.iucn.org/explore-sites/dolomites", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Failure of Marmolada Glacier (Dolomites, Italy) in 2022: data-based back analysis of possible collapse mechanisms", "publisher": "Natural Hazards and Earth System Sciences", "url": "https://nhess.copernicus.org/articles/25/3027/2025/", "type": "scientifique", "accessed": "2026-08-22" },
-    { "title": "Parco Nazionale delle Dolomiti Bellunesi", "publisher": "Ente Parco Nazionale Dolomiti Bellunesi", "url": "https://www.dolomitipark.it/", "type": "officiel", "accessed": "2026-08-22" }
+    {
+      "title": "The Dolomites",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1237/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "The nine Systems of the Dolomites",
+      "publisher": "Fondazione Dolomiti UNESCO",
+      "url": "https://www.dolomitiunesco.info/en/the-dolomites-unesco-world-heritage-site/the-nine-systems-of-the-dolomites",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "The Dolomites",
+      "publisher": "IUCN World Heritage Outlook",
+      "url": "https://worldheritageoutlook.iucn.org/explore-sites/dolomites",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Failure of Marmolada Glacier (Dolomites, Italy) in 2022: data-based back analysis of possible collapse mechanisms",
+      "publisher": "Natural Hazards and Earth System Sciences",
+      "url": "https://nhess.copernicus.org/articles/25/3027/2025/",
+      "type": "scientifique",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Parco Nazionale delle Dolomiti Bellunesi",
+      "publisher": "Ente Parco Nazionale Dolomiti Bellunesi",
+      "url": "https://www.dolomitipark.it/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    }
   ],
   "score": {
-    "criteria": { "visuel": 5, "singularite": 5, "rarete": 4, "diversite": 4, "integrite": 3, "monumentalite": 5, "actif": 2, "biologique": 3, "photogenie": 5, "pedagogie": 5, "conservation": 3, "complementarite": 4 },
+    "criteria": {
+      "visuel": 5,
+      "singularite": 5,
+      "rarete": 4,
+      "diversite": 4,
+      "integrite": 3,
+      "monumentalite": 5,
+      "actif": 2,
+      "biologique": 3,
+      "photogenie": 5,
+      "pedagogie": 5,
+      "conservation": 3,
+      "complementarite": 4
+    },
     "total": 111,
     "scored_on": "2026-08-22"
   }

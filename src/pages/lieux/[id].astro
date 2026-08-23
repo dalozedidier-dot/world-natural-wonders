@@ -25,8 +25,9 @@ const related = allPlaces
 ---
 <Base title={`${p.identity.name_fr} · 100 joyaux naturels`} description={p.editorial.lede} image={hero ? hero.local.replace(/^public\//, '/') : null}>
   <article>
-    <header class="place-hero">
-      <img src={hero ? `${base}${hero.local.replace(/^public\//, '/')}` : placeholder(p)} alt={hero ? hero.alt : ''} fetchpriority="high" />
+    <header class="place-hero" data-credit-holder>
+      <img src={hero ? `${base}${hero.local.replace(/^public\//, '/')}` : placeholder(p)} alt={hero ? hero.alt : ''} fetchpriority="high"
+        data-illustrate={hero ? undefined : (p.media?.query ?? `${p.identity.name_official ?? p.identity.name_fr} ${p.location.country_labels[0]}`)} />
       <div class="shell">
         <p class="eyebrow">{p.location.country_labels.join(' et ')}{p.location.subdivision ? ` · ${p.location.subdivision}` : ''}</p>
         <h1>{p.identity.name_fr}</h1>
@@ -42,11 +43,11 @@ const related = allPlaces
           {p.editorial.essential && <span class="badge">✦ Incontournable</span>}
         </div>
         <p class="lead" style="max-width:46rem">{p.editorial.lede}</p>
-        {hero && (
-          <p class="muted" style="font-size:.7rem">
-            Photo : {hero.author} · <a href={hero.source_page} rel="noopener" target="_blank">{hero.license} {hero.license_version}</a>
-          </p>
-        )}
+        <p class="muted" style="font-size:.7rem">
+          {hero
+            ? <>Photo : {hero.author} · <a href={hero.source_page} rel="noopener" target="_blank">{hero.license} {hero.license_version}</a></>
+            : <span data-credit></span>}
+        </p>
       </div>
     </header>
 

@@ -7,21 +7,42 @@
     "name_fr": "Delta du Danube",
     "name_official": "Réserve de biosphère du delta du Danube",
     "name_local": [
-      { "lang": "ro", "value": "Delta Dunării" },
-      { "lang": "uk", "value": "Дунайський біосферний заповідник", "note": "Réserve de biosphère du Danube, partie ukrainienne." }
+      {
+        "lang": "ro",
+        "value": "Delta Dunării"
+      },
+      {
+        "lang": "uk",
+        "value": "Дунайський біосферний заповідник",
+        "note": "Réserve de biosphère du Danube, partie ukrainienne."
+      }
     ],
     "name_indigenous": null,
-    "aka": ["Delta Dunării", "Danube Delta"]
+    "aka": [
+      "Delta Dunării",
+      "Danube Delta"
+    ]
   },
   "location": {
-    "countries": ["RO", "UA"],
-    "country_labels": ["Roumanie", "Ukraine"],
+    "countries": [
+      "RO",
+      "UA"
+    ],
+    "country_labels": [
+      "Roumanie",
+      "Ukraine"
+    ],
     "subdivision": "Județ de Tulcea et oblast d'Odessa",
     "region": "europe",
     "lat": 45.05,
     "lng": 29.3,
     "coordinate_precision": "site",
-    "bbox": [28.65, 44.75, 29.75, 45.45],
+    "bbox": [
+      28.65,
+      44.75,
+      29.75,
+      45.45
+    ],
     "area_km2": 5800,
     "elevation_min_m": 0,
     "elevation_max_m": 13,
@@ -30,32 +51,74 @@
   },
   "landscape": {
     "primary": "zone-humide",
-    "types": ["zone-humide", "fleuve", "lac"],
+    "types": [
+      "zone-humide",
+      "fleuve",
+      "lac"
+    ],
     "family": "eau",
-    "iucn_ecosystem": ["F2.2 Grands lacs permanents de plaine", "TF1.4 Marais d'eau douce", "MFT1.2 Deltas"],
+    "iucn_ecosystem": [
+      "F2.2 Grands lacs permanents de plaine",
+      "TF1.4 Marais d'eau douce",
+      "MFT1.2 Deltas"
+    ],
     "biome": "Zones humides continentales et marges deltaïques",
     "climate": "Dfa continental tempéré, influence pontique",
-    "collections": ["royaumes-eau", "grands-rassemblements", "paysages-en-transformation"]
+    "collections": [
+      "royaumes-eau",
+      "grands-rassemblements",
+      "paysages-en-transformation"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-whs", "name": "Delta du Danube", "ref": "588", "since": 1991, "criteria": ["vii", "x"], "url": "https://whc.unesco.org/fr/list/588/" },
-      { "type": "unesco-mab", "name": "Réserve de biosphère du delta du Danube", "since": 1992 },
-      { "type": "ramsar", "name": "Delta du Danube, site Ramsar", "since": 1991 },
-      { "type": "unesco-mab", "name": "Réserve de biosphère du Danube, Ukraine", "since": 1998 },
-      { "type": "kba", "name": "Delta du Danube et lagunes associées" }
+      {
+        "type": "unesco-whs",
+        "name": "Delta du Danube",
+        "ref": "588",
+        "since": 1991,
+        "criteria": [
+          "vii",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/588/"
+      },
+      {
+        "type": "unesco-mab",
+        "name": "Réserve de biosphère du delta du Danube",
+        "since": 1992
+      },
+      {
+        "type": "ramsar",
+        "name": "Delta du Danube, site Ramsar",
+        "since": 1991
+      },
+      {
+        "type": "unesco-mab",
+        "name": "Réserve de biosphère du Danube, Ukraine",
+        "since": 1998
+      },
+      {
+        "type": "kba",
+        "name": "Delta du Danube et lagunes associées"
+      }
     ],
-    "managing_body": { "name": "Administration de la réserve de biosphère du delta du Danube, ARBDD", "url": "https://ddbra.ro/" }
+    "managing_body": {
+      "name": "Administration de la réserve de biosphère du delta du Danube, ARBDD",
+      "url": "https://ddbra.ro/"
+    }
   },
   "editorial": {
-    "badges": ["ecosysteme-majeur", "grande-nature", "tres-sauvage"],
+    "badges": [
+      "ecosysteme-majeur",
+      "grande-nature",
+      "tres-sauvage"
+    ],
     "essential": false,
     "lede": "À son terme, le Danube se défait en trois bras, une nuée de canaux et des milliers de kilomètres carrés de roseaux flottants, dans le plus vaste labyrinthe d'eau douce du continent.",
     "why_here": "Un delta est le lieu où un fleuve rend enfin ce qu'il a arraché à un bassin versant : ici, huit cent mille kilomètres carrés d'Europe, dix pays, deux mille huit cent cinquante kilomètres de cours. Le delta du Danube en est la démonstration la mieux conservée du continent, avec la plus grande roselière compacte du monde et une avancée dans la mer Noire encore mesurable d'une décennie à l'autre. Il apporte à la sélection un mécanisme sédimentaire de grande échelle, un rassemblement d'oiseaux d'eau parmi les plus importants du paléarctique occidental, et l'exemple le plus net d'un système naturel modifié en amont par des barrages situés à plus de mille kilomètres.",
-    "presentation": "Après avoir traversé le continent, le Danube heurte le plateau de Dobrogée, oblique vers le nord puis se divise à Tulcea. Trois bras principaux se partagent alors le fleuve : la Chilia au nord, qui suit la frontière ukrainienne et emporte à elle seule plus de la moitié du débit ; la Sulina au centre, rectifiée et draguée entre 1858 et 1902 pour la navigation maritime, aujourd'hui le chenal le plus court et le plus artificiel ; et le Sfântu Gheorghe au sud, le plus sinueux et le plus ancien.\n\nEntre ces bras s'étend un pays sans relief, où la différence entre terre et eau se négocie centimètre par centimètre. Des milliers de kilomètres de canaux, de chenaux secondaires et de bras morts relient des lacs peu profonds, des marais et des étendues de roseaux. La roselière couvre à elle seule près de mille huit cents kilomètres carrés, ce qui en fait le plus grand ensemble compact au monde.\n\nUne partie de ces roseaux ne repose sur rien : le plaur est un radeau végétal de rhizomes entrelacés, épais de un à deux mètres, qui flotte, se déplace au vent et se rattache au fond seulement par endroits. On peut y marcher, avec la sensation d'un sol qui ondule.\n\nDeux cordons de sable anciens rompent la monotonie. Les levées de Letea et de Caraorman, dunes fossiles héritées des premiers stades de construction du delta, portent des forêts de chênes accompagnées de lianes, un paysage inattendu dans un marais. Le point le plus haut du delta y dépasse à peine douze mètres.\n\nÀ l'est, le front deltaïque avance dans la mer Noire, bordé de plages neuves et de lagunes séparées par des flèches sableuses. Au sud, les grands complexes lagunaires de Razelm et Sinoe, anciens golfes marins fermés par des cordons littoraux, complètent le système."
-    ,
-    "geology": "Le delta est un paysage jeune, et c'est ce qui le rend lisible. Il y a huit mille ans, la zone qu'il occupe était un golfe marin ouvert, le golfe de Halmyris, creusé entre le plateau calcaire et schisteux de Dobrogée au sud et les plaines de Bessarabie au nord. L'élévation du niveau de la mer après la dernière glaciation avait envahi la basse vallée du fleuve.\n\nLa construction commence lorsque la houle et les courants côtiers, remaniant les sables apportés par le Danube, édifient des flèches littorales qui ferment progressivement l'entrée du golfe. Les levées de Letea et de Caraorman sont les restes de ces premiers cordons. Derrière cette barrière, le fleuve remplit la baie de ses alluvions dans un milieu calme, où se déposent limons et argiles.\n\nLa suite est une succession de lobes deltaïques. Chaque bras construit son propre appareil jusqu'à ce que sa pente devienne trop faible, puis le fleuve abandonne ce tracé pour un chemin plus court, par avulsion, et recommence ailleurs. Les géologues distinguent ainsi les lobes successifs de Saint-Georges, de Sulina, puis de Chilia, ce dernier étant le plus récent et le plus actif : son front construit encore aujourd'hui des îles neuves dans la mer Noire.\n\nLe matériau vient de tout le bassin : sables et limons issus de l'érosion des Alpes, des Carpates et des Balkans, transportés parfois sur plus de deux mille kilomètres. La stratigraphie du delta alterne donc sables de chenaux, limons de débordement et tourbes de marais, ces dernières signant les phases où la végétation prenait le pas sur l'apport minéral.\n\nDeux subsidences accompagnent le processus. Le poids des sédiments enfonce la plateforme, et la matière organique se tasse en se décomposant. Un delta n'est donc jamais stable : il ne se maintient au-dessus de l'eau que tant que l'apport sédimentaire compense l'affaissement et l'élévation du niveau marin."
-    ,
+    "presentation": "Après avoir traversé le continent, le Danube heurte le plateau de Dobrogée, oblique vers le nord puis se divise à Tulcea. Trois bras principaux se partagent alors le fleuve : la Chilia au nord, qui suit la frontière ukrainienne et emporte à elle seule plus de la moitié du débit ; la Sulina au centre, rectifiée et draguée entre 1858 et 1902 pour la navigation maritime, aujourd'hui le chenal le plus court et le plus artificiel ; et le Sfântu Gheorghe au sud, le plus sinueux et le plus ancien.\n\nEntre ces bras s'étend un pays sans relief, où la différence entre terre et eau se négocie centimètre par centimètre. Des milliers de kilomètres de canaux, de chenaux secondaires et de bras morts relient des lacs peu profonds, des marais et des étendues de roseaux. La roselière couvre à elle seule près de mille huit cents kilomètres carrés, ce qui en fait le plus grand ensemble compact au monde.\n\nUne partie de ces roseaux ne repose sur rien : le plaur est un radeau végétal de rhizomes entrelacés, épais de un à deux mètres, qui flotte, se déplace au vent et se rattache au fond seulement par endroits. On peut y marcher, avec la sensation d'un sol qui ondule.\n\nDeux cordons de sable anciens rompent la monotonie. Les levées de Letea et de Caraorman, dunes fossiles héritées des premiers stades de construction du delta, portent des forêts de chênes accompagnées de lianes, un paysage inattendu dans un marais. Le point le plus haut du delta y dépasse à peine douze mètres.\n\nÀ l'est, le front deltaïque avance dans la mer Noire, bordé de plages neuves et de lagunes séparées par des flèches sableuses. Au sud, les grands complexes lagunaires de Razelm et Sinoe, anciens golfes marins fermés par des cordons littoraux, complètent le système.",
+    "geology": "Le delta est un paysage jeune, et c'est ce qui le rend lisible. Il y a huit mille ans, la zone qu'il occupe était un golfe marin ouvert, le golfe de Halmyris, creusé entre le plateau calcaire et schisteux de Dobrogée au sud et les plaines de Bessarabie au nord. L'élévation du niveau de la mer après la dernière glaciation avait envahi la basse vallée du fleuve.\n\nLa construction commence lorsque la houle et les courants côtiers, remaniant les sables apportés par le Danube, édifient des flèches littorales qui ferment progressivement l'entrée du golfe. Les levées de Letea et de Caraorman sont les restes de ces premiers cordons. Derrière cette barrière, le fleuve remplit la baie de ses alluvions dans un milieu calme, où se déposent limons et argiles.\n\nLa suite est une succession de lobes deltaïques. Chaque bras construit son propre appareil jusqu'à ce que sa pente devienne trop faible, puis le fleuve abandonne ce tracé pour un chemin plus court, par avulsion, et recommence ailleurs. Les géologues distinguent ainsi les lobes successifs de Saint-Georges, de Sulina, puis de Chilia, ce dernier étant le plus récent et le plus actif : son front construit encore aujourd'hui des îles neuves dans la mer Noire.\n\nLe matériau vient de tout le bassin : sables et limons issus de l'érosion des Alpes, des Carpates et des Balkans, transportés parfois sur plus de deux mille kilomètres. La stratigraphie du delta alterne donc sables de chenaux, limons de débordement et tourbes de marais, ces dernières signant les phases où la végétation prenait le pas sur l'apport minéral.\n\nDeux subsidences accompagnent le processus. Le poids des sédiments enfonce la plateforme, et la matière organique se tasse en se décomposant. Un delta n'est donc jamais stable : il ne se maintient au-dessus de l'eau que tant que l'apport sédimentaire compense l'affaissement et l'élévation du niveau marin.",
     "dynamics": "Le régime est celui d'un grand fleuve continental : crue de printemps alimentée par la fonte des neiges alpines et carpatiques, maximum en avril et mai, étiage en septembre et octobre. La crue est le mécanisme central du delta : elle inonde les dépressions, recharge les lacs, apporte les nutriments et déclenche la reproduction des poissons, qui remontent frayer dans les marais inondés. La répartition entre les bras est très inégale : la Chilia porte environ la moitié à soixante pour cent du débit, le Sfântu Gheorghe environ un cinquième, la Sulina le reste. La mer Noire, presque sans marée, n'oppose au fleuve qu'une résistance faible, ce qui explique la forme digitée du delta, dominée par le fleuve plutôt que remodelée par la houle. Les vents d'est peuvent toutefois refouler l'eau saumâtre dans les bras bas et provoquer des remontées salines dans les lagunes du sud. En hiver, les lacs et les chenaux lents gèlent régulièrement.",
     "biodiversity_text": "Le delta accueille plus de trois cents espèces d'oiseaux, dont les plus grandes colonies européennes de pélican frisé et de pélican blanc, deux espèces qui pêchent en groupe dans les lacs peu profonds et qui ont ici leur bastion continental. S'y ajoutent le cormoran pygmée, l'aigrette garzette, le héron pourpré, la glaréole à collier, et en hiver la quasi-totalité de la population mondiale d'oie à cou roux, venue de Sibérie arctique. Les eaux abritent une cinquantaine d'espèces de poissons d'eau douce et une communauté d'esturgeons autrefois considérable, dont le béluga, gravement menacé par la surpêche et par les barrages qui coupent ses routes de migration. Le vison d'Europe, l'un des mammifères les plus menacés du continent, et la loutre occupent les rives, tandis que le chat sauvage et le chacal doré fréquentent les levées boisées. Les forêts de Letea portent une flore de chênes et de lianes sans équivalent régional.",
     "in_motion": "L'apport sédimentaire du Danube a chuté de plus de moitié depuis les années 1960, retenu par les barrages des Portes de Fer et par des milliers d'ouvrages en amont. Le front deltaïque, privé de matériau, recule désormais sur une large partie de son linéaire, alors que la pointe de Chilia continue localement d'avancer. La période communiste a laissé de lourdes cicatrices : polders agricoles, bassins piscicoles et plantations de peupliers ont converti de vastes surfaces, dont une partie fait l'objet de renaturations depuis les années 1990. Côté ukrainien, le creusement du canal de navigation de Bystroïe, ouvert en 2004 dans le bras de Chilia, a suscité une procédure internationale au titre de la convention d'Espoo pour ses effets sur la zone protégée.",
@@ -67,43 +130,163 @@
     ]
   },
   "figures": [
-    { "label": "Réserve de biosphère", "value": "environ 5 800 km²" },
-    { "label": "Bien inscrit au patrimoine mondial", "value": "312 440 hectares" },
-    { "label": "Inscription UNESCO", "value": "1991, critères vii et x" },
-    { "label": "Surface de roselière", "value": "environ 1 800 km²" },
-    { "label": "Bras principaux", "value": "Chilia, Sulina et Sfântu Gheorghe" },
-    { "label": "Espèces d'oiseaux recensées", "value": "plus de 300" },
-    { "label": "Âge du delta", "value": "construit depuis environ 6 500 ans" },
-    { "label": "Point culminant", "value": "dunes de Letea, environ 12 m" }
+    {
+      "label": "Réserve de biosphère",
+      "value": "environ 5 800 km²"
+    },
+    {
+      "label": "Bien inscrit au patrimoine mondial",
+      "value": "312 440 hectares"
+    },
+    {
+      "label": "Inscription UNESCO",
+      "value": "1991, critères vii et x"
+    },
+    {
+      "label": "Surface de roselière",
+      "value": "environ 1 800 km²"
+    },
+    {
+      "label": "Bras principaux",
+      "value": "Chilia, Sulina et Sfântu Gheorghe"
+    },
+    {
+      "label": "Espèces d'oiseaux recensées",
+      "value": "plus de 300"
+    },
+    {
+      "label": "Âge du delta",
+      "value": "construit depuis environ 6 500 ans"
+    },
+    {
+      "label": "Point culminant",
+      "value": "dunes de Letea, environ 12 m"
+    }
   ],
   "geology": {
     "age": "Golfe marin il y a environ 8 000 ans, construction deltaïque depuis environ 6 500 ans, lobe de Chilia toujours actif",
-    "processes": ["sédimentation deltaïque", "avulsion et migration des bras", "édification de cordons littoraux", "subsidence et compaction", "érosion du front deltaïque"],
-    "rock_types": ["sables de chenaux", "limons de débordement", "argiles lagunaires", "tourbes de marais"],
+    "processes": [
+      "sédimentation deltaïque",
+      "avulsion et migration des bras",
+      "édification de cordons littoraux",
+      "subsidence et compaction",
+      "érosion du front deltaïque"
+    ],
+    "rock_types": [
+      "sables de chenaux",
+      "limons de débordement",
+      "argiles lagunaires",
+      "tourbes de marais"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Pélican frisé", "name_sci": "Pelecanus crispus", "group": "oiseau", "iucn_status": "NT", "note": "Principale population reproductrice d'Europe." },
-      { "name_fr": "Pélican blanc", "name_sci": "Pelecanus onocrotalus", "group": "oiseau", "iucn_status": "LC" },
-      { "name_fr": "Oie à cou roux", "name_sci": "Branta ruficollis", "group": "oiseau", "iucn_status": "VU", "note": "Hivernage massif de la population nichant en Arctique sibérien." },
-      { "name_fr": "Béluga, grand esturgeon", "name_sci": "Huso huso", "group": "poisson", "iucn_status": "CR" },
-      { "name_fr": "Vison d'Europe", "name_sci": "Mustela lutreola", "group": "mammifère", "iucn_status": "CR" },
-      { "name_fr": "Cormoran pygmée", "name_sci": "Microcarbo pygmaeus", "group": "oiseau", "iucn_status": "LC" }
+      {
+        "name_fr": "Pélican frisé",
+        "name_sci": "Pelecanus crispus",
+        "group": "oiseau",
+        "iucn_status": "NT",
+        "note": "Principale population reproductrice d'Europe."
+      },
+      {
+        "name_fr": "Pélican blanc",
+        "name_sci": "Pelecanus onocrotalus",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Oie à cou roux",
+        "name_sci": "Branta ruficollis",
+        "group": "oiseau",
+        "iucn_status": "VU",
+        "note": "Hivernage massif de la population nichant en Arctique sibérien."
+      },
+      {
+        "name_fr": "Béluga, grand esturgeon",
+        "name_sci": "Huso huso",
+        "group": "poisson",
+        "iucn_status": "CR"
+      },
+      {
+        "name_fr": "Vison d'Europe",
+        "name_sci": "Mustela lutreola",
+        "group": "mammifère",
+        "iucn_status": "CR"
+      },
+      {
+        "name_fr": "Cormoran pygmée",
+        "name_sci": "Microcarbo pygmaeus",
+        "group": "oiseau",
+        "iucn_status": "LC"
+      }
     ],
     "endemism_level": "faible",
     "endemism_note": "Écosystème jeune, à peine quelques millénaires, ce qui laisse peu de place à la spéciation locale. Sa valeur tient au volume et à la fonction de refuge, non à l'endémisme.",
-    "species_counts": { "plants": null, "birds": 300, "mammals": null, "fish": 45, "corals": null, "note": "Plus de 300 espèces d'oiseaux et environ 45 espèces de poissons d'eau douce selon les dénombrements de gestion." }
+    "species_counts": {
+      "plants": null,
+      "birds": 300,
+      "mammals": null,
+      "fish": 45,
+      "corals": null,
+      "note": "Plus de 300 espèces d'oiseaux et environ 45 espèces de poissons d'eau douce selon les dénombrements de gestion."
+    }
   },
   "seasonality": {
-    "best_months": [4, 5, 6, 9],
-    "avoid_months": [1, 2, 7],
+    "best_months": [
+      4,
+      5,
+      6,
+      9
+    ],
+    "avoid_months": [
+      1,
+      2,
+      7
+    ],
     "phenomena": [
-      { "label": "Crue de printemps, inondation des marais et frai des poissons", "kind": "crue", "months": [4, 5] },
-      { "label": "Nidification et nourrissage des colonies de pélicans", "kind": "migration", "months": [4, 5, 6] },
-      { "label": "Étiage, chenaux bas et lacs isolés", "kind": "etiage", "months": [9, 10] },
-      { "label": "Hivernage des oies venues de l'Arctique", "kind": "migration", "months": [12, 1, 2] },
-      { "label": "Prise en glace des lacs et des chenaux lents", "kind": "glace", "months": [1, 2] }
+      {
+        "label": "Crue de printemps, inondation des marais et frai des poissons",
+        "kind": "crue",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Nidification et nourrissage des colonies de pélicans",
+        "kind": "migration",
+        "months": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "label": "Étiage, chenaux bas et lacs isolés",
+        "kind": "etiage",
+        "months": [
+          9,
+          10
+        ]
+      },
+      {
+        "label": "Hivernage des oies venues de l'Arctique",
+        "kind": "migration",
+        "months": [
+          12,
+          1,
+          2
+        ]
+      },
+      {
+        "label": "Prise en glace des lacs et des chenaux lents",
+        "kind": "glace",
+        "months": [
+          1,
+          2
+        ]
+      }
     ],
     "notes": "Juillet et août concentrent chaleur, moustiques et fréquentation. Mai est le meilleur compromis entre niveau d'eau, activité des colonies et lumière."
   },
@@ -111,7 +294,11 @@
     "accessibility": "modere",
     "suggested_duration": "3 à 5 jours",
     "difficulty": "Déplacement exclusivement par bateau, orientation difficile dans le labyrinthe de chenaux, hébergement dispersé dans les villages.",
-    "extreme_conditions": ["moustiques en masse de juin à août", "chaleur estivale", "vents d'est levant une forte houle sur les lacs"],
+    "extreme_conditions": [
+      "moustiques en masse de juin à août",
+      "chaleur estivale",
+      "vents d'est levant une forte houle sur les lacs"
+    ],
     "permits": "Autorisation d'accès délivrée par l'administration de la réserve, obligatoire et différenciée selon les zones. Certaines zones strictement protégées sont fermées au public.",
     "rules": [
       "Ne pas approcher les colonies de pélicans et de hérons : un dérangement suffit à faire abandonner une nichée entière.",
@@ -129,23 +316,98 @@
     "state": "Le delta reste le mieux conservé d'Europe et bénéficie d'un empilement de statuts de protection ainsi que d'une administration dédiée. L'intégrité n'en est pas moins entamée : la moitié du transport sédimentaire a disparu du fait des barrages du bassin, les polders et bassins piscicoles hérités des années 1970 et 1980 ont converti de larges surfaces, dont une part seulement a été renaturée, et la ressource halieutique s'est effondrée pour les grandes espèces migratrices. La coordination entre gestion roumaine et gestion ukrainienne reste inégale, notamment sur les questions de navigation.",
     "trend": "degradation",
     "threats": [
-      { "type": "hydro", "level": "eleve", "note": "Rétention des sédiments par les barrages des Portes de Fer et coupure des routes de migration des esturgeons." },
-      { "type": "peche", "level": "eleve", "note": "Effondrement des populations d'esturgeons, braconnage persistant pour le caviar." },
-      { "type": "pollution", "level": "modere", "note": "Nutriments agricoles et rejets urbains venus de l'ensemble du bassin versant, épisodes d'eutrophisation." },
-      { "type": "invasives", "level": "modere", "note": "Poissons et invertébrés introduits, dont plusieurs espèces ponto-caspiennes propagées par la navigation." },
-      { "type": "urbanisation", "level": "modere", "note": "Chenaux de navigation, dont le canal de Bystroïe côté ukrainien, et aménagements touristiques." },
-      { "type": "climat", "level": "modere", "note": "Étiages plus sévères, remontées salines et élévation du niveau de la mer Noire face à un delta en déficit sédimentaire." }
+      {
+        "type": "hydro",
+        "level": "eleve",
+        "note": "Rétention des sédiments par les barrages des Portes de Fer et coupure des routes de migration des esturgeons."
+      },
+      {
+        "type": "peche",
+        "level": "eleve",
+        "note": "Effondrement des populations d'esturgeons, braconnage persistant pour le caviar."
+      },
+      {
+        "type": "pollution",
+        "level": "modere",
+        "note": "Nutriments agricoles et rejets urbains venus de l'ensemble du bassin versant, épisodes d'eutrophisation."
+      },
+      {
+        "type": "invasives",
+        "level": "modere",
+        "note": "Poissons et invertébrés introduits, dont plusieurs espèces ponto-caspiennes propagées par la navigation."
+      },
+      {
+        "type": "urbanisation",
+        "level": "modere",
+        "note": "Chenaux de navigation, dont le canal de Bystroïe côté ukrainien, et aménagements touristiques."
+      },
+      {
+        "type": "climat",
+        "level": "modere",
+        "note": "Étiages plus sévères, remontées salines et élévation du niveau de la mer Noire face à un delta en déficit sédimentaire."
+      }
     ],
     "understand_without_going": false,
     "message": "Le delta se visite en barque à faible motorisation et avec des pêcheurs locaux plutôt qu'en vedette rapide. Le batillage des coques puissantes est l'une des principales causes de dégradation des berges et des nids flottants."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Danube Delta channels reeds Romania"
+  },
   "sources": [
-    { "title": "Delta du Danube", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/588/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Administration de la réserve de biosphère du delta du Danube", "publisher": "ARBDD, Roumanie", "url": "https://ddbra.ro/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Convention de Ramsar sur les zones humides", "publisher": "Secrétariat Ramsar", "url": "https://www.ramsar.org/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Danube Delta, aires protégées de Roumanie et d'Ukraine", "publisher": "Protected Planet", "url": "https://www.protectedplanet.net/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Liste rouge des espèces menacées", "publisher": "UICN", "url": "https://www.iucnredlist.org/", "type": "jeu-de-donnees", "accessed": "2026-08-22" }
+    {
+      "title": "Delta du Danube",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/588/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Administration de la réserve de biosphère du delta du Danube",
+      "publisher": "ARBDD, Roumanie",
+      "url": "https://ddbra.ro/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Convention de Ramsar sur les zones humides",
+      "publisher": "Secrétariat Ramsar",
+      "url": "https://www.ramsar.org/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Danube Delta, aires protégées de Roumanie et d'Ukraine",
+      "publisher": "Protected Planet",
+      "url": "https://www.protectedplanet.net/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Liste rouge des espèces menacées",
+      "publisher": "UICN",
+      "url": "https://www.iucnredlist.org/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 4, "singularite": 4, "rarete": 4, "diversite": 5, "integrite": 3, "monumentalite": 4, "actif": 5, "biologique": 5, "photogenie": 4, "pedagogie": 5, "conservation": 3, "complementarite": 5 }, "total": 117, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 4,
+      "singularite": 4,
+      "rarete": 4,
+      "diversite": 5,
+      "integrite": 3,
+      "monumentalite": 4,
+      "actif": 5,
+      "biologique": 5,
+      "photogenie": 4,
+      "pedagogie": 5,
+      "conservation": 3,
+      "complementarite": 5
+    },
+    "total": 117,
+    "scored_on": "2026-08-22"
+  }
 }

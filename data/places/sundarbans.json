@@ -7,20 +7,39 @@
     "name_fr": "Sundarbans",
     "name_official": "The Sundarbans / Sundarbans National Park",
     "name_local": [
-      { "lang": "bn", "value": "সুন্দরবন", "note": "Sundarban, littéralement la belle forêt, ou la forêt des sundri selon les lectures." }
+      {
+        "lang": "bn",
+        "value": "সুন্দরবন",
+        "note": "Sundarban, littéralement la belle forêt, ou la forêt des sundri selon les lectures."
+      }
     ],
     "name_indigenous": null,
-    "aka": ["Sundarban", "Sundarbans Reserved Forest", "Sundarban Tiger Reserve"]
+    "aka": [
+      "Sundarban",
+      "Sundarbans Reserved Forest",
+      "Sundarban Tiger Reserve"
+    ]
   },
   "location": {
-    "countries": ["BD", "IN"],
-    "country_labels": ["Bangladesh", "Inde"],
+    "countries": [
+      "BD",
+      "IN"
+    ],
+    "country_labels": [
+      "Bangladesh",
+      "Inde"
+    ],
     "subdivision": "Division de Khulna et Bengale-Occidental",
     "region": "asie",
     "lat": 21.9,
     "lng": 89.2,
     "coordinate_precision": "generalized",
-    "bbox": [88.0, 21.5, 89.9, 22.5],
+    "bbox": [
+      88.0,
+      21.5,
+      89.9,
+      22.5
+    ],
     "area_km2": 10000,
     "elevation_min_m": 0,
     "elevation_max_m": 10,
@@ -29,26 +48,83 @@
   },
   "landscape": {
     "primary": "mangrove",
-    "types": ["mangrove", "zone-humide", "fleuve"],
+    "types": [
+      "mangrove",
+      "zone-humide",
+      "fleuve"
+    ],
     "family": "cote",
-    "iucn_ecosystem": ["MFT1.2 Forêts et fourrés intertidaux", "MFT1.3 Vasières côtières", "F2.2 Grands fleuves de plaine"],
+    "iucn_ecosystem": [
+      "MFT1.2 Forêts et fourrés intertidaux",
+      "MFT1.3 Vasières côtières",
+      "F2.2 Grands fleuves de plaine"
+    ],
     "biome": "Mangroves et zones humides deltaïques tropicales",
     "climate": "Aw à Am, régime de mousson",
-    "collections": ["royaumes-eau", "grands-rassemblements", "paysages-en-transformation"]
+    "collections": [
+      "royaumes-eau",
+      "grands-rassemblements",
+      "paysages-en-transformation"
+    ]
   },
   "protection": {
     "designations": [
-      { "type": "unesco-whs", "name": "The Sundarbans (Bangladesh)", "ref": "798", "since": 1997, "criteria": ["ix", "x"], "url": "https://whc.unesco.org/fr/list/798/" },
-      { "type": "unesco-whs", "name": "Parc national des Sundarbans (Inde)", "ref": "452", "since": 1987, "criteria": ["ix", "x"], "url": "https://whc.unesco.org/fr/list/452/" },
-      { "type": "ramsar", "name": "Sundarbans Reserved Forest, Bangladesh", "since": 1992 },
-      { "type": "ramsar", "name": "Sundarban Wetland, Inde", "since": 2019 },
-      { "type": "unesco-mab", "name": "Réserve de biosphère du Sundarban, Inde", "ref": null, "since": null },
-      { "type": "national-park", "name": "Sundarban Tiger Reserve et parc national indien", "ref": null, "since": 1984 }
+      {
+        "type": "unesco-whs",
+        "name": "The Sundarbans (Bangladesh)",
+        "ref": "798",
+        "since": 1997,
+        "criteria": [
+          "ix",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/798/"
+      },
+      {
+        "type": "unesco-whs",
+        "name": "Parc national des Sundarbans (Inde)",
+        "ref": "452",
+        "since": 1987,
+        "criteria": [
+          "ix",
+          "x"
+        ],
+        "url": "https://whc.unesco.org/fr/list/452/"
+      },
+      {
+        "type": "ramsar",
+        "name": "Sundarbans Reserved Forest, Bangladesh",
+        "since": 1992
+      },
+      {
+        "type": "ramsar",
+        "name": "Sundarban Wetland, Inde",
+        "since": 2019
+      },
+      {
+        "type": "unesco-mab",
+        "name": "Réserve de biosphère du Sundarban, Inde",
+        "ref": null,
+        "since": null
+      },
+      {
+        "type": "national-park",
+        "name": "Sundarban Tiger Reserve et parc national indien",
+        "ref": null,
+        "since": 1984
+      }
     ],
-    "managing_body": { "name": "Bangladesh Forest Department et West Bengal Forest Department, gestion partagée de part et d'autre de la frontière", "url": null }
+    "managing_body": {
+      "name": "Bangladesh Forest Department et West Bengal Forest Department, gestion partagée de part et d'autre de la frontière",
+      "url": null
+    }
   },
   "editorial": {
-    "badges": ["ecosysteme-majeur", "unique-au-monde", "grande-nature"],
+    "badges": [
+      "ecosysteme-majeur",
+      "unique-au-monde",
+      "grande-nature"
+    ],
     "essential": true,
     "lede": "Là où le Gange, le Brahmapoutre et la Meghna déposent l'Himalaya dans le golfe du Bengale, dix mille kilomètres carrés de forêt salée respirent deux fois par jour au rythme de la marée.",
     "why_here": "Une mangrove n'est pas une forêt au bord de l'eau : c'est une forêt qui vit dans l'eau salée, sur un sol privé d'oxygène, et qui doit reconstruire son substrat aussi vite que la mer l'emporte. Les Sundarbans en offrent la version la plus vaste et la plus continue de la planète, adossée au plus grand delta du monde. Le site montre en un seul lieu la chaîne complète qui va de l'érosion d'une chaîne de montagnes à la construction d'un littoral, puis à la protection de ce littoral contre les cyclones. Il apporte à la sélection un mécanisme que rien d'autre ne remplace : la fabrique sédimentaire d'un delta vivant, doublée du seul milieu de mangrove au monde où subsiste une population de grands félins.",
@@ -65,43 +141,164 @@
     ]
   },
   "figures": [
-    { "label": "Surface du massif de mangrove", "value": "environ 10 000 km², Bangladesh et Inde" },
-    { "label": "Bien inscrit au Bangladesh", "value": "139 500 ha, 1997, critères ix et x" },
-    { "label": "Bien inscrit en Inde", "value": "1987, critères ix et x" },
-    { "label": "Charge sédimentaire des trois fleuves", "value": "de l'ordre de 1 milliard de tonnes par an" },
-    { "label": "Altitude", "value": "quelques mètres au-dessus du niveau de la mer" },
-    { "label": "Marnage", "value": "souvent supérieur à 3 m" },
-    { "label": "Plantes recensées, partie bangladaise", "value": "334 espèces" },
-    { "label": "Oiseaux", "value": "plus de 300 espèces" },
-    { "label": "Barrage de Farakka", "value": "en service depuis 1975" }
+    {
+      "label": "Surface du massif de mangrove",
+      "value": "environ 10 000 km², Bangladesh et Inde"
+    },
+    {
+      "label": "Bien inscrit au Bangladesh",
+      "value": "139 500 ha, 1997, critères ix et x"
+    },
+    {
+      "label": "Bien inscrit en Inde",
+      "value": "1987, critères ix et x"
+    },
+    {
+      "label": "Charge sédimentaire des trois fleuves",
+      "value": "de l'ordre de 1 milliard de tonnes par an"
+    },
+    {
+      "label": "Altitude",
+      "value": "quelques mètres au-dessus du niveau de la mer"
+    },
+    {
+      "label": "Marnage",
+      "value": "souvent supérieur à 3 m"
+    },
+    {
+      "label": "Plantes recensées, partie bangladaise",
+      "value": "334 espèces"
+    },
+    {
+      "label": "Oiseaux",
+      "value": "plus de 300 espèces"
+    },
+    {
+      "label": "Barrage de Farakka",
+      "value": "en service depuis 1975"
+    }
   ],
   "geology": {
     "age": "Delta holocène édifié depuis environ 6 000 ans sur un cône sédimentaire construit depuis le Cénozoïque",
-    "processes": ["sedimentation deltaique", "subsidence et compaction", "avulsion et migration des bras fluviaux", "marnage et intrusion saline", "ondes de tempete cycloniques"],
-    "rock_types": ["argiles et limons deltaïques", "sables de chenaux et de front deltaïque", "tourbes intercalées"],
+    "processes": [
+      "sedimentation deltaique",
+      "subsidence et compaction",
+      "avulsion et migration des bras fluviaux",
+      "marnage et intrusion saline",
+      "ondes de tempete cycloniques"
+    ],
+    "rock_types": [
+      "argiles et limons deltaïques",
+      "sables de chenaux et de front deltaïque",
+      "tourbes intercalées"
+    ],
     "volcanic": null
   },
   "biodiversity": {
     "flagship_species": [
-      { "name_fr": "Tigre du Bengale", "name_sci": "Panthera tigris tigris", "group": "mammifère", "iucn_status": "EN", "note": "Seule population mondiale installée en mangrove." },
-      { "name_fr": "Sundri", "name_sci": "Heritiera fomes", "group": "plante", "iucn_status": "EN", "note": "Essence qui a donné son nom au massif, en dépérissement avec la salinisation." },
-      { "name_fr": "Crocodile marin", "name_sci": "Crocodylus porosus", "group": "reptile", "iucn_status": "LC" },
-      { "name_fr": "Tortue fluviale de l'Inde", "name_sci": "Batagur baska", "group": "reptile", "iucn_status": "CR" },
-      { "name_fr": "Dauphin du Gange", "name_sci": "Platanista gangetica", "group": "mammifère", "iucn_status": "EN" },
-      { "name_fr": "Chat pêcheur", "name_sci": "Prionailurus viverrinus", "group": "mammifère", "iucn_status": "VU" }
+      {
+        "name_fr": "Tigre du Bengale",
+        "name_sci": "Panthera tigris tigris",
+        "group": "mammifère",
+        "iucn_status": "EN",
+        "note": "Seule population mondiale installée en mangrove."
+      },
+      {
+        "name_fr": "Sundri",
+        "name_sci": "Heritiera fomes",
+        "group": "plante",
+        "iucn_status": "EN",
+        "note": "Essence qui a donné son nom au massif, en dépérissement avec la salinisation."
+      },
+      {
+        "name_fr": "Crocodile marin",
+        "name_sci": "Crocodylus porosus",
+        "group": "reptile",
+        "iucn_status": "LC"
+      },
+      {
+        "name_fr": "Tortue fluviale de l'Inde",
+        "name_sci": "Batagur baska",
+        "group": "reptile",
+        "iucn_status": "CR"
+      },
+      {
+        "name_fr": "Dauphin du Gange",
+        "name_sci": "Platanista gangetica",
+        "group": "mammifère",
+        "iucn_status": "EN"
+      },
+      {
+        "name_fr": "Chat pêcheur",
+        "name_sci": "Prionailurus viverrinus",
+        "group": "mammifère",
+        "iucn_status": "VU"
+      }
     ],
     "endemism_level": "modere",
     "endemism_note": "Peu d'endémiques strictes, mais des populations uniques par leur écologie, à commencer par le tigre de mangrove et la faune des vasières deltaïques.",
-    "species_counts": { "plants": 334, "birds": 315, "mammals": 49, "fish": null, "corals": null, "note": "Chiffres publiés pour la partie bangladaise du bien inscrit." }
+    "species_counts": {
+      "plants": 334,
+      "birds": 315,
+      "mammals": 49,
+      "fish": null,
+      "corals": null,
+      "note": "Chiffres publiés pour la partie bangladaise du bien inscrit."
+    }
   },
   "seasonality": {
-    "best_months": [11, 12, 1, 2],
-    "avoid_months": [5, 6, 7, 8, 9],
+    "best_months": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "avoid_months": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
     "phenomena": [
-      { "label": "Mousson du sud-ouest, pic de débit fluvial et dilution du sel", "kind": "mousson", "months": [6, 7, 8, 9] },
-      { "label": "Fenêtres cycloniques avant et après la mousson", "kind": "autre", "months": [4, 5, 10, 11], "note": "Sidr en novembre 2007, Aila en mai 2009, Amphan en mai 2020." },
-      { "label": "Récolte du miel des abeilles géantes, sous permis", "kind": "autre", "months": [4, 5] },
-      { "label": "Saison sèche, salinité maximale dans les chenaux occidentaux", "kind": "saison-seche", "months": [2, 3, 4] }
+      {
+        "label": "Mousson du sud-ouest, pic de débit fluvial et dilution du sel",
+        "kind": "mousson",
+        "months": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "label": "Fenêtres cycloniques avant et après la mousson",
+        "kind": "autre",
+        "months": [
+          4,
+          5,
+          10,
+          11
+        ],
+        "note": "Sidr en novembre 2007, Aila en mai 2009, Amphan en mai 2020."
+      },
+      {
+        "label": "Récolte du miel des abeilles géantes, sous permis",
+        "kind": "autre",
+        "months": [
+          4,
+          5
+        ]
+      },
+      {
+        "label": "Saison sèche, salinité maximale dans les chenaux occidentaux",
+        "kind": "saison-seche",
+        "months": [
+          2,
+          3,
+          4
+        ]
+      }
     ],
     "notes": "La saison fraîche et sèche, de novembre à février, offre les conditions de navigation les plus sûres. La mousson rend les chenaux dangereux et la saison chaude porte la salinité à son maximum."
   },
@@ -109,7 +306,12 @@
     "accessibility": "difficile",
     "suggested_duration": "3 à 4 jours en navigation",
     "difficulty": "Accès exclusivement fluvial, permis obligatoire, guides et gardes armés imposés dans les zones à tigres.",
-    "extreme_conditions": ["chaleur et humidité extrêmes", "cyclones", "crocodiles marins", "présence de tigres"],
+    "extreme_conditions": [
+      "chaleur et humidité extrêmes",
+      "cyclones",
+      "crocodiles marins",
+      "présence de tigres"
+    ],
     "permits": "Permis délivré par le Bangladesh Forest Department ou le West Bengal Forest Department selon le pays, avec accompagnement obligatoire.",
     "rules": [
       "Ne jamais débarquer hors des pontons autorisés ni s'écarter du groupe accompagné.",
@@ -126,23 +328,98 @@
     "state": "Le massif reste vaste et continu, ce qui constitue son principal atout, mais toutes les tendances de fond jouent contre lui. La salinité augmente sous l'effet conjoint de la réduction des apports d'eau douce et de la montée du niveau marin, ce qui affaiblit le sundri et modifie la composition forestière. La pression humaine sur les ressources est forte, les conflits entre hommes et tigres sont fréquents, et le développement industriel et portuaire en amont de la frange nord fait l'objet d'inquiétudes répétées des organismes consultatifs du patrimoine mondial. Les cyclones, plus intenses, ajoutent une perturbation régulière à un système déjà contraint.",
     "trend": "degradation",
     "threats": [
-      { "type": "climat", "level": "critique", "note": "Élévation relative du niveau marin, salinisation, intensification des cyclones." },
-      { "type": "hydro", "level": "eleve", "note": "Réduction des apports d'eau douce liée au barrage de Farakka et aux prélèvements en amont." },
-      { "type": "braconnage", "level": "eleve", "note": "Pression sur le tigre et sur le cerf axis, sa proie principale." },
-      { "type": "pollution", "level": "eleve", "note": "Trafic fluvial, déversements accidentels et activités industrielles en lisière nord." },
-      { "type": "peche", "level": "eleve", "note": "Pêche à la civelle et collecte de post-larves très destructrices pour les juvéniles." },
-      { "type": "deforestation", "level": "modere", "note": "Prélèvements de bois et conversion des marges en bassins d'aquaculture." }
+      {
+        "type": "climat",
+        "level": "critique",
+        "note": "Élévation relative du niveau marin, salinisation, intensification des cyclones."
+      },
+      {
+        "type": "hydro",
+        "level": "eleve",
+        "note": "Réduction des apports d'eau douce liée au barrage de Farakka et aux prélèvements en amont."
+      },
+      {
+        "type": "braconnage",
+        "level": "eleve",
+        "note": "Pression sur le tigre et sur le cerf axis, sa proie principale."
+      },
+      {
+        "type": "pollution",
+        "level": "eleve",
+        "note": "Trafic fluvial, déversements accidentels et activités industrielles en lisière nord."
+      },
+      {
+        "type": "peche",
+        "level": "eleve",
+        "note": "Pêche à la civelle et collecte de post-larves très destructrices pour les juvéniles."
+      },
+      {
+        "type": "deforestation",
+        "level": "modere",
+        "note": "Prélèvements de bois et conversion des marges en bassins d'aquaculture."
+      }
     ],
     "understand_without_going": true,
     "message": "Les Sundarbans se comprennent mieux par leurs mécanismes que par une croisière. La question qui décide de leur avenir se joue à des centaines de kilomètres en amont, dans le partage de l'eau douce du Gange, et non sur les chenaux eux-mêmes."
   },
-  "media": { "hero": null, "gallery": [] },
+  "media": {
+    "hero": null,
+    "gallery": [],
+    "query": "Sundarbans mangrove forest Bangladesh"
+  },
   "sources": [
-    { "title": "The Sundarbans", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/798/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Parc national des Sundarbans", "publisher": "UNESCO, Centre du patrimoine mondial", "url": "https://whc.unesco.org/fr/list/452/", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "The Sundarbans, World Heritage Datasheet", "publisher": "UNEP-WCMC", "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/the-sundarbans/", "type": "jeu-de-donnees", "accessed": "2026-08-22" },
-    { "title": "Sundarban Wildlife Sanctuaries Bangladesh, évaluation de l'organisation consultative", "publisher": "UICN pour l'UNESCO", "url": "https://whc.unesco.org/archive/advisory_body_evaluation/798.pdf", "type": "officiel", "accessed": "2026-08-22" },
-    { "title": "Sundarbans", "publisher": "Wikipédia en anglais", "url": "https://en.wikipedia.org/wiki/Sundarbans", "type": "encyclopedique", "accessed": "2026-08-22" }
+    {
+      "title": "The Sundarbans",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/798/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Parc national des Sundarbans",
+      "publisher": "UNESCO, Centre du patrimoine mondial",
+      "url": "https://whc.unesco.org/fr/list/452/",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "The Sundarbans, World Heritage Datasheet",
+      "publisher": "UNEP-WCMC",
+      "url": "http://world-heritage-datasheets.unep-wcmc.org/datasheet/output/site/the-sundarbans/",
+      "type": "jeu-de-donnees",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Sundarban Wildlife Sanctuaries Bangladesh, évaluation de l'organisation consultative",
+      "publisher": "UICN pour l'UNESCO",
+      "url": "https://whc.unesco.org/archive/advisory_body_evaluation/798.pdf",
+      "type": "officiel",
+      "accessed": "2026-08-22"
+    },
+    {
+      "title": "Sundarbans",
+      "publisher": "Wikipédia en anglais",
+      "url": "https://en.wikipedia.org/wiki/Sundarbans",
+      "type": "encyclopedique",
+      "accessed": "2026-08-22"
+    }
   ],
-  "score": { "criteria": { "visuel": 3, "singularite": 5, "rarete": 4, "diversite": 4, "integrite": 3, "monumentalite": 4, "actif": 5, "biologique": 5, "photogenie": 3, "pedagogie": 5, "conservation": 2, "complementarite": 5 }, "total": 113, "scored_on": "2026-08-22" }
+  "score": {
+    "criteria": {
+      "visuel": 3,
+      "singularite": 5,
+      "rarete": 4,
+      "diversite": 4,
+      "integrite": 3,
+      "monumentalite": 4,
+      "actif": 5,
+      "biologique": 5,
+      "photogenie": 3,
+      "pedagogie": 5,
+      "conservation": 2,
+      "complementarite": 5
+    },
+    "total": 113,
+    "scored_on": "2026-08-22"
+  }
 }
