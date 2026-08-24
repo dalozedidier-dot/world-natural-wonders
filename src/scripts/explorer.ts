@@ -1,4 +1,4 @@
-import { Map as MlMap, NavigationControl, type GeoJSONSource, type LngLatBoundsLike } from 'maplibre-gl';
+import { Map as MlMap, Marker, NavigationControl, type GeoJSONSource, type LngLatBoundsLike } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { addTerrain, mapStyle } from './basemap';
 import { readState, writeState, asArray } from './urlstate';
@@ -67,17 +67,41 @@ async function init(root: HTMLElement) {
   map.on('error', event => console.error('[carte]', event.error?.message ?? event));
   map.addControl(new NavigationControl({ showCompass: false }), 'bottom-right');
 
-  map.on('load', () => {
-    root.dataset.mapReady = 'true';
-    showWorld(0);
-    map.addSource('places', {
+  // Marqueurs DOM toujours disponibles. Ils ne dépendent ni du chargement du
+  // style, ni des tuiles, ni des glyphes du fournisseur cartographique.
+  const markerEls = new Map<string, HTMLButtonElement>();
+  for (const p of places) {
+    const el = document.createElement('button');
+    el.type = 'button';
+    el.title = `${p.name} · ${p.country}`;
+    el.setAttribute('aria-label', `Ouvrir ${p.name}, ${p.country}`);
+    el.style.cssText = [
+      `width:${p.essential ? 15 : 11}px`, `height:${p.essential ? 15 : 11}px`,
+      `background:${colors[p.family] || '#c98a3f'}`, 'border:2px solid #f2efe8',
+      'border-radius:50%', 'padding:0', 'cursor:pointer',
+      'box-shadow:0 1px 5px rgba(0,0,0,.75)'
+    ].join(';');
+    el.addEventListener('click', event => {
+      event.stopPropagation();
+      select(p.id, true);
+    });
+    new Marker({ element: el, anchor: 'center' }).setLngLat([p.lng, p.lat]).addTo(map);
+    markerEls.set(p.id, el);
+  }
+  root.dataset.mapMarkers = String(markerEls.size);
+
+  const mountPlaces = () => {
+    if (map.getSource('places')) return;
+    try {
+      showWorld(0);
+      map.addSource('places', {
       type: 'geojson',
       data: toGeoJSON(places),
       cluster: true,
       clusterMaxZoom: 4,
       clusterRadius: 46
-    });
-    map.addLayer({
+      });
+      map.addLayer({
       id: 'clusters', type: 'circle', source: 'places', filter: ['has', 'point_count'],
       paint: {
         'circle-color': '#f2efe8',
@@ -86,8 +110,8 @@ async function init(root: HTMLElement) {
         'circle-stroke-width': 2,
         'circle-stroke-color': 'rgba(7,16,15,.55)'
       }
-    });
-    map.addLayer({
+      });
+      map.addLayer({
       id: 'points', type: 'circle', source: 'places', filter: ['!', ['has', 'point_count']],
       paint: {
         'circle-color': ['get', 'color'],
@@ -95,41 +119,49 @@ async function init(root: HTMLElement) {
         'circle-stroke-width': ['case', ['get', 'essential'], 2, 1.4],
         'circle-stroke-color': 'rgba(242,239,232,.9)'
       }
-    });
+      });
     // Les cercles sont ajoutés avant le texte : même si un fournisseur de
     // glyphes tombe en panne, les 100 lieux restent visibles et cliquables.
-    map.addLayer({
+      map.addLayer({
       id: 'cluster-count', type: 'symbol', source: 'places', filter: ['has', 'point_count'],
       layout: { 'text-field': ['get', 'point_count_abbreviated'], 'text-size': 12 },
       paint: { 'text-color': '#0d1413' }
-    });
-    map.addLayer({
+      });
+      map.addLayer({
       id: 'points-halo', type: 'circle', source: 'places',
       filter: ['all', ['!', ['has', 'point_count']], ['==', ['get', 'id'], '']],
       paint: { 'circle-color': 'transparent', 'circle-radius': 16, 'circle-stroke-width': 2, 'circle-stroke-color': '#e0ab68' }
-    });
+      });
 
-    for (const layer of ['points', 'clusters']) {
+      for (const layer of ['points', 'clusters']) {
       map.on('mouseenter', layer, () => (map.getCanvas().style.cursor = 'pointer'));
       map.on('mouseleave', layer, () => (map.getCanvas().style.cursor = ''));
-    }
-    map.on('click', 'points', e => {
+      }
+      map.on('click', 'points', e => {
       const id = e.features?.[0]?.properties?.id as string;
       if (id) select(id, true);
-    });
-    map.on('click', 'clusters', async e => {
+      });
+      map.on('click', 'clusters', async e => {
       const f = e.features?.[0];
       if (!f) return;
       const src = map.getSource('places') as GeoJSONSource;
       const zoom = await src.getClusterExpansionZoom(f.properties!.cluster_id as number);
       map.easeTo({ center: (f.geometry as GeoJSON.Point).coordinates as [number, number], zoom, duration: 700 });
-    });
+      });
 
-    apply();
-    root.dataset.mapMarkers = String(places.length);
-    addTerrain(map);
-    if (state.lieu) select(state.lieu as string, true);
-  });
+      apply();
+      root.dataset.mapReady = 'true';
+      root.dataset.mapMarkers = String(places.length);
+      addTerrain(map);
+      if (state.lieu) select(state.lieu as string, true);
+    } catch (error) {
+      console.error('[carte] ajout des marqueurs impossible', error);
+      root.dataset.mapError = error instanceof Error ? error.message : String(error);
+    }
+  };
+  // `load` attend également les tuiles, sprites et glyphes. `style.load`
+  // suffit pour ajouter nos propres sources et ne dépend pas de leur réseau.
+  map.once('style.load', mountPlaces);
 
   // ---- filtres ----
   root.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(btn => {
@@ -189,6 +221,8 @@ async function init(root: HTMLElement) {
 
   function apply() {
     current = places.filter(matches);
+    const visible = new Set(current.map(place => place.id));
+    for (const [id, marker] of markerEls) marker.style.display = visible.has(id) ? '' : 'none';
     const src = map.getSource('places') as GeoJSONSource | undefined;
     src?.setData(toGeoJSON(current));
     renderList(current);
@@ -262,6 +296,10 @@ async function init(root: HTMLElement) {
     const p = byId.get(id);
     if (!p) return;
     openId = id;
+    for (const [markerId, marker] of markerEls) {
+      marker.style.outline = markerId === id ? '3px solid #e0ab68' : '';
+      marker.style.outlineOffset = markerId === id ? '3px' : '';
+    }
     map.setFilter('points-halo', ['all', ['!', ['has', 'point_count']], ['==', ['get', 'id'], id]]);
     listEl.querySelectorAll('[data-open]').forEach(el =>
       el.setAttribute('aria-current', String((el as HTMLElement).dataset.open === id)));
@@ -290,6 +328,10 @@ async function init(root: HTMLElement) {
     map.setFilter('points-halo', ['all', ['!', ['has', 'point_count']], ['==', ['get', 'id'], '']]);
     const s = readState(); delete s.lieu; writeState(s);
     openId = null;
+    for (const marker of markerEls.values()) {
+      marker.style.outline = '';
+      marker.style.outlineOffset = '';
+    }
   }
   panel.querySelector('.panel-close')?.addEventListener('click', close);
   scrim.addEventListener('click', close);
