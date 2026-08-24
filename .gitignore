@@ -5,7 +5,6 @@ dist/
 *.log
 .env
 .env.*
-public/tiles/*.pmtiles
 public/media/derived/
 _bundle.tar.gz
 

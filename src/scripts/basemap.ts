@@ -17,7 +17,6 @@ import { addProtocol } from 'maplibre-gl';
 import type { Map as MlMap, StyleSpecification } from 'maplibre-gl';
 
 const BASE = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
-const DEMO = 'https://demo-bucket.protomaps.com/v4.pmtiles';
 const CONFIGURED = (import.meta.env.PUBLIC_TILES_URL as string | undefined) || '';
 
 let protocolRegistered = false;
@@ -28,21 +27,13 @@ export function registerPmtiles() {
   protocolRegistered = true;
 }
 
-async function exists(url: string): Promise<boolean> {
-  try {
-    const r = await fetch(url, { method: 'HEAD' });
-    return r.ok;
-  } catch { return false; }
-}
-
 export async function resolveTilesUrl(): Promise<{ url: string; local: boolean }> {
   if (CONFIGURED) return { url: CONFIGURED, local: !/^https?:\/\//.test(CONFIGURED) };
-  const local = `${window.location.origin}${BASE}/tiles/basemap.pmtiles`;
-  if (await exists(local)) return { url: local, local: true };
-  if (import.meta.env.DEV) {
-    console.warn('[carte] basemap.pmtiles absent, repli sur le bucket de démonstration Protomaps. Voir docs/cartographie.md');
-  }
-  return { url: DEMO, local: false };
+  // Le fond mondial fait partie de l'artefact publié. On évite une requête
+  // HEAD préalable : certains navigateurs et CDN la gardent en attente sur
+  // les gros fichiers, ce qui bloquait toute l'initialisation de l'explorateur.
+  const local = `${window.location.origin}${BASE}/tiles/basemap.pmtiles?v=20260823`;
+  return { url: local, local: true };
 }
 
 export const ATTRIBUTION =

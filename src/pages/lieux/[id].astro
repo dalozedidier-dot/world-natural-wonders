@@ -38,7 +38,7 @@ const placeSchema = {
   ...(hero ? { image: new URL(hero.local.replace(/^public\//, '/'), Astro.site ?? Astro.url.origin).href } : {})
 };
 ---
-<Base title={`${p.identity.name_fr} · 100 joyaux naturels`} description={p.editorial.lede} image={hero ? hero.local.replace(/^public\//, '/') : null} imageAlt={hero?.alt ?? p.identity.name_fr} structuredData={placeSchema}>
+<Base title={`${p.identity.name_fr} · 100 joyaux naturels`} description={p.editorial.lede} image={hero ? hero.local.replace(/^public\//, '/') : null} imageAlt={hero?.alt ?? p.identity.name_fr} imageWidth={hero?.width ?? 1200} imageHeight={hero?.height ?? 630} structuredData={placeSchema}>
   <article>
     <header class="place-hero" data-credit-holder>
       <img src={hero ? `${base}${hero.local.replace(/^public\//, '/')}` : placeholder(p)} alt={hero ? hero.alt : ''} fetchpriority="high"

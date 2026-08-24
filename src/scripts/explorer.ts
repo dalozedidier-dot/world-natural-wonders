@@ -54,6 +54,7 @@ async function init(root: HTMLElement) {
     attributionControl: { compact: true },
     hash: false
   });
+  map.on('error', event => console.error('[carte]', event.error?.message ?? event));
   map.addControl(new NavigationControl({ showCompass: false }), 'bottom-right');
   map.addControl(new ScaleControl({ maxWidth: 90, unit: 'metric' }), 'bottom-left');
 

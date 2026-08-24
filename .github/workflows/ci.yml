@@ -70,10 +70,12 @@ jobs:
   links:
     name: Liens externes
     runs-on: ubuntu-latest
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: build
+    timeout-minutes: 10
     continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
-      - run: node scripts/check-links.mjs
+      - name: Contrôler les sources et sites officiels
+        run: node scripts/check-links.mjs --strict
