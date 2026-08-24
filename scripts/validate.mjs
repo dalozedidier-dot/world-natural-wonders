@@ -105,6 +105,14 @@ for (const f of files) {
     warn(f, `statut "${doc.status}" : un site des 100 doit atteindre "ready" avant publication`);
   }
   if ((doc.sources ?? []).length < 2) warn(f, 'moins de deux sources');
+  const weakSourceHosts = /(?:^|\.)(?:wikipedia\.org|britannica\.com|worldatlas\.com)$/i;
+  for (const source of doc.sources ?? []) {
+    let host = '';
+    try { host = new URL(source.url).hostname; } catch { fail(f, `URL de source invalide : ${source.url}`); }
+    if (weakSourceHosts.test(host)) fail(f, `source encyclopédique non admise pour le fact-checking : ${host}`);
+  }
+  const strongSources = (doc.sources ?? []).filter(source => ['officiel', 'scientifique', 'jeu-de-donnees'].includes(source.type));
+  if (!strongSources.length) fail(f, 'aucune source officielle, scientifique ou donnée primaire');
   if (!doc.editorial?.geology) warn(f, 'section géologie absente');
 }
 

@@ -9,6 +9,7 @@
     "build": "npm run validate && astro build && node scripts/build-credits.mjs",
     "preview": "astro preview",
     "validate": "node scripts/validate.mjs",
+    "audit:facts": "node scripts/audit-facts.mjs --strict",
     "media:fetch": "node scripts/fetch-media.mjs",
     "media:build": "node scripts/build-images.mjs",
     "media:credits": "node scripts/build-credits.mjs",
