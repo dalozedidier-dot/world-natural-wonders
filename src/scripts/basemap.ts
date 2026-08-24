@@ -18,7 +18,7 @@ import type { LayerSpecification, Map as MlMap, StyleSpecification } from 'mapli
 
 const BASE = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
 const CONFIGURED = (import.meta.env.PUBLIC_TILES_URL as string | undefined) || '';
-const OPENFREEMAP_STYLE = 'https://tiles.openfreemap.org/styles/dark';
+const OPENFREEMAP_NATURAL_EARTH = 'https://tiles.openfreemap.org/natural_earth/ne2sr/{z}/{x}/{y}.png';
 
 let pmtilesProtocol: Protocol | undefined;
 export function registerPmtiles() {
@@ -70,14 +70,28 @@ export function initialStyle(): StyleSpecification {
  * garantit que les marqueurs restent utilisables en cas de panne réseau.
  */
 export async function mapStyle(): Promise<StyleSpecification> {
-  try {
-    const response = await fetch(OPENFREEMAP_STYLE, { signal: AbortSignal.timeout(8000) });
-    if (!response.ok) throw new Error(`OpenFreeMap HTTP ${response.status}`);
-    return await response.json() as StyleSpecification;
-  } catch (error) {
-    console.error('[carte] style OpenFreeMap indisponible, fond minimal utilisé', error);
-    return initialStyle();
-  }
+  return {
+    version: 8,
+    sources: {
+      world: {
+        type: 'raster',
+        tiles: [OPENFREEMAP_NATURAL_EARTH],
+        tileSize: 256,
+        minzoom: 0,
+        maxzoom: 6,
+        attribution: 'OpenFreeMap · Natural Earth · © OpenStreetMap'
+      }
+    },
+    layers: [
+      { id: 'background', type: 'background', paint: { 'background-color': '#061315' } },
+      {
+        id: 'world',
+        type: 'raster',
+        source: 'world',
+        paint: { 'raster-saturation': -0.55, 'raster-brightness-min': 0.08, 'raster-brightness-max': 0.62 }
+      }
+    ]
+  } as StyleSpecification;
 }
 
 /** Ajoute le fond géographique après l'initialisation de la carte interactive. */

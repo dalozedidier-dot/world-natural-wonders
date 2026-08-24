@@ -1,4 +1,4 @@
-import { Map as MlMap, NavigationControl, ScaleControl, type GeoJSONSource, type LngLatBoundsLike } from 'maplibre-gl';
+import { Map as MlMap, NavigationControl, type GeoJSONSource, type LngLatBoundsLike } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { addTerrain, mapStyle } from './basemap';
 import { readState, writeState, asArray } from './urlstate';
@@ -66,7 +66,6 @@ async function init(root: HTMLElement) {
   });
   map.on('error', event => console.error('[carte]', event.error?.message ?? event));
   map.addControl(new NavigationControl({ showCompass: false }), 'bottom-right');
-  map.addControl(new ScaleControl({ maxWidth: 90, unit: 'metric' }), 'bottom-left');
 
   map.on('load', () => {
     root.dataset.mapReady = 'true';
@@ -251,11 +250,9 @@ async function init(root: HTMLElement) {
   let openId: string | null = null;
 
   function showWorld(duration: number) {
-    map.fitBounds([[-170, -58], [170, 75]], {
-      padding: { top: 42, right: 42, bottom: 42, left: 42 },
-      duration,
-      maxZoom: 2.2
-    });
+    const width = map.getContainer().clientWidth;
+    const zoom = width >= 1100 ? 1.15 : width >= 760 ? 0.85 : width >= 480 ? 0.55 : 0.2;
+    map.easeTo({ center: [0, 12], zoom, bearing: 0, pitch: 0, duration });
   }
 
   async function select(id: string, fly = false) {
