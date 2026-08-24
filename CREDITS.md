@@ -115,7 +115,7 @@ Fonds vectoriels [Protomaps](https://github.com/protomaps/basemaps) au format PM
 
 ## Sources éditoriales
 
-100 fiche(s), 391 source(s) citée(s). Le détail figure au bas de chaque fiche, avec la date de consultation.
+100 fiche(s), 388 source(s) citée(s). Le détail figure au bas de chaque fiche, avec la date de consultation.
 
 ## Licences du projet
 

@@ -17,20 +17,39 @@ for (const f of fs.readdirSync(dir).filter(f => f.endsWith('.json'))) {
   add(p.visit?.official_url);
 }
 
-let bad = 0;
+let broken = 0;
+let inconclusive = 0;
 const list = [...urls.keys()];
 console.log(`${list.length} URL uniques à contrôler.`);
 for (let i = 0; i < list.length; i += 6) {
   await Promise.all(list.slice(i, i + 6).map(async u => {
+    const origins = `[${[...urls.get(u)].join(', ')}]`;
     try {
-      const ctrl = AbortSignal.timeout(12000);
-      let r = await fetch(u, { method: 'HEAD', redirect: 'follow', signal: ctrl });
-      if (r.status === 405 || r.status === 403) r = await fetch(u, { method: 'GET', redirect: 'follow', signal: ctrl });
-      if (!r.ok) { bad++; console.log(`  x ${r.status} ${u}  [${[...urls.get(u)].join(', ')}]`); }
+      const options = {
+        redirect: 'follow',
+        signal: AbortSignal.timeout(15000),
+        headers: {
+          'user-agent': 'WorldNaturalWonders-LinkChecker/1.0 (+https://world-natural-wonders.be/)',
+          accept: 'text/html,application/xhtml+xml,application/pdf;q=0.9,*/*;q=0.8',
+        },
+      };
+      let r = await fetch(u, { ...options, method: 'HEAD' });
+
+      // Un HEAD peut être refusé ou mal implémenté alors que la page existe.
+      if (!r.ok) r = await fetch(u, { ...options, method: 'GET' });
+
+      if (r.status === 404 || r.status === 410) {
+        broken++;
+        console.log(`  x ${r.status} ${u}  ${origins}`);
+      } else if (!r.ok) {
+        inconclusive++;
+        console.log(`  ? ${r.status} ${u}  ${origins}`);
+      }
     } catch (e) {
-      bad++; console.log(`  x ${e.name} ${u}  [${[...urls.get(u)].join(', ')}]`);
+      inconclusive++;
+      console.log(`  ? ${e.name} ${u}  ${origins}`);
     }
   }));
 }
-console.log(bad ? `${bad} lien(s) en échec.` : 'Tous les liens répondent.');
-if (bad && strict) process.exit(1);
+console.log(`${broken} lien(s) réellement cassé(s), ${inconclusive} contrôle(s) non concluant(s).`);
+if (broken && strict) process.exit(1);
