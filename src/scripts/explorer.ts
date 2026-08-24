@@ -1,6 +1,6 @@
 import { Map as MlMap, NavigationControl, ScaleControl, type GeoJSONSource, type LngLatBoundsLike } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { addBasemap, addTerrain, initialStyle } from './basemap';
+import { addTerrain, mapStyle } from './basemap';
 import { readState, writeState, asArray } from './urlstate';
 import { read as readLists, toggle as toggleList } from './store';
 import { illustrateOnScroll } from './photos';
@@ -24,6 +24,7 @@ async function init(root: HTMLElement) {
   const places: Lite[] = JSON.parse(document.getElementById('places-data')!.textContent!);
   const colors: Record<string, string> = JSON.parse(document.getElementById('family-colors')!.textContent!);
   const byId = new Map(places.map(p => [p.id, p]));
+  let current: Lite[] = places;
 
   const listEl = root.querySelector<HTMLElement>('[data-results]')!;
   const countEl = root.querySelector<HTMLElement>('[data-count]')!;
@@ -31,6 +32,12 @@ async function init(root: HTMLElement) {
   const panel = document.getElementById('panel')!;
   const panelBody = panel.querySelector<HTMLElement>('.panel-body')!;
   const scrim = document.getElementById('scrim')!;
+
+  // La liste ne dépend jamais du moteur cartographique.
+  queueMicrotask(() => {
+    renderList(current);
+    countEl.textContent = `${current.length} lieux`;
+  });
 
   const state = readState();
   const filters = {
@@ -49,9 +56,9 @@ async function init(root: HTMLElement) {
   // ---- carte ----
   const map = new MlMap({
     container: root.querySelector<HTMLElement>('#map')!,
-    style: initialStyle(),
-    center: [12, 18],
-    zoom: 1.35,
+    style: await mapStyle(),
+    center: [0, 10],
+    zoom: 1.1,
     minZoom: 0.6,
     maxZoom: 13,
     attributionControl: { compact: true },
@@ -63,6 +70,7 @@ async function init(root: HTMLElement) {
 
   map.on('load', () => {
     root.dataset.mapReady = 'true';
+    showWorld(0);
     map.addSource('places', {
       type: 'geojson',
       data: toGeoJSON(places),
@@ -117,14 +125,7 @@ async function init(root: HTMLElement) {
     });
 
     apply();
-    // Le fond géographique est volontairement indépendant : une panne ou un
-    // délai PMTiles ne peut plus bloquer la liste ni les 100 marqueurs.
-    void addBasemap(map, 'clusters')
-      .then(() => addTerrain(map))
-      .catch(error => {
-        console.error('[carte] fond géographique indisponible', error);
-        root.dataset.basemapError = error instanceof Error ? error.message : String(error);
-      });
+    addTerrain(map);
     if (state.lieu) select(state.lieu as string, true);
   });
 
@@ -164,14 +165,11 @@ async function init(root: HTMLElement) {
     filters.access = []; filters.month = []; filters.essential = false; filters.favorites = false;
     filters.q = ''; searchEl.value = ''; apply();
   });
-  root.querySelector('[data-world]')?.addEventListener('click', () =>
-    map.easeTo({ center: [12, 18], zoom: 1.35, duration: 900 }));
+  root.querySelector('[data-world]')?.addEventListener('click', () => showWorld(900));
   root.querySelector('[data-random]')?.addEventListener('click', () => {
     const pool = current.length ? current : places;
     select(pool[Math.floor(Math.random() * pool.length)].id, true);
   });
-
-  let current: Lite[] = places;
 
   function matches(p: Lite): boolean {
     const f = filters;
@@ -251,6 +249,15 @@ async function init(root: HTMLElement) {
 
   // ---- panneau ----
   let openId: string | null = null;
+
+  function showWorld(duration: number) {
+    map.fitBounds([[-170, -58], [170, 75]], {
+      padding: { top: 42, right: 42, bottom: 42, left: 42 },
+      duration,
+      maxZoom: 2.2
+    });
+  }
+
   async function select(id: string, fly = false) {
     const p = byId.get(id);
     if (!p) return;

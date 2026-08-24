@@ -18,6 +18,7 @@ import type { LayerSpecification, Map as MlMap, StyleSpecification } from 'mapli
 
 const BASE = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
 const CONFIGURED = (import.meta.env.PUBLIC_TILES_URL as string | undefined) || '';
+const OPENFREEMAP_STYLE = 'https://tiles.openfreemap.org/styles/dark';
 
 let pmtilesProtocol: Protocol | undefined;
 export function registerPmtiles() {
@@ -61,6 +62,22 @@ export function initialStyle(): StyleSpecification {
     sources: {},
     layers: [background]
   } as StyleSpecification;
+}
+
+/**
+ * Style principal désormais fourni par OpenFreeMap, dont l'URL est conçue
+ * pour MapLibre et ne nécessite ni compte ni clé. Le style minimal local
+ * garantit que les marqueurs restent utilisables en cas de panne réseau.
+ */
+export async function mapStyle(): Promise<StyleSpecification> {
+  try {
+    const response = await fetch(OPENFREEMAP_STYLE, { signal: AbortSignal.timeout(8000) });
+    if (!response.ok) throw new Error(`OpenFreeMap HTTP ${response.status}`);
+    return await response.json() as StyleSpecification;
+  } catch (error) {
+    console.error('[carte] style OpenFreeMap indisponible, fond minimal utilisé', error);
+    return initialStyle();
+  }
 }
 
 /** Ajoute le fond géographique après l'initialisation de la carte interactive. */
