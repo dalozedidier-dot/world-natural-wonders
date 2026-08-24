@@ -1,6 +1,6 @@
 import { Map as MlMap, NavigationControl, ScaleControl, type GeoJSONSource, type LngLatBoundsLike } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import { darkStyle, addTerrain } from './basemap';
+import { addBasemap, addTerrain, initialStyle } from './basemap';
 import { readState, writeState, asArray } from './urlstate';
 import { read as readLists, toggle as toggleList } from './store';
 import { illustrateOnScroll } from './photos';
@@ -49,7 +49,7 @@ async function init(root: HTMLElement) {
   // ---- carte ----
   const map = new MlMap({
     container: root.querySelector<HTMLElement>('#map')!,
-    style: await darkStyle(),
+    style: initialStyle(),
     center: [12, 18],
     zoom: 1.35,
     minZoom: 0.6,
@@ -63,7 +63,6 @@ async function init(root: HTMLElement) {
 
   map.on('load', () => {
     root.dataset.mapReady = 'true';
-    addTerrain(map);
     map.addSource('places', {
       type: 'geojson',
       data: toGeoJSON(places),
@@ -118,6 +117,14 @@ async function init(root: HTMLElement) {
     });
 
     apply();
+    // Le fond géographique est volontairement indépendant : une panne ou un
+    // délai PMTiles ne peut plus bloquer la liste ni les 100 marqueurs.
+    void addBasemap(map, 'clusters')
+      .then(() => addTerrain(map))
+      .catch(error => {
+        console.error('[carte] fond géographique indisponible', error);
+        root.dataset.basemapError = error instanceof Error ? error.message : String(error);
+      });
     if (state.lieu) select(state.lieu as string, true);
   });
 

@@ -14,7 +14,7 @@
 import { Protocol } from 'pmtiles';
 import { layers, namedFlavor } from '@protomaps/basemaps';
 import { addProtocol } from 'maplibre-gl';
-import type { Map as MlMap, StyleSpecification } from 'maplibre-gl';
+import type { LayerSpecification, Map as MlMap, StyleSpecification } from 'maplibre-gl';
 
 const BASE = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
 const CONFIGURED = (import.meta.env.PUBLIC_TILES_URL as string | undefined) || '';
@@ -41,14 +41,47 @@ export const ATTRIBUTION =
   '<a href="https://github.com/protomaps/basemaps" target="_blank" rel="noopener">Protomaps</a> · ' +
   '<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a>';
 
-/** Style sombre, neutre, conçu pour laisser la photographie et les marqueurs au premier plan. */
+const flavor = namedFlavor('dark');
+// Le contraste doit rester lisible sur les écrans peu lumineux : l'ancien
+// trio était presque monochrome et donnait l'impression d'une carte vide.
+const tuned = { ...flavor, background: '#061315', earth: '#203b35', water: '#0b2934' };
+const basemapLayers = layers('protomaps', tuned, { lang: 'fr' }) as LayerSpecification[];
+
+/**
+ * Le style minimal démarre sans aucune ressource distante. La liste et les
+ * marqueurs ne doivent jamais dépendre de la disponibilité du fond PMTiles.
+ */
+export function initialStyle(): StyleSpecification {
+  const background = basemapLayers.find(layer => layer.id === 'background');
+  if (!background) throw new Error('Couche de fond Protomaps absente');
+  return {
+    version: 8,
+    glyphs: 'https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf',
+    sprite: 'https://protomaps.github.io/basemaps-assets/sprites/v4/dark',
+    sources: {},
+    layers: [background]
+  } as StyleSpecification;
+}
+
+/** Ajoute le fond géographique après l'initialisation de la carte interactive. */
+export async function addBasemap(map: MlMap, beforeId: string) {
+  registerPmtiles();
+  const { url } = await resolveTilesUrl();
+  if (map.getSource('protomaps')) return;
+  map.addSource('protomaps', {
+    type: 'vector',
+    url: `pmtiles://${url}`,
+    attribution: ATTRIBUTION
+  });
+  for (const layer of basemapLayers) {
+    if (layer.id !== 'background' && !map.getLayer(layer.id)) map.addLayer(layer, beforeId);
+  }
+}
+
+/** Style complet conservé pour les autres vues éventuelles. */
 export async function darkStyle(): Promise<StyleSpecification> {
   registerPmtiles();
   const { url } = await resolveTilesUrl();
-  const flavor = namedFlavor('dark');
-  // Le contraste doit rester lisible sur les écrans peu lumineux : l'ancien
-  // trio était presque monochrome et donnait l'impression d'une carte vide.
-  const tuned = { ...flavor, background: '#061315', earth: '#203b35', water: '#0b2934' };
   return {
     version: 8,
     glyphs: 'https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf',
@@ -60,7 +93,7 @@ export async function darkStyle(): Promise<StyleSpecification> {
         attribution: ATTRIBUTION
       }
     },
-    layers: layers('protomaps', tuned, { lang: 'fr' })
+    layers: basemapLayers
   } as StyleSpecification;
 }
 
