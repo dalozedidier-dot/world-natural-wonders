@@ -4,12 +4,40 @@ export interface Props {
   title: string;
   description?: string;
   image?: string | null;
+  imageAlt?: string;
   wide?: boolean;
   bodyClass?: string;
+  noindex?: boolean;
+  structuredData?: Record<string, unknown> | null;
 }
-const { title, description = "Cent paysages naturels qui racontent quatre milliards d'années d'histoire de la Terre, avec leurs saisons, leur géologie et les espèces qui les habitent.", image = null, bodyClass = '' } = Astro.props;
+const { title, description = "Cent paysages naturels qui racontent quatre milliards d'années d'histoire de la Terre, avec leurs saisons, leur géologie et les espèces qui les habitent.", image = '/media/raja-ampat-hero-1280.jpg', imageAlt = 'Paysage naturel remarquable présenté dans les 100 joyaux naturels de la Terre', bodyClass = '', noindex = false, structuredData = null } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const url = new URL(Astro.url.pathname, Astro.site ?? 'https://example.org').href;
+const origin = new URL(Astro.site ?? url).origin;
+const socialImage = image ? new URL(image, origin).href : null;
+const author = 'Didier Daloze';
+const copyrightYear = new Date().getFullYear();
+const graph = [
+  {
+    '@type': 'WebSite', '@id': `${origin}/#website`, url: `${origin}/`,
+    name: '100 joyaux naturels de la Terre', alternateName: 'World Natural Wonders',
+    description: "Atlas éditorial et calendrier de 100 paysages naturels remarquables.",
+    inLanguage: 'fr-BE', creator: { '@id': `${origin}/#didier-daloze` },
+    copyrightHolder: { '@id': `${origin}/#didier-daloze` }, copyrightYear
+  },
+  {
+    '@type': 'Person', '@id': `${origin}/#didier-daloze`, name: author,
+    url: `${origin}/`, owns: { '@id': `${origin}/#website` }
+  },
+  {
+    '@type': 'WebPage', '@id': `${url}#webpage`, url, name: title, description,
+    isPartOf: { '@id': `${origin}/#website` }, inLanguage: 'fr-BE',
+    author: { '@id': `${origin}/#didier-daloze` },
+    copyrightHolder: { '@id': `${origin}/#didier-daloze` }, copyrightYear,
+    ...(socialImage ? { primaryImageOfPage: { '@type': 'ImageObject', url: socialImage, caption: imageAlt } } : {})
+  },
+  ...(structuredData ? [structuredData] : [])
+];
 const nav = [
   { href: `${base}/`, label: 'Carte' },
   { href: `${base}/collections`, label: 'Collections' },
@@ -26,13 +54,28 @@ const here = Astro.url.pathname.replace(/\/$/, '');
   <meta name="theme-color" content="#07100f" />
   <title>{title}</title>
   <meta name="description" content={description} />
+  <meta name="author" content={author} />
+  <meta name="creator" content={author} />
+  <meta name="copyright" content={`© ${copyrightYear} ${author} · world-natural-wonders.be`} />
+  <meta name="robots" content={noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1'} />
+  <meta name="googlebot" content={noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1'} />
   <link rel="canonical" href={url} />
+  <link rel="alternate" hreflang="fr-BE" href={url} />
+  <link rel="alternate" hreflang="x-default" href={url} />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="100 joyaux naturels de la Terre" />
+  <meta property="og:url" content={url} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
-  <meta property="og:locale" content="fr_FR" />
-  {image && <meta property="og:image" content={new URL(image, Astro.site ?? url).href} />}
+  <meta property="og:locale" content="fr_BE" />
+  {socialImage && <meta property="og:image" content={socialImage} />}
+  {socialImage && <meta property="og:image:alt" content={imageAlt} />}
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  {socialImage && <meta name="twitter:image" content={socialImage} />}
+  {socialImage && <meta name="twitter:image:alt" content={imageAlt} />}
+  <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': graph })} />
   <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
 </head>
 <body class={bodyClass}>
@@ -75,6 +118,7 @@ const here = Astro.url.pathname.replace(/\/$/, '');
       <div>
         <h2 class="foot-title">Avant de partir</h2>
         <p>Météo, accès, fermetures et règles locales changent. Vérifiez auprès du gestionnaire du site avant de vous mettre en route.</p>
+        <p>Conception et contenus éditoriaux © {copyrightYear} Didier Daloze · <a href={`${origin}/`}>world-natural-wonders.be</a>.</p>
       </div>
     </div>
   </footer>

@@ -22,8 +22,23 @@ const related = allPlaces
   .filter(o => o.id !== p.id && o.collection !== 'reserve' &&
     (o.landscape.family === p.landscape.family || o.location.region === p.location.region))
   .slice(0, 4);
+const pageUrl = new URL(`/lieux/${p.id}`, Astro.site ?? Astro.url.origin).href;
+const placeSchema = {
+  '@type': 'Place', '@id': `${pageUrl}#place`, url: pageUrl,
+  name: p.identity.name_fr,
+  alternateName: [p.identity.name_official, ...(p.identity.aka ?? [])].filter(Boolean),
+  description: p.editorial.lede,
+  mainEntityOfPage: { '@id': `${pageUrl}#webpage` },
+  geo: { '@type': 'GeoCoordinates', latitude: p.location.lat, longitude: p.location.lng },
+  address: {
+    '@type': 'PostalAddress',
+    addressCountry: p.location.country_labels.join(' et '),
+    ...(p.location.subdivision ? { addressRegion: p.location.subdivision } : {})
+  },
+  ...(hero ? { image: new URL(hero.local.replace(/^public\//, '/'), Astro.site ?? Astro.url.origin).href } : {})
+};
 ---
-<Base title={`${p.identity.name_fr} · 100 joyaux naturels`} description={p.editorial.lede} image={hero ? hero.local.replace(/^public\//, '/') : null}>
+<Base title={`${p.identity.name_fr} · 100 joyaux naturels`} description={p.editorial.lede} image={hero ? hero.local.replace(/^public\//, '/') : null} imageAlt={hero?.alt ?? p.identity.name_fr} structuredData={placeSchema}>
   <article>
     <header class="place-hero" data-credit-holder>
       <img src={hero ? `${base}${hero.local.replace(/^public\//, '/')}` : placeholder(p)} alt={hero ? hero.alt : ''} fetchpriority="high"
