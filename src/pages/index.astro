@@ -47,7 +47,7 @@ const orbPoints = lite.map(p => {
   return z < 0 ? null : { x: +(100 + x * 88).toFixed(1), y: +(100 - y * 88).toFixed(1), r: p.essential ? 2.6 : 1.7, c: colors[p.family] ?? '#c98a3f' };
 }).filter(Boolean) as { x: number; y: number; r: number; c: string }[];
 ---
-<Base title="100 joyaux naturels de la Terre" image={null}>
+<Base title="100 joyaux naturels de la Terre">
   <section class="hero">
     <div class="scene" aria-hidden="true">
       <div class="scene-slides" data-slides data-base={base}>

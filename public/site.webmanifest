@@ -1,0 +1,23 @@
+{
+  "name": "100 joyaux naturels de la Terre",
+  "short_name": "100 Joyaux",
+  "description": "Atlas éditorial et calendrier de 100 paysages naturels remarquables.",
+  "lang": "fr-BE",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#07100f",
+  "theme_color": "#07100f",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

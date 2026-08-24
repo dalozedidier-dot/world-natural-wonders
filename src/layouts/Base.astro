@@ -10,7 +10,7 @@ export interface Props {
   noindex?: boolean;
   structuredData?: Record<string, unknown> | null;
 }
-const { title, description = "Cent paysages naturels qui racontent quatre milliards d'années d'histoire de la Terre, avec leurs saisons, leur géologie et les espèces qui les habitent.", image = '/media/raja-ampat-hero-1280.jpg', imageAlt = 'Paysage naturel remarquable présenté dans les 100 joyaux naturels de la Terre', bodyClass = '', noindex = false, structuredData = null } = Astro.props;
+const { title, description = "Cent paysages naturels qui racontent quatre milliards d'années d'histoire de la Terre, avec leurs saisons, leur géologie et les espèces qui les habitent.", image = '/social-card.jpg', imageAlt = '100 joyaux naturels de la Terre, atlas créé par Didier Daloze', bodyClass = '', noindex = false, structuredData = null } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const url = new URL(Astro.url.pathname, Astro.site ?? 'https://example.org').href;
 const origin = new URL(Astro.site ?? url).origin;
@@ -77,6 +77,9 @@ const here = Astro.url.pathname.replace(/\/$/, '');
   {socialImage && <meta name="twitter:image:alt" content={imageAlt} />}
   <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@graph': graph })} />
   <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+  <link rel="icon" href={`${base}/favicon-32x32.png`} sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href={`${base}/apple-touch-icon.png`} sizes="180x180" />
+  <link rel="manifest" href={`${base}/site.webmanifest`} />
 </head>
 <body class={bodyClass}>
   <a class="skip-link" href="#main">Aller au contenu</a>
