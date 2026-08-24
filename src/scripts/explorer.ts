@@ -14,7 +14,10 @@ interface Lite {
 }
 
 const root = document.getElementById('explorer');
-if (root) init(root);
+if (root) init(root).catch(error => {
+  console.error('[carte] initialisation impossible', error);
+  root.dataset.mapError = error instanceof Error ? error.message : String(error);
+});
 
 async function init(root: HTMLElement) {
   const BASE = (root.dataset.base || '').replace(/\/$/, '');
@@ -59,6 +62,7 @@ async function init(root: HTMLElement) {
   map.addControl(new ScaleControl({ maxWidth: 90, unit: 'metric' }), 'bottom-left');
 
   map.on('load', () => {
+    root.dataset.mapReady = 'true';
     addTerrain(map);
     map.addSource('places', {
       type: 'geojson',
