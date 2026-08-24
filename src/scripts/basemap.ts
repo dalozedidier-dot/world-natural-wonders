@@ -19,6 +19,7 @@ import type { LayerSpecification, Map as MlMap, StyleSpecification } from 'mapli
 const BASE = (import.meta.env.BASE_URL || '/').replace(/\/$/, '');
 const CONFIGURED = (import.meta.env.PUBLIC_TILES_URL as string | undefined) || '';
 const OPENFREEMAP_NATURAL_EARTH = 'https://tiles.openfreemap.org/natural_earth/ne2sr/{z}/{x}/{y}.png';
+const OPENFREEMAP_STYLE = 'https://tiles.openfreemap.org/styles/liberty';
 
 let pmtilesProtocol: Protocol | undefined;
 export function registerPmtiles() {
@@ -70,8 +71,19 @@ export function initialStyle(): StyleSpecification {
  * garantit que les marqueurs restent utilisables en cas de panne réseau.
  */
 export async function mapStyle(): Promise<StyleSpecification> {
+  try {
+    const response = await fetch(OPENFREEMAP_STYLE, { mode: 'cors' });
+    if (!response.ok) throw new Error(`OpenFreeMap ${response.status}`);
+    const style = await response.json() as StyleSpecification;
+    // L'URL du style sert aussi de base aux sprites/glyphes relatifs.
+    // Les URL absolues actuelles sont conservées telles quelles.
+    return style;
+  } catch (error) {
+    console.warn('[carte] fond vectoriel indisponible, utilisation du fond mondial de secours', error);
+  }
   return {
     version: 8,
+    glyphs: 'https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf',
     sources: {
       world: {
         type: 'raster',

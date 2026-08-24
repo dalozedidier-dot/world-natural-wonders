@@ -60,7 +60,7 @@ async function init(root: HTMLElement) {
     center: [0, 10],
     zoom: 1.1,
     minZoom: 0.6,
-    maxZoom: 13,
+    maxZoom: 18,
     attributionControl: { compact: true },
     hash: false
   });
@@ -88,11 +88,6 @@ async function init(root: HTMLElement) {
       }
     });
     map.addLayer({
-      id: 'cluster-count', type: 'symbol', source: 'places', filter: ['has', 'point_count'],
-      layout: { 'text-field': ['get', 'point_count_abbreviated'], 'text-font': ['Noto Sans Medium'], 'text-size': 12 },
-      paint: { 'text-color': '#0d1413' }
-    });
-    map.addLayer({
       id: 'points', type: 'circle', source: 'places', filter: ['!', ['has', 'point_count']],
       paint: {
         'circle-color': ['get', 'color'],
@@ -100,6 +95,13 @@ async function init(root: HTMLElement) {
         'circle-stroke-width': ['case', ['get', 'essential'], 2, 1.4],
         'circle-stroke-color': 'rgba(242,239,232,.9)'
       }
+    });
+    // Les cercles sont ajoutés avant le texte : même si un fournisseur de
+    // glyphes tombe en panne, les 100 lieux restent visibles et cliquables.
+    map.addLayer({
+      id: 'cluster-count', type: 'symbol', source: 'places', filter: ['has', 'point_count'],
+      layout: { 'text-field': ['get', 'point_count_abbreviated'], 'text-size': 12 },
+      paint: { 'text-color': '#0d1413' }
     });
     map.addLayer({
       id: 'points-halo', type: 'circle', source: 'places',
@@ -124,6 +126,7 @@ async function init(root: HTMLElement) {
     });
 
     apply();
+    root.dataset.mapMarkers = String(places.length);
     addTerrain(map);
     if (state.lieu) select(state.lieu as string, true);
   });
@@ -263,8 +266,8 @@ async function init(root: HTMLElement) {
     listEl.querySelectorAll('[data-open]').forEach(el =>
       el.setAttribute('aria-current', String((el as HTMLElement).dataset.open === id)));
     if (fly) {
-      if (p.bbox) map.fitBounds(p.bbox as LngLatBoundsLike, { padding: 90, duration: 1100, maxZoom: 10 });
-      else map.flyTo({ center: [p.lng, p.lat], zoom: 7.2, duration: 1100, essential: true });
+      if (p.bbox) map.fitBounds(p.bbox as LngLatBoundsLike, { padding: 90, duration: 1100, maxZoom: 12 });
+      else map.flyTo({ center: [p.lng, p.lat], zoom: 9, duration: 1100, essential: true });
     }
     writeState({ ...readState(), lieu: id });
     panel.classList.add('is-open'); scrim.classList.add('is-open');
