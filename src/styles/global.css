@@ -427,7 +427,7 @@ section.band.tinted { background: var(--ink-850); }
 .place-hero .shell { padding-bottom: 3rem; }
 .place-layout { display: grid; grid-template-columns: minmax(0,1fr) minmax(0, 19rem); gap: clamp(1.5rem, 4vw, 3.5rem); align-items: start; padding: 3rem 0 5rem; }
 @media (max-width: 940px) { .place-layout { grid-template-columns: 1fr; } }
-.prose { max-width: 66ch; }
+.prose { max-width: 88ch; }
 .prose h2 { margin-top: 2.4rem; }
 .prose h2:first-child { margin-top: 0; }
 .prose p { color: var(--paper-dim); }
