@@ -21,6 +21,8 @@ jobs:
       - run: npm ci
       - name: Validation du schéma, des vocabulaires et des quotas
         run: npm run validate
+      - name: Audit anti-invention des sources
+        run: npm run audit:facts
       - name: Tests unitaires
         run: npm test
 
