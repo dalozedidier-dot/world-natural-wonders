@@ -56,15 +56,7 @@ export async function darkStyle(): Promise<StyleSpecification> {
     sources: {
       protomaps: {
         type: 'vector',
-        // Déclarer directement le gabarit de tuiles empêche MapLibre de
-        // bloquer le chargement complet du style en attendant un TileJSON
-        // produit par le protocole personnalisé. Le fond et les marqueurs
-        // peuvent ainsi s'initialiser immédiatement, puis les plages PMTiles
-        // sont lues à la demande.
-        tiles: [`pmtiles://${url}/{z}/{x}/{y}`],
-        minzoom: 0,
-        maxzoom: 5,
-        bounds: [-180, -85.0511287, 180, 85.0511287],
+        url: `pmtiles://${url}`,
         attribution: ATTRIBUTION
       }
     },
